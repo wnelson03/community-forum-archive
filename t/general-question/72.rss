@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>General question</title>
+    <link>https://community.keyauth.cc/t/general-question/72</link>
+    <description>So I know a moderate amount of python. And I’m thinking about learning cpp or cs. Should I do this or should I just keep learning python?
+
+Also if I do stick to python what is a good source I could use to expand my knowledge?</description>
+    
+    <lastBuildDate>Sun, 29 May 2022 04:13:34 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/general-question/72.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>General question</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>wrong, c# cannot be easily cracked, if you know how to protect your applications it wont be easy to do, python can be easily cracked than c#, cpp is way better for protection of course, but good luck learning it, there’s tons of ways to reverse, aswell there’s tons of ways to protect, so dont be close minded when choosing what languague to use for your product.</p>
+          <p><a href="https://community.keyauth.cc/t/general-question/72/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/general-question/72/4</link>
+        <pubDate>Sun, 29 May 2022 04:13:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-72-4</guid>
+        <source url="https://community.keyauth.cc/t/general-question/72.rss">General question</source>
+      </item>
+      <item>
+        <title>General question</title>
+        <dc:creator><![CDATA[Godfather227]]></dc:creator>
+        <description><![CDATA[
+            <p>Thank you for the response. I’m going on a very long car ride tomorrow so I’m going to watch some videos so I can see which would suit me better. From what I know, cs can be easily cracked. I also see people use cs and cpp together so I might eventually try that. Thank you for your opinion.</p>
+<p>Also as of right now I’m on a shit computer and vs doesn’t work very well on it. I do have a summer job tho and expect to buy myself a new one.</p>
+<p>Again thank you for your response</p>
+          <p><a href="https://community.keyauth.cc/t/general-question/72/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/general-question/72/3</link>
+        <pubDate>Sun, 29 May 2022 03:22:21 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-72-3</guid>
+        <source url="https://community.keyauth.cc/t/general-question/72.rss">General question</source>
+      </item>
+      <item>
+        <title>General question</title>
+        <dc:creator><![CDATA[ItsNetworking]]></dc:creator>
+        <description><![CDATA[
+            <p>It’s honestly up to you. I know that’s probably not the response that you wanted but that’s the honesty of it. You can do a lot with Python, however, you can do a lot with CPP AND CS. You just need to do your research on it and see which is more comfortable for you. Personally, my go to is CS. I can do a crazy amount in it, syntax is better, however protection does lack a bit vs py/cpp. Every language has it’s ups and downs, so it’s really up to you. If you want to continue with PY, you can use GitHub to find a lot of projects and learn from there, or use codecademy (website) it teaches every programming lang just about. Hope that helps some.</p>
+          <p><a href="https://community.keyauth.cc/t/general-question/72/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/general-question/72/2</link>
+        <pubDate>Sun, 29 May 2022 03:08:29 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-72-2</guid>
+        <source url="https://community.keyauth.cc/t/general-question/72.rss">General question</source>
+      </item>
+      <item>
+        <title>General question</title>
+        <dc:creator><![CDATA[Godfather227]]></dc:creator>
+        <description><![CDATA[
+            <p>So I know a moderate amount of python. And I’m thinking about learning cpp or cs. Should I do this or should I just keep learning python?</p>
+<p>Also if I do stick to python what is a good source I could use to expand my knowledge?</p>
+          <p><a href="https://community.keyauth.cc/t/general-question/72/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/general-question/72/1</link>
+        <pubDate>Sun, 29 May 2022 03:04:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-72-1</guid>
+        <source url="https://community.keyauth.cc/t/general-question/72.rss">General question</source>
+      </item>
+  </channel>
+</rss>

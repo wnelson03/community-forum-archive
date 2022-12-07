@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>File/download api</title>
+    <link>https://community.keyauth.cc/t/file-download-api/449</link>
+    <description>![image|482x151](upload://cFscFoRAAw0GbkhHi8kcIDj4a5K.png)
+
+
+Basically Here is my code. It says (&#39;api&#39; object has no attribute &#39;download&#39;) Im wondering how I can add the download function to my software. Thank you!</description>
+    
+    <lastBuildDate>Thu, 21 Jul 2022 01:41:04 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/file-download-api/449.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>File/download api</title>
+        <dc:creator><![CDATA[Blaze_Escape]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-auto">def file(self, fileid):
+        self.checkinit()
+        init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+        post_data = {
+            "type": binascii.hexlify(("file").encode()),
+            "fileid": encryption.encrypt(fileid, self.enckey, init_iv),
+            "sessionid": binascii.hexlify(self.sessionid.encode()),
+            "name": binascii.hexlify(self.name.encode()),
+            "ownerid": binascii.hexlify(self.ownerid.encode()),
+            "init_iv": init_iv
+        }
+
+        response = self.__do_request(post_data)
+
+        response = encryption.decrypt(response, self.enckey, init_iv)
+
+        json = jsond.loads(response)
+
+        if not json["success"]:
+            print(json["message"])
+            time.sleep(5)
+            sys.exit()
+        return binascii.unhexlify(json["contents"])
+</code></pre>
+<p>using this code I can define download but Idk where to put the code.</p>
+          <p><a href="https://community.keyauth.cc/t/file-download-api/449/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/file-download-api/449/4</link>
+        <pubDate>Thu, 21 Jul 2022 01:41:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-449-4</guid>
+        <source url="https://community.keyauth.cc/t/file-download-api/449.rss">File/download api</source>
+      </item>
+      <item>
+        <title>File/download api</title>
+        <dc:creator><![CDATA[Blaze_Escape]]></dc:creator>
+        <description><![CDATA[
+            <p>yes</p>
+          <p><a href="https://community.keyauth.cc/t/file-download-api/449/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/file-download-api/449/3</link>
+        <pubDate>Thu, 21 Jul 2022 00:26:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-449-3</guid>
+        <source url="https://community.keyauth.cc/t/file-download-api/449.rss">File/download api</source>
+      </item>
+      <item>
+        <title>File/download api</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Do you have keyauth.py</p>
+          <p><a href="https://community.keyauth.cc/t/file-download-api/449/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/file-download-api/449/2</link>
+        <pubDate>Wed, 20 Jul 2022 22:14:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-449-2</guid>
+        <source url="https://community.keyauth.cc/t/file-download-api/449.rss">File/download api</source>
+      </item>
+      <item>
+        <title>File/download api</title>
+        <dc:creator><![CDATA[Blaze_Escape]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/58c9b8c68925d53ed37658214d93ee20e2745cbc.png" alt="image" data-base62-sha1="cFscFoRAAw0GbkhHi8kcIDj4a5K" width="482" height="151"></p>
+<p>Basically Here is my code. It says (‘api’ object has no attribute ‘download’) Im wondering how I can add the download function to my software. Thank you!</p>
+          <p><a href="https://community.keyauth.cc/t/file-download-api/449/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/file-download-api/449/1</link>
+        <pubDate>Wed, 20 Jul 2022 19:08:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-449-1</guid>
+        <source url="https://community.keyauth.cc/t/file-download-api/449.rss">File/download api</source>
+      </item>
+  </channel>
+</rss>

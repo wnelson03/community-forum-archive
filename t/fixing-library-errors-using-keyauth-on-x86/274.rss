@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Fixing Library errors/using KeyAuth on x86</title>
+    <link>https://community.keyauth.cc/t/fixing-library-errors-using-keyauth-on-x86/274</link>
+    <description>I have seen a lot of threads talking about Library errors, eg: 
+https://community.keyauth.win/t/library-x64-c1047/273
+https://community.keyauth.win/t/library-x64-error/156
+
+This is a well known &quot;issue&quot; (?), the Library KeyAuth uses is PUBLIC and can be found here: https://github.com/KeyAuth/keyauth-cpp-library
+
+To fix the VS error C1047 all you got to do is recompile the Library yourself with the same settings as the project you are using it for.
+
+Now if you want to use the Library for x86 projects theres a tutorial here:
+https://github.com/KeyAuth/keyauth-cpp-library#different-architectures
+
+As theres some people not knowing that and asking about it here I had to make a thread real quick, as always have a nice day.</description>
+    
+    <lastBuildDate>Tue, 28 Jun 2022 03:58:00 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/fixing-library-errors-using-keyauth-on-x86/274.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Fixing Library errors/using KeyAuth on x86</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>I have seen a lot of threads talking about Library errors, eg:</p><aside class="quote" data-post="1" data-topic="273">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/arthur/40/240_2.png" class="avatar">
+    <a href="https://community.keyauth.win/t/library-x64-c1047/273">Library_x64 C1047</a> <a class="badge-wrapper  bullet" href="https://community.keyauth.cc/c/examples/c/6"><span class="badge-category-parent-bg" style="background-color: #0088CC;"></span><span class="badge-category-bg" style="background-color: #044F88;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="The C++ example is here GitHub - KeyAuth/KeyAuth-CPP-Example: KeyAuth CPP Example">C++</span></a>
+  </div>
+  <blockquote>
+    I would like to know, which library could I replace the library_x64, I’m using visua lstudio 2022
+  </blockquote>
+</aside>
+<aside class="quote" data-post="1" data-topic="156">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/pooya/40/149_2.png" class="avatar">
+    <a href="https://community.keyauth.win/t/library-x64-error/156">Library_x64 error</a> <a class="badge-wrapper  bullet" href="https://community.keyauth.cc/c/examples/c/6"><span class="badge-category-parent-bg" style="background-color: #0088CC;"></span><span class="badge-category-bg" style="background-color: #044F88;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="The C++ example is here GitHub - KeyAuth/KeyAuth-CPP-Example: KeyAuth CPP Example">C++</span></a>
+  </div>
+  <blockquote>
+    i get error when i add key auth : 
+C1047: library_x64.lib create by different version of compiler
+  </blockquote>
+</aside>
+
+<p>This is a well known “issue” (?), the Library KeyAuth uses is PUBLIC and can be found here: <a href="https://github.com/KeyAuth/keyauth-cpp-library" class="inline-onebox">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a></p>
+<p>To fix the VS error C1047 all you got to do is recompile the Library yourself with the same settings as the project you are using it for.</p>
+<p>Now if you want to use the Library for x86 projects theres a tutorial here:</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" target="_blank" rel="noopener">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/716390be374e5a640d20772fd21e706ef573f5a8.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" target="_blank" rel="noopener">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a></h3>
+
+  <p>KeyAuth C++ Library. Contribute to KeyAuth/keyauth-cpp-library development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>As theres some people not knowing that and asking about it here I had to make a thread real quick, as always have a nice day.</p>
+          <p><a href="https://community.keyauth.cc/t/fixing-library-errors-using-keyauth-on-x86/274/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/fixing-library-errors-using-keyauth-on-x86/274/1</link>
+        <pubDate>Tue, 28 Jun 2022 03:58:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-274-1</guid>
+        <source url="https://community.keyauth.cc/t/fixing-library-errors-using-keyauth-on-x86/274.rss">Fixing Library errors/using KeyAuth on x86</source>
+      </item>
+  </channel>
+</rss>

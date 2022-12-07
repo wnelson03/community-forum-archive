@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>What are all the possible response errors I can get when using license()?</title>
+    <link>https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271</link>
+    <description>I want to handle all types of errors from responses when checking licenses.
+
+I basically just need to know 3 main errors output, when the license time expired, invalid hwid, key does not exist. 
+
+I&#39;m trying to do something like that:
+
+**keyauth.py, def license(self, key, hwid=None)**
+```
+
+if not json[&quot;success&quot;]:
+            if json[&quot;message&quot;] == &quot;Time expired&quot;:
+                self.__load_user_data({&quot;expired&quot;: True, &quot;invalid&quot;: False, &quot;hwid&quot;: False}, True)
+            if json[&quot;message&quot;] == &quot;Invalid HWID&quot;:
+                self.__load_user_data({&quot;expired&quot;: False, &quot;invalid&quot;: False, &quot;hwid&quot;: True}, True)
+            if json[&quot;message&quot;] == &quot;No key found&quot;:
+                self.__load_user_data({&quot;expired&quot;: False, &quot;invalid&quot;: True, &quot;hwid&quot;: False}, True)
+```</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 14:59:13 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>What are all the possible response errors I can get when using license()?</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/7</link>
+        <pubDate>Mon, 27 Jun 2022 14:59:19 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-271-7</guid>
+        <source url="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271.rss">What are all the possible response errors I can get when using license()?</source>
+      </item>
+      <item>
+        <title>What are all the possible response errors I can get when using license()?</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>np, have a good day</p>
+          <p><a href="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/6</link>
+        <pubDate>Mon, 27 Jun 2022 14:59:13 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-271-6</guid>
+        <source url="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271.rss">What are all the possible response errors I can get when using license()?</source>
+      </item>
+      <item>
+        <title>What are all the possible response errors I can get when using license()?</title>
+        <dc:creator><![CDATA[jorjeoliveira]]></dc:creator>
+        <description><![CDATA[
+            <p>Ohhhh thanks a lot. <img src="https://community.keyauth.win/images/emoji/twitter/sweat_smile.png?v=12" title=":sweat_smile:" class="emoji" alt=":sweat_smile:" loading="lazy" width="20" height="20"></p>
+          <p><a href="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/5</link>
+        <pubDate>Mon, 27 Jun 2022 14:57:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-271-5</guid>
+        <source url="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271.rss">What are all the possible response errors I can get when using license()?</source>
+      </item>
+      <item>
+        <title>What are all the possible response errors I can get when using license()?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Let me know if that helps so we can close the topic <img src="https://community.keyauth.win/images/emoji/twitter/slightly_smiling_face.png?v=12" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:" loading="lazy" width="20" height="20"></p>
+          <p><a href="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/4</link>
+        <pubDate>Mon, 27 Jun 2022 14:48:27 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-271-4</guid>
+        <source url="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271.rss">What are all the possible response errors I can get when using license()?</source>
+      </item>
+      <item>
+        <title>What are all the possible response errors I can get when using license()?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>You can set the response on the website in settings for that application</p>
+          <p><a href="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/3</link>
+        <pubDate>Mon, 27 Jun 2022 14:45:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-271-3</guid>
+        <source url="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271.rss">What are all the possible response errors I can get when using license()?</source>
+      </item>
+      <item>
+        <title>What are all the possible response errors I can get when using license()?</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>print out the request response</p>
+          <p><a href="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/2</link>
+        <pubDate>Mon, 27 Jun 2022 14:45:13 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-271-2</guid>
+        <source url="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271.rss">What are all the possible response errors I can get when using license()?</source>
+      </item>
+      <item>
+        <title>What are all the possible response errors I can get when using license()?</title>
+        <dc:creator><![CDATA[jorjeoliveira]]></dc:creator>
+        <description><![CDATA[
+            <p>I want to handle all types of errors from responses when checking licenses.</p>
+<p>I basically just need to know 3 main errors output, when the license time expired, invalid hwid, key does not exist.</p>
+<p>I’m trying to do something like that:</p>
+<p><strong>keyauth.py, def license(self, key, hwid=None)</strong></p>
+<pre><code class="lang-auto">
+if not json["success"]:
+            if json["message"] == "Time expired":
+                self.__load_user_data({"expired": True, "invalid": False, "hwid": False}, True)
+            if json["message"] == "Invalid HWID":
+                self.__load_user_data({"expired": False, "invalid": False, "hwid": True}, True)
+            if json["message"] == "No key found":
+                self.__load_user_data({"expired": False, "invalid": True, "hwid": False}, True)
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271/1</link>
+        <pubDate>Mon, 27 Jun 2022 14:34:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-271-1</guid>
+        <source url="https://community.keyauth.cc/t/what-are-all-the-possible-response-errors-i-can-get-when-using-license/271.rss">What are all the possible response errors I can get when using license()?</source>
+      </item>
+  </channel>
+</rss>

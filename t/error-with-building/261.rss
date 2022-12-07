@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Error with building</title>
+    <link>https://community.keyauth.cc/t/error-with-building/261</link>
+    <description>i have no clue what that means when i build this appears in the log  
+fatal error LNK1120: 3 unresolved externals
+
+
+![image|690x37](upload://mnJR37sNF2rj7Vqm6GIIBajugu4.png)</description>
+    
+    <lastBuildDate>Sun, 26 Jun 2022 12:03:19 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/error-with-building/261.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Error with building</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/error-with-building/261/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-with-building/261/4</link>
+        <pubDate>Sun, 26 Jun 2022 12:03:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-261-4</guid>
+        <source url="https://community.keyauth.cc/t/error-with-building/261.rss">Error with building</source>
+      </item>
+      <item>
+        <title>Error with building</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Closing this for now, if adding the Library doesnt fix your issue, feel free to Open another Thread.</p>
+          <p><a href="https://community.keyauth.cc/t/error-with-building/261/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-with-building/261/3</link>
+        <pubDate>Sun, 26 Jun 2022 12:03:19 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-261-3</guid>
+        <source url="https://community.keyauth.cc/t/error-with-building/261.rss">Error with building</source>
+      </item>
+      <item>
+        <title>Error with building</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>It seems like you didn‘t add the Library, the Library‘s Binary can be found on GitHub in the CPP Example, the source code is also Public on the GitHub.</p>
+          <p><a href="https://community.keyauth.cc/t/error-with-building/261/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-with-building/261/2</link>
+        <pubDate>Sun, 26 Jun 2022 12:02:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-261-2</guid>
+        <source url="https://community.keyauth.cc/t/error-with-building/261.rss">Error with building</source>
+      </item>
+      <item>
+        <title>Error with building</title>
+        <dc:creator><![CDATA[Sidecoder]]></dc:creator>
+        <description><![CDATA[
+            <p>i have no clue what that means when i build this appears in the log<br>
+fatal error LNK1120: 3 unresolved externals</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/9cdecf9a78382ba0443fb883c9b76559080783c8.png" alt="image" data-base62-sha1="mnJR37sNF2rj7Vqm6GIIBajugu4" width="690" height="37"></p>
+          <p><a href="https://community.keyauth.cc/t/error-with-building/261/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-with-building/261/1</link>
+        <pubDate>Sun, 26 Jun 2022 03:34:29 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-261-1</guid>
+        <source url="https://community.keyauth.cc/t/error-with-building/261.rss">Error with building</source>
+      </item>
+  </channel>
+</rss>

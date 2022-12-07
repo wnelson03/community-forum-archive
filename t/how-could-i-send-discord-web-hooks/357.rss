@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How could I send discord web hooks?</title>
+    <link>https://community.keyauth.cc/t/how-could-i-send-discord-web-hooks/357</link>
+    <description>So how could I send webhooks to discord, when someone logs in or registers. I have developer plan.</description>
+    
+    <lastBuildDate>Fri, 08 Jul 2022 03:28:35 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/how-could-i-send-discord-web-hooks/357.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How could I send discord web hooks?</title>
+        <dc:creator><![CDATA[OverDrive]]></dc:creator>
+        <description><![CDATA[
+            <p>You would need to set the webhook in your dashboard, and then use the KeyAuthApp.log(“log reason here”); feature</p>
+          <p><a href="https://community.keyauth.cc/t/how-could-i-send-discord-web-hooks/357/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-could-i-send-discord-web-hooks/357/2</link>
+        <pubDate>Fri, 08 Jul 2022 03:28:35 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-357-2</guid>
+        <source url="https://community.keyauth.cc/t/how-could-i-send-discord-web-hooks/357.rss">How could I send discord web hooks?</source>
+      </item>
+      <item>
+        <title>How could I send discord web hooks?</title>
+        <dc:creator><![CDATA[Nekke]]></dc:creator>
+        <description><![CDATA[
+            <p>So how could I send webhooks to discord, when someone logs in or registers. I have developer plan.</p>
+          <p><a href="https://community.keyauth.cc/t/how-could-i-send-discord-web-hooks/357/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-could-i-send-discord-web-hooks/357/1</link>
+        <pubDate>Thu, 07 Jul 2022 19:50:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-357-1</guid>
+        <source url="https://community.keyauth.cc/t/how-could-i-send-discord-web-hooks/357.rss">How could I send discord web hooks?</source>
+      </item>
+  </channel>
+</rss>

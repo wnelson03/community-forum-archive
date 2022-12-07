@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Error using the keyauth download api</title>
+    <link>https://community.keyauth.cc/t/error-using-the-keyauth-download-api/278</link>
+    <description>![image|690x40](upload://iXFdFDSbyAX0rXfmfoJeAGCOV8d.png)
+im getting this error while trying to use the download api func in the example.
+
+this is the code that im using
+
+std::vector&lt;std::uint8_t&gt; bytes = KeyAuthApp.download(&quot;641324&quot;);
+	std::ofstream file(&quot;C:\\Users\\Public\\Pictures\\required.dll&quot;, std::ios_base::out | std::ios_base::binary);
+	file.write((char*)bytes.data(), bytes.size());
+	file.close();</description>
+    
+    <lastBuildDate>Fri, 08 Jul 2022 12:15:37 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/error-using-the-keyauth-download-api/278.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Error using the keyauth download api</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>you can’t use the same variable name twice, rename all counts of “file” in this snippet to “file1” or something, do the same with “bytes”</p>
+          <p><a href="https://community.keyauth.cc/t/error-using-the-keyauth-download-api/278/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-using-the-keyauth-download-api/278/2</link>
+        <pubDate>Tue, 28 Jun 2022 19:34:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-278-2</guid>
+        <source url="https://community.keyauth.cc/t/error-using-the-keyauth-download-api/278.rss">Error using the keyauth download api</source>
+      </item>
+      <item>
+        <title>Error using the keyauth download api</title>
+        <dc:creator><![CDATA[Afonso_Segredo]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/84e5bae610671ff3fd5056e55bbe030e6de87e71.png" alt="image" data-base62-sha1="iXFdFDSbyAX0rXfmfoJeAGCOV8d" width="690" height="40"><br>
+im getting this error while trying to use the download api func in the example.</p>
+<p>this is the code that im using</p>
+<p>std::vector<a href="https://community.keyauth.cc">std::uint8_t</a> bytes = KeyAuthApp.download(“641324”);<br>
+std::ofstream file(“C:\Users\Public\Pictures\required.dll”, std::ios_base::out | std::ios_base::binary);<br>
+file.write((char*)bytes.data(), bytes.size());<br>
+file.close();</p>
+          <p><a href="https://community.keyauth.cc/t/error-using-the-keyauth-download-api/278/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-using-the-keyauth-download-api/278/1</link>
+        <pubDate>Tue, 28 Jun 2022 19:32:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-278-1</guid>
+        <source url="https://community.keyauth.cc/t/error-using-the-keyauth-download-api/278.rss">Error using the keyauth download api</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from community.keyauth.cc/t/fixing-library-errors-using-keyauth-on-x86/274 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 22:45:21 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Fixing Library errors/using KeyAuth on x86 - C++ - KeyAuth</title>
+    <meta name="description" content="I have seen a lot of threads talking about Library errors, eg: 
+
+
+This is a well known “issue” (?), the Library KeyAuth uses is PUBLIC and can be found here: GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library 
+To &amp;hellip;">
+    <meta name="generator" content="Discourse 2.9.0.beta14 - https://github.com/discourse/discourse version 64b781dacfd915f63480ddc7f8f0f4b0452bcecd">
+<link rel="icon" type="image/png" href="../../uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="../../uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_180x180.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="274.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="KeyAuth Search">
+
+    <link href="../../stylesheets/color_definitions_base___4c54df19f9f59e26ee232a7eb94b30e03c73cdbf.css_%3b%20filename_%3dUTF-8%27%27color_definitions_base___4c54df19f9f59e26ee232a7eb94b30e03c73cdbf0123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" class="light-scheme"/><link href="../../stylesheets/color_definitions_dark_1__4f4f1c6b9f8578178ed894e2ff0a35ea00dd6d1b.css_%3b%20filename_%3dUTF-8%27%27color_definitions_dark_1__4f4f1c6b9f8578178ed894e2ff0a35ea00dd6d1b0123.css?__ws=community.keyauth.cc" media="(prefers-color-scheme: dark)" rel="stylesheet" class="dark-scheme"/>
+
+  <link href="../../stylesheets/desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="../../stylesheets/discourse-canned-replies_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-canned-replies_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-canned-replies"  />
+  <link href="../../stylesheets/discourse-chat-integration_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-chat-integration_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.cs?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-chat-integration"  />
+  <link href="../../stylesheets/discourse-details_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-details_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="../../stylesheets/discourse-local-dates_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-local-dates_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="../../stylesheets/discourse-narrative-bot_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-narrative-bot_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="../../stylesheets/discourse-presence_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-presence_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="../../stylesheets/discourse-solved_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-solved_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="../../stylesheets/discourse-tooltips_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-tooltips_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-tooltips"  />
+  <link href="../../stylesheets/discourse-voting_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-voting_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-voting"  />
+  <link href="../../stylesheets/lazy-yt_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27lazy-yt_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="lazy-yt"  />
+  <link href="../../stylesheets/poll_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27poll_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="../../stylesheets/discourse-voting_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-voting_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-voting_desktop"  />
+  <link href="../../stylesheets/poll_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27poll_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Fixing Library errors/using KeyAuth on x86&#39;" href="274.rss" />
+    <meta property="og:site_name" content="KeyAuth" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="../../uploads/default/optimized/1X/716390be374e5a640d20772fd21e706ef573f5a8_2_1024x512.png" />
+<meta property="og:image" content="../../uploads/default/optimized/1X/716390be374e5a640d20772fd21e706ef573f5a8_2_1024x512.png" />
+<meta property="og:url" content="274.html" />
+<meta name="twitter:url" content="274.html" />
+<meta property="og:title" content="Fixing Library errors/using KeyAuth on x86" />
+<meta name="twitter:title" content="Fixing Library errors/using KeyAuth on x86" />
+<meta property="og:description" content="I have seen a lot of threads talking about Library errors, eg:    This is a well known “issue” (?), the Library KeyAuth uses is PUBLIC and can be found here: GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library  To fix the VS error C1047 all you got to do is recompile the Library yourself with the same settings as the project you are using it for.  Now if you want to use the Library for x86 projects theres a tutorial here:   As theres some people not knowing that and asking about it here I ..." />
+<meta name="twitter:description" content="I have seen a lot of threads talking about Library errors, eg:    This is a well known “issue” (?), the Library KeyAuth uses is PUBLIC and can be found here: GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library  To fix the VS error C1047 all you got to do is recompile the Library yourself with the same settings as the project you are using it for.  Now if you want to use the Library for x86 projects theres a tutorial here:   As theres some people not knowing that and asking about it here I ..." />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="1 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="1 ❤" />
+<meta property="article:published_time" content="2022-06-28T03:58:00+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"QAPage","name":"Fixing Library errors/using KeyAuth on x86","mainEntity":{"@type":"Question","name":"Fixing Library errors/using KeyAuth on x86","text":"I have seen a lot of threads talking about Library errors, eg:\n\n[image]\n\n<a href=\"https://community.keyauth.win/t/library-x64-c1047/273\">Library_x64 C1047<\/a> <a class=\"badge-wrapper  bullet\" href=\"/c/examples/c/6\">C++<\/a>\n\nI would like to know, which library could I replace the library_x64, I’m using visua lstudio 2022\n\n[image]\n\n<a href=\"https://community.keyauth.win/t/library-x64-error/156\">Library_x64 error<\/a> <a class=\"badge-wrapper  bullet\" href=\"/c/examples/c/6\">C++<\/a>\n\ni get error when i ad&hellip;","upvoteCount":1,"answerCount":0,"dateCreated":"2022-06-28T03:58:00.367Z","author":{"@type":"Person","name":null}}}</script>
+  </head>
+  <body class="crawler">
+    
+    <header>
+  <a href="../../index.html">
+    KeyAuth
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="274.html">Fixing Library errors/using KeyAuth on x86</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="../../c/examples/5.html" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #0088CC'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Questions/Help with Examples</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="../../c/examples/c/6.html" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #044F88'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>C++</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+
+      <div id='post_1' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/Abastrax.html'><span itemprop='name'>Abastrax</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="274.html">
+
+            <link itemprop="image" href="../../uploads/default/original/1X/716390be374e5a640d20772fd21e706ef573f5a8.png">
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-28T03:58:00Z' class='post-time'>
+                June 28, 2022,  3:58am
+              </time>
+              <meta itemprop='dateModified' content='2022-06-28T03:58:00Z'>
+          <span itemprop='position'>#1</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>I have seen a lot of threads talking about Library errors, eg:</p><aside class="quote" data-post="1" data-topic="273">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img loading="lazy" alt="" width="20" height="20" src="../../../community.keyauth.win/user_avatar/community.keyauth.win/arthur/40/240_2.png" class="avatar">
+    <a href="https://community.keyauth.win/t/library-x64-c1047/273">Library_x64 C1047</a> <a class="badge-wrapper  bullet" href="../../c/examples/c/6.html"><span class="badge-category-parent-bg" style="background-color: #0088CC;"></span><span class="badge-category-bg" style="background-color: #044F88;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="The C++ example is here GitHub - KeyAuth/KeyAuth-CPP-Example: KeyAuth CPP Example">C++</span></a>
+  </div>
+  <blockquote>
+    I would like to know, which library could I replace the library_x64, I’m using visua lstudio 2022
+  </blockquote>
+</aside>
+<aside class="quote" data-post="1" data-topic="156">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img loading="lazy" alt="" width="20" height="20" src="../../../community.keyauth.win/user_avatar/community.keyauth.win/pooya/40/149_2.jpg" class="avatar">
+    <a href="https://community.keyauth.win/t/library-x64-error/156">Library_x64 error</a> <a class="badge-wrapper  bullet" href="../../c/examples/c/6.html"><span class="badge-category-parent-bg" style="background-color: #0088CC;"></span><span class="badge-category-bg" style="background-color: #044F88;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="The C++ example is here GitHub - KeyAuth/KeyAuth-CPP-Example: KeyAuth CPP Example">C++</span></a>
+  </div>
+  <blockquote>
+    i get error when i add key auth : 
+C1047: library_x64.lib create by different version of compiler
+  </blockquote>
+</aside>
+
+<p>This is a well known “issue” (?), the Library KeyAuth uses is PUBLIC and can be found here: <a href="https://github.com/KeyAuth/keyauth-cpp-library" class="inline-onebox">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a></p>
+<p>To fix the VS error C1047 all you got to do is recompile the Library yourself with the same settings as the project you are using it for.</p>
+<p>Now if you want to use the Library for x86 projects theres a tutorial here:</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" target="_blank" rel="noopener">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="../../../community.keyauth.win/uploads/default/original/1X/716390be374e5a640d20772fd21e706ef573f5a8.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" target="_blank" rel="noopener">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a></h3>
+
+  <p>KeyAuth C++ Library. Contribute to KeyAuth/keyauth-cpp-library development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>As theres some people not knowing that and asking about it here I had to make a thread real quick, as always have a nice day.</p>
+        </div>
+
+        <meta itemprop='headline' content='Fixing Library errors/using KeyAuth on x86'>
+          <meta itemprop='keywords' content=''>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="1" />
+           <span class='post-likes'>1 Like</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../index.html' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../categories.html' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../guidelines.html' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../tos.html' itemprop="url">Terms of Service </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../privacy.html' itemprop="url">Privacy Policy </a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org/">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    
+  <script>(function(){var js = "window['__CF$cv$params']={r:'7760c86cda722286',m:'aifUiJ3ptS4RWIIQolfYRnq4nxfxwzEYvHESd16Eo1I-1670453035-0-Afl2+/G7d2svRsvkpLa1/4zSePNbOa7PUMzqj+J1YWYKUbxHLjmPEjNh9KpmPb9kAi/K0AUJ7dO9GPZowgkAOwNcO+lglgX5LrbItveDUNcErzDPYxbVhuFMb5UmTyfAqUlBJooOISI0CAEnObO0Dd06HTXIv1hzsb1vZjZH/3qtSMCjEy1qM35dCmq726Wq1A==',s:[0x02cfa57702,0x2a275778d6],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../../cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7760c86cda722286","version":"2022.11.3","r":1,"token":"e335876c42b04d78890a250ef7586bf5","si":100}' crossorigin="anonymous"></script>
+</body>
+  
+
+<!-- Mirrored from community.keyauth.cc/t/fixing-library-errors-using-keyauth-on-x86/274 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 22:45:23 GMT -->
+</html>

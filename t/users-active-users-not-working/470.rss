@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Users / Active users not working?</title>
+    <link>https://community.keyauth.cc/t/users-active-users-not-working/470</link>
+    <description>![Nightfall_sMJLHuzqZQ|690x157](upload://c0ivMWfbujhJHEgIukMbrv0lcwo.png)
+This is what it looks like on the frontend
+
+[https://imgur.com/a/LTAvtLC](https://imgur.com/a/LTAvtLC)
+[https://imgur.com/a/uUckPSu](https://imgur.com/a/uUckPSu)
+This from the backend
+
+---
+
+I don&#39;t understand what is wrong?
+
+No data is returned at all and it&#39;s just blank.</description>
+    
+    <lastBuildDate>Tue, 16 Aug 2022 21:27:54 +0000</lastBuildDate>
+    <category>PHP</category>
+    <atom:link href="https://community.keyauth.cc/t/users-active-users-not-working/470.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Users / Active users not working?</title>
+        <dc:creator><![CDATA[Elf]]></dc:creator>
+        <description><![CDATA[
+            <p>Did you get your issue solved if so mind saying how as am having same issue</p>
+          <p><a href="https://community.keyauth.cc/t/users-active-users-not-working/470/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/users-active-users-not-working/470/2</link>
+        <pubDate>Tue, 16 Aug 2022 21:27:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-470-2</guid>
+        <source url="https://community.keyauth.cc/t/users-active-users-not-working/470.rss">Users / Active users not working?</source>
+      </item>
+      <item>
+        <title>Users / Active users not working?</title>
+        <dc:creator><![CDATA[Restackable]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/5422ba773175de8e74cbf66063715d614230a3c0.png" alt="Nightfall_sMJLHuzqZQ" data-base62-sha1="c0ivMWfbujhJHEgIukMbrv0lcwo" width="690" height="157"><br>
+This is what it looks like on the frontend</p>
+<p><a href="https://imgur.com/a/LTAvtLC" rel="noopener nofollow ugc">https://imgur.com/a/LTAvtLC</a><br>
+<a href="https://imgur.com/a/uUckPSu" rel="noopener nofollow ugc">https://imgur.com/a/uUckPSu</a><br>
+This from the backend</p>
+<hr>
+<p>I don’t understand what is wrong?</p>
+<p>No data is returned at all and it’s just blank.</p>
+          <p><a href="https://community.keyauth.cc/t/users-active-users-not-working/470/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/users-active-users-not-working/470/1</link>
+        <pubDate>Fri, 22 Jul 2022 00:22:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-470-1</guid>
+        <source url="https://community.keyauth.cc/t/users-active-users-not-working/470.rss">Users / Active users not working?</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>I need help with the files</title>
+    <link>https://community.keyauth.cc/t/i-need-help-with-the-files/101</link>
+    <description>how can i download files on button click ??
+
+i cant find anything for it and i dont rly understand the docs from key auth xD
+pls help</description>
+    
+    <lastBuildDate>Sat, 04 Jun 2022 21:51:55 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/i-need-help-with-the-files/101.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>I need help with the files</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-the-files/101/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-the-files/101/5</link>
+        <pubDate>Sat, 04 Jun 2022 23:25:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-101-5</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-the-files/101.rss">I need help with the files</source>
+      </item>
+      <item>
+        <title>I need help with the files</title>
+        <dc:creator><![CDATA[inivation]]></dc:creator>
+        <description><![CDATA[
+            <p>Thank you so much !!</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-the-files/101/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-the-files/101/3</link>
+        <pubDate>Wed, 01 Jun 2022 13:21:29 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-101-3</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-the-files/101.rss">I need help with the files</source>
+      </item>
+      <item>
+        <title>I need help with the files</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-cs">byte[] result = KeyAuthApp.download("385624");
+            if (!KeyAuthApp.response.success)
+            {
+                MessageBox.Show(KeyAuthApp.response.message);
+                Environment.Exit(0);
+            }
+            else
+                File.WriteAllBytes(Directory.GetCurrentDirectory() + "\\test.txt", result);
+</code></pre>
+<p>Replace <code>385624</code> with the file ID on KeyAuth dashboard, and the first parameter of the <code>File.WriteAllBytes</code> is the file path you’re downloading file to</p>
+<p>The button click part isn’t something to do with KeyAuth, so you’ll need to Google if you cannot figure out, or analyze the KeyAuth example and how it does button click events</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-the-files/101/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-the-files/101/2</link>
+        <pubDate>Tue, 31 May 2022 11:51:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-101-2</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-the-files/101.rss">I need help with the files</source>
+      </item>
+      <item>
+        <title>I need help with the files</title>
+        <dc:creator><![CDATA[inivation]]></dc:creator>
+        <description><![CDATA[
+            <p>how can i download files on button click ??</p>
+<p>i cant find anything for it and i dont rly understand the docs from key auth xD<br>
+pls help</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-the-files/101/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-the-files/101/1</link>
+        <pubDate>Tue, 31 May 2022 11:35:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-101-1</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-the-files/101.rss">I need help with the files</source>
+      </item>
+  </channel>
+</rss>

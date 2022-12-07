@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Website connect with Keyauth</title>
+    <link>https://community.keyauth.cc/t/website-connect-with-keyauth/121</link>
+    <description>Hello :grinning:, I want to setup Key Auth on my website
+I already uploaded all files
+
+but know I do not know what I need to fill in these gaps 
+![image|492x46](upload://2wYLaZHOHUdDb0nksHqtsdNF8gx.png)
+what to fill in the gap &quot;Localhost&quot; I already know,but what to fill in the other one? :man_shrugging:</description>
+    
+    <lastBuildDate>Fri, 03 Jun 2022 15:50:56 +0000</lastBuildDate>
+    <category>PHP</category>
+    <atom:link href="https://community.keyauth.cc/t/website-connect-with-keyauth/121.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Website connect with Keyauth</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Doubtful, and should that happen we’ll remove the paid member who leaked it from private GitHub repository and issue DMCA takedown. That won’t work out well in the leaker’s favor</p>
+          <p><a href="https://community.keyauth.cc/t/website-connect-with-keyauth/121/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/website-connect-with-keyauth/121/6</link>
+        <pubDate>Fri, 03 Jun 2022 15:50:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-121-6</guid>
+        <source url="https://community.keyauth.cc/t/website-connect-with-keyauth/121.rss">Website connect with Keyauth</source>
+      </item>
+      <item>
+        <title>Website connect with Keyauth</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="mak" data-post="4" data-topic="121" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/mak/40/44_2.png" class="avatar"> mak:</div>
+<blockquote>
+<p>This is basic stuff. You need to figure out your own if you’re hosting KeyAuth. Soon, when I release update though, I’m going to charge $50 for source code of paid features and setup support. So you could wait until then if you have no idea what you’re doing.</p>
+</blockquote>
+</aside>
+<p>the files of the paid features will get leaked so fast</p>
+          <p><a href="https://community.keyauth.cc/t/website-connect-with-keyauth/121/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/website-connect-with-keyauth/121/5</link>
+        <pubDate>Fri, 03 Jun 2022 04:46:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-121-5</guid>
+        <source url="https://community.keyauth.cc/t/website-connect-with-keyauth/121.rss">Website connect with Keyauth</source>
+      </item>
+      <item>
+        <title>Website connect with Keyauth</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>This is basic stuff. You need to figure out your own if you’re hosting KeyAuth. Soon, when I release update though, I’m going to charge $50 for source code of paid features and setup support. So you could wait until then if you have no idea what you’re doing.</p>
+          <p><a href="https://community.keyauth.cc/t/website-connect-with-keyauth/121/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/website-connect-with-keyauth/121/4</link>
+        <pubDate>Thu, 02 Jun 2022 21:42:29 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-121-4</guid>
+        <source url="https://community.keyauth.cc/t/website-connect-with-keyauth/121.rss">Website connect with Keyauth</source>
+      </item>
+      <item>
+        <title>Website connect with Keyauth</title>
+        <dc:creator><![CDATA[Suharik]]></dc:creator>
+        <description><![CDATA[
+            <p>for what?</p>
+          <p><a href="https://community.keyauth.cc/t/website-connect-with-keyauth/121/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/website-connect-with-keyauth/121/3</link>
+        <pubDate>Thu, 02 Jun 2022 17:16:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-121-3</guid>
+        <source url="https://community.keyauth.cc/t/website-connect-with-keyauth/121.rss">Website connect with Keyauth</source>
+      </item>
+      <item>
+        <title>Website connect with Keyauth</title>
+        <dc:creator><![CDATA[_unpocoloco]]></dc:creator>
+        <description><![CDATA[
+            <p>You need to install LAMP on your server</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04">
+  <header class="source">
+      <img src="https://community.keyauth.win/uploads/default/original/1X/39595abc65b3dac1dada8b9ce702b3d294561542.png" class="site-icon" width="" height="">
+
+      <a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04" target="_blank" rel="noopener nofollow ugc">digitalocean.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/b48d8dfb3e7a211c28d5c6ffbe626c49491c59fc.jpeg" class="thumbnail" width="" height="">
+
+<h3><a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04" target="_blank" rel="noopener nofollow ugc">How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Ubuntu 18.04  |...</a></h3>
+
+  <p>A “LAMP” stack is a group of open source software that is typically installed together to enable a server to host dynamic websites and web apps. This stack t…</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/website-connect-with-keyauth/121/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/website-connect-with-keyauth/121/2</link>
+        <pubDate>Thu, 02 Jun 2022 16:29:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-121-2</guid>
+        <source url="https://community.keyauth.cc/t/website-connect-with-keyauth/121.rss">Website connect with Keyauth</source>
+      </item>
+      <item>
+        <title>Website connect with Keyauth</title>
+        <dc:creator><![CDATA[Suharik]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello <img src="https://community.keyauth.win/images/emoji/twitter/grinning.png?v=12" title=":grinning:" class="emoji" alt=":grinning:" loading="lazy" width="20" height="20">, I want to setup Key Auth on my website<br>
+I already uploaded all files</p>
+<p>but know I do not know what I need to fill in these gaps<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/11bebbb0e1ab9232722a262d2c858a8392eeffc9.png" alt="image" data-base62-sha1="2wYLaZHOHUdDb0nksHqtsdNF8gx" width="492" height="46"><br>
+what to fill in the gap “Localhost” I already know,but what to fill in the other one? <img src="https://community.keyauth.win/images/emoji/twitter/man_shrugging.png?v=12" title=":man_shrugging:" class="emoji" alt=":man_shrugging:" loading="lazy" width="20" height="20"></p>
+          <p><a href="https://community.keyauth.cc/t/website-connect-with-keyauth/121/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/website-connect-with-keyauth/121/1</link>
+        <pubDate>Thu, 02 Jun 2022 16:21:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-121-1</guid>
+        <source url="https://community.keyauth.cc/t/website-connect-with-keyauth/121.rss">Website connect with Keyauth</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Username Value c#</title>
+    <link>https://community.keyauth.cc/t/username-value-c/731</link>
+    <description>I&#39;m trying to use key.Text = &quot;Username: &quot; + Login.KeyAuthApp.user_data.username; but it gives me the value of the key and not the username
+I&#39;d like to get the value of the username, but I&#39;m getting the key. Being that, I&#39;m using the same code that is working in github keyauth</description>
+    
+    <lastBuildDate>Sun, 28 Aug 2022 18:35:31 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/username-value-c/731.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Username Value c#</title>
+        <dc:creator><![CDATA[lika]]></dc:creator>
+        <description><![CDATA[
+            <p>Registered with username, password and key</p>
+<p>[image]</p>
+          <p><a href="https://community.keyauth.cc/t/username-value-c/731/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/username-value-c/731/3</link>
+        <pubDate>Sun, 28 Aug 2022 18:35:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-731-3</guid>
+        <source url="https://community.keyauth.cc/t/username-value-c/731.rss">Username Value c#</source>
+      </item>
+      <item>
+        <title>Username Value c#</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>depends on how that account was registered cuz if it was via license only then yes username will just return the key but if the account was registered with username and password then it would show the name</p>
+          <p><a href="https://community.keyauth.cc/t/username-value-c/731/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/username-value-c/731/2</link>
+        <pubDate>Sun, 28 Aug 2022 17:44:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-731-2</guid>
+        <source url="https://community.keyauth.cc/t/username-value-c/731.rss">Username Value c#</source>
+      </item>
+      <item>
+        <title>Username Value c#</title>
+        <dc:creator><![CDATA[lika]]></dc:creator>
+        <description><![CDATA[
+            <p>I’m trying to use key.Text = "Username: " + Login.KeyAuthApp.user_data.username; but it gives me the value of the key and not the username<br>
+I’d like to get the value of the username, but I’m getting the key. Being that, I’m using the same code that is working in github keyauth</p>
+          <p><a href="https://community.keyauth.cc/t/username-value-c/731/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/username-value-c/731/1</link>
+        <pubDate>Sun, 28 Aug 2022 16:56:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-731-1</guid>
+        <source url="https://community.keyauth.cc/t/username-value-c/731.rss">Username Value c#</source>
+      </item>
+  </channel>
+</rss>

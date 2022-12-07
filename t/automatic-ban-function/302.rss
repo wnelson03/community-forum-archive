@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Automatic ban function</title>
+    <link>https://community.keyauth.cc/t/automatic-ban-function/302</link>
+    <description>What triggers the automatic ban function from the client?  I have a user that keeps getting banned by this every couple of days and I cannot locate any information as to why this automatic ban is occurring.</description>
+    
+    <lastBuildDate>Thu, 28 Jul 2022 13:08:44 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/automatic-ban-function/302.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Automatic ban function</title>
+        <dc:creator><![CDATA[TSGW]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="DMA" data-post="1" data-topic="302">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/dma/40/268_2.png" class="avatar"> DMA:</div>
+<blockquote>
+<p>automatic ban function from the client</p>
+</blockquote>
+</aside>
+<p>In the keyauth panel shows something like: “automatic ban function from the client”. I dont have ban function in my code and so I’m not calling it. It’s probably Keyauth side automatic trigger…</p>
+          <p><a href="https://community.keyauth.cc/t/automatic-ban-function/302/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/automatic-ban-function/302/9</link>
+        <pubDate>Thu, 28 Jul 2022 13:08:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-302-9</guid>
+        <source url="https://community.keyauth.cc/t/automatic-ban-function/302.rss">Automatic ban function</source>
+      </item>
+      <item>
+        <title>Automatic ban function</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>what is the ban reason?</p>
+          <p><a href="https://community.keyauth.cc/t/automatic-ban-function/302/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/automatic-ban-function/302/8</link>
+        <pubDate>Wed, 27 Jul 2022 20:40:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-302-8</guid>
+        <source url="https://community.keyauth.cc/t/automatic-ban-function/302.rss">Automatic ban function</source>
+      </item>
+      <item>
+        <title>Automatic ban function</title>
+        <dc:creator><![CDATA[TSGW]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="mention" href="https://community.keyauth.cc/u/mak">@mak</a> I’m not calling this function in my code and yet my own user is being banned sometimes for no apparent reason. Can you elaborate it, please? Thanks!</p>
+          <p><a href="https://community.keyauth.cc/t/automatic-ban-function/302/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/automatic-ban-function/302/7</link>
+        <pubDate>Wed, 27 Jul 2022 20:10:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-302-7</guid>
+        <source url="https://community.keyauth.cc/t/automatic-ban-function/302.rss">Automatic ban function</source>
+      </item>
+      <item>
+        <title>Automatic ban function</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="mention" href="https://community.keyauth.cc/u/dma">@DMA</a> <a class="mention" href="https://community.keyauth.cc/u/tsgw">@TSGW</a> the function <code>KeyAuthApp.ban();</code> is likely responsible for this</p>
+          <p><a href="https://community.keyauth.cc/t/automatic-ban-function/302/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/automatic-ban-function/302/6</link>
+        <pubDate>Wed, 27 Jul 2022 12:43:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-302-6</guid>
+        <source url="https://community.keyauth.cc/t/automatic-ban-function/302.rss">Automatic ban function</source>
+      </item>
+      <item>
+        <title>Automatic ban function</title>
+        <dc:creator><![CDATA[TSGW]]></dc:creator>
+        <description><![CDATA[
+            <p>!up</p>
+          <p><a href="https://community.keyauth.cc/t/automatic-ban-function/302/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/automatic-ban-function/302/5</link>
+        <pubDate>Wed, 27 Jul 2022 03:22:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-302-5</guid>
+        <source url="https://community.keyauth.cc/t/automatic-ban-function/302.rss">Automatic ban function</source>
+      </item>
+      <item>
+        <title>Automatic ban function</title>
+        <dc:creator><![CDATA[TSGW]]></dc:creator>
+        <description><![CDATA[
+            <p>up!</p>
+          <p><a href="https://community.keyauth.cc/t/automatic-ban-function/302/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/automatic-ban-function/302/4</link>
+        <pubDate>Mon, 25 Jul 2022 14:00:35 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-302-4</guid>
+        <source url="https://community.keyauth.cc/t/automatic-ban-function/302.rss">Automatic ban function</source>
+      </item>
+      <item>
+        <title>Automatic ban function</title>
+        <dc:creator><![CDATA[DMA]]></dc:creator>
+        <description><![CDATA[
+            <p>bumping this, still looking for a solution.  this is really putting me off from investing in this auth system and going with another</p>
+          <p><a href="https://community.keyauth.cc/t/automatic-ban-function/302/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/automatic-ban-function/302/3</link>
+        <pubDate>Tue, 05 Jul 2022 02:13:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-302-3</guid>
+        <source url="https://community.keyauth.cc/t/automatic-ban-function/302.rss">Automatic ban function</source>
+      </item>
+      <item>
+        <title>Automatic ban function</title>
+        <dc:creator><![CDATA[TSGW]]></dc:creator>
+        <description><![CDATA[
+            <p>I would like to know too</p>
+          <p><a href="https://community.keyauth.cc/t/automatic-ban-function/302/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/automatic-ban-function/302/2</link>
+        <pubDate>Sat, 02 Jul 2022 13:48:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-302-2</guid>
+        <source url="https://community.keyauth.cc/t/automatic-ban-function/302.rss">Automatic ban function</source>
+      </item>
+      <item>
+        <title>Automatic ban function</title>
+        <dc:creator><![CDATA[DMA]]></dc:creator>
+        <description><![CDATA[
+            <p>What triggers the automatic ban function from the client?  I have a user that keeps getting banned by this every couple of days and I cannot locate any information as to why this automatic ban is occurring.</p>
+          <p><a href="https://community.keyauth.cc/t/automatic-ban-function/302/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/automatic-ban-function/302/1</link>
+        <pubDate>Fri, 01 Jul 2022 03:39:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-302-1</guid>
+        <source url="https://community.keyauth.cc/t/automatic-ban-function/302.rss">Automatic ban function</source>
+      </item>
+  </channel>
+</rss>

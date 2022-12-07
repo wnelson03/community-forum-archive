@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Hiding LIBCURL.DLL X86</title>
+    <link>https://community.keyauth.cc/t/hiding-libcurl-dll-x86/389</link>
+    <description>Is there any way to hide the LibCurl.dll file like how x64 does so it&#39;s just a standalone exe instead of both the exe and dll, Thanks for any help given :slight_smile: .</description>
+    
+    <lastBuildDate>Tue, 12 Jul 2022 15:27:07 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/hiding-libcurl-dll-x86/389.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Hiding LIBCURL.DLL X86</title>
+        <dc:creator><![CDATA[ItzDreamzyy]]></dc:creator>
+        <description><![CDATA[
+            <p>Is there any way to hide the LibCurl.dll file like how x64 does so it’s just a standalone exe instead of both the exe and dll, Thanks for any help given <img src="https://community.keyauth.win/images/emoji/twitter/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20"> .</p>
+          <p><a href="https://community.keyauth.cc/t/hiding-libcurl-dll-x86/389/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/hiding-libcurl-dll-x86/389/1</link>
+        <pubDate>Tue, 12 Jul 2022 15:27:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-389-1</guid>
+        <source url="https://community.keyauth.cc/t/hiding-libcurl-dll-x86/389.rss">Hiding LIBCURL.DLL X86</source>
+      </item>
+  </channel>
+</rss>

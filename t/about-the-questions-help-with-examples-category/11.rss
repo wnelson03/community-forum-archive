@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>About the Questions/Help with Examples category</title>
+    <link>https://community.keyauth.cc/t/about-the-questions-help-with-examples-category/11</link>
+    <description>Ask for help with examples. Make sure you read the pinned topic for the category you post in. Most examples can be found here https://github.com/KeyAuth/</description>
+    
+    <lastBuildDate>Mon, 23 May 2022 22:53:51 +0000</lastBuildDate>
+    <category>Questions/Help with Examples</category>
+    <atom:link href="https://community.keyauth.cc/t/about-the-questions-help-with-examples-category/11.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>About the Questions/Help with Examples category</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Ask for help with examples. Make sure you read the pinned topic for the category you post in. Most examples can be found here <a href="https://github.com/KeyAuth/" class="inline-onebox">KeyAuth · GitHub</a></p>
+          <p><a href="https://community.keyauth.cc/t/about-the-questions-help-with-examples-category/11/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/about-the-questions-help-with-examples-category/11/1</link>
+        <pubDate>Mon, 23 May 2022 15:22:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-11-1</guid>
+        <source url="https://community.keyauth.cc/t/about-the-questions-help-with-examples-category/11.rss">About the Questions/Help with Examples category</source>
+      </item>
+  </channel>
+</rss>

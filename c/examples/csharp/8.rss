@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C# - KeyAuth</title>
+    <link>https://community.keyauth.cc/c/examples/csharp/8</link>
+    <description>Topics in the &#39;C#&#39; category The C# example is here &lt;a href=&quot;https://github.com/KeyAuth/KeyAuth-CS-Example&quot; class=&quot;inline-onebox-loading&quot;&gt;https://github.com/KeyAuth/KeyAuth-CS-Example&lt;/a&gt;</description>
+    
+      <lastBuildDate>Wed, 21 Sep 2022 18:38:12 +0000</lastBuildDate>
+      <atom:link href="https://community.keyauth.cc/c/examples/csharp/8.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Question about c# (autologin)</title>
+          <dc:creator><![CDATA[I_Want_Some_Mint]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>Hi everyone! I have a question. Can i somehow make it remember the password and username that i entered? or just skip first log in window? Let me know asap ty!</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/question-about-c-autologin/838">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/question-about-c-autologin/838</link>
+          <pubDate>Wed, 21 Sep 2022 18:38:12 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-838</guid>
+          <source url="https://community.keyauth.cc/t/question-about-c-autologin/838.rss">Question about c# (autologin)</source>
+        </item>
+        <item>
+          <title>Where to put own program code</title>
+          <dc:creator><![CDATA[RqEqEqZ]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+<p>keyauth is working fine now here should i put my own program code so when the key is activated that my own program opens</p>
+            <p><small>7 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/where-to-put-own-program-code/817">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/where-to-put-own-program-code/817</link>
+          <pubDate>Tue, 13 Sep 2022 18:41:07 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-817</guid>
+          <source url="https://community.keyauth.cc/t/where-to-put-own-program-code/817.rss">Where to put own program code</source>
+        </item>
+        <item>
+          <title>User var can be called even I deleted them</title>
+          <dc:creator><![CDATA[akikazu12]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>so I make a user variable, let’s say it’s id1 = “test”<br>
+I tested it with make it a text in my app, I called it and it worked.<br>
+I then deleted the id1 user variable in the KeyAuth website and restart my app, but the text is still in there</p>
+<pre><code class="lang-auto">            label2.Text = LoginSc.KeyAuthApp.getvar("id1");
+</code></pre>
+<p>I tried to relog the KeyAuth website just in case and check whether it actually gets deleted or not, and yes it’s got deleted, there is nothing in user variables, but it’s still the same, the label2.Text still has the user variable data that I’ve already deleted</p>
+<p>is this a bug from KeyAuth or is this my fault?</p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/user-var-can-be-called-even-i-deleted-them/812">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/user-var-can-be-called-even-i-deleted-them/812</link>
+          <pubDate>Sun, 11 Sep 2022 15:08:48 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-812</guid>
+          <source url="https://community.keyauth.cc/t/user-var-can-be-called-even-i-deleted-them/812.rss">User var can be called even I deleted them</source>
+        </item>
+        <item>
+          <title>Need help with this, says this when i login</title>
+          <dc:creator><![CDATA[Shootamike_1]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>Don’t know why it’s doing this<br>
+Picture below<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/c6d1333e75fc87aa7b936f073aa3f12fbb7c3ec6.png" alt="unknown111111" data-base62-sha1="smOKp2zHmuqIdxCSGzElao9jsGO" width="690" height="354"></p>
+            <p><small>5 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/need-help-with-this-says-this-when-i-login/797">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/need-help-with-this-says-this-when-i-login/797</link>
+          <pubDate>Thu, 08 Sep 2022 21:57:33 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-797</guid>
+          <source url="https://community.keyauth.cc/t/need-help-with-this-says-this-when-i-login/797.rss">Need help with this, says this when i login</source>
+        </item>
+        <item>
+          <title>Need help with this error</title>
+          <dc:creator><![CDATA[Shootamike_1]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/ce66c9a58eda7bb0fb49394e9ee02d6d86b7429a.png" alt="Screenshot 2022-09-08 024636" data-base62-sha1="trUzZsXBOfykOalHplUVC2rq43M" width="689" height="217"></p>
+            <p><small>3 posts - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/need-help-with-this-error/794">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/need-help-with-this-error/794</link>
+          <pubDate>Thu, 08 Sep 2022 01:47:41 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-794</guid>
+          <source url="https://community.keyauth.cc/t/need-help-with-this-error/794.rss">Need help with this error</source>
+        </item>
+        <item>
+          <title>Obfuscating Application?</title>
+          <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>I obfuscated my C# Application with ConfuserEx. I know its shitty but i am still learning and i wanted to try. Everything worked fine but my application is broken now. Like when i start my application the login form shows up, i login and then it says “Please Initialize first” with the title “Error” and i tried it on the KeyAuth example too. Still the same. Could anyone help me?</p>
+            <p><small>12 posts - 5 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/obfuscating-application/791">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/obfuscating-application/791</link>
+          <pubDate>Wed, 07 Sep 2022 11:05:47 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-791</guid>
+          <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+        </item>
+        <item>
+          <title>Need help with c# console</title>
+          <dc:creator><![CDATA[Shootamike_1]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>How would i make it so when you login, it would take you to another file, so lets just say i was making a main menu, and i wanted when you was done with the login it would take you to MainMenu.cs, how would i do it?</p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/need-help-with-c-console/785">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/need-help-with-c-console/785</link>
+          <pubDate>Mon, 05 Sep 2022 05:27:28 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-785</guid>
+          <source url="https://community.keyauth.cc/t/need-help-with-c-console/785.rss">Need help with c# console</source>
+        </item>
+        <item>
+          <title>How to check the subscription Level C#</title>
+          <dc:creator><![CDATA[inivation]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>hello can some1 help me ??</p>
+<p>i want to add a subscription check to my login button so that im only able to log in if my license<br>
+level is 2.<br>
+i cant find anything to this on the documentaion please help me.</p>
+<p>My code<br>
+Login.KeyAuthApp.check();<br>
+{<br>
+if (subscription == “2”)<br>
+{<br>
+MainForm main = new MainForm();<br>
+main.Show();<br>
+this.Hide();<br>
+}<br>
+else<br>
+{<br>
+MessageBox.Show(“Wrong License level try to upgrade”);<br>
+}<br>
+}</p>
+            <p><small>4 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758</link>
+          <pubDate>Thu, 01 Sep 2022 16:56:31 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-758</guid>
+          <source url="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758.rss">How to check the subscription Level C#</source>
+        </item>
+        <item>
+          <title>crypt_stream.FlushFinalBlock(); -- &quot;The padding is incorrect and cannot be removed.&quot;</title>
+          <dc:creator><![CDATA[igromanvTV]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>hello, im using c# and i ran into an error: crypt_stream.FlushFinalBlock(); – System.Security.Cryptography.CryptographicException: “The padding is incorrect and cannot be removed.”</p>
+<p>This exception was originally thrown in this call stack:This exception was originally thrown in this call stack:<br>
+[External code]<br>
+KeyAuth.encryption.decrypt_string(string, byte[], byte[]) в KeyAuth.cs<br>
+KeyAuth.encryption.decrypt(string, string, string) в KeyAuth.cs<br>
+KeyAuth.api.init() в KeyAuth.cs<br>
+REx_redux.Resources.logins.logins_Load(object, System.EventArgs) в logins.cs<br>
+[External code]</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753</link>
+          <pubDate>Wed, 31 Aug 2022 19:14:16 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-753</guid>
+          <source url="https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753.rss">crypt_stream.FlushFinalBlock(); -- &quot;The padding is incorrect and cannot be removed.&quot;</source>
+        </item>
+        <item>
+          <title>Login Error Form C#. Please initialize first</title>
+          <dc:creator><![CDATA[CitiCriminal]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>I am trying to make a login. and register same page<br>
+and keep getting this when I press register.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/05df312c9ee838b76b64007a960db45e79d847c4.png" alt="" data-base62-sha1="PWzBco606r2xGaUSGb10ICYGeU" width="" height=""><br>
+but the key does get redeemed.</p>
+<p>its in c# form.<br>
+if you could help me it will be easier on discord: Movie#7928</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749</link>
+          <pubDate>Tue, 30 Aug 2022 18:18:24 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-749</guid>
+          <source url="https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749.rss">Login Error Form C#. Please initialize first</source>
+        </item>
+        <item>
+          <title>Json = response_decoder</title>
+          <dc:creator><![CDATA[Tekmoller]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>Hi, i tried the C# example - created a user and license</p>
+<p>I get this error messages every time i clicking Login or License or other buttons after fill out the login form<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/9782712383f69c5bfe3422396a7ba045118509a5.png" alt="image" data-base62-sha1="lCjzfMKupR0GY2n76mKH37KggYt" width="690" height="297"></p>
+<p>Edit:<br>
+Understand the error now. I went through the code again - the reason for the error is/was that no chat was created / defined in Dashboard<br>
+It is solved</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/json-response-decoder/736">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/json-response-decoder/736</link>
+          <pubDate>Mon, 29 Aug 2022 06:55:02 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-736</guid>
+          <source url="https://community.keyauth.cc/t/json-response-decoder/736.rss">Json = response_decoder</source>
+        </item>
+        <item>
+          <title>Username Value c#</title>
+          <dc:creator><![CDATA[lika]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>I’m trying to use key.Text = "Username: " + Login.KeyAuthApp.user_data.username; but it gives me the value of the key and not the username<br>
+I’d like to get the value of the username, but I’m getting the key. Being that, I’m using the same code that is working in github keyauth</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/username-value-c/731">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/username-value-c/731</link>
+          <pubDate>Sun, 28 Aug 2022 16:56:32 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-731</guid>
+          <source url="https://community.keyauth.cc/t/username-value-c/731.rss">Username Value c#</source>
+        </item>
+        <item>
+          <title>CSHARP intergration to python</title>
+          <dc:creator><![CDATA[cxrrupted]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>Hello</p>
+<p>Sorry about previous post i was half asleep and did manage to fix it before i even got a reply lol and like i stated in previous post i am a noob and i wish to intergrate this</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CSHARP-Example">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CSHARP-Example" target="_blank" rel="noopener nofollow ugc">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/15c4a7196f11902f2a0cc50b489a2ad74171ad02.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/KeyAuth-CSHARP-Example" target="_blank" rel="noopener nofollow ugc">GitHub - KeyAuth/KeyAuth-CSHARP-Example: KeyAuth CSHARP Example</a></h3>
+
+  <p>KeyAuth CSHARP Example. Contribute to KeyAuth/KeyAuth-CSHARP-Example development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>to python keyauth, how would i go about doing such a thing.</p>
+<p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+            <p><small>7 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/csharp-intergration-to-python/730">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/csharp-intergration-to-python/730</link>
+          <pubDate>Sun, 28 Aug 2022 16:32:17 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-730</guid>
+          <source url="https://community.keyauth.cc/t/csharp-intergration-to-python/730.rss">CSHARP intergration to python</source>
+        </item>
+        <item>
+          <title>C# .exe in memory loader</title>
+          <dc:creator><![CDATA[lika]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>My cheat is in .exe and I need to put it inside my loader. But when I put it in the task manager, 2 processes are open (loader and cheat). I would like to put it in my loader’s memory. I tried to use a source from a KeyAuth user but it wasn’t working anymore.</p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/c-exe-in-memory-loader/720">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/c-exe-in-memory-loader/720</link>
+          <pubDate>Sat, 27 Aug 2022 00:22:40 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-720</guid>
+          <source url="https://community.keyauth.cc/t/c-exe-in-memory-loader/720.rss">C# .exe in memory loader</source>
+        </item>
+        <item>
+          <title>KeyAuth License doesent expire in realtime</title>
+          <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>Last week i made a key for a week. Its not expiring. But if you use this key really a week (complete week like 24 hours) then it will expire. I am not sure. But nvm can you help me so the key expires after the week? Thanks.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/keyauth-license-doesent-expire-in-realtime/697">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/keyauth-license-doesent-expire-in-realtime/697</link>
+          <pubDate>Sat, 20 Aug 2022 21:20:56 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-697</guid>
+          <source url="https://community.keyauth.cc/t/keyauth-license-doesent-expire-in-realtime/697.rss">KeyAuth License doesent expire in realtime</source>
+        </item>
+        <item>
+          <title>White Box After Using Confuserex with keyauth</title>
+          <dc:creator><![CDATA[vKevinzx]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>Hi, i have a problem, when i use keyauth with confuserex and i open the program i get a white messagebox how do i solve?<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/912dd937726a8af01682b431240d2bbd668c026a.png" alt="immagine_2022-08-20_190554407" data-base62-sha1="kIjsIslG0dbWPX22wYXAyCDjrTk" width="141" height="130"></p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/white-box-after-using-confuserex-with-keyauth/693">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/white-box-after-using-confuserex-with-keyauth/693</link>
+          <pubDate>Sat, 20 Aug 2022 17:06:01 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-693</guid>
+          <source url="https://community.keyauth.cc/t/white-box-after-using-confuserex-with-keyauth/693.rss">White Box After Using Confuserex with keyauth</source>
+        </item>
+        <item>
+          <title>I&#39;m getting banned automatically after login</title>
+          <dc:creator><![CDATA[MrObsidyan]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>I’m getting banned automatically after login.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/467c4a23189e8acab6f11aa60883ec4dc0a7ce1e.png" alt="image" data-base62-sha1="a3xI9zmcDcopqzzYvTOQz3y1NZs" width="340" height="214"></p>
+            <p><small>7 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688</link>
+          <pubDate>Fri, 19 Aug 2022 01:36:52 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-688</guid>
+          <source url="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688.rss">I&#39;m getting banned automatically after login</source>
+        </item>
+        <item>
+          <title>How to check if a user has a specific subscription</title>
+          <dc:creator><![CDATA[Banna]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>Anyone know what is wrong or have any other code i can use?</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/1644f17b87b05e6224d57e465ac31fa5c820779a.png" alt="image" data-base62-sha1="3b0djbRGC4UPDHl0H63LmIXmsI2" width="690" height="249"></p>
+            <p><small>6 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664</link>
+          <pubDate>Wed, 17 Aug 2022 16:43:52 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-664</guid>
+          <source url="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664.rss">How to check if a user has a specific subscription</source>
+        </item>
+        <item>
+          <title>{&quot;success&quot;:false,&quot;message&quot;:&quot;Unhandled Error! Contact us if you need help&quot;}</title>
+          <dc:creator><![CDATA[Jennie001]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>I am using ban license but i got this error. How can i solve it?</p>
+            <p><small>7 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/success-false-message-unhandled-error-contact-us-if-you-need-help/646">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/success-false-message-unhandled-error-contact-us-if-you-need-help/646</link>
+          <pubDate>Mon, 15 Aug 2022 13:48:49 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-646</guid>
+          <source url="https://community.keyauth.cc/t/success-false-message-unhandled-error-contact-us-if-you-need-help/646.rss">{&quot;success&quot;:false,&quot;message&quot;:&quot;Unhandled Error! Contact us if you need help&quot;}</source>
+        </item>
+        <item>
+          <title>C# discord webhook help</title>
+          <dc:creator><![CDATA[Lypc]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>how do i make it so when a user opens/logs into my tool i get a message from discord webhook?</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/c-discord-webhook-help/638">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/c-discord-webhook-help/638</link>
+          <pubDate>Sun, 14 Aug 2022 05:02:04 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-638</guid>
+          <source url="https://community.keyauth.cc/t/c-discord-webhook-help/638.rss">C# discord webhook help</source>
+        </item>
+        <item>
+          <title>Download with webclient</title>
+          <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>How do i make a webclient/download file button? I mean if you start your application it would install a dll (example) then execute it or whatever. But after you close it, it deletes automatically the file.<br>
+How can you do that? I know it doesent fit in this website, well technically it does but nvm. I hope you can help me</p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/download-with-webclient/633">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/download-with-webclient/633</link>
+          <pubDate>Sat, 13 Aug 2022 13:24:09 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-633</guid>
+          <source url="https://community.keyauth.cc/t/download-with-webclient/633.rss">Download with webclient</source>
+        </item>
+        <item>
+          <title>Login and Register button not right working?</title>
+          <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>Everything works beside the login and register button. When i type my data WRONG in the fields (username, password, Key/license) It still sends me to the main.cs form. No message box. Nothing. I can type whatever i want like 23123e 232e24qd 231q23e and it still sends me there. How can i fix this?<br>
+And i would like to add a message box. I hope you can help me!</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/login-and-register-button-not-right-working/628">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/login-and-register-button-not-right-working/628</link>
+          <pubDate>Fri, 12 Aug 2022 17:02:22 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-628</guid>
+          <source url="https://community.keyauth.cc/t/login-and-register-button-not-right-working/628.rss">Login and Register button not right working?</source>
+        </item>
+        <item>
+          <title>Login Button and Register Button not working</title>
+          <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>I made my own form no errors no problems (in visual studio), but when i click on login or register nothing happens. Yes i copied the register code and the login code, still nothing happens. And i created a Main.cs (Windows forms) I can type and so on, but i cant register or login. Can someone help me?</p>
+            <p><small>17 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606</link>
+          <pubDate>Mon, 08 Aug 2022 14:11:50 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-606</guid>
+          <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+        </item>
+        <item>
+          <title>Keyauth c# download</title>
+          <dc:creator><![CDATA[Shootamike_1]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/9ef5545d69c2fb389cbc3d19da566ced0056d1d8.png" alt="image" data-base62-sha1="mGd3v41BzrAIBSJHwLTnehLeQnm" width="439" height="500"><br>
+need help with this</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/keyauth-c-download/605">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/keyauth-c-download/605</link>
+          <pubDate>Sun, 07 Aug 2022 22:35:56 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-605</guid>
+          <source url="https://community.keyauth.cc/t/keyauth-c-download/605.rss">Keyauth c# download</source>
+        </item>
+        <item>
+          <title>Windows Form KeyAuth Download</title>
+          <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+          <category>C#</category>
+          <description><![CDATA[
+            <p>Hello, this Windows form works well except for one thing. This window appears<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/6cdc3982738bf0ef389e9a379fd93f2549c29a2b.png" alt="183301319-9c898b70-76ed-4bbf-88e3-968027f5745a" data-base62-sha1="fx1oxZ9rxsrn2h7Oo06mNuUkJNV" width="571" height="500"></p>
+<p>I don’t want that at all. I just want it to download a file as soon as you register or log in. I also filled in the KeyAuthApp.download Id.</p>
+            <p><small>5 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/windows-form-keyauth-download/604">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/windows-form-keyauth-download/604</link>
+          <pubDate>Sun, 07 Aug 2022 17:31:19 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-604</guid>
+          <source url="https://community.keyauth.cc/t/windows-form-keyauth-download/604.rss">Windows Form KeyAuth Download</source>
+        </item>
+  </channel>
+</rss>

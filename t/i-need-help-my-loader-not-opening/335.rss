@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>I need help, my loader not opening!</title>
+    <link>https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335</link>
+    <description>My loader wont open to anyone else than me. My friends opened the file, but nothing showed up. But if I open it the loader comes there. Why is this?</description>
+    
+    <lastBuildDate>Mon, 04 Jul 2022 17:20:59 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>I need help, my loader not opening!</title>
+        <dc:creator><![CDATA[xav]]></dc:creator>
+        <description><![CDATA[
+            <p>This would probably be due to you not including all of the DLLs for others to have in the folder with your exe.</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335/3</link>
+        <pubDate>Mon, 04 Jul 2022 17:20:59 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-335-3</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335.rss">I need help, my loader not opening!</source>
+      </item>
+      <item>
+        <title>I need help, my loader not opening!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>stop opening new topics go to the one that you already have open and use it</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335/2</link>
+        <pubDate>Mon, 04 Jul 2022 17:11:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-335-2</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335.rss">I need help, my loader not opening!</source>
+      </item>
+      <item>
+        <title>I need help, my loader not opening!</title>
+        <dc:creator><![CDATA[Nekke]]></dc:creator>
+        <description><![CDATA[
+            <p>My loader wont open to anyone else than me. My friends opened the file, but nothing showed up. But if I open it the loader comes there. Why is this?</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335/1</link>
+        <pubDate>Mon, 04 Jul 2022 17:10:37 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-335-1</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-my-loader-not-opening/335.rss">I need help, my loader not opening!</source>
+      </item>
+  </channel>
+</rss>

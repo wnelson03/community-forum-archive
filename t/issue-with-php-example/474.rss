@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Issue with PHP example</title>
+    <link>https://community.keyauth.cc/t/issue-with-php-example/474</link>
+    <description>Hi, I have an issue with the PHP example. This is my code:
+
+
+&lt;div class=&quot;buttons&quot;&gt;
+        &lt;h1&gt;Dominate the game with &lt;code&gt;??????&lt;/code&gt; ??????&lt;/h1&gt;
+        &lt;form class=&quot;box&quot;&gt;
+            &lt;input type=&quot;text&quot; name=&quot;&quot; placeholder=&quot;Key&quot;&gt;
+        &lt;/form&gt;
+        
+        &lt;div class=&quot;&quot;&gt;
+            &lt;button name=&quot;license&quot; class=&quot;fill&quot;&gt;
+                    Enter To Dashboard
+            &lt;/button&gt;
+        &lt;/div&gt;
+&lt;/div&gt;
+
+
+When I press &quot;enter to dashboard&quot; it doesnt work. No popup even comes up.</description>
+    
+    <lastBuildDate>Fri, 22 Jul 2022 13:04:53 +0000</lastBuildDate>
+    <category>PHP</category>
+    <atom:link href="https://community.keyauth.cc/t/issue-with-php-example/474.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Issue with PHP example</title>
+        <dc:creator><![CDATA[Enzyme]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi, I have an issue with the PHP example. This is my code:</p>
+<div>
+        <h1>Dominate the game with <code>??????</code> ??????</h1>
+        
+            
+        
+<pre><code>    &lt;div class=""&gt;
+        &lt;button name="license" class="fill"&gt;
+                Enter To Dashboard
+        &lt;/button&gt;
+    &lt;/div&gt;
+</code></pre>
+</div>
+<p>When I press “enter to dashboard” it doesnt work. No popup even comes up.</p>
+          <p><a href="https://community.keyauth.cc/t/issue-with-php-example/474/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/issue-with-php-example/474/1</link>
+        <pubDate>Fri, 22 Jul 2022 13:01:27 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-474-1</guid>
+        <source url="https://community.keyauth.cc/t/issue-with-php-example/474.rss">Issue with PHP example</source>
+      </item>
+  </channel>
+</rss>

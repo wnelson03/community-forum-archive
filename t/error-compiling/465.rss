@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Error compiling</title>
+    <link>https://community.keyauth.cc/t/error-compiling/465</link>
+    <description>hi, im getting this errors when compiling, does someone know why?
+
+![image|690x59](upload://eX399SZDFOpTBeV3exv0Pa2Ga6s.png)</description>
+    
+    <lastBuildDate>Thu, 21 Jul 2022 22:41:08 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/error-compiling/465.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Error compiling</title>
+        <dc:creator><![CDATA[Afonso_Borges]]></dc:creator>
+        <description><![CDATA[
+            <p>hi, im getting this errors when compiling, does someone know why?</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/68cb438c2d8bcfda24043fc5708a01762cd55508.png" alt="image" data-base62-sha1="eX399SZDFOpTBeV3exv0Pa2Ga6s" width="690" height="59"></p>
+          <p><a href="https://community.keyauth.cc/t/error-compiling/465/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-compiling/465/1</link>
+        <pubDate>Thu, 21 Jul 2022 22:41:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-465-1</guid>
+        <source url="https://community.keyauth.cc/t/error-compiling/465.rss">Error compiling</source>
+      </item>
+  </channel>
+</rss>

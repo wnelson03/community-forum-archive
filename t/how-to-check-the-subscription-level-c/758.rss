@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to check the subscription Level C#</title>
+    <link>https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758</link>
+    <description>hello can some1 help me ??
+
+i want to add a subscription check to my login button so that im only able to log in if my license
+level is 2.
+i cant find anything to this on the documentaion please help me.
+
+My code
+            Login.KeyAuthApp.check();
+            {
+                if (subscription == &quot;2&quot;)
+                {
+                    MainForm main = new MainForm();
+                    main.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show(&quot;Wrong License level try to upgrade&quot;);
+                }
+            }</description>
+    
+    <lastBuildDate>Fri, 02 Sep 2022 14:21:32 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to check the subscription Level C#</title>
+        <dc:creator><![CDATA[inivation]]></dc:creator>
+        <description><![CDATA[
+            <p>Thank you for the help &lt;3</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758/4</link>
+        <pubDate>Fri, 02 Sep 2022 14:21:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-758-4</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758.rss">How to check the subscription Level C#</source>
+      </item>
+      <item>
+        <title>How to check the subscription Level C#</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-auto">static bool check_sub(string subname)
+{
+   foreach (var sub in KeyAuthApp.user_data.subscriptions)
+   {
+      if (sub.subscription == subname)
+      return true;
+   }
+   return false;
+}
+
+</code></pre>
+<p>call if like so</p>
+<pre><code class="lang-auto">if (check_sub("wadawdawd"))
+{
+   Console.WriteLine("\n user has sub wadawdawd");
+}
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758/3</link>
+        <pubDate>Thu, 01 Sep 2022 21:43:13 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-758-3</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758.rss">How to check the subscription Level C#</source>
+      </item>
+      <item>
+        <title>How to check the subscription Level C#</title>
+        <dc:creator><![CDATA[TrynCatchMe]]></dc:creator>
+        <description><![CDATA[
+            <p>Make sure your if statement is correct and if “2” is actually doing something in the code.</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758/2</link>
+        <pubDate>Thu, 01 Sep 2022 19:10:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-758-2</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758.rss">How to check the subscription Level C#</source>
+      </item>
+      <item>
+        <title>How to check the subscription Level C#</title>
+        <dc:creator><![CDATA[inivation]]></dc:creator>
+        <description><![CDATA[
+            <p>hello can some1 help me ??</p>
+<p>i want to add a subscription check to my login button so that im only able to log in if my license<br>
+level is 2.<br>
+i cant find anything to this on the documentaion please help me.</p>
+<p>My code<br>
+Login.KeyAuthApp.check();<br>
+{<br>
+if (subscription == “2”)<br>
+{<br>
+MainForm main = new MainForm();<br>
+main.Show();<br>
+this.Hide();<br>
+}<br>
+else<br>
+{<br>
+MessageBox.Show(“Wrong License level try to upgrade”);<br>
+}<br>
+}</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758/1</link>
+        <pubDate>Thu, 01 Sep 2022 16:56:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-758-1</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-the-subscription-level-c/758.rss">How to check the subscription Level C#</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Getting error on RDP</title>
+    <link>https://community.keyauth.cc/t/getting-error-on-rdp/424</link>
+    <description>Working on Host Machine but on RDP getting the following errors
+Connection failure. Please try again, or contact us for help.</description>
+    
+    <lastBuildDate>Mon, 18 Jul 2022 14:27:31 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/getting-error-on-rdp/424.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Getting error on RDP</title>
+        <dc:creator><![CDATA[XTR]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/getting-error-on-rdp/424/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-error-on-rdp/424/3</link>
+        <pubDate>Mon, 18 Jul 2022 14:27:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-424-3</guid>
+        <source url="https://community.keyauth.cc/t/getting-error-on-rdp/424.rss">Getting error on RDP</source>
+      </item>
+      <item>
+        <title>Getting error on RDP</title>
+        <dc:creator><![CDATA[XTR]]></dc:creator>
+        <description><![CDATA[
+            <p>This isn’t keyauth related so i will close this right away…</p>
+          <p><a href="https://community.keyauth.cc/t/getting-error-on-rdp/424/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-error-on-rdp/424/2</link>
+        <pubDate>Mon, 18 Jul 2022 14:27:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-424-2</guid>
+        <source url="https://community.keyauth.cc/t/getting-error-on-rdp/424.rss">Getting error on RDP</source>
+      </item>
+      <item>
+        <title>Getting error on RDP</title>
+        <dc:creator><![CDATA[FluppyBoi]]></dc:creator>
+        <description><![CDATA[
+            <p>Working on Host Machine but on RDP getting the following errors<br>
+Connection failure. Please try again, or contact us for help.</p>
+          <p><a href="https://community.keyauth.cc/t/getting-error-on-rdp/424/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-error-on-rdp/424/1</link>
+        <pubDate>Mon, 18 Jul 2022 12:17:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-424-1</guid>
+        <source url="https://community.keyauth.cc/t/getting-error-on-rdp/424.rss">Getting error on RDP</source>
+      </item>
+  </channel>
+</rss>

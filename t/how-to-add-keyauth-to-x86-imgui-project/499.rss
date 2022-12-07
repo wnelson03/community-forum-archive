@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to add keyauth to x86 ImGui project?</title>
+    <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499</link>
+    <description>How to add keyauth to x86 ImGui project?_</description>
+    
+    <lastBuildDate>Wed, 27 Jul 2022 12:55:20 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to add keyauth to x86 ImGui project?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="mention" href="https://community.keyauth.cc/u/kwejnn">@KwejNN</a> read the instructions here please <a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" class="inline-onebox">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a></p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499/3</link>
+        <pubDate>Wed, 27 Jul 2022 12:55:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-499-3</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499.rss">How to add keyauth to x86 ImGui project?</source>
+      </item>
+      <item>
+        <title>How to add keyauth to x86 ImGui project?</title>
+        <dc:creator><![CDATA[KwejNN]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/654b95a11b8a22476e65d6faaba94d6d765716d8.png" alt="image" data-base62-sha1="es6a8DxbZ5CU5bBstl2h3012J3G" width="690" height="388"><br>
+I compiled the lib file as x86 and included it in the project, but I am getting such an error.</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499/2</link>
+        <pubDate>Sun, 24 Jul 2022 21:18:27 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-499-2</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499.rss">How to add keyauth to x86 ImGui project?</source>
+      </item>
+      <item>
+        <title>How to add keyauth to x86 ImGui project?</title>
+        <dc:creator><![CDATA[KwejNN]]></dc:creator>
+        <description><![CDATA[
+            <p>How to add keyauth to x86 ImGui project?_</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499/1</link>
+        <pubDate>Sun, 24 Jul 2022 20:57:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-499-1</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-x86-imgui-project/499.rss">How to add keyauth to x86 ImGui project?</source>
+      </item>
+  </channel>
+</rss>

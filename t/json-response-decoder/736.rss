@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Json = response_decoder</title>
+    <link>https://community.keyauth.cc/t/json-response-decoder/736</link>
+    <description>Hi, i tried the C# example - created a user and license
+
+I get this error messages every time i clicking Login or License or other buttons after fill out the login form
+![image|690x297](upload://lCjzfMKupR0GY2n76mKH37KggYt.png)
+
+Edit:
+Understand the error now. I went through the code again - the reason for the error is/was that no chat was created / defined in Dashboard
+It is solved</description>
+    
+    <lastBuildDate>Mon, 29 Aug 2022 10:16:42 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/json-response-decoder/736.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Json = response_decoder</title>
+        <dc:creator><![CDATA[Tekmoller]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi, i tried the C# example - created a user and license</p>
+<p>I get this error messages every time i clicking Login or License or other buttons after fill out the login form<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/9782712383f69c5bfe3422396a7ba045118509a5.png" alt="image" data-base62-sha1="lCjzfMKupR0GY2n76mKH37KggYt" width="690" height="297"></p>
+<p>Edit:<br>
+Understand the error now. I went through the code again - the reason for the error is/was that no chat was created / defined in Dashboard<br>
+It is solved</p>
+          <p><a href="https://community.keyauth.cc/t/json-response-decoder/736/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/json-response-decoder/736/1</link>
+        <pubDate>Mon, 29 Aug 2022 06:55:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-736-1</guid>
+        <source url="https://community.keyauth.cc/t/json-response-decoder/736.rss">Json = response_decoder</source>
+      </item>
+  </channel>
+</rss>

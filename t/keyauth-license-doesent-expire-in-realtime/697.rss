@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KeyAuth License doesent expire in realtime</title>
+    <link>https://community.keyauth.cc/t/keyauth-license-doesent-expire-in-realtime/697</link>
+    <description>Last week i made a key for a week. Its not expiring. But if you use this key really a week (complete week like 24 hours) then it will expire. I am not sure. But nvm can you help me so the key expires after the week? Thanks.</description>
+    
+    <lastBuildDate>Sat, 20 Aug 2022 21:20:56 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauth-license-doesent-expire-in-realtime/697.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>KeyAuth License doesent expire in realtime</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Last week i made a key for a week. Its not expiring. But if you use this key really a week (complete week like 24 hours) then it will expire. I am not sure. But nvm can you help me so the key expires after the week? Thanks.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-license-doesent-expire-in-realtime/697/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-license-doesent-expire-in-realtime/697/1</link>
+        <pubDate>Sat, 20 Aug 2022 21:20:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-697-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-license-doesent-expire-in-realtime/697.rss">KeyAuth License doesent expire in realtime</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>i have keyauth problem in python</title>
+    <link>https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512</link>
+    <description>The program does not close even though the user&#39;s key time has expired. and unlimited use</description>
+    
+    <lastBuildDate>Wed, 27 Jul 2022 23:08:48 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>i have keyauth problem in python</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>use os._exit(1)  or os._exit(0) way better than sys.exit</p>
+          <p><a href="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512/4</link>
+        <pubDate>Wed, 27 Jul 2022 23:08:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-512-4</guid>
+        <source url="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512.rss">i have keyauth problem in python</source>
+      </item>
+      <item>
+        <title>i have keyauth problem in python</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>compare expiry date with the current date then exit</p>
+          <p><a href="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512/3</link>
+        <pubDate>Wed, 27 Jul 2022 23:06:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-512-3</guid>
+        <source url="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512.rss">i have keyauth problem in python</source>
+      </item>
+      <item>
+        <title>i have keyauth problem in python</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>code issue</p>
+          <p><a href="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512/2</link>
+        <pubDate>Wed, 27 Jul 2022 13:57:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-512-2</guid>
+        <source url="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512.rss">i have keyauth problem in python</source>
+      </item>
+      <item>
+        <title>i have keyauth problem in python</title>
+        <dc:creator><![CDATA[FlorinPT]]></dc:creator>
+        <description><![CDATA[
+            <p>The program does not close even though the user’s key time has expired. and unlimited use</p>
+          <p><a href="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512/1</link>
+        <pubDate>Wed, 27 Jul 2022 12:59:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-512-1</guid>
+        <source url="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512.rss">i have keyauth problem in python</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to actually add keyauth to an application</title>
+    <link>https://community.keyauth.cc/t/how-to-actually-add-keyauth-to-an-application/291</link>
+    <description>I looked everywhere for tutorials on KeyAuth but they only show how to set it up. Can anyone explain how to actually get KeyAuth on a C++ application?</description>
+    
+    <lastBuildDate>Thu, 30 Jun 2022 09:22:43 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/how-to-actually-add-keyauth-to-an-application/291.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to actually add keyauth to an application</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>The same way its added in the example.</p>
+<p>Add the Header/Lib‘s and include them in the main file and initialize keyauth.</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-actually-add-keyauth-to-an-application/291/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-actually-add-keyauth-to-an-application/291/2</link>
+        <pubDate>Thu, 30 Jun 2022 09:22:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-291-2</guid>
+        <source url="https://community.keyauth.cc/t/how-to-actually-add-keyauth-to-an-application/291.rss">How to actually add keyauth to an application</source>
+      </item>
+      <item>
+        <title>How to actually add keyauth to an application</title>
+        <dc:creator><![CDATA[Roxrt]]></dc:creator>
+        <description><![CDATA[
+            <p>I looked everywhere for tutorials on KeyAuth but they only show how to set it up. Can anyone explain how to actually get KeyAuth on a C++ application?</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-actually-add-keyauth-to-an-application/291/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-actually-add-keyauth-to-an-application/291/1</link>
+        <pubDate>Thu, 30 Jun 2022 05:40:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-291-1</guid>
+        <source url="https://community.keyauth.cc/t/how-to-actually-add-keyauth-to-an-application/291.rss">How to actually add keyauth to an application</source>
+      </item>
+  </channel>
+</rss>

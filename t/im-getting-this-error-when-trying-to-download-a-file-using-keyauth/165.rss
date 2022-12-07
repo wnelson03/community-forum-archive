@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Im getting this error when trying to download a file using keyauth</title>
+    <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165</link>
+    <description>![image|542x403](upload://4HoPOjrlwfseEeVi61i6VbW5m5S.png)
+
+this is the code
+     
+   private void button6_Click(object sender, EventArgs e)
+        {
+
+     byte[] file = KeyAuthApp.download(&quot;code&quot;);
+            File.WriteAllBytes(&quot;C:\\ProgramData\\shs.zip&quot;, file);
+
+
+        }</description>
+    
+    <lastBuildDate>Thu, 09 Jun 2022 18:10:55 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>np.</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/11</link>
+        <pubDate>Thu, 09 Jun 2022 18:10:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-11</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[Ronix]]></dc:creator>
+        <description><![CDATA[
+            <p>oh alr thx</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/10</link>
+        <pubDate>Thu, 09 Jun 2022 18:08:49 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-10</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>init?</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/9</link>
+        <pubDate>Thu, 09 Jun 2022 18:08:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-9</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[Ronix]]></dc:creator>
+        <description><![CDATA[
+            <p>how?</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/8</link>
+        <pubDate>Thu, 09 Jun 2022 18:08:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-8</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>well then create another session</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/7</link>
+        <pubDate>Thu, 09 Jun 2022 18:05:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-7</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[Ronix]]></dc:creator>
+        <description><![CDATA[
+            <p>the download wasnt in the same form as the login btw</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/6</link>
+        <pubDate>Thu, 09 Jun 2022 18:04:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-6</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[Ronix]]></dc:creator>
+        <description><![CDATA[
+            <p>i did this and im getting<br>
+session not validated but whats the reason</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/5</link>
+        <pubDate>Thu, 09 Jun 2022 18:03:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-5</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[Ronix]]></dc:creator>
+        <description><![CDATA[
+            <p>yes im running as admin and i made sure the file is correct</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/4</link>
+        <pubDate>Thu, 09 Jun 2022 18:00:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-4</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>or use this</p>
+<pre><code class="lang-cs">            byte[] result = KeyAuthApp.download("385624");
+            if (!KeyAuthApp.response.success)
+            {
+                MessageBox.Show("Error: " + KeyAuthApp.response.message);
+                Environment.Exit(0);
+            }
+            else
+                File.WriteAllBytes(Directory.GetCurrentDirectory() + "\\test.txt", result);
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/3</link>
+        <pubDate>Thu, 09 Jun 2022 18:00:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-3</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[xenos]]></dc:creator>
+        <description><![CDATA[
+            <p>Are you running it as admin? Because if not you might cause some issues saving the file also from the error i can see that the file seems to be null, have you uploaded the correct file and format?</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/2</link>
+        <pubDate>Thu, 09 Jun 2022 17:59:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-2</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+      <item>
+        <title>Im getting this error when trying to download a file using keyauth</title>
+        <dc:creator><![CDATA[Ronix]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/20f0a261a4137a728f8d78b01ccf12042f282c1c.png" alt="image" data-base62-sha1="4HoPOjrlwfseEeVi61i6VbW5m5S" width="542" height="403"></p>
+<p>this is the code</p>
+<p>private void button6_Click(object sender, EventArgs e)<br>
+{</p>
+<pre><code> byte[] file = KeyAuthApp.download("code");
+        File.WriteAllBytes("C:\\ProgramData\\shs.zip", file);
+
+
+    }</code></pre>
+          <p><a href="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165/1</link>
+        <pubDate>Thu, 09 Jun 2022 17:58:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-165-1</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-this-error-when-trying-to-download-a-file-using-keyauth/165.rss">Im getting this error when trying to download a file using keyauth</source>
+      </item>
+  </channel>
+</rss>

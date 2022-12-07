@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KeyAuth Downloads</title>
+    <link>https://community.keyauth.cc/t/keyauth-downloads/148</link>
+    <description>If I download a file using KeyAuth download id can someone see the link to the download using a debugger?</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 12:50:14 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauth-downloads/148.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>KeyAuth Downloads</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/keyauth-downloads/148/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-downloads/148/7</link>
+        <pubDate>Mon, 27 Jun 2022 12:50:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-148-7</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-downloads/148.rss">KeyAuth Downloads</source>
+      </item>
+      <item>
+        <title>KeyAuth Downloads</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Resolved, closing this have a good day.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-downloads/148/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-downloads/148/6</link>
+        <pubDate>Mon, 27 Jun 2022 12:50:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-148-6</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-downloads/148.rss">KeyAuth Downloads</source>
+      </item>
+      <item>
+        <title>KeyAuth Downloads</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>No they can’t see download URL, that is kept secret on the server-side. And files are encrypted in encrypted API versions.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-downloads/148/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-downloads/148/5</link>
+        <pubDate>Thu, 09 Jun 2022 16:36:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-148-5</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-downloads/148.rss">KeyAuth Downloads</source>
+      </item>
+      <item>
+        <title>KeyAuth Downloads</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>there is no file encryption happening</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-downloads/148/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-downloads/148/4</link>
+        <pubDate>Thu, 09 Jun 2022 16:20:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-148-4</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-downloads/148.rss">KeyAuth Downloads</source>
+      </item>
+      <item>
+        <title>KeyAuth Downloads</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>There is no direct download string stored in the memory of the person executing a keyauth download.<br>
+Afaik the FileID‘s are stored in a database and the database just replys with given file, meaning the actual URL is the same for each download</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-downloads/148/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-downloads/148/3</link>
+        <pubDate>Thu, 09 Jun 2022 16:19:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-148-3</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-downloads/148.rss">KeyAuth Downloads</source>
+      </item>
+      <item>
+        <title>KeyAuth Downloads</title>
+        <dc:creator><![CDATA[bedthenig]]></dc:creator>
+        <description><![CDATA[
+            <p>No that’s the point of FILE ENCRYPTION.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-downloads/148/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-downloads/148/2</link>
+        <pubDate>Tue, 07 Jun 2022 12:42:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-148-2</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-downloads/148.rss">KeyAuth Downloads</source>
+      </item>
+      <item>
+        <title>KeyAuth Downloads</title>
+        <dc:creator><![CDATA[PixelX]]></dc:creator>
+        <description><![CDATA[
+            <p>If I download a file using KeyAuth download id can someone see the link to the download using a debugger?</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-downloads/148/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-downloads/148/1</link>
+        <pubDate>Tue, 07 Jun 2022 11:22:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-148-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-downloads/148.rss">KeyAuth Downloads</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How do i make a keyauth dll library and call it from c#?</title>
+    <link>https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706</link>
+    <description>hello people,
+
+so what i&#39;m trying to do is implement keyauth inside a dll library and call it from a c# program, the c++ lib will simply try to login to keyauth and return the output (or either true false).
+
+i&#39;m not too familiar with c++ so any kind of sample is appreciated</description>
+    
+    <lastBuildDate>Fri, 26 Aug 2022 01:57:26 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How do i make a keyauth dll library and call it from c#?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706/3</link>
+        <pubDate>Fri, 26 Aug 2022 01:57:35 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-706-3</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706.rss">How do i make a keyauth dll library and call it from c#?</source>
+      </item>
+      <item>
+        <title>How do i make a keyauth dll library and call it from c#?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Not within scope of KeyAuth Support<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/f43a0f72e46045d1a0c660e6b43cb1d73acb0574.png" alt="image" data-base62-sha1="yQwTAbcCzNdwE4oAFZZfwcPWjIw" width="690" height="248"><br>
+Closed.</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706/2</link>
+        <pubDate>Fri, 26 Aug 2022 01:57:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-706-2</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706.rss">How do i make a keyauth dll library and call it from c#?</source>
+      </item>
+      <item>
+        <title>How do i make a keyauth dll library and call it from c#?</title>
+        <dc:creator><![CDATA[0Tolerance]]></dc:creator>
+        <description><![CDATA[
+            <p>hello people,</p>
+<p>so what i’m trying to do is implement keyauth inside a dll library and call it from a c# program, the c++ lib will simply try to login to keyauth and return the output (or either true false).</p>
+<p>i’m not too familiar with c++ so any kind of sample is appreciated</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706/1</link>
+        <pubDate>Mon, 22 Aug 2022 17:50:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-706-1</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706.rss">How do i make a keyauth dll library and call it from c#?</source>
+      </item>
+  </channel>
+</rss>

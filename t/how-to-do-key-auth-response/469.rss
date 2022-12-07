@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to do key Auth response</title>
+    <link>https://community.keyauth.cc/t/how-to-do-key-auth-response/469</link>
+    <description>How can I do Keyauth response to log in click on imgui 
+
+Eg shows message saying key expired or incorrect hwid 
+
+I’ve tested every method I can think of but can’t figure it out or find any info online</description>
+    
+    <lastBuildDate>Sat, 23 Jul 2022 19:39:37 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/how-to-do-key-auth-response/469.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to do key Auth response</title>
+        <dc:creator><![CDATA[OverDrive]]></dc:creator>
+        <description><![CDATA[
+            <p>Im pretty sure the variable is called KeyAuthApp.response and it is a string variable</p>
+<p>Edit :: it may also be called KeyAuthApp.response.message depending on the lang you are working with.</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-do-key-auth-response/469/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-do-key-auth-response/469/2</link>
+        <pubDate>Sat, 23 Jul 2022 19:38:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-469-2</guid>
+        <source url="https://community.keyauth.cc/t/how-to-do-key-auth-response/469.rss">How to do key Auth response</source>
+      </item>
+      <item>
+        <title>How to do key Auth response</title>
+        <dc:creator><![CDATA[Learningslowly]]></dc:creator>
+        <description><![CDATA[
+            <p>How can I do Keyauth response to log in click on imgui</p>
+<p>Eg shows message saying key expired or incorrect hwid</p>
+<p>I’ve tested every method I can think of but can’t figure it out or find any info online</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-do-key-auth-response/469/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-do-key-auth-response/469/1</link>
+        <pubDate>Fri, 22 Jul 2022 00:09:38 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-469-1</guid>
+        <source url="https://community.keyauth.cc/t/how-to-do-key-auth-response/469.rss">How to do key Auth response</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 22:44:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Packaging problem of my keyauth project that I wrote with C# winform? - C# - KeyAuth</title>
+    <meta name="description" content="Packaging problem of my keyauth project that I wrote with C# winform? 
+I want to use vmprotect, but when I pack, the C# software I wrote with keyauth does not open. I tried not to encrypt the api file. Again, there must &amp;hellip;">
+    <meta name="generator" content="Discourse 2.9.0.beta14 - https://github.com/discourse/discourse version 64b781dacfd915f63480ddc7f8f0f4b0452bcecd">
+<link rel="icon" type="image/png" href="../../uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="../../uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_180x180.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="94.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="KeyAuth Search">
+
+    <link href="../../stylesheets/color_definitions_base___4c54df19f9f59e26ee232a7eb94b30e03c73cdbf.css_%3b%20filename_%3dUTF-8%27%27color_definitions_base___4c54df19f9f59e26ee232a7eb94b30e03c73cdbf0123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" class="light-scheme"/><link href="../../stylesheets/color_definitions_dark_1__4f4f1c6b9f8578178ed894e2ff0a35ea00dd6d1b.css_%3b%20filename_%3dUTF-8%27%27color_definitions_dark_1__4f4f1c6b9f8578178ed894e2ff0a35ea00dd6d1b0123.css?__ws=community.keyauth.cc" media="(prefers-color-scheme: dark)" rel="stylesheet" class="dark-scheme"/>
+
+  <link href="../../stylesheets/desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="../../stylesheets/discourse-canned-replies_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-canned-replies_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-canned-replies"  />
+  <link href="../../stylesheets/discourse-chat-integration_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-chat-integration_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.cs?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-chat-integration"  />
+  <link href="../../stylesheets/discourse-details_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-details_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="../../stylesheets/discourse-local-dates_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-local-dates_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="../../stylesheets/discourse-narrative-bot_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-narrative-bot_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="../../stylesheets/discourse-presence_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-presence_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="../../stylesheets/discourse-solved_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-solved_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="../../stylesheets/discourse-tooltips_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-tooltips_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-tooltips"  />
+  <link href="../../stylesheets/discourse-voting_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-voting_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-voting"  />
+  <link href="../../stylesheets/lazy-yt_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27lazy-yt_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="lazy-yt"  />
+  <link href="../../stylesheets/poll_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27poll_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="../../stylesheets/discourse-voting_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-voting_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-voting_desktop"  />
+  <link href="../../stylesheets/poll_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27poll_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Packaging problem of my keyauth project that I wrote with C# winform?&#39;" href="94.rss" />
+    <meta property="og:site_name" content="KeyAuth" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png" />
+<meta property="og:image" content="../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png" />
+<meta property="og:url" content="94.html" />
+<meta name="twitter:url" content="94.html" />
+<meta property="og:title" content="Packaging problem of my keyauth project that I wrote with C# winform?" />
+<meta name="twitter:title" content="Packaging problem of my keyauth project that I wrote with C# winform?" />
+<meta property="og:description" content="Packaging problem of my keyauth project that I wrote with C# winform?  I want to use vmprotect, but when I pack, the C# software I wrote with keyauth does not open. I tried not to encrypt the api file. Again, there must be a solution for this." />
+<meta name="twitter:description" content="Packaging problem of my keyauth project that I wrote with C# winform?  I want to use vmprotect, but when I pack, the C# software I wrote with keyauth does not open. I tried not to encrypt the api file. Again, there must be a solution for this." />
+<meta name="twitter:label1" value="Reading time" />
+<meta name="twitter:data1" value="1 mins 🕑" />
+<meta name="twitter:label2" value="Likes" />
+<meta name="twitter:data2" value="3 ❤" />
+<meta property="article:published_time" content="2022-05-30T22:59:09+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"QAPage","name":"Packaging problem of my keyauth project that I wrote with C# winform?","mainEntity":{"@type":"Question","name":"Packaging problem of my keyauth project that I wrote with C# winform?","text":"Packaging problem of my keyauth project that I wrote with C# winform?\n\nI want to use vmprotect, but when I pack, the C# software I wrote with keyauth does not open. I tried not to encrypt the api file. Again, there must be a solution for this.","upvoteCount":0,"answerCount":0,"dateCreated":"2022-05-30T22:59:08.787Z","author":{"@type":"Person","name":""}}}</script>
+  </head>
+  <body class="crawler">
+    
+    <header>
+  <a href="../../index.html">
+    KeyAuth
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="94.html">Packaging problem of my keyauth project that I wrote with C# winform?</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="../../c/examples/5.html" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #0088CC'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Questions/Help with Examples</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="../../c/examples/csharp/8.html" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #280068'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>C#</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+
+      <div id='post_1' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/ByYasin.html'><span itemprop='name'>ByYasin</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-05-30T22:59:09Z' class='post-time'>
+                May 30, 2022, 10:59pm
+              </time>
+              <meta itemprop='dateModified' content='2022-05-30T22:59:09Z'>
+          <span itemprop='position'>#1</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Packaging problem of my keyauth project that I wrote with C# winform?</p>
+<p>I want to use vmprotect, but when I pack, the C# software I wrote with keyauth does not open. I tried not to encrypt the api file. Again, there must be a solution for this.</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+          <meta itemprop='keywords' content=''>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="1" />
+          </div>
+
+      </div>
+      <div id='post_2' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/Weebzo.html'><span itemprop='name'>Weebzo</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-05-30T23:01:38Z' class='post-time'>
+                May 30, 2022, 11:01pm
+              </time>
+              <meta itemprop='dateModified' content='2022-05-30T23:02:12Z'>
+          <span itemprop='position'>#2</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>dont virtualize everything of the api class, only virtualize the important functions, login, register and etc, also the function that parses the json content since that can be tampered with</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="1" />
+           <span class='post-likes'>1 Like</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="1" />
+          </div>
+
+      </div>
+      <div id='post_3' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/mak.html'><span itemprop='name'>mak</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-05-30T23:03:31Z' class='post-time'>
+                May 30, 2022, 11:03pm
+              </time>
+              <meta itemprop='dateModified' content='2022-05-30T23:03:31Z'>
+          <span itemprop='position'>#3</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>You need to set VMP settings to ignore the JSON attributes used in KeyAuth.cs, such as <code>success</code>, <code>message</code>, etc. These cannot be renamed by an obfuscator renamer or it breaks the program.</p>
+<p>The default VMP settings work fine for me, so it’s a configuration problem with your VMP instance. Just play around with it and you should get it working.</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="1" />
+           <span class='post-likes'>1 Like</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="2" />
+          </div>
+
+      </div>
+      <div id='post_4' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/ByYasin.html'><span itemprop='name'>ByYasin</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-05-31T23:05:14Z' class='post-time'>
+                May 31, 2022, 11:05pm
+              </time>
+              <meta itemprop='dateModified' content='2022-05-31T23:05:14Z'>
+          <span itemprop='position'>#4</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Hi, mak.<br>
+first of all thank you for your answer.</p>
+<p>" <code>success</code> , <code>message</code> , etc "</p>
+<p>Is there a short tutorial or a sample screenshoot about this part?</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_5' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/ByYasin.html'><span itemprop='name'>ByYasin</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-03T20:28:07Z' class='post-time'>
+                June 3, 2022,  8:28pm
+              </time>
+              <meta itemprop='dateModified' content='2022-06-03T20:28:07Z'>
+          <span itemprop='position'>#5</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>To test, even if I encrypt nothing but only the login form, it still does not open.</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_6' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/ByYasin.html'><span itemprop='name'>ByYasin</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-03T21:57:34Z' class='post-time'>
+                June 3, 2022,  9:57pm
+              </time>
+              <meta itemprop='dateModified' content='2022-06-03T21:57:34Z'>
+          <span itemprop='position'>#6</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>yes, I take these into account, but the error is:  Not initialized Check if KeyAuthApp.init() does exist</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="1" />
+          </div>
+
+      </div>
+      <div id='post_7' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/mak.html'><span itemprop='name'>mak</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-03T22:11:16Z' class='post-time'>
+                June 3, 2022, 10:11pm
+              </time>
+              <meta itemprop='dateModified' content='2022-06-03T22:11:16Z'>
+          <span itemprop='position'>#7</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Must do <code>KeyAuthApp.init();</code> before any other KeyAuth functions</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="2" />
+          </div>
+
+      </div>
+      <div id='post_8' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/ByYasin.html'><span itemprop='name'>ByYasin</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+            <link itemprop="image" href="../../uploads/default/original/1X/51376cfcaa62b2736f49d5c1140a2a58a4fa42db.png">
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-03T22:18:23Z' class='post-time'>
+                June 3, 2022, 10:18pm
+              </time>
+              <meta itemprop='dateModified' content='2022-06-03T22:18:23Z'>
+          <span itemprop='position'>#8</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>so</p>
+<p><img src="../../../community.keyauth.win/uploads/default/original/1X/51376cfcaa62b2736f49d5c1140a2a58a4fa42db.png" alt="Fxix5uu3Y9" data-base62-sha1="bAtqizpgC9PswPOJaeEeRQ2LzVp" width="690" height="454"></p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_9' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/ByYasin.html'><span itemprop='name'>ByYasin</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-03T22:24:31Z' class='post-time'>
+                June 3, 2022, 10:24pm
+              </time>
+              <meta itemprop='dateModified' content='2022-06-03T22:24:31Z'>
+          <span itemprop='position'>#9</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Do you have a chance to publish a short tutorial or post a picture while packing a sample exe using keyauth so that we don’t get any errors with vmp?</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="1" />
+          </div>
+
+      </div>
+      <div id='post_10' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/mak.html'><span itemprop='name'>mak</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-04T20:04:10Z' class='post-time'>
+                June 4, 2022,  8:04pm
+              </time>
+              <meta itemprop='dateModified' content='2022-06-04T20:04:10Z'>
+          <span itemprop='position'>#10</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Default VMP settings work for me. I assume you’ve changed some settings, so I recommend you try changing settings back until you get it working.</p>
+<p>I’m using this <a href="https://cracked.io/Thread-Cracked-VMProtect-ULTIMATE-3-4-0-Build-1155" class="inline-onebox">VMProtect ULTIMATE 3.4.0 Build 1155</a></p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="2" />
+          </div>
+
+      </div>
+      <div id='post_11' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/ByYasin.html'><span itemprop='name'>ByYasin</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-06T21:07:40Z' class='post-time'>
+                June 6, 2022,  9:07pm
+              </time>
+              <meta itemprop='dateModified' content='2022-06-06T21:07:40Z'>
+          <span itemprop='position'>#11</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>my vmp 3.5<br>
+Is it caused by it?</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_12' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/ByYasin.html'><span itemprop='name'>ByYasin</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-06T21:09:50Z' class='post-time'>
+                June 6, 2022,  9:09pm
+              </time>
+              <meta itemprop='dateModified' content='2022-06-06T21:09:50Z'>
+          <span itemprop='position'>#12</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>Actually I can’t change any settings, I use it by default.</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_13' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/mak.html'><span itemprop='name'>mak</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-06T22:11:57Z' class='post-time'>
+                June 6, 2022, 10:11pm
+              </time>
+              <meta itemprop='dateModified' content='2022-06-06T22:11:57Z'>
+          <span itemprop='position'>#13</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>try 3.4 then. am locking this topic, as it’s not an issue with KeyAuth but rather obfuscation.</p>
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="1" />
+           <span class='post-likes'>1 Like</span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_14' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/mak.html'><span itemprop='name'>mak</span></a>
+            
+              closed 
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="94.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-06-06T22:12:05Z' class='post-time'>
+                June 6, 2022, 10:12pm
+              </time>
+              <meta itemprop='dateModified' content='2022-06-06T22:12:05Z'>
+          <span itemprop='position'>#14</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          
+        </div>
+
+        <meta itemprop='headline' content='Packaging problem of my keyauth project that I wrote with C# winform?'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../index.html' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../categories.html' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../guidelines.html' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../tos.html' itemprop="url">Terms of Service </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../privacy.html' itemprop="url">Privacy Policy </a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org/">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    
+  <script>(function(){var js = "window['__CF$cv$params']={r:'7760c766cbe72286',m:'XqZGrRdsC4PRZ4GIZCJXN1HgMvQKvKH3aN0yIsifK4Q-1670452993-0-AZ+f2GMk46KOPpf9mug63GfkxmUACwipdTDJmOIN1UsrVuJBQ/1wmM/HlaRrRny20AfU7nEPF8BHwPAEbUQ2PTmXku4dgIp3YUF+rPaBiFvneLiTBv6Qxu9PtRpTpaEALHvRCmzMAo+b2rBEKDCF8ptBg3QIr9EAJiOaRrAGq3G2Tec/lCwyjBwB3//sRhvIvG7w7Kxng7oKNG/tggiEjCY=',s:[0x1d6b973f9a,0xe9fdda8f97],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../../cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7760c766cbe72286","version":"2022.11.3","r":1,"token":"e335876c42b04d78890a250ef7586bf5","si":100}' crossorigin="anonymous"></script>
+</body>
+  
+
+<!-- Mirrored from community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 22:44:54 GMT -->
+</html>

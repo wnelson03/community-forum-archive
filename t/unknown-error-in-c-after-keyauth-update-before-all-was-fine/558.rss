@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Unknown error in c++ after keyauth update. before all was fine</title>
+    <link>https://community.keyauth.cc/t/unknown-error-in-c-after-keyauth-update-before-all-was-fine/558</link>
+    <description>I ADDED NEW AUTH.hpp and i am getting this error
+
+![image|688x391](upload://o3xxszRUXEmk8TLNEd0vmzDhwWk.png)</description>
+    
+    <lastBuildDate>Tue, 09 Aug 2022 08:25:49 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/unknown-error-in-c-after-keyauth-update-before-all-was-fine/558.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Unknown error in c++ after keyauth update. before all was fine</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Use google and dont paste.</p>
+          <p><a href="https://community.keyauth.cc/t/unknown-error-in-c-after-keyauth-update-before-all-was-fine/558/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/unknown-error-in-c-after-keyauth-update-before-all-was-fine/558/2</link>
+        <pubDate>Tue, 09 Aug 2022 08:25:49 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-558-2</guid>
+        <source url="https://community.keyauth.cc/t/unknown-error-in-c-after-keyauth-update-before-all-was-fine/558.rss">Unknown error in c++ after keyauth update. before all was fine</source>
+      </item>
+      <item>
+        <title>Unknown error in c++ after keyauth update. before all was fine</title>
+        <dc:creator><![CDATA[UnKnown_Person]]></dc:creator>
+        <description><![CDATA[
+            <p>I ADDED NEW AUTH.hpp and i am getting this error</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/a89aa508798cce4d4c30c17c12ffd63f5b937728.png" alt="image" data-base62-sha1="o3xxszRUXEmk8TLNEd0vmzDhwWk" width="688" height="391"></p>
+          <p><a href="https://community.keyauth.cc/t/unknown-error-in-c-after-keyauth-update-before-all-was-fine/558/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/unknown-error-in-c-after-keyauth-update-before-all-was-fine/558/1</link>
+        <pubDate>Tue, 02 Aug 2022 09:16:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-558-1</guid>
+        <source url="https://community.keyauth.cc/t/unknown-error-in-c-after-keyauth-update-before-all-was-fine/558.rss">Unknown error in c++ after keyauth update. before all was fine</source>
+      </item>
+  </channel>
+</rss>

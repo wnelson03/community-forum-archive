@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>FIleID Question</title>
+    <link>https://community.keyauth.cc/t/fileid-question/338</link>
+    <description>is it possible to use the file ID but no touch disk but able to exucute</description>
+    
+    <lastBuildDate>Mon, 04 Jul 2022 23:56:33 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/fileid-question/338.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>FIleID Question</title>
+        <dc:creator><![CDATA[ExpiredMilk]]></dc:creator>
+        <description><![CDATA[
+            <p>is it possible to use the file ID but no touch disk but able to exucute</p>
+          <p><a href="https://community.keyauth.cc/t/fileid-question/338/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/fileid-question/338/1</link>
+        <pubDate>Mon, 04 Jul 2022 23:56:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-338-1</guid>
+        <source url="https://community.keyauth.cc/t/fileid-question/338.rss">FIleID Question</source>
+      </item>
+  </channel>
+</rss>

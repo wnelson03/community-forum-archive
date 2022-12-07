@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KeyAuth API Documentation</title>
+    <link>https://community.keyauth.cc/t/keyauth-api-documentation/64</link>
+    <description>API Documentation can be found here: 
+( [KeyAuth API Documentation - KeyAuth](https://docs.keyauth.win/))</description>
+    
+    <lastBuildDate>Sat, 28 May 2022 14:48:36 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauth-api-documentation/64.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>KeyAuth API Documentation</title>
+        <dc:creator><![CDATA[aether]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/keyauth-api-documentation/64/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-api-documentation/64/3</link>
+        <pubDate>Sat, 28 May 2022 14:48:58 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-64-3</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-api-documentation/64.rss">KeyAuth API Documentation</source>
+      </item>
+      <item>
+        <title>KeyAuth API Documentation</title>
+        <dc:creator><![CDATA[aether]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/keyauth-api-documentation/64/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-api-documentation/64/2</link>
+        <pubDate>Sat, 28 May 2022 14:48:49 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-64-2</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-api-documentation/64.rss">KeyAuth API Documentation</source>
+      </item>
+      <item>
+        <title>KeyAuth API Documentation</title>
+        <dc:creator><![CDATA[aether]]></dc:creator>
+        <description><![CDATA[
+            <p>API Documentation can be found here:<br>
+( <a href="https://docs.keyauth.win/">KeyAuth API Documentation - KeyAuth</a>)</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-api-documentation/64/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-api-documentation/64/1</link>
+        <pubDate>Sat, 28 May 2022 14:48:36 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-64-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-api-documentation/64.rss">KeyAuth API Documentation</source>
+      </item>
+  </channel>
+</rss>

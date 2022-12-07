@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Can you use KeyAuth c++ on a release x86 and is theres any tutorials</title>
+    <link>https://community.keyauth.cc/t/can-you-use-keyauth-c-on-a-release-x86-and-is-theres-any-tutorials/74</link>
+    <description>Hello I was just wondering, if you can use KeyAuth c++ on a release x86 and if theres any tutorials.</description>
+    
+    <lastBuildDate>Sun, 29 May 2022 13:03:28 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/can-you-use-keyauth-c-on-a-release-x86-and-is-theres-any-tutorials/74.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Can you use KeyAuth c++ on a release x86 and is theres any tutorials</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes, you must compile KeyAuth library and curl library in x86 then replace the files in the example project</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" target="_blank" rel="noopener">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/b1d7d9491fc55bf8377dd4cfbab69e9c7976bfa0.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" target="_blank" rel="noopener">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a></h3>
+
+  <p>KeyAuth C++ Library. Contribute to KeyAuth/keyauth-cpp-library development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/can-you-use-keyauth-c-on-a-release-x86-and-is-theres-any-tutorials/74/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/can-you-use-keyauth-c-on-a-release-x86-and-is-theres-any-tutorials/74/2</link>
+        <pubDate>Sun, 29 May 2022 13:03:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-74-2</guid>
+        <source url="https://community.keyauth.cc/t/can-you-use-keyauth-c-on-a-release-x86-and-is-theres-any-tutorials/74.rss">Can you use KeyAuth c++ on a release x86 and is theres any tutorials</source>
+      </item>
+      <item>
+        <title>Can you use KeyAuth c++ on a release x86 and is theres any tutorials</title>
+        <dc:creator><![CDATA[MRaMONNGUS]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello I was just wondering, if you can use KeyAuth c++ on a release x86 and if theres any tutorials.</p>
+          <p><a href="https://community.keyauth.cc/t/can-you-use-keyauth-c-on-a-release-x86-and-is-theres-any-tutorials/74/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/can-you-use-keyauth-c-on-a-release-x86-and-is-theres-any-tutorials/74/1</link>
+        <pubDate>Sun, 29 May 2022 06:06:37 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-74-1</guid>
+        <source url="https://community.keyauth.cc/t/can-you-use-keyauth-c-on-a-release-x86-and-is-theres-any-tutorials/74.rss">Can you use KeyAuth c++ on a release x86 and is theres any tutorials</source>
+      </item>
+  </channel>
+</rss>

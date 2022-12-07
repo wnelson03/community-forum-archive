@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Ip displaying on the console for keyauth</title>
+    <link>https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727</link>
+    <description>Hello, i am new and abit lost i managed to add the auth to my python script and works fine and all even when logging in,  1 thing i wish to remove though is the part where when i login it shows my ip and hardware id and so on.. how do i remove this completely? i am new with python and just trying to learn :slight_smile: 
+
+:white_check_mark: I agree that **I will not ask for help with non-KeyAuth related topics**, this community site **is only for asking about the default KeyAuth example with NO changes made to it**</description>
+    
+    <lastBuildDate>Sat, 27 Aug 2022 23:42:01 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Ip displaying on the console for keyauth</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727/4</link>
+        <pubDate>Sun, 28 Aug 2022 10:51:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-727-4</guid>
+        <source url="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727.rss">Ip displaying on the console for keyauth</source>
+      </item>
+      <item>
+        <title>Ip displaying on the console for keyauth</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/f87aac661d952d95044ead47f2c3b23897ea2184.png" alt="image" data-base62-sha1="zs9ePPrZtlphWfhaUrom4FAB4XO" width="690" height="123"></p>
+          <p><a href="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727/3</link>
+        <pubDate>Sat, 27 Aug 2022 23:42:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-727-3</guid>
+        <source url="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727.rss">Ip displaying on the console for keyauth</source>
+      </item>
+      <item>
+        <title>Ip displaying on the console for keyauth</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>maybe remove the lines that prints the Ip and other stuff? lol</p>
+          <p><a href="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727/2</link>
+        <pubDate>Sat, 27 Aug 2022 23:38:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-727-2</guid>
+        <source url="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727.rss">Ip displaying on the console for keyauth</source>
+      </item>
+      <item>
+        <title>Ip displaying on the console for keyauth</title>
+        <dc:creator><![CDATA[cxrrupted]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello, i am new and abit lost i managed to add the auth to my python script and works fine and all even when logging in,  1 thing i wish to remove though is the part where when i login it shows my ip and hardware id and so on… how do i remove this completely? i am new with python and just trying to learn <img src="https://community.keyauth.win/images/emoji/twitter/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20"></p>
+<p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+          <p><a href="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727/1</link>
+        <pubDate>Sat, 27 Aug 2022 23:23:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-727-1</guid>
+        <source url="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727.rss">Ip displaying on the console for keyauth</source>
+      </item>
+  </channel>
+</rss>

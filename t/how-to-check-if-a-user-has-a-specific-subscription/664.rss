@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to check if a user has a specific subscription</title>
+    <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664</link>
+    <description>Anyone know what is wrong or have any other code i can use?
+
+![image|690x249](upload://3b0djbRGC4UPDHl0H63LmIXmsI2.png)</description>
+    
+    <lastBuildDate>Thu, 18 Aug 2022 20:49:45 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to check if a user has a specific subscription</title>
+        <dc:creator><![CDATA[Yonaire]]></dc:creator>
+        <description><![CDATA[
+            <p>afaik there is only subscription, so looping through it will throw an null exception</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/6</link>
+        <pubDate>Thu, 18 Aug 2022 20:49:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-664-6</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664.rss">How to check if a user has a specific subscription</source>
+      </item>
+      <item>
+        <title>How to check if a user has a specific subscription</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>you are checking user subscription before they are logged in? its seems as if you just Initialized keyauth in that function then didn’t login</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/5</link>
+        <pubDate>Wed, 17 Aug 2022 20:37:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-664-5</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664.rss">How to check if a user has a specific subscription</source>
+      </item>
+      <item>
+        <title>How to check if a user has a specific subscription</title>
+        <dc:creator><![CDATA[Banna]]></dc:creator>
+        <description><![CDATA[
+            <p>I copied this code from another post but the original code game me errors if i don’t use the init</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/4</link>
+        <pubDate>Wed, 17 Aug 2022 17:00:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-664-4</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664.rss">How to check if a user has a specific subscription</source>
+      </item>
+      <item>
+        <title>How to check if a user has a specific subscription</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>And its useless calling the check method if you arent checking the response</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/3</link>
+        <pubDate>Wed, 17 Aug 2022 16:55:46 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-664-3</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664.rss">How to check if a user has a specific subscription</source>
+      </item>
+      <item>
+        <title>How to check if a user has a specific subscription</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>You have init in your main form</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/2</link>
+        <pubDate>Wed, 17 Aug 2022 16:55:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-664-2</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664.rss">How to check if a user has a specific subscription</source>
+      </item>
+      <item>
+        <title>How to check if a user has a specific subscription</title>
+        <dc:creator><![CDATA[Banna]]></dc:creator>
+        <description><![CDATA[
+            <p>Anyone know what is wrong or have any other code i can use?</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/1644f17b87b05e6224d57e465ac31fa5c820779a.png" alt="image" data-base62-sha1="3b0djbRGC4UPDHl0H63LmIXmsI2" width="690" height="249"></p>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664/1</link>
+        <pubDate>Wed, 17 Aug 2022 16:43:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-664-1</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-specific-subscription/664.rss">How to check if a user has a specific subscription</source>
+      </item>
+  </channel>
+</rss>

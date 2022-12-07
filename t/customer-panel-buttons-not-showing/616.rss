@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Customer panel buttons not showing</title>
+    <link>https://community.keyauth.cc/t/customer-panel-buttons-not-showing/616</link>
+    <description>So basically i fixed my previous thread and got the entire thing working flawlessly
+
+Well. Actually its not running that &quot;flawlessly&quot; and has some flaws including when like I login and stuff it shows me my userid on my app and like it works and all you know but uhm the only problem is that it wont show the buttons i made and YES i have seller plan
+
+So the buttons I made wont show up, Tried firefox chrome brave microsoft edge whatever browser mozilla released on earth even tried open sourced browsers and none of them showed up the buttons (and dont insult me ive tried 3/4 non-chromium based + and chromium based and didnt work)
+
+I refreshed the page around 120 times (not capping) and STILL wont work!!
+
+Please help,
+TY my G</description>
+    
+    <lastBuildDate>Fri, 12 Aug 2022 09:03:47 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/customer-panel-buttons-not-showing/616.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Customer panel buttons not showing</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>I am not sure if users here will be able to help you, never heart of that issue before…<br>
+Let me know if you find a fix or if you even have any news on that issue!</p>
+          <p><a href="https://community.keyauth.cc/t/customer-panel-buttons-not-showing/616/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/customer-panel-buttons-not-showing/616/2</link>
+        <pubDate>Fri, 12 Aug 2022 09:03:47 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-616-2</guid>
+        <source url="https://community.keyauth.cc/t/customer-panel-buttons-not-showing/616.rss">Customer panel buttons not showing</source>
+      </item>
+      <item>
+        <title>Customer panel buttons not showing</title>
+        <dc:creator><![CDATA[Curve]]></dc:creator>
+        <description><![CDATA[
+            <p>So basically i fixed my previous thread and got the entire thing working flawlessly</p>
+<p>Well. Actually its not running that “flawlessly” and has some flaws including when like I login and stuff it shows me my userid on my app and like it works and all you know but uhm the only problem is that it wont show the buttons i made and YES i have seller plan</p>
+<p>So the buttons I made wont show up, Tried firefox chrome brave microsoft edge whatever browser mozilla released on earth even tried open sourced browsers and none of them showed up the buttons (and dont insult me ive tried 3/4 non-chromium based + and chromium based and didnt work)</p>
+<p>I refreshed the page around 120 times (not capping) and STILL wont work!!</p>
+<p>Please help,<br>
+TY my G</p>
+          <p><a href="https://community.keyauth.cc/t/customer-panel-buttons-not-showing/616/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/customer-panel-buttons-not-showing/616/1</link>
+        <pubDate>Tue, 09 Aug 2022 19:57:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-616-1</guid>
+        <source url="https://community.keyauth.cc/t/customer-panel-buttons-not-showing/616.rss">Customer panel buttons not showing</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>What&#39;s session id and how can i get it?</title>
+    <link>https://community.keyauth.cc/t/whats-session-id-and-how-can-i-get-it/103</link>
+    <description>Hello! I know that&#39;s a stupid question, by the way, what&#39;s session ID and how can i get it using c++?</description>
+    
+    <lastBuildDate>Mon, 06 Jun 2022 22:30:46 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/whats-session-id-and-how-can-i-get-it/103.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>What&#39;s session id and how can i get it?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>the session ID is used to to know who a user is  without needing to send username and password in every single request.</p>
+<p>we’ll look at adding function to obtain session ID in future.</p>
+          <p><a href="https://community.keyauth.cc/t/whats-session-id-and-how-can-i-get-it/103/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/whats-session-id-and-how-can-i-get-it/103/2</link>
+        <pubDate>Mon, 06 Jun 2022 22:30:46 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-103-2</guid>
+        <source url="https://community.keyauth.cc/t/whats-session-id-and-how-can-i-get-it/103.rss">What&#39;s session id and how can i get it?</source>
+      </item>
+      <item>
+        <title>What&#39;s session id and how can i get it?</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello! I know that’s a stupid question, by the way, what’s session ID and how can i get it using c++?</p>
+          <p><a href="https://community.keyauth.cc/t/whats-session-id-and-how-can-i-get-it/103/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/whats-session-id-and-how-can-i-get-it/103/1</link>
+        <pubDate>Tue, 31 May 2022 14:10:59 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-103-1</guid>
+        <source url="https://community.keyauth.cc/t/whats-session-id-and-how-can-i-get-it/103.rss">What&#39;s session id and how can i get it?</source>
+      </item>
+  </channel>
+</rss>

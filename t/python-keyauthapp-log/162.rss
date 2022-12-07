@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Python keyauthapp.log</title>
+    <link>https://community.keyauth.cc/t/python-keyauthapp-log/162</link>
+    <description>Whenever I try to log a message in python using keyauthapp.log, it never actually logs it or displays Long text/short text error.</description>
+    
+    <lastBuildDate>Thu, 09 Jun 2022 16:34:30 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/python-keyauthapp-log/162.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Python keyauthapp.log</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <pre data-code-wrap="py"><code class="lang-nohighlight">keyauthapp.log("test")
+</code></pre>
+<p>working for me</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/8660e6f12ac7b508a4bfbb17192ab04b4fc5dae2.png" alt="image" data-base62-sha1="jaLAKZlb9pnei1YqOBIEwCK8YFA" width="491" height="285"></p>
+          <p><a href="https://community.keyauth.cc/t/python-keyauthapp-log/162/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-keyauthapp-log/162/2</link>
+        <pubDate>Thu, 09 Jun 2022 16:34:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-162-2</guid>
+        <source url="https://community.keyauth.cc/t/python-keyauthapp-log/162.rss">Python keyauthapp.log</source>
+      </item>
+      <item>
+        <title>Python keyauthapp.log</title>
+        <dc:creator><![CDATA[Lucas_Manolia]]></dc:creator>
+        <description><![CDATA[
+            <p>Whenever I try to log a message in python using keyauthapp.log, it never actually logs it or displays Long text/short text error.</p>
+          <p><a href="https://community.keyauth.cc/t/python-keyauthapp-log/162/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-keyauthapp-log/162/1</link>
+        <pubDate>Thu, 09 Jun 2022 15:41:13 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-162-1</guid>
+        <source url="https://community.keyauth.cc/t/python-keyauthapp-log/162.rss">Python keyauthapp.log</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Keyautch API Run Error</title>
+    <link>https://community.keyauth.cc/t/keyautch-api-run-error/168</link>
+    <description>Hi, im getting this error when i launch it. How to fix it?
+
+![Unbenannt|690x388](upload://7lknDnEqt97Y0djUqZCkY08lKrs.png)</description>
+    
+    <lastBuildDate>Fri, 10 Jun 2022 19:57:16 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/keyautch-api-run-error/168.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Keyautch API Run Error</title>
+        <dc:creator><![CDATA[Infinitylol]]></dc:creator>
+        <description><![CDATA[
+            <p>It was the Windows Firewall -_-</p>
+          <p><a href="https://community.keyauth.cc/t/keyautch-api-run-error/168/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyautch-api-run-error/168/4</link>
+        <pubDate>Fri, 10 Jun 2022 19:57:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-168-4</guid>
+        <source url="https://community.keyauth.cc/t/keyautch-api-run-error/168.rss">Keyautch API Run Error</source>
+      </item>
+      <item>
+        <title>Keyautch API Run Error</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>also try running the python file from cmd</p>
+          <p><a href="https://community.keyauth.cc/t/keyautch-api-run-error/168/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyautch-api-run-error/168/3</link>
+        <pubDate>Fri, 10 Jun 2022 17:08:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-168-3</guid>
+        <source url="https://community.keyauth.cc/t/keyautch-api-run-error/168.rss">Keyautch API Run Error</source>
+      </item>
+      <item>
+        <title>Keyautch API Run Error</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>Something blocking the connection, are u using a http debugger?</p>
+          <p><a href="https://community.keyauth.cc/t/keyautch-api-run-error/168/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyautch-api-run-error/168/2</link>
+        <pubDate>Fri, 10 Jun 2022 12:40:38 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-168-2</guid>
+        <source url="https://community.keyauth.cc/t/keyautch-api-run-error/168.rss">Keyautch API Run Error</source>
+      </item>
+      <item>
+        <title>Keyautch API Run Error</title>
+        <dc:creator><![CDATA[Infinitylol]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi, im getting this error when i launch it. How to fix it?</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/33786f4a7d12238acf419551aae9ee5a83328136.png" alt="Unbenannt" data-base62-sha1="7lknDnEqt97Y0djUqZCkY08lKrs" width="690" height="388"></p>
+          <p><a href="https://community.keyauth.cc/t/keyautch-api-run-error/168/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyautch-api-run-error/168/1</link>
+        <pubDate>Fri, 10 Jun 2022 12:18:46 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-168-1</guid>
+        <source url="https://community.keyauth.cc/t/keyautch-api-run-error/168.rss">Keyautch API Run Error</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>I have a problem with the .lib</title>
+    <link>https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573</link>
+    <description>Hey guys .. this problem makes me get mad
+
+i have exception and runtime error
+I have tried the two libs on github and applied the 3 solutions on the discord
+Nothing works with me, then i have to build new lib and its working fine but i got exception while `KeyAuthApp.init();`
+
+![Capture|690x241](upload://7jAXEs4HMMc4VzHByuJl2vjj5tX.png)</description>
+    
+    <lastBuildDate>Thu, 11 Aug 2022 07:47:14 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>I have a problem with the .lib</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>I realized the quality after posting too, <a class="mention" href="https://community.keyauth.cc/u/curve">@Curve</a> noone told him to uninstall/reinstall VS I told him to repair his VS which fixes corrupted depencies.</p>
+          <p><a href="https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573/4</link>
+        <pubDate>Thu, 11 Aug 2022 07:47:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-573-4</guid>
+        <source url="https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573.rss">I have a problem with the .lib</source>
+      </item>
+      <item>
+        <title>I have a problem with the .lib</title>
+        <dc:creator><![CDATA[Curve]]></dc:creator>
+        <description><![CDATA[
+            <p>Has to be the funniest comment I’ve seen yet from any support member<br>
+Bunch of incoherences in your post, let me name a few</p>
+<ul>
+<li>
+<p>Why… Just why point out that bro debugged and accidentally leaked his program details? Is the FBI going to chase him for an ownerID he can refresh in “one button” ? (yes, literally one click on your dashboard.) <strong>NO</strong> so im not toxic and stuff but absolutely <strong>NOBODY</strong> cares</p>
+</li>
+<li>
+<p>And as that clearly wasn’t enough, youre pointing him to the wrong direction. Reinstalling visual studio will never change a C++ issue, where the fuck did you get this information from??</p>
+</li>
+<li>
+<p>“This does not have to be library related, tho it might be” Okay just say it is and get straight to the point what the actual fuck??</p>
+</li>
+</ul>
+<p>I don’t hate you btw I like all support members but low quality post<br>
+Anyways, nice info on other post this one was sad to see stil</p>
+          <p><a href="https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573/3</link>
+        <pubDate>Tue, 09 Aug 2022 20:06:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-573-3</guid>
+        <source url="https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573.rss">I have a problem with the .lib</source>
+      </item>
+      <item>
+        <title>I have a problem with the .lib</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Good job leaking your program details, lol.</p>
+<p>This does not have to be library related, tho it might be… is this the default GitHub example? <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example" class="inline-onebox">GitHub - KeyAuth/KeyAuth-CPP-Example: KeyAuth CPP Example</a></p>
+<p>Try repairing your visual studio if the issue keeps happening.</p>
+          <p><a href="https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573/2</link>
+        <pubDate>Tue, 09 Aug 2022 08:27:29 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-573-2</guid>
+        <source url="https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573.rss">I have a problem with the .lib</source>
+      </item>
+      <item>
+        <title>I have a problem with the .lib</title>
+        <dc:creator><![CDATA[xConquer]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey guys … this problem makes me get mad</p>
+<p>i have exception and runtime error<br>
+I have tried the two libs on github and applied the 3 solutions on the discord<br>
+Nothing works with me, then i have to build new lib and its working fine but i got exception while <code>KeyAuthApp.init();</code></p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/33464c17f7c5666d9ccf26efe6fa44a31232e30d.png" alt="Capture" data-base62-sha1="7jAXEs4HMMc4VzHByuJl2vjj5tX" width="690" height="241"></p>
+          <p><a href="https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573/1</link>
+        <pubDate>Wed, 03 Aug 2022 14:50:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-573-1</guid>
+        <source url="https://community.keyauth.cc/t/i-have-a-problem-with-the-lib/573.rss">I have a problem with the .lib</source>
+      </item>
+  </channel>
+</rss>

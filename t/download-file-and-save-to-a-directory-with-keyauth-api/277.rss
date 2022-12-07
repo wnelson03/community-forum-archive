@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Download File and Save to a directory with Keyauth API</title>
+    <link>https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277</link>
+    <description>does someone has the code to download and save a file in a directory with the keyauth api in c++?</description>
+    
+    <lastBuildDate>Tue, 28 Jun 2022 19:07:25 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Download File and Save to a directory with Keyauth API</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>anything else we can help with or you all sorted now mate</p>
+          <p><a href="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/7</link>
+        <pubDate>Tue, 28 Jun 2022 19:07:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-277-7</guid>
+        <source url="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277.rss">Download File and Save to a directory with Keyauth API</source>
+      </item>
+      <item>
+        <title>Download File and Save to a directory with Keyauth API</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>yh for some reason the first time i posted it removed all the " marks lol</p>
+          <p><a href="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/6</link>
+        <pubDate>Tue, 28 Jun 2022 19:06:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-277-6</guid>
+        <source url="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277.rss">Download File and Save to a directory with Keyauth API</source>
+      </item>
+      <item>
+        <title>Download File and Save to a directory with Keyauth API</title>
+        <dc:creator><![CDATA[Afonso_Segredo]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="lIMonkieIl" data-post="4" data-topic="277">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/limonkieil/40/48_2.png" class="avatar"> lIMonkieIl:</div>
+<blockquote>
+<pre><code class="lang-auto">std::vector&lt;std::uint8_t&gt; bytes = KeyAuthApp.download("167212");
+	std::ofstream file("file.exe", std::ios_base::out | std::ios_base::binary);
+	file.write((char*)bytes.data(), bytes.size());
+	file.close();
+</code></pre>
+</blockquote>
+</aside>
+<p>thanks! solved the errors <img src="https://community.keyauth.win/images/emoji/twitter/+1.png?v=12" title=":+1:" class="emoji" alt=":+1:" loading="lazy" width="20" height="20"><img src="https://community.keyauth.win/images/emoji/twitter/raised_hands.png?v=12" title=":raised_hands:" class="emoji" alt=":raised_hands:" loading="lazy" width="20" height="20"></p>
+          <p><a href="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/5</link>
+        <pubDate>Tue, 28 Jun 2022 19:06:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-277-5</guid>
+        <source url="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277.rss">Download File and Save to a directory with Keyauth API</source>
+      </item>
+      <item>
+        <title>Download File and Save to a directory with Keyauth API</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-auto">	std::vector&lt;std::uint8_t&gt; bytes = KeyAuthApp.download("167212");
+	std::ofstream file("file.exe", std::ios_base::out | std::ios_base::binary);
+	file.write((char*)bytes.data(), bytes.size());
+	file.close();
+</code></pre>
+<p>this line from above</p>
+<pre><code class="lang-auto">std::ofstream file("file.exe", std::ios_base::out | std::ios_base::binary);
+</code></pre>
+<p>change to your path example.</p>
+<pre><code class="lang-auto">std::ofstream file("YourPathToSaveTheFileTo/file.exe", std::ios_base::out | std::ios_base::binary);
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/4</link>
+        <pubDate>Tue, 28 Jun 2022 19:05:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-277-4</guid>
+        <source url="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277.rss">Download File and Save to a directory with Keyauth API</source>
+      </item>
+      <item>
+        <title>Download File and Save to a directory with Keyauth API</title>
+        <dc:creator><![CDATA[Afonso_Segredo]]></dc:creator>
+        <description><![CDATA[
+            <p>im getting a lot of errors.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/172a8a7769a654c70fc24cded0cbfc1335d33a25.png" alt="image" data-base62-sha1="3iW7Lrrs5ybDUOBsGvHzX2mvL49" width="690" height="63"></p>
+          <p><a href="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/3</link>
+        <pubDate>Tue, 28 Jun 2022 18:59:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-277-3</guid>
+        <source url="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277.rss">Download File and Save to a directory with Keyauth API</source>
+      </item>
+      <item>
+        <title>Download File and Save to a directory with Keyauth API</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>if you read the example properly you would have found it</p>
+<pre><code class="lang-auto">||// download file, change file.exe to whatever you want.|
+||// remember, certain paths like windows folder will require you to turn on auto run as admin https://stackoverflow.com/a/19617989|
+std::vector&lt;std::uint8_t&gt; bytes = KeyAuthApp.download(167212);|
+std::ofstream file(file.exe, std::ios_base::out | std::ios_base::binary);|
+file.write((char*)bytes.data(), bytes.size());|
+file.close();|
+
+</code></pre>
+<aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L134">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L134" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L134" target="_blank" rel="noopener">KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L134</a></h4>
+
+
+
+    <pre class="onebox">      <code class="lang-cpp">
+        <ol class="start lines" start="124" style="counter-reset: li-counter 123 ;">
+            <li>	for (std::string subs : KeyAuthApp.data.subscriptions)</li>
+            <li>	{</li>
+            <li>		if (subs == "default")</li>
+            <li>		{</li>
+            <li>			std::cout &lt;&lt; skCrypt("\n User has subscription with name: default");</li>
+            <li>		}</li>
+            <li>	}</li>
+            <li>	*/</li>
+            <li>
+            </li>
+<li>	/*</li>
+            <li class="selected">	// download file, change file.exe to whatever you want.</li>
+            <li>	// remember, certain paths like windows folder will require you to turn on auto run as admin https://stackoverflow.com/a/19617989</li>
+            <li>
+            </li>
+<li>	std::vector&lt;std::uint8_t&gt; bytes = KeyAuthApp.download("167212");</li>
+            <li>	std::ofstream file("file.exe", std::ios_base::out | std::ios_base::binary);</li>
+            <li>	file.write((char*)bytes.data(), bytes.size());</li>
+            <li>	file.close();</li>
+            <li>	*/</li>
+            <li>
+            </li>
+<li>	// KeyAuthApp.setvar("discord", "test#0001"); // set the variable 'discord' to 'test#0001'</li>
+            <li>	// std::cout &lt;&lt; "\n\n User variable data: " + KeyAuthApp.getvar("discord"); // display the user variable witn name 'discord'</li>
+        </ol>
+      </code>
+    </pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/2</link>
+        <pubDate>Tue, 28 Jun 2022 18:58:27 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-277-2</guid>
+        <source url="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277.rss">Download File and Save to a directory with Keyauth API</source>
+      </item>
+      <item>
+        <title>Download File and Save to a directory with Keyauth API</title>
+        <dc:creator><![CDATA[Afonso_Segredo]]></dc:creator>
+        <description><![CDATA[
+            <p>does someone has the code to download and save a file in a directory with the keyauth api in c++?</p>
+          <p><a href="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277/1</link>
+        <pubDate>Tue, 28 Jun 2022 18:55:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-277-1</guid>
+        <source url="https://community.keyauth.cc/t/download-file-and-save-to-a-directory-with-keyauth-api/277.rss">Download File and Save to a directory with Keyauth API</source>
+      </item>
+  </channel>
+</rss>

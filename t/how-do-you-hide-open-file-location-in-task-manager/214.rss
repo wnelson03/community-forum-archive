@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How do you hide open file location in task manager</title>
+    <link>https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214</link>
+    <description>so im streaming byte to download a file and everything works fine but once it switches to that file you can find the loacation in task manager</description>
+    
+    <lastBuildDate>Fri, 17 Jun 2022 20:43:19 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How do you hide open file location in task manager</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>oh ya, good point I remember you showing me this before</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/8</link>
+        <pubDate>Fri, 17 Jun 2022 20:43:19 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-214-8</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214.rss">How do you hide open file location in task manager</source>
+      </item>
+      <item>
+        <title>How do you hide open file location in task manager</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>its really easy, see my message again, just with 4 lines he can execute it without writing to disk, if the app hes trying to execute is a .net executable</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/7</link>
+        <pubDate>Fri, 17 Jun 2022 20:42:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-214-7</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214.rss">How do you hide open file location in task manager</source>
+      </item>
+      <item>
+        <title>How do you hide open file location in task manager</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>“easy”</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/6</link>
+        <pubDate>Fri, 17 Jun 2022 20:40:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-214-6</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214.rss">How do you hide open file location in task manager</source>
+      </item>
+      <item>
+        <title>How do you hide open file location in task manager</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="ShadowMonster" data-post="3" data-topic="214">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/shadowmonster/40/57_2.png" class="avatar"> ShadowMonster:</div>
+<blockquote>
+<p>this wouldn’t be an easy thing to do in C#. if this was C++ you could just make your app a link library and inject it into another process so it wouldn’t lead back the original dll (directly) through task manager. keep in mind you would have to manual map to prevent people from reversing its directory.</p>
+</blockquote>
+</aside>
+<p>depends, if the app is .net, he can load it using reflection.<br>
+Example:</p>
+<pre><code class="lang-cs">var assembly = Assembly.Load(bytes);
+var paraminfo = assembly.EntryPoint.GetParameters();            
+object[] parameters = new object[paraminfo.Length];
+assembly.EntryPoint.Invoke(null, parameters);
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/5</link>
+        <pubDate>Fri, 17 Jun 2022 20:39:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-214-5</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214.rss">How do you hide open file location in task manager</source>
+      </item>
+      <item>
+        <title>How do you hide open file location in task manager</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>though you cant just stop a process from showing its path in task manager without anything malicious</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/4</link>
+        <pubDate>Fri, 17 Jun 2022 20:36:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-214-4</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214.rss">How do you hide open file location in task manager</source>
+      </item>
+      <item>
+        <title>How do you hide open file location in task manager</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>this wouldn’t be an easy thing to do in C#. if this was C++ you could just make your app a link library and inject it into another process so it wouldn’t lead back the original dll (directly) through task manager. keep in mind you would have to manual map to prevent people from reversing its directory.</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/3</link>
+        <pubDate>Fri, 17 Jun 2022 20:36:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-214-3</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214.rss">How do you hide open file location in task manager</source>
+      </item>
+      <item>
+        <title>How do you hide open file location in task manager</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>because thats how task manager works? lol<br>
+only way to hide the location is to execute from memory, so dont write to disk and that wont be shown</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/2</link>
+        <pubDate>Fri, 17 Jun 2022 20:35:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-214-2</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214.rss">How do you hide open file location in task manager</source>
+      </item>
+      <item>
+        <title>How do you hide open file location in task manager</title>
+        <dc:creator><![CDATA[Andisite_Andisite]]></dc:creator>
+        <description><![CDATA[
+            <p>so im streaming byte to download a file and everything works fine but once it switches to that file you can find the loacation in task manager</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214/1</link>
+        <pubDate>Fri, 17 Jun 2022 20:10:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-214-1</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-hide-open-file-location-in-task-manager/214.rss">How do you hide open file location in task manager</source>
+      </item>
+  </channel>
+</rss>

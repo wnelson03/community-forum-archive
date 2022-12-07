@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Obfuscating Application?</title>
+    <link>https://community.keyauth.cc/t/obfuscating-application/791</link>
+    <description>I obfuscated my C# Application with ConfuserEx. I know its shitty but i am still learning and i wanted to try. Everything worked fine but my application is broken now. Like when i start my application the login form shows up, i login and then it says &quot;Please Initialize first&quot; with the title &quot;Error&quot; and i tried it on the KeyAuth example too. Still the same. Could anyone help me?</description>
+    
+    <lastBuildDate>Sun, 11 Sep 2022 16:11:12 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/obfuscating-application/791.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/12</link>
+        <pubDate>Sun, 11 Sep 2022 16:11:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-12</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Renaming breaks KeyAuth because the JSON response structure can’t be renamed and still work. Topic closed, this isn’t KeyAuth related.</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/11</link>
+        <pubDate>Sun, 11 Sep 2022 16:11:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-11</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[inivation]]></dc:creator>
+        <description><![CDATA[
+            <p>just use proxy reference method lmao and dont click every method some methods are not working on me it was working fine than i switched on vmprotect cause you can crack confuserEX in 2 seconds</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/10</link>
+        <pubDate>Thu, 08 Sep 2022 16:39:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-10</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Ye ik. But i dont have any other Obfuscator. Some guy told me he was using BedsProtector. But i dont know which options i should use. If i use all or mostly all options the same error comes up. But if i use some of the options it doesent work like it is still the same (crackable/you see the code).<br>
+Sry i dont know much about obfuscators. Thats why i am here bc it has smth to do with keyauth. And it corrupts the KeyAuth. Without KeyAuth it works.</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/9</link>
+        <pubDate>Wed, 07 Sep 2022 16:14:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-9</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[sohcz]]></dc:creator>
+        <description><![CDATA[
+            <p>Don’t use confuserEx, its really shitty and ez to crack</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/8</link>
+        <pubDate>Wed, 07 Sep 2022 14:20:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-8</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Sry that i am bothering you again, but what options did you use?</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/7</link>
+        <pubDate>Wed, 07 Sep 2022 11:28:21 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-7</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Hmm i will try that. Thanks for your help!</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/6</link>
+        <pubDate>Wed, 07 Sep 2022 11:22:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-6</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[xKaih]]></dc:creator>
+        <description><![CDATA[
+            <p>Its a modified version of ConfuserX, only download it and open Beds Protector GUI.exe and done.</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/5</link>
+        <pubDate>Wed, 07 Sep 2022 11:22:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-5</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[xKaih]]></dc:creator>
+        <description><![CDATA[
+            <p>I personally use Beds protector (<a href="https://github.com/BedTheGod/ConfuserEx-Mod-By-Bed" class="inline-onebox" rel="noopener nofollow ugc">GitHub - BedTheGod/ConfuserEx-Mod-By-Bed: Beds Protector | Best free obfuscation out right now</a>)</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/4</link>
+        <pubDate>Wed, 07 Sep 2022 11:21:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-4</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Could you name me Obfuscators (free) because i am a c# lover and currently learning c#. And i dont know what “Hosting CLR” is.</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/3</link>
+        <pubDate>Wed, 07 Sep 2022 11:18:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-3</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[xKaih]]></dc:creator>
+        <description><![CDATA[
+            <p>That is cause some field of the obfuscation “corrupts” KeyAuth, try other configuration or use other obfuscator if you want to go fully C#. Other method is made the login in C++ and using Hosting-CLR run C# in memory, the bad thing of this option is that if you need some information of the user, you cant obtain that.</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/2</link>
+        <pubDate>Wed, 07 Sep 2022 11:16:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-2</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+      <item>
+        <title>Obfuscating Application?</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>I obfuscated my C# Application with ConfuserEx. I know its shitty but i am still learning and i wanted to try. Everything worked fine but my application is broken now. Like when i start my application the login form shows up, i login and then it says “Please Initialize first” with the title “Error” and i tried it on the KeyAuth example too. Still the same. Could anyone help me?</p>
+          <p><a href="https://community.keyauth.cc/t/obfuscating-application/791/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/obfuscating-application/791/1</link>
+        <pubDate>Wed, 07 Sep 2022 11:05:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-791-1</guid>
+        <source url="https://community.keyauth.cc/t/obfuscating-application/791.rss">Obfuscating Application?</source>
+      </item>
+  </channel>
+</rss>

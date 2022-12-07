@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>API download function results in connection error</title>
+    <link>https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432</link>
+    <description>Hello,
+I&#39;ve recently had problems when utilizing the download api function - specifically when trying to download multiple files.
+
+From what I&#39;ve read around, opening a new api session might handle this better for multiple files?
+Pardon me as I am learning.
+
+My login button code is shown below:
+```
+private void LoginBtn_Click(object sender, EventArgs e)
+    {
+     ExampleAuth.license(licensekeybox.Text);
+            if (ExampleAuth.response.success)
+            {
+                // Download (fileID&#39;s are there, I&#39;ve removed them for posting purposes)
+                byte[] ExampleDLL = Loader.ExampleAuth.download(&quot;removed for privacy&quot;);
+                byte[] ExampleEXE = Loader.ExampleAuth.download(&quot;removed for privacy&quot;);
+
+                // Writing
+                File.WriteAllBytes(&quot;C:\\ProgramData\\ExampleEXE.exe&quot;, ExampleEXE);
+                File.WriteAllBytes(&quot;C:\\ProgramData\\ExampleDLL.dll&quot;, ExampleDLL);
+
+                Process.Start(&quot;C:\\ProgramData\\ExampleEXE.exe&quot;);
+            }
+    }
+```
+
+At this point, I&#39;ll receive a &#39;Connection failure&#39; result from my executable.</description>
+    
+    <lastBuildDate>Thu, 21 Jul 2022 04:50:47 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>API download function results in connection error</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>you could also just add the download link of the dll as a server sided variable with authentication, and download it from ur app using the WebClient class</p>
+<p>Example</p>
+<pre><code class="lang-auto">new WebClient().DownloadFile(KeyAuthApp.var("varname"), "c:\\example.dll");
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432/5</link>
+        <pubDate>Thu, 21 Jul 2022 04:50:47 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-432-5</guid>
+        <source url="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432.rss">API download function results in connection error</source>
+      </item>
+      <item>
+        <title>API download function results in connection error</title>
+        <dc:creator><![CDATA[immortal]]></dc:creator>
+        <description><![CDATA[
+            <p>For anyone who might be wondering -<br>
+The fixed result was to lower the file size for my DLL file used.</p>
+<p>This isn’t a full fix, but this should resolve any temporary issues.</p>
+          <p><a href="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432/4</link>
+        <pubDate>Wed, 20 Jul 2022 16:29:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-432-4</guid>
+        <source url="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432.rss">API download function results in connection error</source>
+      </item>
+      <item>
+        <title>API download function results in connection error</title>
+        <dc:creator><![CDATA[immortal]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks for your response.<br>
+I’ve given this a try at <strong>1500</strong> &amp; <strong>2000</strong>, the same result occurs.</p>
+<p>The rate limit makes sense to me.<br>
+If my DLL file is generally larger (~20mb), I should increase the sleep instruction to a higher value?</p>
+<p>–EDIT–<br>
+After giving this a couple tries in various ways, it doesn’t seem to make a difference.</p>
+          <p><a href="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432/3</link>
+        <pubDate>Wed, 20 Jul 2022 00:23:13 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-432-3</guid>
+        <source url="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432.rss">API download function results in connection error</source>
+      </item>
+      <item>
+        <title>API download function results in connection error</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="immortal" data-post="1" data-topic="432">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/letter_avatar_proxy/v4/letter/i/f08c70/40.png" class="avatar"> immortal:</div>
+<blockquote>
+<p>Pardon me as I am learning.</p>
+</blockquote>
+</aside>
+<p>might be because of the rate limit, call the Thread.Sleep function between each download for 1 and half second</p>
+          <p><a href="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432/2</link>
+        <pubDate>Wed, 20 Jul 2022 00:00:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-432-2</guid>
+        <source url="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432.rss">API download function results in connection error</source>
+      </item>
+      <item>
+        <title>API download function results in connection error</title>
+        <dc:creator><![CDATA[immortal]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello,<br>
+I’ve recently had problems when utilizing the download api function - specifically when trying to download multiple files.</p>
+<p>From what I’ve read around, opening a new api session might handle this better for multiple files?<br>
+Pardon me as I am learning.</p>
+<p>My login button code is shown below:</p>
+<pre><code class="lang-auto">private void LoginBtn_Click(object sender, EventArgs e)
+    {
+     ExampleAuth.license(licensekeybox.Text);
+            if (ExampleAuth.response.success)
+            {
+                // Download (fileID's are there, I've removed them for posting purposes)
+                byte[] ExampleDLL = Loader.ExampleAuth.download("removed for privacy");
+                byte[] ExampleEXE = Loader.ExampleAuth.download("removed for privacy");
+
+                // Writing
+                File.WriteAllBytes("C:\\ProgramData\\ExampleEXE.exe", ExampleEXE);
+                File.WriteAllBytes("C:\\ProgramData\\ExampleDLL.dll", ExampleDLL);
+
+                Process.Start("C:\\ProgramData\\ExampleEXE.exe");
+            }
+    }
+</code></pre>
+<p>At this point, I’ll receive a ‘Connection failure’ result from my executable.</p>
+          <p><a href="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432/1</link>
+        <pubDate>Tue, 19 Jul 2022 23:41:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-432-1</guid>
+        <source url="https://community.keyauth.cc/t/api-download-function-results-in-connection-error/432.rss">API download function results in connection error</source>
+      </item>
+  </channel>
+</rss>

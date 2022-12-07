@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from community.keyauth.cc/c/examples/csharp/8?page=1 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 22:41:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Latest C# topics - KeyAuth</title>
+    <meta name="description" content="The C# example is here https:&#x2F;&#x2F;github.com&#x2F;KeyAuth&#x2F;KeyAuth-CS-Example">
+    <meta name="generator" content="Discourse 2.9.0.beta14 - https://github.com/discourse/discourse version 64b781dacfd915f63480ddc7f8f0f4b0452bcecd">
+<link rel="icon" type="image/png" href="../../../uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="../../../uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_180x180.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="8.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../../opensearch.xml" title="KeyAuth Search">
+
+    <link href="../../../stylesheets/color_definitions_base___4c54df19f9f59e26ee232a7eb94b30e03c73cdbf.css_%3b%20filename_%3dUTF-8%27%27color_definitions_base___4c54df19f9f59e26ee232a7eb94b30e03c73cdbf0123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" class="light-scheme"/><link href="../../../stylesheets/color_definitions_dark_1__4f4f1c6b9f8578178ed894e2ff0a35ea00dd6d1b.css_%3b%20filename_%3dUTF-8%27%27color_definitions_dark_1__4f4f1c6b9f8578178ed894e2ff0a35ea00dd6d1b0123.css?__ws=community.keyauth.cc" media="(prefers-color-scheme: dark)" rel="stylesheet" class="dark-scheme"/>
+
+  <link href="../../../stylesheets/desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="../../../stylesheets/discourse-canned-replies_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-canned-replies_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-canned-replies"  />
+  <link href="../../../stylesheets/discourse-chat-integration_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-chat-integration_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.cs?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-chat-integration"  />
+  <link href="../../../stylesheets/discourse-details_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-details_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="../../../stylesheets/discourse-local-dates_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-local-dates_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="../../../stylesheets/discourse-narrative-bot_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-narrative-bot_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="../../../stylesheets/discourse-presence_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-presence_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="../../../stylesheets/discourse-solved_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-solved_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="../../../stylesheets/discourse-tooltips_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-tooltips_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-tooltips"  />
+  <link href="../../../stylesheets/discourse-voting_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-voting_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-voting"  />
+  <link href="../../../stylesheets/lazy-yt_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27lazy-yt_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="lazy-yt"  />
+  <link href="../../../stylesheets/poll_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27poll_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="../../../stylesheets/discourse-voting_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-voting_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-voting_desktop"  />
+  <link href="../../../stylesheets/poll_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27poll_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+
+    
+    
+          <link rel="prev" href="8.json">
+    <link rel="next" href="84658.html?page=2">
+    <link rel="alternate" type="application/rss+xml" title="Latest posts" href="../../../posts.rss" />
+    <link rel="alternate" type="application/rss+xml" title="Latest topics" href="../../../latest.rss" />
+    <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of topics in the &#39;C#&#39; category" href="8.rss" />
+    <meta property="og:site_name" content="KeyAuth" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="../../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png" />
+<meta property="og:image" content="../../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png" />
+<meta property="og:url" content="82679.html?page=1" />
+<meta name="twitter:url" content="82679.html?page=1" />
+<meta property="og:title" content="C#" />
+<meta name="twitter:title" content="C#" />
+<meta property="og:description" content="The C# example is here &lt;a href=_https_/github.com/KeyAuth/KeyAuth-CS-Example_.html class=&quot;inline-onebox-loading&quot;&gt;https://github.com/KeyAuth/KeyAuth-CS-Example&lt;/a&gt;" />
+<meta name="twitter:description" content="The C# example is here &lt;a href=_https_/github.com/KeyAuth/KeyAuth-CS-Example_.html class=&quot;inline-onebox-loading&quot;&gt;https://github.com/KeyAuth/KeyAuth-CS-Example&lt;/a&gt;" />
+
+    
+  </head>
+  <body class="crawler">
+    
+    <header>
+  <a href="../../../index.html">
+    KeyAuth
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+      
+
+
+
+  <h1>
+      <a itemprop="item" href="../5.html">
+        <span itemprop='name'>Questions/Help with Examples</span>
+</a>      &nbsp;
+
+    <a itemprop="item" href="8.html">
+      <span itemprop='name'>C#</span>
+</a>  </h1>
+  <br/>
+
+
+<div itemscope itemtype='http://schema.org/ItemList'>
+  <meta itemprop='itemListOrder' content='http://schema.org/ItemListOrderDescending'>
+
+  <table class='topic-list'>
+
+    <thead>
+      <tr>
+        <th>Topic</th>
+        <th></th>
+        <th class="replies">Replies</th>
+        <th class="views">Views</th>
+        <th>Activity</th>
+      </tr>
+    </thead>
+
+    <tbody>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='1'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/exception-right-at-the-initialization-stage/597.html' class='title raw-link raw-topic-link'>Exception right at the initialization stage</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/tonda240705.html" class="latest">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/t/7ba0ec/25.png" class="avatar" title='tonda240705 - Original Poster, Most Recent Poster' aria-label='tonda240705 - Original Poster, Most Recent Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Frequent Poster' aria-label='lIMonkieIl - Frequent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>4</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>67</span>
+          </td>
+          <td>
+            August 6, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='2'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/the-type-or-namespace-users-could-not-be-found/587.html' class='title raw-link raw-topic-link'>The type or namespace &#39;users&#39; could not be found</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/krylex.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/krylex/25/452_2.png" class="avatar" title='krylex - Original Poster, Most Recent Poster' aria-label='krylex - Original Poster, Most Recent Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Frequent Poster, Accepted Answer' aria-label='lIMonkieIl - Frequent Poster, Accepted Answer'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>5</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>46</span>
+          </td>
+          <td>
+            August 5, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='3'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/how-to-put-keyauth-in-a-new-form-for-my-cheat-c/582.html' class='title raw-link raw-topic-link'>How to put keyauth in a new form for my cheat ? c#</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/TesBad_KinderQC.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/tesbad_kinderqc/25/447_2.jpg" class="avatar" title='TesBad_KinderQC - Original Poster' aria-label='TesBad_KinderQC - Original Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster' aria-label='lIMonkieIl - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>3</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>57</span>
+          </td>
+          <td>
+            August 4, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='4'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580.html' class='title raw-link raw-topic-link'>How to I use keyauth to download file and save it some path?</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Nekke.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/nekke/25/282_2.jpg" class="avatar" title='Nekke - Original Poster' aria-label='Nekke - Original Poster'>
+              </a>
+              <a href="../../../u/ByYasin.html" class="">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/b/c89c15/25.png" class="avatar" title='ByYasin - Frequent Poster' aria-label='ByYasin - Frequent Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster' aria-label='lIMonkieIl - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>3</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>160</span>
+          </td>
+          <td>
+            August 4, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='5'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/after-clicking-login-this-error/575.html' class='title raw-link raw-topic-link'>After clicking login, this error</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/bone.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/bone/25/441_2.png" class="avatar" title='bone - Original Poster' aria-label='bone - Original Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster' aria-label='lIMonkieIl - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>1</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>67</span>
+          </td>
+          <td>
+            August 3, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='6'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/loader-closes-upon-login-throwing-an-error/562.html' class='title raw-link raw-topic-link'>Loader Closes Upon Login Throwing An Error</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Theo.html" class="latest single">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/theo/25/433_2.png" class="avatar" title='Theo - Original Poster, Most Recent Poster' aria-label='Theo - Original Poster, Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>0</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>41</span>
+          </td>
+          <td>
+            August 2, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='7'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/i-cant-set-licenses-with-minutes/543.html' class='title raw-link raw-topic-link'>I cant set licenses with minutes</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/AngelArT.html" class="latest single">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/angelart/25/417_2.jpg" class="avatar" title='AngelArT - Original Poster, Most Recent Poster' aria-label='AngelArT - Original Poster, Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>0</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>52</span>
+          </td>
+          <td>
+            August 1, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='8'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472.html' class='title raw-link raw-topic-link'>When i download a file using KeyAuth&#39;s api , it says &#39;Value cannot be null. Parameter name: bytes&#39;</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/kwstas1337.html" class="">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/k/4bbf92/25.png" class="avatar" title='kwstas1337 - Original Poster' aria-label='kwstas1337 - Original Poster'>
+              </a>
+              <a href="../../../u/haonski.html" class="">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/h/7ea924/25.png" class="avatar" title='haonski - Frequent Poster' aria-label='haonski - Frequent Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster' aria-label='lIMonkieIl - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>2</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>75</span>
+          </td>
+          <td>
+            July 29, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='9'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/help-i-get-application-not-found/521.html' class='title raw-link raw-topic-link'>Help, i get application not found</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Kyle_Jackson.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/kyle_jackson/25/403_2.png" class="avatar" title='Kyle_Jackson - Original Poster' aria-label='Kyle_Jackson - Original Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster, Accepted Answer' aria-label='lIMonkieIl - Most Recent Poster, Accepted Answer'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>1</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>40</span>
+          </td>
+          <td>
+            July 28, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='10'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/automatic-shutdown-when-time-expires/455.html' class='title raw-link raw-topic-link'>Automatic shutdown when time expires</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Mamocans.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/mamocans/25/357_2.jpg" class="avatar" title='Mamocans - Original Poster' aria-label='Mamocans - Original Poster'>
+              </a>
+              <a href="../../../u/ByYasin.html" class="">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/b/c89c15/25.png" class="avatar" title='ByYasin - Frequent Poster' aria-label='ByYasin - Frequent Poster'>
+              </a>
+              <a href="../../../u/Gru.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/gru/25/395_2.jpg" class="avatar" title='Gru - Frequent Poster' aria-label='Gru - Frequent Poster'>
+              </a>
+              <a href="../../../u/mak.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/mak/25/44_2.png" class="avatar" title='mak - Most Recent Poster' aria-label='mak - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>8</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>79</span>
+          </td>
+          <td>
+            July 27, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='11'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/c-hash-check-a-critical-question-about/262.html' class='title raw-link raw-topic-link'>C# Hash Check A critical question about?</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/ByYasin.html" class="">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/b/c89c15/25.png" class="avatar" title='ByYasin - Original Poster' aria-label='ByYasin - Original Poster'>
+              </a>
+              <a href="../../../u/Weebzo.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/weebzo/25/85_2.png" class="avatar" title='Weebzo - Frequent Poster' aria-label='Weebzo - Frequent Poster'>
+              </a>
+              <a href="../../../u/Abastrax.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/abastrax/25/65_2.png" class="avatar" title='Abastrax - Frequent Poster' aria-label='Abastrax - Frequent Poster'>
+              </a>
+              <a href="../../../u/mak.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/mak/25/44_2.png" class="avatar" title='mak - Frequent Poster' aria-label='mak - Frequent Poster'>
+              </a>
+              <a href="../../../u/Gru.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/gru/25/395_2.jpg" class="avatar" title='Gru - Most Recent Poster' aria-label='Gru - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>12</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>101</span>
+          </td>
+          <td>
+            July 25, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='12'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/please-initzalize-first/482.html' class='title raw-link raw-topic-link'>Please initzalize first</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/eblis_godrat.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/eblis_godrat/25/351_2.png" class="avatar" title='eblis_godrat - Original Poster' aria-label='eblis_godrat - Original Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Frequent Poster' aria-label='lIMonkieIl - Frequent Poster'>
+              </a>
+              <a href="../../../u/OverDrive.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/overdrive/25/372_2.png" class="avatar" title='OverDrive - Most Recent Poster' aria-label='OverDrive - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>3</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>51</span>
+          </td>
+          <td>
+            July 23, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='13'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/how-do-i-fix-this-using-winformsc/452.html' class='title raw-link raw-topic-link'>How do I fix this?[Using WinformsC#]</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/KIZZY.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/kizzy/25/340_2.gif" class="avatar" title='KIZZY - Original Poster' aria-label='KIZZY - Original Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Frequent Poster' aria-label='lIMonkieIl - Frequent Poster'>
+              </a>
+              <a href="../../../u/OverDrive.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/overdrive/25/372_2.png" class="avatar" title='OverDrive - Most Recent Poster' aria-label='OverDrive - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>5</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>61</span>
+          </td>
+          <td>
+            July 22, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='14'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/key-generator-for-c/467.html' class='title raw-link raw-topic-link'>Key Generator for c#</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/vKevinzx.html" class="latest single">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/vkevinzx/25/366_2.png" class="avatar" title='vKevinzx - Original Poster, Most Recent Poster' aria-label='vKevinzx - Original Poster, Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>0</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>47</span>
+          </td>
+          <td>
+            July 21, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='15'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/chek-if-user-blacklisted/448.html' class='title raw-link raw-topic-link'>Chek if user blacklisted!</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/eblis_godrat.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/eblis_godrat/25/351_2.png" class="avatar" title='eblis_godrat - Original Poster' aria-label='eblis_godrat - Original Poster'>
+              </a>
+              <a href="../../../u/ItsNetworking.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/itsnetworking/25/43_2.png" class="avatar" title='ItsNetworking - Frequent Poster' aria-label='ItsNetworking - Frequent Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster' aria-label='lIMonkieIl - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>7</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>62</span>
+          </td>
+          <td>
+            July 21, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='16'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/api-download-function-results-in-connection-error/432.html' class='title raw-link raw-topic-link'>API download function results in connection error</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/immortal.html" class="">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/i/f08c70/25.png" class="avatar" title='immortal - Original Poster' aria-label='immortal - Original Poster'>
+              </a>
+              <a href="../../../u/Weebzo.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/weebzo/25/85_2.png" class="avatar" title='Weebzo - Most Recent Poster' aria-label='Weebzo - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>4</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>55</span>
+          </td>
+          <td>
+            July 21, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='17'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/getting-error-on-rdp/424.html' class='title raw-link raw-topic-link'>Getting error on RDP</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/FluppyBoi.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/fluppyboi/25/336_2.jpg" class="avatar" title='FluppyBoi - Original Poster' aria-label='FluppyBoi - Original Poster'>
+              </a>
+              <a href="../../../u/XTR.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/xtr/25/60_2.png" class="avatar" title='XTR - Most Recent Poster' aria-label='XTR - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>2</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>41</span>
+          </td>
+          <td>
+            July 18, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='18'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/how-i-could-make-like-if-you-have-sub-you-can-press-a-button-and-it-does-a-func-if-the-user-has-subscription/404.html' class='title raw-link raw-topic-link'>How I could make like if you have sub you can press a button and it does a func if the user has subscription?</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Nekke.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/nekke/25/282_2.jpg" class="avatar" title='Nekke - Original Poster, Most Recent Poster' aria-label='Nekke - Original Poster, Most Recent Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Frequent Poster' aria-label='lIMonkieIl - Frequent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>4</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>59</span>
+          </td>
+          <td>
+            July 18, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='19'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/additional-user-validation-on-the-server-side/419.html' class='title raw-link raw-topic-link'>Additional user validation on the server side</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/quado.html" class="latest single">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/q/87869e/25.png" class="avatar" title='quado - Original Poster, Most Recent Poster' aria-label='quado - Original Poster, Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>0</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>63</span>
+          </td>
+          <td>
+            July 17, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='20'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/keyauthapp-init/386.html' class='title raw-link raw-topic-link'>KeyAuthApp.init()</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Enzo.html" class="">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/e/3ab097/25.png" class="avatar" title='Enzo - Original Poster' aria-label='Enzo - Original Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster' aria-label='lIMonkieIl - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>2</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>163</span>
+          </td>
+          <td>
+            July 12, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='21'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383.html' class='title raw-link raw-topic-link'>How to check if a user has a subscription using seller api in c#</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/PixelX.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/pixelx/25/104_2.png" class="avatar" title='PixelX - Original Poster' aria-label='PixelX - Original Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster' aria-label='lIMonkieIl - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>2</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>71</span>
+          </td>
+          <td>
+            July 11, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='22'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/how-could-i-send-discord-web-hooks/357.html' class='title raw-link raw-topic-link'>How could I send discord web hooks?</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Nekke.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/nekke/25/282_2.jpg" class="avatar" title='Nekke - Original Poster' aria-label='Nekke - Original Poster'>
+              </a>
+              <a href="../../../u/OverDrive.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/overdrive/25/372_2.png" class="avatar" title='OverDrive - Most Recent Poster' aria-label='OverDrive - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>1</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>76</span>
+          </td>
+          <td>
+            July 8, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='23'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/i-need-help-with-keyauth-c-loader/326.html' class='title raw-link raw-topic-link'>I need help with keyauth c# loader!</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Nekke.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/nekke/25/282_2.jpg" class="avatar" title='Nekke - Original Poster, Most Recent Poster' aria-label='Nekke - Original Poster, Most Recent Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Frequent Poster' aria-label='lIMonkieIl - Frequent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>16</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>209</span>
+          </td>
+          <td>
+            July 7, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='24'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/keyaut-win-and-my-loader-it-hasnt-been-opened-for-a-week/342.html' class='title raw-link raw-topic-link'>Keyaut.win and My loader It hasn&#39;t been opened for a week!</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Zhones.html" class="">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/z/7cd45c/25.png" class="avatar" title='Zhones - Original Poster' aria-label='Zhones - Original Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster' aria-label='lIMonkieIl - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>7</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>64</span>
+          </td>
+          <td>
+            July 6, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='25'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/auto-ban-key-c/313.html' class='title raw-link raw-topic-link'>Auto Ban Key C#</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/VVS.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/vvs/25/87_2.gif" class="avatar" title='VVS - Original Poster' aria-label='VVS - Original Poster'>
+              </a>
+              <a href="../../../u/Facepunch.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/facepunch/25/277_2.png" class="avatar" title='Facepunch - Frequent Poster' aria-label='Facepunch - Frequent Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Frequent Poster' aria-label='lIMonkieIl - Frequent Poster'>
+              </a>
+              <a href="../../../u/ByYasin.html" class="latest">
+                <img width="25" height="25" src="../../../letter_avatar_proxy/v4/letter/b/c89c15/25.png" class="avatar" title='ByYasin - Most Recent Poster' aria-label='ByYasin - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>11</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>119</span>
+          </td>
+          <td>
+            July 5, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='26'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/fileid-question/338.html' class='title raw-link raw-topic-link'>FIleID Question</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/ExpiredMilk.html" class="latest single">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/expiredmilk/25/284_2.png" class="avatar" title='ExpiredMilk - Original Poster, Most Recent Poster' aria-label='ExpiredMilk - Original Poster, Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>0</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>57</span>
+          </td>
+          <td>
+            July 4, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='27'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/if-license-key-binded-to-device-once-it-wont-let-you-use-another-key-to-register-on-same-device/218.html' class='title raw-link raw-topic-link'>If license key binded to device once it wont let you use another key to register on same device</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/dogus_celik.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/dogus_celik/25/194_2.png" class="avatar" title='dogus_celik - Original Poster' aria-label='dogus_celik - Original Poster'>
+              </a>
+              <a href="../../../u/Weebzo.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/weebzo/25/85_2.png" class="avatar" title='Weebzo - Frequent Poster' aria-label='Weebzo - Frequent Poster'>
+              </a>
+              <a href="../../../u/xav.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/xav/25/291_2.png" class="avatar" title='xav - Most Recent Poster' aria-label='xav - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>4</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>74</span>
+          </td>
+          <td>
+            July 4, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='28'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/i-need-help-my-loader-not-opening/335.html' class='title raw-link raw-topic-link'>I need help, my loader not opening!</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Nekke.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/nekke/25/282_2.jpg" class="avatar" title='Nekke - Original Poster' aria-label='Nekke - Original Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Frequent Poster' aria-label='lIMonkieIl - Frequent Poster'>
+              </a>
+              <a href="../../../u/xav.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/xav/25/291_2.png" class="avatar" title='xav - Most Recent Poster' aria-label='xav - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>2</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>47</span>
+          </td>
+          <td>
+            July 4, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='29'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/i-need-help-with-this/334.html' class='title raw-link raw-topic-link'>I need help with this!</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Nekke.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/nekke/25/282_2.jpg" class="avatar" title='Nekke - Original Poster' aria-label='Nekke - Original Poster'>
+              </a>
+              <a href="../../../u/XTR.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/xtr/25/60_2.png" class="avatar" title='XTR - Frequent Poster' aria-label='XTR - Frequent Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster' aria-label='lIMonkieIl - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>14</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>105</span>
+          </td>
+          <td>
+            July 4, 2022
+          </td>
+        </tr>
+        <tr class="topic-list-item">
+          <td class="main-link" itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+            <meta itemprop='position' content='30'>
+            <span class="link-top-line">
+              <a itemprop='url' href='../../../t/i-need-help-with-c-keyauth-loader/330.html' class='title raw-link raw-topic-link'>I need help with C# keyauth loader!</a>
+            </span>
+            <div class="link-bottom-line">
+                <div class="discourse-tags">
+                </div>
+            </div>
+          </td>
+          <td class='posters'>
+              <a href="../../../u/Cristi.html" class="">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/cristi/25/283_2.png" class="avatar" title='Cristi - Original Poster' aria-label='Cristi - Original Poster'>
+              </a>
+              <a href="../../../u/lIMonkieIl.html" class="latest">
+                <img width="25" height="25" src="../../../user_avatar/community.keyauth.cc/limonkieil/25/48_2.jpg" class="avatar" title='lIMonkieIl - Most Recent Poster' aria-label='lIMonkieIl - Most Recent Poster'>
+              </a>
+          </td>
+          <td class="replies">
+            <span class='posts' title='posts'>6</span>
+          </td>
+          <td class="views">
+            <span class='views' title='views'>89</span>
+          </td>
+          <td>
+            July 4, 2022
+          </td>
+        </tr>
+    </tbody>
+
+  </table>
+</div>
+
+  <div role='navigation' itemscope itemtype='http://schema.org/SiteNavigationElement'>
+      <span itemprop='name'><a href='8.json' rel='prev' itemprop='url'>← previous page</a> &nbsp;</span>
+      <span itemprop='name'><b><a href='84658.html?page=2' rel='next' itemprop='url'>next page →</a></b></span>
+  </div>
+
+
+ <!-- include_crawler_content? -->
+
+
+
+  
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../../index.html' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../../categories.html' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../../guidelines.html' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../../tos.html' itemprop="url">Terms of Service </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../../privacy.html' itemprop="url">Privacy Policy </a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org/">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    
+  <script>(function(){var js = "window['__CF$cv$params']={r:'7760c157fc342286',m:'1ZO7ez57MjmTQqj5URgC1txRD3B_d.6q3L2oGQuUiaM-1670452745-0-AWKGyxL25GOLojPGRe5SMV+GqJv7UeSZuqC62JV0AOh13Zg9dWhnsju4GrxN9dl1f/0pybNrbXEjwx0jpmnV0RfzhOHJlHoBAK0ofE4MU3jrITPJwaNoK1gTbLJjXfP+norXjOrtrFkeCJzL0C6BMUg=',s:[0x6e539b2154,0x9b0f9f9ecc],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../../../cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7760c157fc342286","version":"2022.11.3","r":1,"token":"e335876c42b04d78890a250ef7586bf5","si":100}' crossorigin="anonymous"></script>
+</body>
+  
+
+<!-- Mirrored from community.keyauth.cc/c/examples/csharp/8?page=1 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 22:41:42 GMT -->
+</html>

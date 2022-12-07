@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>App with x86 lib error</title>
+    <link>https://community.keyauth.cc/t/app-with-x86-lib-error/787</link>
+    <description>:white_check_mark: I agree that **I will not ask for help with non-KeyAuth related topics**, this community site **is only for asking about the default KeyAuth example with NO changes made to it**
+![image|690x366](upload://f3WvTR6S8PZn1qOqWUZpKm5nvKS.png)
+i use https://github.com/KeyAuth/keyauth-cpp-library#different-architectures and build lib_x86 
+than add to https://github.com/KeyAuth/KeyAuth-CPP-Example and choice release x86
+than get this error</description>
+    
+    <lastBuildDate>Wed, 07 Sep 2022 11:18:45 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/app-with-x86-lib-error/787.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>App with x86 lib error</title>
+        <dc:creator><![CDATA[xKaih]]></dc:creator>
+        <description><![CDATA[
+            <p>No LOL i made my own library for x86 and it works, only you need to compile libcurl in x86 mode and then change the x64 version in the cpp library project and compile in x86</p>
+          <p><a href="https://community.keyauth.cc/t/app-with-x86-lib-error/787/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/app-with-x86-lib-error/787/4</link>
+        <pubDate>Wed, 07 Sep 2022 11:18:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-787-4</guid>
+        <source url="https://community.keyauth.cc/t/app-with-x86-lib-error/787.rss">App with x86 lib error</source>
+      </item>
+      <item>
+        <title>App with x86 lib error</title>
+        <dc:creator><![CDATA[Globe]]></dc:creator>
+        <description><![CDATA[
+            <p>keyauth is only compatible with release x64 for the current time so RIP</p>
+          <p><a href="https://community.keyauth.cc/t/app-with-x86-lib-error/787/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/app-with-x86-lib-error/787/3</link>
+        <pubDate>Wed, 07 Sep 2022 09:18:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-787-3</guid>
+        <source url="https://community.keyauth.cc/t/app-with-x86-lib-error/787.rss">App with x86 lib error</source>
+      </item>
+      <item>
+        <title>App with x86 lib error</title>
+        <dc:creator><![CDATA[xKaih]]></dc:creator>
+        <description><![CDATA[
+            <p>I think that if you add libcurl.lib (x86) to your project, the problem would be solved</p>
+          <p><a href="https://community.keyauth.cc/t/app-with-x86-lib-error/787/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/app-with-x86-lib-error/787/2</link>
+        <pubDate>Mon, 05 Sep 2022 09:35:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-787-2</guid>
+        <source url="https://community.keyauth.cc/t/app-with-x86-lib-error/787.rss">App with x86 lib error</source>
+      </item>
+      <item>
+        <title>App with x86 lib error</title>
+        <dc:creator><![CDATA[Jerry_Ho]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong><br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/6992bc616e15a1eb0f19898cf25b578e7d6b62ae.png" alt="image" data-base62-sha1="f3WvTR6S8PZn1qOqWUZpKm5nvKS" width="690" height="366"><br>
+i use <a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" class="inline-onebox" rel="noopener nofollow ugc">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a> and build lib_x86<br>
+than add to <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example" class="inline-onebox" rel="noopener nofollow ugc">GitHub - KeyAuth/KeyAuth-CPP-Example: KeyAuth CPP Example</a> and choice release x86<br>
+than get this error</p>
+          <p><a href="https://community.keyauth.cc/t/app-with-x86-lib-error/787/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/app-with-x86-lib-error/787/1</link>
+        <pubDate>Mon, 05 Sep 2022 09:32:46 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-787-1</guid>
+        <source url="https://community.keyauth.cc/t/app-with-x86-lib-error/787.rss">App with x86 lib error</source>
+      </item>
+  </channel>
+</rss>

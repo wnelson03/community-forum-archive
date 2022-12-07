@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C++ use custom domain error</title>
+    <link>https://community.keyauth.cc/t/c-use-custom-domain-error/848</link>
+    <description>i use cutom domain but i got :
+![image|686x224](upload://fdEayKxp7KY8Sap9cnrku3Np1Cj.png)
+How can i solve?</description>
+    
+    <lastBuildDate>Sun, 25 Sep 2022 16:17:25 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/c-use-custom-domain-error/848.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C++ use custom domain error</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Watch the video it’s quite simple <a href="https://www.youtube.com/watch?v=a2SROFJ0eYc" class="inline-onebox">KeyAuth Custom Domains for API. Never deal ISP blockage again! - YouTube</a></p>
+<p>If your domain is <a href="https://example.com">https://example.com</a>, then the link you should have in the <code>main.cpp</code> file should be <a href="https://example.com/1.2/">https://example.com/1.2/</a></p>
+<p>The community site is closed now. You can ask your question in the <span class="hashtag">#coding</span> channel of the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+<p>Nobody is required to help you though. If your question is easy to solve with Google, people will likely ignore you.</p>
+          <p><a href="https://community.keyauth.cc/t/c-use-custom-domain-error/848/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-use-custom-domain-error/848/4</link>
+        <pubDate>Sun, 25 Sep 2022 16:17:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-848-4</guid>
+        <source url="https://community.keyauth.cc/t/c-use-custom-domain-error/848.rss">C++ use custom domain error</source>
+      </item>
+      <item>
+        <title>C++ use custom domain error</title>
+        <dc:creator><![CDATA[Jennie001]]></dc:creator>
+        <description><![CDATA[
+            <p>curl in cmd :<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/a988d9f2da89fe1fcab5fd18bdce8d88186ea4de.png" alt="image" data-base62-sha1="obLTv8oILmpEaoprIPXvIjaK71Q" width="690" height="368"></p>
+          <p><a href="https://community.keyauth.cc/t/c-use-custom-domain-error/848/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-use-custom-domain-error/848/3</link>
+        <pubDate>Sat, 24 Sep 2022 11:22:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-848-3</guid>
+        <source url="https://community.keyauth.cc/t/c-use-custom-domain-error/848.rss">C++ use custom domain error</source>
+      </item>
+      <item>
+        <title>C++ use custom domain error</title>
+        <dc:creator><![CDATA[Jennie001]]></dc:creator>
+        <description><![CDATA[
+            <p>if i use <a href="https://keyauth.win/api/1.2/" rel="noopener nofollow ugc">https://keyauth.win/api/1.2/</a>, it is work!</p>
+          <p><a href="https://community.keyauth.cc/t/c-use-custom-domain-error/848/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-use-custom-domain-error/848/2</link>
+        <pubDate>Sat, 24 Sep 2022 11:21:49 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-848-2</guid>
+        <source url="https://community.keyauth.cc/t/c-use-custom-domain-error/848.rss">C++ use custom domain error</source>
+      </item>
+      <item>
+        <title>C++ use custom domain error</title>
+        <dc:creator><![CDATA[Jennie001]]></dc:creator>
+        <description><![CDATA[
+            <p>i use cutom domain but i got :<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/6aab8e81b327a7dcc688c450c323f317947ebbb3.png" alt="image" data-base62-sha1="fdEayKxp7KY8Sap9cnrku3Np1Cj" width="686" height="224"><br>
+How can i solve?</p>
+          <p><a href="https://community.keyauth.cc/t/c-use-custom-domain-error/848/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-use-custom-domain-error/848/1</link>
+        <pubDate>Sat, 24 Sep 2022 11:20:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-848-1</guid>
+        <source url="https://community.keyauth.cc/t/c-use-custom-domain-error/848.rss">C++ use custom domain error</source>
+      </item>
+  </channel>
+</rss>

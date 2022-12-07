@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Application closes on load</title>
+    <link>https://community.keyauth.cc/t/application-closes-on-load/678</link>
+    <description>![image|666x500](upload://QpOIOQqWo1Jld1zdLfNXFT4uoW.jpeg)</description>
+    
+    <lastBuildDate>Fri, 26 Aug 2022 22:21:03 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/application-closes-on-load/678.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Application closes on load</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>change</p>
+<pre><code class="lang-auto">std::string url = "https://keyauth.win/api/1.1/";
+</code></pre>
+<p>to</p>
+<pre><code class="lang-auto">std::string url = "https://keyauth.win/api/1.2/";
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/application-closes-on-load/678/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/application-closes-on-load/678/3</link>
+        <pubDate>Fri, 26 Aug 2022 22:21:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-678-3</guid>
+        <source url="https://community.keyauth.cc/t/application-closes-on-load/678.rss">Application closes on load</source>
+      </item>
+      <item>
+        <title>Application closes on load</title>
+        <dc:creator><![CDATA[Aktor]]></dc:creator>
+        <description><![CDATA[
+            <p>I have the same problem</p>
+          <p><a href="https://community.keyauth.cc/t/application-closes-on-load/678/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/application-closes-on-load/678/2</link>
+        <pubDate>Fri, 26 Aug 2022 15:42:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-678-2</guid>
+        <source url="https://community.keyauth.cc/t/application-closes-on-load/678.rss">Application closes on load</source>
+      </item>
+      <item>
+        <title>Application closes on load</title>
+        <dc:creator><![CDATA[Unknown]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/05ecd77238c45c6f8ef5125b36109ebf112861f2.jpeg" alt="image" data-base62-sha1="QpOIOQqWo1Jld1zdLfNXFT4uoW" width="666" height="500"></p>
+          <p><a href="https://community.keyauth.cc/t/application-closes-on-load/678/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/application-closes-on-load/678/1</link>
+        <pubDate>Thu, 18 Aug 2022 16:52:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-678-1</guid>
+        <source url="https://community.keyauth.cc/t/application-closes-on-load/678.rss">Application closes on load</source>
+      </item>
+  </channel>
+</rss>

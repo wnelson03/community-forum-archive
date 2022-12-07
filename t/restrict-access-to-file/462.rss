@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Restrict access to file</title>
+    <link>https://community.keyauth.cc/t/restrict-access-to-file/462</link>
+    <description>![image|641x80](upload://k180Kd2twGHSZLeiUfy4rcSv9WE.png)
+
+I want to restrict access to the &quot;WINDOWS_10_PRO_ACTIVATION.bat&quot; unless you open Windows.exe which is my key authorization loader. Is there any way I can possibly do that? I havent found a solution yet.</description>
+    
+    <lastBuildDate>Sat, 23 Jul 2022 19:41:33 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/restrict-access-to-file/462.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Restrict access to file</title>
+        <dc:creator><![CDATA[OverDrive]]></dc:creator>
+        <description><![CDATA[
+            <p>You could use the KeyAuthApp.download function to download the file to a pc, and delete it on program completion.</p>
+          <p><a href="https://community.keyauth.cc/t/restrict-access-to-file/462/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/restrict-access-to-file/462/2</link>
+        <pubDate>Sat, 23 Jul 2022 19:41:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-462-2</guid>
+        <source url="https://community.keyauth.cc/t/restrict-access-to-file/462.rss">Restrict access to file</source>
+      </item>
+      <item>
+        <title>Restrict access to file</title>
+        <dc:creator><![CDATA[Blaze_Escape]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/8c4c2841a037e0098b17473426323ce007279c00.png" alt="image" data-base62-sha1="k180Kd2twGHSZLeiUfy4rcSv9WE" width="641" height="80"></p>
+<p>I want to restrict access to the “WINDOWS_10_PRO_ACTIVATION.bat” unless you open Windows.exe which is my key authorization loader. Is there any way I can possibly do that? I havent found a solution yet.</p>
+          <p><a href="https://community.keyauth.cc/t/restrict-access-to-file/462/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/restrict-access-to-file/462/1</link>
+        <pubDate>Thu, 21 Jul 2022 22:02:21 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-462-1</guid>
+        <source url="https://community.keyauth.cc/t/restrict-access-to-file/462.rss">Restrict access to file</source>
+      </item>
+  </channel>
+</rss>

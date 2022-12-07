@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Keyauth crashes c++ x86</title>
+    <link>https://community.keyauth.cc/t/keyauth-crashes-c-x86/179</link>
+    <description>I made a loader in C++ x86 then added Keyauth, but it crashes. It works fine with x64 libs. But not with the x86 libs.
+
+My program doesn&#39;t crash at KeyAuthApp.init(); but it does at the check if (!KeyAuthApp.data.success). 
+
+
+The libs I use :
+https://github.com/BINM7MD/KeyAuth-Libraries</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 06:56:14 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauth-crashes-c-x86/179.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Keyauth crashes c++ x86</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/keyauth-crashes-c-x86/179/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-crashes-c-x86/179/3</link>
+        <pubDate>Mon, 27 Jun 2022 06:56:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-179-3</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-crashes-c-x86/179.rss">Keyauth crashes c++ x86</source>
+      </item>
+      <item>
+        <title>Keyauth crashes c++ x86</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>We do not give support for unofficial/modified KeyAuth libs, maybe try to get in touch with the GitHub author.</p>
+<p>I will close this now, have a good day.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-crashes-c-x86/179/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-crashes-c-x86/179/2</link>
+        <pubDate>Mon, 27 Jun 2022 06:56:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-179-2</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-crashes-c-x86/179.rss">Keyauth crashes c++ x86</source>
+      </item>
+      <item>
+        <title>Keyauth crashes c++ x86</title>
+        <dc:creator><![CDATA[Vasie]]></dc:creator>
+        <description><![CDATA[
+            <p>I made a loader in C++ x86 then added Keyauth, but it crashes. It works fine with x64 libs. But not with the x86 libs.</p>
+<p>My program doesn’t crash at KeyAuthApp.init(); but it does at the check if (!KeyAuthApp.data.success).</p>
+<p>The libs I use :</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/BINM7MD/KeyAuth-Libraries">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/BINM7MD/KeyAuth-Libraries" target="_blank" rel="noopener nofollow ugc">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/26e11a42db50bbd0d06eaea793430a222f525b7f.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/BINM7MD/KeyAuth-Libraries" target="_blank" rel="noopener nofollow ugc">GitHub - BINM7MD/KeyAuth-Libraries: V142 / V143 Libraries / x86 / x64</a></h3>
+
+  <p>V142 / V143 Libraries / x86 / x64. Contribute to BINM7MD/KeyAuth-Libraries development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/keyauth-crashes-c-x86/179/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-crashes-c-x86/179/1</link>
+        <pubDate>Sun, 12 Jun 2022 09:50:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-179-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-crashes-c-x86/179.rss">Keyauth crashes c++ x86</source>
+      </item>
+  </channel>
+</rss>

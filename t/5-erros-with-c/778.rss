@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>5 Erros with c++</title>
+    <link>https://community.keyauth.cc/t/5-erros-with-c/778</link>
+    <description>im adding keyauth to my c
+![image|690x155](upload://a96poYHijTPmDD7VyvMS6wN3kjw.png)
+++ application and i get these 5 errors</description>
+    
+    <lastBuildDate>Sat, 03 Sep 2022 18:22:18 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/5-erros-with-c/778.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>5 Erros with c++</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>change runtime library.</p>
+<p>Steps:<br>
+use brain,<br>
+use google<br>
+use brain</p>
+          <p><a href="https://community.keyauth.cc/t/5-erros-with-c/778/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/5-erros-with-c/778/2</link>
+        <pubDate>Sat, 03 Sep 2022 18:22:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-778-2</guid>
+        <source url="https://community.keyauth.cc/t/5-erros-with-c/778.rss">5 Erros with c++</source>
+      </item>
+      <item>
+        <title>5 Erros with c++</title>
+        <dc:creator><![CDATA[Enzyme]]></dc:creator>
+        <description><![CDATA[
+            <p>im adding keyauth to my c<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/471d2d0f44054a447652e3afb817476738a7b982.png" alt="image" data-base62-sha1="a96poYHijTPmDD7VyvMS6wN3kjw" width="690" height="155"><br>
+++ application and i get these 5 errors</p>
+          <p><a href="https://community.keyauth.cc/t/5-erros-with-c/778/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/5-erros-with-c/778/1</link>
+        <pubDate>Sat, 03 Sep 2022 18:15:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-778-1</guid>
+        <source url="https://community.keyauth.cc/t/5-erros-with-c/778.rss">5 Erros with c++</source>
+      </item>
+  </channel>
+</rss>

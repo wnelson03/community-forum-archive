@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Help, i get application not found</title>
+    <link>https://community.keyauth.cc/t/help-i-get-application-not-found/521</link>
+    <description>Hello, please help, i get application error, even though i put my application my owner id and my application secret and application name and version, and im still getting the same error, and ive updated KeyAuth.cs to the latest
+Thanks</description>
+    
+    <lastBuildDate>Thu, 28 Jul 2022 15:43:31 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/help-i-get-application-not-found/521.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Help, i get application not found</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>This got fixed via dms they had KeyAuthApp.init() twice in code.</p>
+          <p><a href="https://community.keyauth.cc/t/help-i-get-application-not-found/521/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/help-i-get-application-not-found/521/2</link>
+        <pubDate>Thu, 28 Jul 2022 15:43:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-521-2</guid>
+        <source url="https://community.keyauth.cc/t/help-i-get-application-not-found/521.rss">Help, i get application not found</source>
+      </item>
+      <item>
+        <title>Help, i get application not found</title>
+        <dc:creator><![CDATA[Kyle_Jackson]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello, please help, i get application error, even though i put my application my owner id and my application secret and application name and version, and im still getting the same error, and ive updated KeyAuth.cs to the latest<br>
+Thanks</p>
+          <p><a href="https://community.keyauth.cc/t/help-i-get-application-not-found/521/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/help-i-get-application-not-found/521/1</link>
+        <pubDate>Thu, 28 Jul 2022 15:26:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-521-1</guid>
+        <source url="https://community.keyauth.cc/t/help-i-get-application-not-found/521.rss">Help, i get application not found</source>
+      </item>
+  </channel>
+</rss>

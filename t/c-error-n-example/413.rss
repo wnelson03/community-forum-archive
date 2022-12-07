@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C++ error n example</title>
+    <link>https://community.keyauth.cc/t/c-error-n-example/413</link>
+    <description>![image|690x373](upload://v7ovZBJAefQkwTT0KQhTgTYk1LG.png)
+anyone know why i get these errors?
+
+*libs are already included*</description>
+    
+    <lastBuildDate>Sat, 16 Jul 2022 20:47:41 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/c-error-n-example/413.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C++ error n example</title>
+        <dc:creator><![CDATA[imaklot]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/da196761d936fbd87e861e731bf24c72cd9c2850.png" alt="image" data-base62-sha1="v7ovZBJAefQkwTT0KQhTgTYk1LG" width="690" height="373"><br>
+anyone know why i get these errors?</p>
+<p><em>libs are already included</em></p>
+          <p><a href="https://community.keyauth.cc/t/c-error-n-example/413/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-error-n-example/413/1</link>
+        <pubDate>Sat, 16 Jul 2022 12:29:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-413-1</guid>
+        <source url="https://community.keyauth.cc/t/c-error-n-example/413.rss">C++ error n example</source>
+      </item>
+  </channel>
+</rss>

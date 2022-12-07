@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>When i download a file using KeyAuth&#39;s api , it says &#39;Value cannot be null. Parameter name: bytes&#39;</title>
+    <link>https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472</link>
+    <description>![image|690x163](upload://2LX3APl2FOPaGI80Kk0OyX1KApa.png)
+
+
+Please some help</description>
+    
+    <lastBuildDate>Fri, 29 Jul 2022 11:51:21 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>When i download a file using KeyAuth&#39;s api , it says &#39;Value cannot be null. Parameter name: bytes&#39;</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Thats because for some reason the the response is null most of the time us because the file is to big or the file id is wrong<br>
+So just do after the keyauthapp.download()<br>
+Log the response for now just to see what it is.</p>
+<p>So do</p>
+<pre><code class="lang-auto">Console.writeline(KeyAuthApp.response.success)
+Console.writeline(KeyAuthApp.response.message)
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472/3</link>
+        <pubDate>Fri, 29 Jul 2022 11:51:21 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-472-3</guid>
+        <source url="https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472.rss">When i download a file using KeyAuth&#39;s api , it says &#39;Value cannot be null. Parameter name: bytes&#39;</source>
+      </item>
+      <item>
+        <title>When i download a file using KeyAuth&#39;s api , it says &#39;Value cannot be null. Parameter name: bytes&#39;</title>
+        <dc:creator><![CDATA[haonski]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes I have the same problem and cannot fix it. Did you find a fix yet?</p>
+          <p><a href="https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472/2</link>
+        <pubDate>Fri, 29 Jul 2022 08:08:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-472-2</guid>
+        <source url="https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472.rss">When i download a file using KeyAuth&#39;s api , it says &#39;Value cannot be null. Parameter name: bytes&#39;</source>
+      </item>
+      <item>
+        <title>When i download a file using KeyAuth&#39;s api , it says &#39;Value cannot be null. Parameter name: bytes&#39;</title>
+        <dc:creator><![CDATA[kwstas1337]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/1370033e0d5982280f0f28f688db2ee55c4cf768.png" alt="image" data-base62-sha1="2LX3APl2FOPaGI80Kk0OyX1KApa" width="690" height="163"></p>
+<p>Please some help</p>
+          <p><a href="https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472/1</link>
+        <pubDate>Fri, 22 Jul 2022 04:49:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-472-1</guid>
+        <source url="https://community.keyauth.cc/t/when-i-download-a-file-using-keyauths-api-it-says-value-cannot-be-null-parameter-name-bytes/472.rss">When i download a file using KeyAuth&#39;s api , it says &#39;Value cannot be null. Parameter name: bytes&#39;</source>
+      </item>
+  </channel>
+</rss>

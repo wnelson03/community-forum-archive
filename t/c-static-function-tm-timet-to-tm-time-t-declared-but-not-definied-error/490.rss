@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</title>
+    <link>https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490</link>
+    <description>C++ Release x86
+static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error
+variable &#39;KeyAuth::api::data_class:success&#39; is unititialized. Always initialize a member variable (type.6)
+
+![image|423x188](upload://c2AX0ZevH18J0KfCgZo1Iijl3Ms.png)
+
+
+
+
+
+so I try to remove static but after I remove static there are a lot of errors so it wont work if anyone know how to fix pls help, thank.</description>
+    
+    <lastBuildDate>Sun, 24 Jul 2022 12:32:52 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</title>
+        <dc:creator><![CDATA[darknetking]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/401510f6cf55f3ae89508d25a42f33a4bbd7be3f.png" alt="image" data-base62-sha1="98TGVuttS1vcCmcT8cG7cdLTfc3" width="690" height="393"><br>
+I think the problem is here</p>
+          <p><a href="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/6</link>
+        <pubDate>Sun, 24 Jul 2022 12:32:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-490-6</guid>
+        <source url="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490.rss">C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</source>
+      </item>
+      <item>
+        <title>C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</title>
+        <dc:creator><![CDATA[darknetking]]></dc:creator>
+        <description><![CDATA[
+            <p>bro rightnow after I added it and I try to compile there are some errors<br>
+I dont know how to fix these<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/56951627911c96081dc0c84ad83c8ab9b9287a2e.png" alt="image" data-base62-sha1="clWtGTiK2WwUccrhX0fckIxzS3A" width="690" height="175"></p>
+          <p><a href="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/5</link>
+        <pubDate>Sun, 24 Jul 2022 12:24:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-490-5</guid>
+        <source url="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490.rss">C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</source>
+      </item>
+      <item>
+        <title>C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</title>
+        <dc:creator><![CDATA[darknetking]]></dc:creator>
+        <description><![CDATA[
+            <p>thak for reply bro later I will add it</p>
+          <p><a href="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/4</link>
+        <pubDate>Sun, 24 Jul 2022 12:07:35 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-490-4</guid>
+        <source url="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490.rss">C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</source>
+      </item>
+      <item>
+        <title>C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</title>
+        <dc:creator><![CDATA[darknetking]]></dc:creator>
+        <description><![CDATA[
+            <p>I didnt put that in my code</p>
+          <p><a href="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/3</link>
+        <pubDate>Sun, 24 Jul 2022 12:04:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-490-3</guid>
+        <source url="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490.rss">C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</source>
+      </item>
+      <item>
+        <title>C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</title>
+        <dc:creator><![CDATA[InstinctTheDevil]]></dc:creator>
+        <description><![CDATA[
+            <p>Have you inserted the functions defined here:</p><aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/de94f76fc53324fbbe10a2fea80461d52b0f76d7/main.cpp#L163">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/de94f76fc53324fbbe10a2fea80461d52b0f76d7/main.cpp#L163" target="_blank" rel="noopener nofollow ugc">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/de94f76fc53324fbbe10a2fea80461d52b0f76d7/main.cpp#L163" target="_blank" rel="noopener nofollow ugc">KeyAuth/KeyAuth-CPP-Example/blob/de94f76fc53324fbbe10a2fea80461d52b0f76d7/main.cpp#L163</a></h4>
+
+
+
+    <pre class="onebox"><code class="lang-cpp">
+      <ol class="start lines" start="153" style="counter-reset: li-counter 152 ;">
+          <li>	// std::cout &lt;&lt; "\n Response recieved from webhook request: " + resp;</li>
+          <li>
+          </li>
+<li>	// KeyAuthApp.log("user logged in"); // send event to logs. if you set discord webhook in app settings, it will send there too</li>
+          <li>	// KeyAuthApp.ban(); // ban the current user, must be logged in</li>
+          <li>
+          </li>
+<li>	std::cout &lt;&lt; skCrypt("\n\n Closing in ten seconds...");</li>
+          <li>	Sleep(10000);</li>
+          <li>	exit(0);</li>
+          <li>}</li>
+          <li>
+          </li>
+<li class="selected">std::string tm_to_readable_time(tm ctx) {</li>
+          <li>	char buffer[80];</li>
+          <li>
+          </li>
+<li>	strftime(buffer, sizeof(buffer), "%a %m/%d/%y %H:%M:%S %Z", &amp;ctx);</li>
+          <li>
+          </li>
+<li>	return std::string(buffer);</li>
+          <li>}</li>
+          <li>
+          </li>
+<li>static std::time_t string_to_timet(std::string timestamp) {</li>
+          <li>	auto cv = strtol(timestamp.c_str(), NULL, 10); // long</li>
+          <li>
+      </li>
+</ol>
+    </code></pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>into your code?</p>
+          <p><a href="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/2</link>
+        <pubDate>Sun, 24 Jul 2022 12:02:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-490-2</guid>
+        <source url="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490.rss">C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</source>
+      </item>
+      <item>
+        <title>C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</title>
+        <dc:creator><![CDATA[darknetking]]></dc:creator>
+        <description><![CDATA[
+            <p>C++ Release x86<br>
+static function ‘tm timet_to_tm(time_t)’ declared but not definied error<br>
+variable ‘KeyAuth::api::data_class:success’ is unititialized. Always initialize a member variable (type.6)</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/5465361c193a10846b73a8c6a0443e48c3b2be90.png" alt="image" data-base62-sha1="c2AX0ZevH18J0KfCgZo1Iijl3Ms" width="423" height="188"></p>
+<p>so I try to remove static but after I remove static there are a lot of errors so it wont work if anyone know how to fix pls help, thank.</p>
+          <p><a href="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490/1</link>
+        <pubDate>Sun, 24 Jul 2022 11:59:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-490-1</guid>
+        <source url="https://community.keyauth.cc/t/c-static-function-tm-timet-to-tm-time-t-declared-but-not-definied-error/490.rss">C++ static function &#39;tm timet_to_tm(time_t)&#39; declared but not definied error</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>PHP getting users online + hwid</title>
+    <link>https://community.keyauth.cc/t/php-getting-users-online-hwid/659</link>
+    <description>Hello so am trying to get the number of users in my application to be displayed on my site.
+Also showing user hwid.
+
+Thank you.</description>
+    
+    <lastBuildDate>Tue, 16 Aug 2022 21:21:42 +0000</lastBuildDate>
+    <category>PHP</category>
+    <atom:link href="https://community.keyauth.cc/t/php-getting-users-online-hwid/659.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>PHP getting users online + hwid</title>
+        <dc:creator><![CDATA[Elf]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello so am trying to get the number of users in my application to be displayed on my site.<br>
+Also showing user hwid.</p>
+<p>Thank you.</p>
+          <p><a href="https://community.keyauth.cc/t/php-getting-users-online-hwid/659/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/php-getting-users-online-hwid/659/1</link>
+        <pubDate>Tue, 16 Aug 2022 21:21:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-659-1</guid>
+        <source url="https://community.keyauth.cc/t/php-getting-users-online-hwid/659.rss">PHP getting users online + hwid</source>
+      </item>
+  </channel>
+</rss>

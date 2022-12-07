@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from community.keyauth.cc/t/cooding-err0r-help-me/649 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 22:41:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Cooding err0r help me - Python - KeyAuth</title>
+    <meta name="description" content="Traceback (most recent call last):
+
+File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py”, line 133, in  
+onlineUsers = keyauthapp.fetchOnline() 
+File “C:\Users\jatin kumar\Downloads\boost-bot-main\&amp;hellip;">
+    <meta name="generator" content="Discourse 2.9.0.beta14 - https://github.com/discourse/discourse version 64b781dacfd915f63480ddc7f8f0f4b0452bcecd">
+<link rel="icon" type="image/png" href="../../uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="../../uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_180x180.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="649.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="../../opensearch.xml" title="KeyAuth Search">
+
+    <link href="../../stylesheets/color_definitions_base___4c54df19f9f59e26ee232a7eb94b30e03c73cdbf.css_%3b%20filename_%3dUTF-8%27%27color_definitions_base___4c54df19f9f59e26ee232a7eb94b30e03c73cdbf0123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" class="light-scheme"/><link href="../../stylesheets/color_definitions_dark_1__4f4f1c6b9f8578178ed894e2ff0a35ea00dd6d1b.css_%3b%20filename_%3dUTF-8%27%27color_definitions_dark_1__4f4f1c6b9f8578178ed894e2ff0a35ea00dd6d1b0123.css?__ws=community.keyauth.cc" media="(prefers-color-scheme: dark)" rel="stylesheet" class="dark-scheme"/>
+
+  <link href="../../stylesheets/desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="../../stylesheets/discourse-canned-replies_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-canned-replies_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-canned-replies"  />
+  <link href="../../stylesheets/discourse-chat-integration_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-chat-integration_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.cs?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-chat-integration"  />
+  <link href="../../stylesheets/discourse-details_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-details_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="../../stylesheets/discourse-local-dates_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-local-dates_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="../../stylesheets/discourse-narrative-bot_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-narrative-bot_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="../../stylesheets/discourse-presence_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-presence_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="../../stylesheets/discourse-solved_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-solved_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="../../stylesheets/discourse-tooltips_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-tooltips_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-tooltips"  />
+  <link href="../../stylesheets/discourse-voting_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-voting_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-voting"  />
+  <link href="../../stylesheets/lazy-yt_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27lazy-yt_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="lazy-yt"  />
+  <link href="../../stylesheets/poll_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27poll_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="../../stylesheets/discourse-voting_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-voting_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-voting_desktop"  />
+  <link href="../../stylesheets/poll_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27poll_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+
+    
+    
+        <link rel="alternate nofollow" type="application/rss+xml" title="RSS feed of &#39;Cooding err0r help me&#39;" href="649.rss" />
+    <meta property="og:site_name" content="KeyAuth" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png" />
+<meta property="og:image" content="../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png" />
+<meta property="og:url" content="649.html" />
+<meta name="twitter:url" content="649.html" />
+<meta property="og:title" content="Cooding err0r help me" />
+<meta name="twitter:title" content="Cooding err0r help me" />
+<meta property="og:description" content="Traceback (most recent call last):  File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py”, line 133, in   onlineUsers = keyauthapp.fetchOnline()  File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\keyauth.py”, line 435, in fetchOnline  if json[“users”][“0”]:  TypeError: list indices must be integers or slices, not str  Press any key to continue . . ." />
+<meta name="twitter:description" content="Traceback (most recent call last):  File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py”, line 133, in   onlineUsers = keyauthapp.fetchOnline()  File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\keyauth.py”, line 435, in fetchOnline  if json[“users”][“0”]:  TypeError: list indices must be integers or slices, not str  Press any key to continue . . ." />
+<meta property="article:published_time" content="2022-08-15T15:45:03+00:00" />
+<meta property="og:ignore_canonical" content="true" />
+
+
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"QAPage","name":"Cooding err0r help me","mainEntity":{"@type":"Question","name":"Cooding err0r help me","text":"Traceback (most recent call last):\n\nFile “C:\\Users\\jatin kumar\\Downloads\\boost-bot-main\\boost-bot-main\\main.py”, line 133, in\n\nonlineUsers = keyauthapp.fetchOnline()\n\nFile “C:\\Users\\jatin kumar\\Downloads\\boost-bot-main\\boost-bot-main\\keyauth.py”, line 435, in fetchOnline\n\nif json[“users”][“0”]:\n\nTy&hellip;","upvoteCount":0,"answerCount":0,"dateCreated":"2022-08-15T15:45:02.257Z","author":{"@type":"Person","name":null}}}</script>
+  </head>
+  <body class="crawler">
+    
+    <header>
+  <a href="../../index.html">
+    KeyAuth
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+        <div id="topic-title">
+    <h1>
+      <a href="649.html">Cooding err0r help me</a>
+    </h1>
+
+      <div class="topic-category" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="../../c/examples/5.html" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #0088CC'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Questions/Help with Examples</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="1" />
+          </span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="../../c/examples/python/9.html" class="badge-wrapper bullet" itemprop="item">
+              <span class='badge-category-bg' style='background-color: #3773A5'></span>
+              <span class='badge-category clear-badge'>
+                <span class='category-name' itemprop='name'>Python</span>
+              </span>
+            </a>
+            <meta itemprop="position" content="2" />
+          </span>
+      </div>
+
+  </div>
+
+  
+
+
+      <div id='post_1' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/JATIN_Kumar.html'><span itemprop='name'>JATIN_Kumar</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="649.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-08-15T15:45:03Z' class='post-time'>
+                August 15, 2022,  3:45pm
+              </time>
+              <meta itemprop='dateModified' content='2022-08-15T15:45:03Z'>
+          <span itemprop='position'>#1</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <pre><code>Traceback (most recent call last):
+</code></pre>
+<p>File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py”, line 133, in <br>
+onlineUsers = keyauthapp.fetchOnline()<br>
+File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\keyauth.py”, line 435, in fetchOnline<br>
+if json[“users”][“0”]:<br>
+TypeError: list indices must be integers or slices, not str<br>
+Press any key to continue . . .</p>
+        </div>
+
+        <meta itemprop='headline' content='Cooding err0r help me'>
+          <meta itemprop='keywords' content=''>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_2' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/Facepunch.html'><span itemprop='name'>Facepunch</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="649.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-08-15T21:52:05Z' class='post-time'>
+                August 15, 2022,  9:52pm
+              </time>
+              <meta itemprop='dateModified' content='2022-08-15T21:52:05Z'>
+          <span itemprop='position'>#2</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>We need to see some code</p>
+        </div>
+
+        <meta itemprop='headline' content='Cooding err0r help me'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="1" />
+          </div>
+
+      </div>
+      <div id='post_3' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/JATIN_Kumar.html'><span itemprop='name'>JATIN_Kumar</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="649.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-08-16T12:23:26Z' class='post-time'>
+                August 16, 2022, 12:23pm
+              </time>
+              <meta itemprop='dateModified' content='2022-08-16T12:23:26Z'>
+          <span itemprop='position'>#3</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>MAIN.PY</p>
+<p>from keyauth import api</p>
+<p>import os</p>
+<p>import sys</p>
+<p>import os.path</p>
+<p>import platform</p>
+<p>import hashlib</p>
+<p>from time import sleep</p>
+<p>from datetime import datetime</p>
+<h1>
+<a name="watch-setup-video-if-you-need-help-httpswwwyoutubecomwatchvl2eaqomuuia-1" class="anchor" href="#watch-setup-video-if-you-need-help-httpswwwyoutubecomwatchvl2eaqomuuia-1"></a>watch setup video if you need help <a href="https://www.youtube.com/watch?v=L2eAQOmuUiA" class="inline-onebox" rel="noopener nofollow ugc">How To Setup KeyAuth Python Login System - YouTube</a>
+</h1>
+<p>os.system(“cls”)</p>
+<p>os.system(“title Python Example”)</p>
+<p>print(“Initializing”)</p>
+<p>def getchecksum():</p>
+<p>path = os.path.basename(<strong>file</strong>)</p>
+<p>if not os.path.exists(path):</p>
+<p>path = path[:-2] + “exe”</p>
+<p>md5_hash = hashlib.md5()</p>
+<p>a_file = open(path,“rb”)</p>
+<p>content = a_file.read()</p>
+<p>md5_hash.update(content)</p>
+<p>digest = md5_hash.hexdigest()</p>
+<p>return digest</p>
+<p>keyauthapp = api(</p>
+<p>name = “”,</p>
+<p>ownerid = “”,</p>
+<p>secret = “”,</p>
+<p>version = “1.0”,</p>
+<p>hash_to_check = getchecksum()</p>
+<p>)</p>
+<p>print(f"“”</p>
+<p>App data:</p>
+<p>Number of users: {keyauthapp.app_data.numUsers}</p>
+<p>Number of online users: {keyauthapp.app_data.onlineUsers}</p>
+<p>Number of keys: {keyauthapp.app_data.numKeys}</p>
+<p>Application Version: {keyauthapp.app_data.app_ver}</p>
+<p>Customer panel link: {keyauthapp.app_data.customer_panel}</p>
+<p>“”")</p>
+<p>print(f"Current Session Validation Status: {keyauthapp.check()}")</p>
+<p>print(f"Blacklisted? : {keyauthapp.checkblacklist()}") # check if blacklisted, you can edit this and make it exit the program if blacklisted</p>
+<p>print (“”"</p>
+<p>1.Login</p>
+<p>2.Register</p>
+<p>3.Upgrade</p>
+<p>4.License Key Only</p>
+<p>“”")</p>
+<p>ans=input("Select Option: ")</p>
+<p>if ans==“1”:</p>
+<p>user = input('Provide username: ')</p>
+<p>password = input('Provide password: ')</p>
+<p>keyauthapp.login(user,password)</p>
+<p>elif ans==“2”:</p>
+<p>user = input('Provide username: ')</p>
+<p>password = input('Provide password: ')</p>
+<p>license = input('Provide License: ')</p>
+<p>keyauthapp.register(user,password,license)</p>
+<p>elif ans==“3”:</p>
+<p>user = input('Provide username: ')</p>
+<p>license = input('Provide License: ')</p>
+<p>keyauthapp.upgrade(user,license)</p>
+<p>elif ans==“4”:</p>
+<p>key = input('Enter your license: ')</p>
+<p>keyauthapp.license(key)</p>
+<p>else:</p>
+<p>print(“\nNot Valid Option”)</p>
+<p>sys.exit()</p>
+<p><span class="hashtag">#region</span> Extra Functions</p>
+<p>#* Download Files form the server to your computer using the download function in the api class</p>
+<p><span class="hashtag">#bytes</span> = keyauthapp.download(“FILEID”)</p>
+<p><span class="hashtag">#f</span> = open(“example.exe”, “wb”)</p>
+<p><span class="hashtag">#f</span>.write(bytes)</p>
+<p><span class="hashtag">#f</span>.close()</p>
+<p>#* Set up user variable</p>
+<p><span class="hashtag">#keyauthapp</span>.setvar(“varName”, “varValue”)</p>
+<p>#* Get user variable and print it</p>
+<p><span class="hashtag">#data</span> = keyauthapp.getvar(“varName”)</p>
+<p><span class="hashtag">#print</span>(data)</p>
+<p>#* Get normal variable and print it</p>
+<p><span class="hashtag">#data</span> = keyauthapp.var(“varName”)</p>
+<p><span class="hashtag">#print</span>(data)</p>
+<p>#* Log message to the server and then to your webhook what is set on app settings</p>
+<p><span class="hashtag">#keyauthapp</span>.log(“Message”)</p>
+<p>#* Get if the user pc have been blacklisted</p>
+<p><span class="hashtag">#print</span>(f"Blacklisted? : {keyauthapp.checkblacklist()}")</p>
+<p>#* See if the current session is validated</p>
+<p><span class="hashtag">#print</span>(f"Session Validated?: {keyauthapp.check()}")</p>
+<p>#* example to send normal request with no POST data</p>
+<p><span class="hashtag">#data</span> = keyauthapp.webhook(“WebhookID”, “?type=resetuser&amp;user=username”)</p>
+<p>#* Get chat messages</p>
+<p><span class="hashtag">#messages</span> = keyauthapp.chatGet(“CHANNEL”)</p>
+<p><span class="hashtag">#Messages</span> = “”</p>
+<p><span class="hashtag">#for</span> i in range(len(messages)):</p>
+<h1>
+<a name="messages-datetimeutcfromtimestampintmessagesitimestampstrftimey-m-d-hms-messagesiauthor-messagesimessage-n-2" class="anchor" href="#messages-datetimeutcfromtimestampintmessagesitimestampstrftimey-m-d-hms-messagesiauthor-messagesimessage-n-2"></a>Messages += datetime.utcfromtimestamp(int(messages[i][“timestamp”])).strftime(‘%Y-%m-%d %H:%M:%S’) + " - " + messages[i][“author”] + ": " + messages[i][“message”] + “\n”</h1>
+<p><span class="hashtag">#print</span>(“\n\n” + Messages)</p>
+<p>#* Send chat message</p>
+<p><span class="hashtag">#keyauthapp</span>.chatSend(“MESSAGE”, “CHANNEL”)</p>
+<p><span class="hashtag">#endregion</span></p>
+<p>print("\nUser data: ")</p>
+<p>print("Username: " + keyauthapp.user_data.username)</p>
+<p>print("IP address: " + keyauthapp.user_data.ip)</p>
+<p>print("Hardware-Id: " + keyauthapp.user_data.hwid)</p>
+<p><span class="hashtag">#print</span>("Subcription: " + keyauthapp.user_data.subscription) ## Print Subscription “ONE” name</p>
+<p>subs = keyauthapp.user_data.subscriptions ## Get all Subscription names, expiry, and timeleft</p>
+<p>for i in range(len(subs)):</p>
+<p>sub = subs[i][“subscription”] # Subscription from every Sub</p>
+<p>expiry = datetime.utcfromtimestamp(int(subs[i][“expiry”])).strftime(‘%Y-%m-%d %H:%M:%S’) ## Expiry date from every Sub</p>
+<p>timeleft = subs[i][“timeleft”] ## Timeleft from every Sub</p>
+<p>print(f"[{i + 1} / {len(subs)}] | Subscription: {sub} - Expiry: {expiry} - Timeleft: {timeleft}")</p>
+<p>onlineUsers = keyauthapp.fetchOnline()</p>
+<p>OU = “” ## KEEP THIS EMPTY FOR NOW, THIS WILL BE USED TO CREATE ONLINE USER STRING.</p>
+<p>if onlineUsers == None:</p>
+<p>OU = “No online users”</p>
+<p>else:</p>
+<p>for i in range(len(onlineUsers)):</p>
+<p>OU += onlineUsers[i][“credential”] + " "</p>
+<p>print(“\n” + OU + “\n”)</p>
+<p>print("Created at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.createdate)).strftime(‘%Y-%m-%d %H:%M:%S’))</p>
+<p>print("Last login at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.lastlogin)).strftime(‘%Y-%m-%d %H:%M:%S’))</p>
+<p>print("Expires at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.expires)).strftime(‘%Y-%m-%d %H:%M:%S’))</p>
+<p>print(f"Current Session Validation Status: {keyauthapp.check()}")</p>
+<p>print(“Exiting in 10 secs…”)</p>
+<p>sleep(10)</p>
+<p>sys.exit(0)</p>
+        </div>
+
+        <meta itemprop='headline' content='Cooding err0r help me'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+      <div id='post_4' itemscope itemtype='http://schema.org/DiscussionForumPosting' class='topic-body crawler-post'>
+        <div class='crawler-post-meta'>
+          <div itemprop='publisher' itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop='name' content='Nelson Cybersecurity LLC'>
+              <div itemprop='logo' itemscope itemtype="http://schema.org/ImageObject">
+                <meta itemprop='url' content='../../uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png'>
+              </div>
+          </div>
+          <span class="creator" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <a itemprop="url" href='../../u/JATIN_Kumar.html'><span itemprop='name'>JATIN_Kumar</span></a>
+            
+          </span>
+
+          <link itemprop="mainEntityOfPage" href="649.html">
+
+
+          <span class="crawler-post-infos">
+              <time itemprop='datePublished' datetime='2022-08-16T12:24:07Z' class='post-time'>
+                August 16, 2022, 12:24pm
+              </time>
+              <meta itemprop='dateModified' content='2022-08-16T12:24:07Z'>
+          <span itemprop='position'>#4</span>
+          </span>
+        </div>
+        <div class='post' itemprop='articleBody'>
+          <p>KEYAUTH.PY</p>
+<p>import win32security <span class="hashtag">#get</span> sid<br>
+import json as jsond  # json</p>
+<p>import time  # sleep before exit</p>
+<p>import binascii  # hex encoding</p>
+<h1>
+<a name="https-requests-1" class="anchor" href="#https-requests-1"></a>https requests</h1>
+<p>from uuid import uuid4  # gen random guid<br>
+import webbrowser<br>
+import platform<br>
+import subprocess<br>
+import datetime<br>
+import sys<br>
+import os<br>
+import requests<br>
+from requests_toolbelt.adapters.fingerprint import FingerprintAdapter</p>
+<p>try:<br>
+from Crypto.Cipher import AES<br>
+from Crypto.Hash import SHA256<br>
+from Crypto.Util.Padding import pad, unpad<br>
+except ModuleNotFoundError:<br>
+print(“Exception when importing modules”)<br>
+print(“installing necessary modules…”)<br>
+os.system(“pip install pycryptodome”)<br>
+print(“Modules installed!”)<br>
+time.sleep(1.5)<br>
+exit(0)</p>
+<p>class api:<br>
+name = ownerid = secret = version = hash_to_check = “”</p>
+<pre><code>def __init__(self, name, ownerid, secret, version, hash_to_check):
+    self.name = name
+
+    self.ownerid = ownerid
+
+    self.secret = secret
+
+    self.version = version
+    self.hash_to_check = hash_to_check
+    self.init()
+
+sessionid = enckey = ""
+initialized = False
+
+def init(self):
+
+    if self.sessionid != "":
+        print("You've already initialized!")
+        time.sleep(2)
+        exit(0)
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    self.enckey = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("init").encode()),
+        "ver": encryption.encrypt(self.version, self.secret, init_iv),
+        "hash": self.hash_to_check,
+        "enckey": encryption.encrypt(self.enckey, self.secret, init_iv),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    if response == "KeyAuth_Invalid":
+        print("The application doesn't exist")
+        sys.exit()
+
+    response = encryption.decrypt(response, self.secret, init_iv)
+    json = jsond.loads(response)
+
+    if json["message"] == "invalidver":
+        if json["download"] != "":
+            print("New Version Available")
+            download_link = json["download"]
+            os.system(f"start {download_link}")
+            sys.exit()
+        else:
+            print("Invalid Version, Contact owner to add download link to latest app version")
+            sys.exit()
+
+    if not json["success"]:
+        print(json["message"])
+        sys.exit()
+
+    self.sessionid = json["sessionid"]
+    self.initialized = True
+    self.__load_app_data(json["appinfo"])
+
+
+
+def register(self, user, password, license, hwid=None):
+    self.checkinit()
+    if hwid is None:
+        hwid = others.get_hwid()
+
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("register").encode()),
+        "username": encryption.encrypt(user, self.enckey, init_iv),
+        "pass": encryption.encrypt(password, self.enckey, init_iv),
+        "key": encryption.encrypt(license, self.enckey, init_iv),
+        "hwid": encryption.encrypt(hwid, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+
+    if json["success"]:
+        print("successfully registered")
+        self.__load_user_data(json["info"])
+    else:
+        print(json["message"])
+        sys.exit()
+
+def upgrade(self, user, license):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("upgrade").encode()),
+        "username": encryption.encrypt(user, self.enckey, init_iv),
+        "key": encryption.encrypt(license, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        print("successfully upgraded user")
+        print("please restart program and login")
+        sys.exit()
+    else:
+        print(json["message"])
+        sys.exit()
+
+def login(self, user, password, hwid=None):
+    self.checkinit()
+    if hwid is None:
+        hwid = others.get_hwid()
+
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("login").encode()),
+        "username": encryption.encrypt(user, self.enckey, init_iv),
+        "pass": encryption.encrypt(password, self.enckey, init_iv),
+        "hwid": encryption.encrypt(hwid, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        self.__load_user_data(json["info"])
+        print("successfully logged in")
+    else:
+        print(json["message"])
+        sys.exit()
+
+def license(self, key, hwid=None):
+    self.checkinit()
+    if hwid is None:
+        hwid = others.get_hwid()
+
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("license").encode()),
+        "key": encryption.encrypt(key, self.enckey, init_iv),
+        "hwid": encryption.encrypt(hwid, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        self.__load_user_data(json["info"])
+        print("successfully logged into license")
+    else:
+        print(json["message"])
+        sys.exit()
+
+def var(self, name):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("var").encode()),
+        "varid": encryption.encrypt(name, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        return json["message"]
+    else:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()
+
+def getvar(self, var_name):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("getvar").encode()),
+        "var": encryption.encrypt(var_name, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+
+    if json["success"]:
+        return json["response"]
+    else:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()
+
+def setvar(self, var_name, var_data):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+    post_data = {
+        "type": binascii.hexlify(("setvar").encode()),
+        "var": encryption.encrypt(var_name, self.enckey, init_iv),
+        "data": encryption.encrypt(var_data, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+    
+    if json["success"]:
+        return True
+    else:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()    
+
+def ban(self):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+    post_data = {
+        "type": binascii.hexlify(("ban").encode()),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+    
+    if json["success"]:
+        return True
+    else:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()    
+
+def file(self, fileid):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("file").encode()),
+        "fileid": encryption.encrypt(fileid, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if not json["success"]:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()
+    return binascii.unhexlify(json["contents"])
+
+def webhook(self, webid, param):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("webhook").encode()),
+        "webid": encryption.encrypt(webid, self.enckey, init_iv),
+        "params": encryption.encrypt(param, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+
+    if json["success"]:
+        return json["message"]
+    else:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()
+
+def check(self):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+    post_data = {
+        "type": binascii.hexlify(("check").encode()),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+    if json["success"]:
+        return True
+    else:
+        return False
+
+def checkblacklist(self):
+    self.checkinit()
+    hwid = others.get_hwid()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+    post_data = {
+        "type": binascii.hexlify(("checkblacklist").encode()),
+        "hwid": encryption.encrypt(hwid, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+    if json["success"]:
+        return True
+    else:
+        return False
+
+def log(self, message):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("log").encode()),
+        "pcuser": encryption.encrypt(os.getenv('username'), self.enckey, init_iv),
+        "message": encryption.encrypt(message, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    self.__do_request(post_data)
+
+def fetchOnline(self): 
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("fetchOnline").encode()),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+    
+    if json["success"]:
+        if json["users"]["0"]:
+            return None ## THIS IS ISSUE ON KEYAUTH SERVER SIDE 6.8.2022 so it will return none if it is not an array.
+        else: 
+            return json["users"]
+    else: 
+        return None
+
+def chatGet(self, channel):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("chatget").encode()),
+        "channel": encryption.encrypt(channel, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        return json["messages"]
+    else:
+        return None
+
+def chatSend(self, message, channel): 
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("chatsend").encode()),
+        "message": encryption.encrypt(message, self.enckey, init_iv),
+        "channel": encryption.encrypt(channel, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        return True
+    else:
+        return False
+
+def checkinit(self):
+    if not self.initialized:
+        print("Initialize first, in order to use the functions")
+        sys.exit()
+
+def __do_request(self, post_data):
+
+    rq_out = requests.post(
+        "https://keyauth.win/api/1.0/", data=post_data
+    )
+
+    return rq_out.text
+
+class application_data_class:
+    numUsers = numKeys = app_ver = customer_panel = onlineUsers = ""
+# region user_data
+class user_data_class:
+    username = ip = hwid = expires = createdate = lastlogin = subscription = ""
+
+user_data = user_data_class()
+app_data = application_data_class()
+
+def __load_app_data(self, data):
+    self.app_data.numUsers = data["numUsers"]
+    self.app_data.numKeys = data["numKeys"]
+    self.app_data.app_ver = data["version"]
+    self.app_data.customer_panel = data["customerPanelLink"]
+    self.app_data.onlineUsers = data["numOnlineUsers"]
+
+def __load_user_data(self, data):
+    self.user_data.username = data["username"]
+    self.user_data.ip = data["ip"]
+    self.user_data.hwid = data["hwid"]
+    self.user_data.expires = data["subscriptions"][0]["expiry"]
+    self.user_data.createdate = data["createdate"]
+    self.user_data.lastlogin = data["lastlogin"]
+    self.user_data.subscription = data["subscriptions"][0]["subscription"]
+    self.user_data.subscriptions = data["subscriptions"]
+</code></pre>
+<p>class others:<br>
+<span class="mention">@staticmethod</span><br>
+def get_hwid():<br>
+winuser = os.getlogin()<br>
+if platform.system() != “Windows”:<br>
+with open(“/etc/machine-id”) as f:<br>
+hwid = f.read()<br>
+return hwid</p>
+<pre><code>    sid = win32security.LookupAccountName(None, winuser)[0]
+    sidstr = win32security.ConvertSidToStringSid(sid)
+
+    return sidstr
+</code></pre>
+<p>class encryption:<br>
+<span class="mention">@staticmethod</span><br>
+def encrypt_string(plain_text, key, iv):<br>
+plain_text = pad(plain_text, 16)</p>
+<pre><code>    aes_instance = AES.new(key, AES.MODE_CBC, iv)
+
+    raw_out = aes_instance.encrypt(plain_text)
+
+    return binascii.hexlify(raw_out)
+
+@staticmethod
+def decrypt_string(cipher_text, key, iv):
+    cipher_text = binascii.unhexlify(cipher_text)
+
+    aes_instance = AES.new(key, AES.MODE_CBC, iv)
+
+    cipher_text = aes_instance.decrypt(cipher_text)
+
+    return unpad(cipher_text, 16)
+
+@staticmethod
+def encrypt(message, enc_key, iv):
+    try:
+        _key = SHA256.new(enc_key.encode()).hexdigest()[:32]
+
+        _iv = SHA256.new(iv.encode()).hexdigest()[:16]
+
+        return encryption.encrypt_string(message.encode(), _key.encode(), _iv.encode()).decode()
+    except:
+        print("Invalid Application Information. Long text is secret short text is ownerid. Name is supposed to be app name not username")
+        sys.exit()
+
+@staticmethod
+def decrypt(message, enc_key, iv):
+    try:
+        _key = SHA256.new(enc_key.encode()).hexdigest()[:32]
+
+        _iv = SHA256.new(iv.encode()).hexdigest()[:16]
+
+        return encryption.decrypt_string(message.encode(), _key.encode(), _iv.encode()).decode()
+    except:
+        print("Invalid Application Information. Long text is secret short text is ownerid. Name is supposed to be app name not username")
+        sys.exit()
+</code></pre>
+        </div>
+
+        <meta itemprop='headline' content='Cooding err0r help me'>
+
+        <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+           <meta itemprop="interactionType" content="http://schema.org/LikeAction"/>
+           <meta itemprop="userInteractionCount" content="0" />
+           <span class='post-likes'></span>
+         </div>
+
+         <div itemprop="interactionStatistic" itemscope itemtype="http://schema.org/InteractionCounter">
+            <meta itemprop="interactionType" content="http://schema.org/CommentAction"/>
+            <meta itemprop="userInteractionCount" content="0" />
+          </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../index.html' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../categories.html' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../guidelines.html' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../tos.html' itemprop="url">Terms of Service </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='../../privacy.html' itemprop="url">Privacy Policy </a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org/">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    
+  <script>(function(){var js = "window['__CF$cv$params']={r:'7760c0dc0c8b2286',m:'XdQPch3IkDK4YpbzaHTUA7OAWHHdUdu1G.x6XxfYdGc-1670452725-0-AW1AOnY7DTjqCF5NF6mkkZB2peNsVikBBJVCvnhi6eyld8YlczEmO12wEzn03uRq6poLhg+nU04eIyhnW1EucMl+Jgi5+iW3bmVxg8Alu5Sx7/NuNrpI8VYfHSLZAeGEkerkecKnPisX4lSkFe8Tmr8=',s:[0xda5df32518,0xf6c65dede3],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='../../cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7760c0dc0c8b2286","version":"2022.11.3","r":1,"token":"e335876c42b04d78890a250ef7586bf5","si":100}' crossorigin="anonymous"></script>
+</body>
+  
+
+<!-- Mirrored from community.keyauth.cc/t/cooding-err0r-help-me/649 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 22:41:00 GMT -->
+</html>

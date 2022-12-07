@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Software skips account check when login</title>
+    <link>https://community.keyauth.cc/t/software-skips-account-check-when-login/732</link>
+    <description>I built the latest x64 library and tried to login, but no matter what, it lets me in without correct username / password. there&#39;s nothing wrong with my code, I even pasted it from the github page. What causes this?</description>
+    
+    <lastBuildDate>Tue, 30 Aug 2022 00:27:43 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/software-skips-account-check-when-login/732.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Software skips account check when login</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="mention" href="https://community.keyauth.cc/u/aktor">@Aktor</a> latest example works fine for me. You likely forgot this <code>if</code> statement</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/5aee2a25a6057a7ce059f8f247f10942dee0568f.png" alt="image" data-base62-sha1="cYpeJNLhs4Fgaadm0mOqnDGmJBl" width="670" height="500"></p>
+          <p><a href="https://community.keyauth.cc/t/software-skips-account-check-when-login/732/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/software-skips-account-check-when-login/732/7</link>
+        <pubDate>Tue, 30 Aug 2022 00:27:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-732-7</guid>
+        <source url="https://community.keyauth.cc/t/software-skips-account-check-when-login/732.rss">Software skips account check when login</source>
+      </item>
+      <item>
+        <title>Software skips account check when login</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>It is preferred that support occurs in forum so other people who face similar issues can fix it for themselves and not create another thread about the exact same thing.</p>
+          <p><a href="https://community.keyauth.cc/t/software-skips-account-check-when-login/732/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/software-skips-account-check-when-login/732/6</link>
+        <pubDate>Mon, 29 Aug 2022 23:45:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-732-6</guid>
+        <source url="https://community.keyauth.cc/t/software-skips-account-check-when-login/732.rss">Software skips account check when login</source>
+      </item>
+      <item>
+        <title>Software skips account check when login</title>
+        <dc:creator><![CDATA[OverDrive]]></dc:creator>
+        <description><![CDATA[
+            <p>The point of the forum is to help people with coding issues, doesnt necessarily matter what method of communication is used as long as their issue is solved</p>
+          <p><a href="https://community.keyauth.cc/t/software-skips-account-check-when-login/732/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/software-skips-account-check-when-login/732/5</link>
+        <pubDate>Sun, 28 Aug 2022 19:26:19 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-732-5</guid>
+        <source url="https://community.keyauth.cc/t/software-skips-account-check-when-login/732.rss">Software skips account check when login</source>
+      </item>
+      <item>
+        <title>Software skips account check when login</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>the point of the forum is to solve problems on it, not to dm ppl.</p>
+          <p><a href="https://community.keyauth.cc/t/software-skips-account-check-when-login/732/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/software-skips-account-check-when-login/732/4</link>
+        <pubDate>Sun, 28 Aug 2022 18:30:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-732-4</guid>
+        <source url="https://community.keyauth.cc/t/software-skips-account-check-when-login/732.rss">Software skips account check when login</source>
+      </item>
+      <item>
+        <title>Software skips account check when login</title>
+        <dc:creator><![CDATA[Aktor]]></dc:creator>
+        <description><![CDATA[
+            <p>How is it wrong code when I paste from github? no errors, lets me in no matter what.</p>
+          <p><a href="https://community.keyauth.cc/t/software-skips-account-check-when-login/732/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/software-skips-account-check-when-login/732/3</link>
+        <pubDate>Sun, 28 Aug 2022 17:07:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-732-3</guid>
+        <source url="https://community.keyauth.cc/t/software-skips-account-check-when-login/732.rss">Software skips account check when login</source>
+      </item>
+      <item>
+        <title>Software skips account check when login</title>
+        <dc:creator><![CDATA[OverDrive]]></dc:creator>
+        <description><![CDATA[
+            <p>There is definitely something wrong with your code, dm me iqvw64e.sys#9999</p>
+          <p><a href="https://community.keyauth.cc/t/software-skips-account-check-when-login/732/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/software-skips-account-check-when-login/732/2</link>
+        <pubDate>Sun, 28 Aug 2022 17:04:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-732-2</guid>
+        <source url="https://community.keyauth.cc/t/software-skips-account-check-when-login/732.rss">Software skips account check when login</source>
+      </item>
+      <item>
+        <title>Software skips account check when login</title>
+        <dc:creator><![CDATA[Aktor]]></dc:creator>
+        <description><![CDATA[
+            <p>I built the latest x64 library and tried to login, but no matter what, it lets me in without correct username / password. there’s nothing wrong with my code, I even pasted it from the github page. What causes this?</p>
+          <p><a href="https://community.keyauth.cc/t/software-skips-account-check-when-login/732/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/software-skips-account-check-when-login/732/1</link>
+        <pubDate>Sun, 28 Aug 2022 17:01:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-732-1</guid>
+        <source url="https://community.keyauth.cc/t/software-skips-account-check-when-login/732.rss">Software skips account check when login</source>
+      </item>
+  </channel>
+</rss>

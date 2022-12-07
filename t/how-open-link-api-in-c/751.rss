@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How open link api in c++</title>
+    <link>https://community.keyauth.cc/t/how-open-link-api-in-c/751</link>
+    <description>
+
+hey how i open link without user see the link 
+https://keyauth.win/api/seller/?sellerkey=sellerkeyhere&amp;type=add&amp;expiry=1&amp;mask=XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX&amp;level=1&amp;amount=1&amp;format=json
+links like this</description>
+    
+    <lastBuildDate>Thu, 01 Sep 2022 16:58:42 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/how-open-link-api-in-c/751.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How open link api in c++</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <aside class="onebox allowlistedgeneric" data-onebox-src="https://www.youtube.com/watch?v=ENRaNPPYJbc">
+  <header class="source">
+      <img src="https://community.keyauth.win/uploads/default/original/1X/42cc3801c5eed252e334c396112d1f3ea55fed24.png" class="site-icon" width="" height="">
+
+      <a href="https://www.youtube.com/watch?v=ENRaNPPYJbc" target="_blank" rel="noopener">YouTube</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/a3b760ccd1ff1d42041816cea8e34741f6a50458.jpeg" class="thumbnail" width="" height="">
+
+<h3><a href="https://www.youtube.com/watch?v=ENRaNPPYJbc" target="_blank" rel="noopener">How to hide your API link while making requests from client c#, c++, python</a></h3>
+
+  <p>You can use KeyAuth to hide your API link while making requests from client c#, c++, python.KeyAuth is an open source authentication system with cloud-hosted...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/how-open-link-api-in-c/751/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-open-link-api-in-c/751/4</link>
+        <pubDate>Thu, 01 Sep 2022 16:58:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-751-4</guid>
+        <source url="https://community.keyauth.cc/t/how-open-link-api-in-c/751.rss">How open link api in c++</source>
+      </item>
+      <item>
+        <title>How open link api in c++</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>use curl</p>
+          <p><a href="https://community.keyauth.cc/t/how-open-link-api-in-c/751/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-open-link-api-in-c/751/3</link>
+        <pubDate>Thu, 01 Sep 2022 16:28:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-751-3</guid>
+        <source url="https://community.keyauth.cc/t/how-open-link-api-in-c/751.rss">How open link api in c++</source>
+      </item>
+      <item>
+        <title>How open link api in c++</title>
+        <dc:creator><![CDATA[smoke]]></dc:creator>
+        <description><![CDATA[
+            <p>Explain what you want to do. What you asked is not clear.</p>
+          <p><a href="https://community.keyauth.cc/t/how-open-link-api-in-c/751/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-open-link-api-in-c/751/2</link>
+        <pubDate>Thu, 01 Sep 2022 06:24:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-751-2</guid>
+        <source url="https://community.keyauth.cc/t/how-open-link-api-in-c/751.rss">How open link api in c++</source>
+      </item>
+      <item>
+        <title>How open link api in c++</title>
+        <dc:creator><![CDATA[Pooya_Mahdavi]]></dc:creator>
+        <description><![CDATA[
+            <p>hey how i open link without user see the link<br>
+<a href="https://keyauth.win/api/seller/?sellerkey=sellerkeyhere&amp;type=add&amp;expiry=1&amp;mask=XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX&amp;level=1&amp;amount=1&amp;format=json" class="onebox" target="_blank" rel="noopener nofollow ugc">https://keyauth.win/api/seller/?sellerkey=sellerkeyhere&amp;type=add&amp;expiry=1&amp;mask=XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX&amp;level=1&amp;amount=1&amp;format=json</a><br>
+links like this</p>
+          <p><a href="https://community.keyauth.cc/t/how-open-link-api-in-c/751/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-open-link-api-in-c/751/1</link>
+        <pubDate>Wed, 31 Aug 2022 09:32:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-751-1</guid>
+        <source url="https://community.keyauth.cc/t/how-open-link-api-in-c/751.rss">How open link api in c++</source>
+      </item>
+  </channel>
+</rss>

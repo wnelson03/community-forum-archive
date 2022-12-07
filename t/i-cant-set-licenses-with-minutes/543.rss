@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>I cant set licenses with minutes</title>
+    <link>https://community.keyauth.cc/t/i-cant-set-licenses-with-minutes/543</link>
+    <description>Hello guys, I&#39;m doing some apis tests for protection for a software that I&#39;m working here in the city...
+I&#39;m loving KeyAuth, but I have some issues I&#39;d like to know if it&#39;s my error or the system&#39;s...
+
+1 - The first problem is that I can&#39;t create licenses that are, for example, 3 minutes long, see:
+![image|426x500](upload://o1PFIO0H1YtX1nYR4d7ep4IPDEl.png)
+
+![](upload://woEbrj5ikziT4QJ54lXTxvF9uEB.png)
+What im doing wrong?
+![](upload://dpHASDyuju9hSKz39IyIfS62xRt.png)</description>
+    
+    <lastBuildDate>Mon, 01 Aug 2022 00:04:29 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/i-cant-set-licenses-with-minutes/543.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>I cant set licenses with minutes</title>
+        <dc:creator><![CDATA[AngelArT]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello guys, I’m doing some apis tests for protection for a software that I’m working here in the city…<br>
+I’m loving KeyAuth, but I have some issues I’d like to know if it’s my error or the system’s…</p>
+<p>1 - The first problem is that I can’t create licenses that are, for example, 3 minutes long, see:<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/a8693b51b8b7c6241693843f760862f81f0d6149.png" alt="image" data-base62-sha1="o1PFIO0H1YtX1nYR4d7ep4IPDEl" width="426" height="500"></p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/e30ed78a0aad9913a1a532e4f8b81b7dd9edff75.png" alt="" data-base62-sha1="woEbrj5ikziT4QJ54lXTxvF9uEB" width="" height=""><br>
+What im doing wrong?<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/5e04110c48a9ebe11fe9aad093d6ed9894d0e7c7.png" alt="" data-base62-sha1="dpHASDyuju9hSKz39IyIfS62xRt" width="" height=""></p>
+          <p><a href="https://community.keyauth.cc/t/i-cant-set-licenses-with-minutes/543/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-cant-set-licenses-with-minutes/543/1</link>
+        <pubDate>Mon, 01 Aug 2022 00:04:29 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-543-1</guid>
+        <source url="https://community.keyauth.cc/t/i-cant-set-licenses-with-minutes/543.rss">I cant set licenses with minutes</source>
+      </item>
+  </channel>
+</rss>

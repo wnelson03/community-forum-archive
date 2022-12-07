@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Python Auth Script as Text?</title>
+    <link>https://community.keyauth.cc/t/python-auth-script-as-text/226</link>
+    <description>Hello!
+
+This might sound dumb do you but is it possible for someone to provide an example of how keyauth.py and main.py would look like as a plain text in 1 file?
+
+Thank you in advance!</description>
+    
+    <lastBuildDate>Tue, 21 Jun 2022 18:29:41 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/python-auth-script-as-text/226.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Python Auth Script as Text?</title>
+        <dc:creator><![CDATA[zeediv]]></dc:creator>
+        <description><![CDATA[
+            <p>I don’t think this will be possible</p>
+          <p><a href="https://community.keyauth.cc/t/python-auth-script-as-text/226/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-auth-script-as-text/226/2</link>
+        <pubDate>Tue, 21 Jun 2022 18:29:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-226-2</guid>
+        <source url="https://community.keyauth.cc/t/python-auth-script-as-text/226.rss">Python Auth Script as Text?</source>
+      </item>
+      <item>
+        <title>Python Auth Script as Text?</title>
+        <dc:creator><![CDATA[Shunrai]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello!</p>
+<p>This might sound dumb do you but is it possible for someone to provide an example of how keyauth.py and main.py would look like as a plain text in 1 file?</p>
+<p>Thank you in advance!</p>
+          <p><a href="https://community.keyauth.cc/t/python-auth-script-as-text/226/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-auth-script-as-text/226/1</link>
+        <pubDate>Tue, 21 Jun 2022 11:11:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-226-1</guid>
+        <source url="https://community.keyauth.cc/t/python-auth-script-as-text/226.rss">Python Auth Script as Text?</source>
+      </item>
+  </channel>
+</rss>

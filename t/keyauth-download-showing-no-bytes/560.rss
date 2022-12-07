@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Keyauth download showing no bytes</title>
+    <link>https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560</link>
+    <description>![image|690x386](upload://mmGcVFdT5mODNwFSGxJ6OYoMnaa.png)
+anyone know why its telling me the .exe and .sys is having no bytes when downloaded with keyauth and i checked the file and it has bytes but when i put it in keyauth and put file id it has no bytes.
+
+		void downloader(std::string fileid, std::string output) {
+			auto iv = encryption::sha256(encryption::iv_key());
+			auto to_uc_vector = [](std::string value) {
+			};
+			//auto iv = encryption::sha256(encryption::iv_key());
+            std::string data =
+		    XorStr(&quot;type=&quot;).c_str() + encryption::encode(XorStr(&quot;file&quot;).c_str()) +
+			XorStr(&quot;&amp;fileid=&quot;).c_str() + encryption::encrypt(fileid, enckey, iv) +
+			XorStr(&quot;&amp;sessionid=&quot;).c_str() + encryption::encode(sessionid) +
+			XorStr(&quot;&amp;name=&quot;).c_str() + encryption::encode(name) +
+			XorStr(&quot;&amp;ownerid=&quot;).c_str() + encryption::encode(ownerid) +
+			XorStr(&quot;&amp;init_iv=&quot;).c_str() + iv;
+
+			CURL* curl;
+			FILE* fp;
+			CURLcode res;
+			curl = curl_easy_init();
+			if (curl) {
+				fp = fopen(output.c_str(), &quot;wb&quot;);
+				curl_easy_setopt(curl, CURLOPT_URL, XorStr(&quot;https://keyauth.win/api/v3/&quot;).c_str());
+				curl_easy_setopt(curl, CURLOPT_NOPROXY, XorStr(&quot;keyauth.com&quot;).c_str());
+				curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0);
+				curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0);
+				curl_easy_setopt(curl, CURLOPT_USERAGENT, XorStr(&quot;KeyAuth&quot;).c_str());
+				curl_easy_setopt(curl, CURLOPT_POSTFIELDS, data.c_str());
+				curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
+				curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
+				curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1);
+				res = curl_easy_perform(curl);
+				curl_easy_cleanup(curl);
+				fclose(fp);
+			}
+		}
+
+that the download func i use for keyauth</description>
+    
+    <lastBuildDate>Fri, 19 Aug 2022 01:16:13 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Keyauth download showing no bytes</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/8</link>
+        <pubDate>Fri, 19 Aug 2022 01:16:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-560-8</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560.rss">Keyauth download showing no bytes</source>
+      </item>
+      <item>
+        <title>Keyauth download showing no bytes</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="focuskid" data-post="1" data-topic="560">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/focuskid/40/426_2.png" class="avatar"> focuskid:</div>
+<blockquote>
+<pre><code class="lang-auto">			curl_easy_cleanup(curl);
+			fclose(fp);
+</code></pre>
+</blockquote>
+</aside>
+<p>Change the URL from <code>https://keyauth.win/api/v3/</code> to <code>https://keyauth.win/api/1.0/</code> and it’ll work. That old URL has been deprecated for months, do not use it.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/7</link>
+        <pubDate>Fri, 19 Aug 2022 01:16:13 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-560-7</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560.rss">Keyauth download showing no bytes</source>
+      </item>
+      <item>
+        <title>Keyauth download showing no bytes</title>
+        <dc:creator><![CDATA[focuskid]]></dc:creator>
+        <description><![CDATA[
+            <p>its kinda old but using custom one</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/6</link>
+        <pubDate>Thu, 18 Aug 2022 00:45:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-560-6</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560.rss">Keyauth download showing no bytes</source>
+      </item>
+      <item>
+        <title>Keyauth download showing no bytes</title>
+        <dc:creator><![CDATA[focuskid]]></dc:creator>
+        <description><![CDATA[
+            <p>no using custom</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/5</link>
+        <pubDate>Thu, 18 Aug 2022 00:37:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-560-5</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560.rss">Keyauth download showing no bytes</source>
+      </item>
+      <item>
+        <title>Keyauth download showing no bytes</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Are you using the default way of executing the bytes?</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/4</link>
+        <pubDate>Fri, 12 Aug 2022 09:07:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-560-4</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560.rss">Keyauth download showing no bytes</source>
+      </item>
+      <item>
+        <title>Keyauth download showing no bytes</title>
+        <dc:creator><![CDATA[Floriam]]></dc:creator>
+        <description><![CDATA[
+            <p>check if the api link is correct im pretty sure thats an old version.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/3</link>
+        <pubDate>Wed, 03 Aug 2022 08:41:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-560-3</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560.rss">Keyauth download showing no bytes</source>
+      </item>
+      <item>
+        <title>Keyauth download showing no bytes</title>
+        <dc:creator><![CDATA[focuskid]]></dc:creator>
+        <description><![CDATA[
+            <p>proof it has bytes<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/9b30a4703a52010deac5142b6bde04b5a885ed22.png" alt="image" data-base62-sha1="m8SdRHkQdY1xchxBHABt4Ng5cvU" width="384" height="282"></p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/2</link>
+        <pubDate>Tue, 02 Aug 2022 15:18:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-560-2</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560.rss">Keyauth download showing no bytes</source>
+      </item>
+      <item>
+        <title>Keyauth download showing no bytes</title>
+        <dc:creator><![CDATA[focuskid]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/9cc02b9e9d404171d04bc16ca920cbc4dfb490d2.png" alt="image" data-base62-sha1="mmGcVFdT5mODNwFSGxJ6OYoMnaa" width="690" height="386"><br>
+anyone know why its telling me the .exe and .sys is having no bytes when downloaded with keyauth and i checked the file and it has bytes but when i put it in keyauth and put file id it has no bytes.</p>
+<pre><code>	void downloader(std::string fileid, std::string output) {
+		auto iv = encryption::sha256(encryption::iv_key());
+		auto to_uc_vector = [](std::string value) {
+		};
+		//auto iv = encryption::sha256(encryption::iv_key());
+        std::string data =
+	    XorStr("type=").c_str() + encryption::encode(XorStr("file").c_str()) +
+		XorStr("&amp;fileid=").c_str() + encryption::encrypt(fileid, enckey, iv) +
+		XorStr("&amp;sessionid=").c_str() + encryption::encode(sessionid) +
+		XorStr("&amp;name=").c_str() + encryption::encode(name) +
+		XorStr("&amp;ownerid=").c_str() + encryption::encode(ownerid) +
+		XorStr("&amp;init_iv=").c_str() + iv;
+
+		CURL* curl;
+		FILE* fp;
+		CURLcode res;
+		curl = curl_easy_init();
+		if (curl) {
+			fp = fopen(output.c_str(), "wb");
+			curl_easy_setopt(curl, CURLOPT_URL, XorStr("https://keyauth.win/api/v3/").c_str());
+			curl_easy_setopt(curl, CURLOPT_NOPROXY, XorStr("keyauth.com").c_str());
+			curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, 0);
+			curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0);
+			curl_easy_setopt(curl, CURLOPT_USERAGENT, XorStr("KeyAuth").c_str());
+			curl_easy_setopt(curl, CURLOPT_POSTFIELDS, data.c_str());
+			curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, write_callback);
+			curl_easy_setopt(curl, CURLOPT_WRITEDATA, fp);
+			curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1);
+			res = curl_easy_perform(curl);
+			curl_easy_cleanup(curl);
+			fclose(fp);
+		}
+	}
+</code></pre>
+<p>that the download func i use for keyauth</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560/1</link>
+        <pubDate>Tue, 02 Aug 2022 14:39:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-560-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-download-showing-no-bytes/560.rss">Keyauth download showing no bytes</source>
+      </item>
+  </channel>
+</rss>

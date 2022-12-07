@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Suggestions - KeyAuth</title>
+    <link>https://community.keyauth.cc/c/suggestions/17</link>
+    <description>Topics in the &#39;Suggestions&#39; category Submit suggestions in the &lt;a class=&quot;hashtag&quot; href=&quot;/c/suggestions/17&quot;&gt;#&lt;span&gt;suggestions&lt;/span&gt;&lt;/a&gt; channel of the Discord server &lt;a href=&quot;https://discord.gg/keyauth&quot; class=&quot;inline-onebox-loading&quot;&gt;https://discord.gg/keyauth&lt;/a&gt;</description>
+    
+      <lastBuildDate>Sat, 27 Aug 2022 05:11:52 +0000</lastBuildDate>
+      <atom:link href="https://community.keyauth.cc/c/suggestions/17.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Submit on Discord</title>
+          <dc:creator><![CDATA[mak]]></dc:creator>
+          <category>Suggestions</category>
+          <description><![CDATA[
+            <p>Submit suggestions in the <a class="hashtag" href="https://community.keyauth.cc/c/suggestions/17">#<span>suggestions</span></a> channel of the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/submit-on-discord/721">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/submit-on-discord/721</link>
+          <pubDate>Sat, 27 Aug 2022 05:11:52 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-721</guid>
+          <source url="https://community.keyauth.cc/t/submit-on-discord/721.rss">Submit on Discord</source>
+        </item>
+  </channel>
+</rss>

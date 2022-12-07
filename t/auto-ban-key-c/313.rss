@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Auto Ban Key C#</title>
+    <link>https://community.keyauth.cc/t/auto-ban-key-c/313</link>
+    <description>How Can I Auto-Ban A Key/User</description>
+    
+    <lastBuildDate>Tue, 05 Jul 2022 13:10:45 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/auto-ban-key-c/313.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>KeyAuthApp.ban();</p>
+<p>Only the string gets blacklisted. Is it possible to get the HWID number?</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/12</link>
+        <pubDate>Tue, 05 Jul 2022 13:10:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-12</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>this answer was helpful, thank you wholeheartedly, your help is a big favor for us.</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/11</link>
+        <pubDate>Tue, 05 Jul 2022 00:04:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-11</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>no.</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/10</link>
+        <pubDate>Sun, 03 Jul 2022 13:06:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-10</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>ive just wanted to know this</p>
+<p>KeyAuthApp.Ban();</p>
+<p>do i have to put anything in here (); ?</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/9</link>
+        <pubDate>Sun, 03 Jul 2022 12:25:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-9</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>This is not really generic to one thing really as the reason is custom set by yourself in code.</p>
+<p>very simple example of how you could do it this is not just the only way tho but is simple.</p>
+<blockquote>
+<p>BOOL</p>
+<blockquote>
+<p>“Triggered” is just a true false bool (Your custom set reason).</p>
+</blockquote>
+</blockquote>
+<pre><code class="lang-auto">if(Triggered)
+{
+  KeyAuthApp.Ban();
+}
+</code></pre>
+<blockquote>
+<p>STRING</p>
+<blockquote>
+<p>“Triggered” check if a string equals something then ban (Your custom set reason).</p>
+</blockquote>
+</blockquote>
+<pre><code class="lang-auto">if(Triggered == "something")
+{
+  KeyAuthApp.Ban();
+}
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/8</link>
+        <pubDate>Sun, 03 Jul 2022 11:26:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-8</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>Your question is very logical and I am curious about the answer.</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/7</link>
+        <pubDate>Sat, 02 Jul 2022 21:45:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-7</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>on try of reversal of my application</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/6</link>
+        <pubDate>Sat, 02 Jul 2022 20:08:38 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-6</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>yea i wanted to get some example code with it</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/5</link>
+        <pubDate>Sat, 02 Jul 2022 20:08:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-5</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>I think he asked the code how to do this.</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/4</link>
+        <pubDate>Sat, 02 Jul 2022 19:58:27 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-4</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>U can simply do it with an if statement which means<br>
+If the user is gonna do anythibk that i want with my application = ban his hwid + ip and close the application etz</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/3</link>
+        <pubDate>Sat, 02 Jul 2022 16:10:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-3</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Ban for what</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/2</link>
+        <pubDate>Sat, 02 Jul 2022 14:07:39 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-2</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+      <item>
+        <title>Auto Ban Key C#</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>How Can I Auto-Ban A Key/User</p>
+          <p><a href="https://community.keyauth.cc/t/auto-ban-key-c/313/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/auto-ban-key-c/313/1</link>
+        <pubDate>Sat, 02 Jul 2022 11:18:02 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-313-1</guid>
+        <source url="https://community.keyauth.cc/t/auto-ban-key-c/313.rss">Auto Ban Key C#</source>
+      </item>
+  </channel>
+</rss>

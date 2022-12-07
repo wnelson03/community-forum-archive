@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Getting a blank subscription response</title>
+    <link>https://community.keyauth.cc/t/getting-a-blank-subscription-response/70</link>
+    <description>Hi, why am I getting a blank subscription response? I want to differentiate users by subscription levels.
+![unknown|557x181](upload://6trBRWIIlnKNzfmZia41kI0Fk7v.png)</description>
+    
+    <lastBuildDate>Sun, 29 May 2022 17:43:04 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Getting a blank subscription response</title>
+        <dc:creator><![CDATA[viannik]]></dc:creator>
+        <description><![CDATA[
+            <p>Thx for your promptness</p>
+          <p><a href="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/7</link>
+        <pubDate>Sat, 28 May 2022 23:18:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-70-7</guid>
+        <source url="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70.rss">Getting a blank subscription response</source>
+      </item>
+      <item>
+        <title>Getting a blank subscription response</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>it’s an array, not a string.</p>
+<p>also, in case you were experiencing the issue of KeyAuth class not loading user data on register, I just fixed that in <a href="https://github.com/KeyAuth/KeyAuth-Python-Example/commit/6cb1578254c5c881c9c9d520b9e74b9a273601d9" class="inline-onebox">Fix register userdata bug · KeyAuth/KeyAuth-Python-Example@6cb1578 · GitHub</a></p>
+          <p><a href="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/6</link>
+        <pubDate>Sat, 28 May 2022 23:05:35 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-70-6</guid>
+        <source url="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70.rss">Getting a blank subscription response</source>
+      </item>
+      <item>
+        <title>Getting a blank subscription response</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>uhm, you can do the same with the variable that directly gives u the subscription name instead of the returned json of the suscriptions the user has <code>keyauthapp.user_data.subscription</code>, also try using this code, if you want to use the <code>keyauthapp.user_data.subscriptions</code><br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/46fc1c2cac026cf310f2c4b9b33cc36cce5d3e6c.png" alt="image" data-base62-sha1="a7Xz6C3hjkujLdCtfOyXtepVD08" width="690" height="136"></p>
+          <p><a href="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/5</link>
+        <pubDate>Sat, 28 May 2022 22:38:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-70-5</guid>
+        <source url="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70.rss">Getting a blank subscription response</source>
+      </item>
+      <item>
+        <title>Getting a blank subscription response</title>
+        <dc:creator><![CDATA[viannik]]></dc:creator>
+        <description><![CDATA[
+            <p>I need to get Pro_lvl in the script. This is the name of the subscription.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/f151c1b205ed9d640acf9612f9830911f34620dd.jpeg" alt="photo_2022-05-29_01-01-58" data-base62-sha1="yqOesasTPnOu0ZIabvfBBJdfBV3" width="475" height="111"></p>
+          <p><a href="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/4</link>
+        <pubDate>Sat, 28 May 2022 22:05:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-70-4</guid>
+        <source url="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70.rss">Getting a blank subscription response</source>
+      </item>
+      <item>
+        <title>Getting a blank subscription response</title>
+        <dc:creator><![CDATA[viannik]]></dc:creator>
+        <description><![CDATA[
+            <p>In response just an empty string</p>
+          <p><a href="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/3</link>
+        <pubDate>Sat, 28 May 2022 22:03:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-70-3</guid>
+        <source url="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70.rss">Getting a blank subscription response</source>
+      </item>
+      <item>
+        <title>Getting a blank subscription response</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>wdym blank? print out the response of it</p>
+          <p><a href="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/2</link>
+        <pubDate>Sat, 28 May 2022 21:39:39 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-70-2</guid>
+        <source url="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70.rss">Getting a blank subscription response</source>
+      </item>
+      <item>
+        <title>Getting a blank subscription response</title>
+        <dc:creator><![CDATA[viannik]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi, why am I getting a blank subscription response? I want to differentiate users by subscription levels.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/2d61243754da66ac4229af64f1590440aa91f6d9.png" alt="unknown" data-base62-sha1="6trBRWIIlnKNzfmZia41kI0Fk7v" width="557" height="181"></p>
+          <p><a href="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-a-blank-subscription-response/70/1</link>
+        <pubDate>Sat, 28 May 2022 21:30:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-70-1</guid>
+        <source url="https://community.keyauth.cc/t/getting-a-blank-subscription-response/70.rss">Getting a blank subscription response</source>
+      </item>
+  </channel>
+</rss>

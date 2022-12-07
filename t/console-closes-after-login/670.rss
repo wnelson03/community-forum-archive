@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Console closes after login</title>
+    <link>https://community.keyauth.cc/t/console-closes-after-login/670</link>
+    <description>how do i get my code to start after ive logged in? the console just closes on it self
+
+sorry if its an easy fix im trying to learn c++ a bit better but im not expert
+
+if you want to message me personally: Sniff#8349
+
+int main()
+{
+	system(&quot;Color 0D&quot;);
+	SetConsoleTitleA(skCrypt(&quot;&quot;));
+	std::cout &lt;&lt; skCrypt(&quot;&quot;);
+	KeyAuthApp.init();
+	if (!KeyAuthApp.data.success)
+	{
+		std::cout &lt;&lt; skCrypt(&quot;Status: &quot;) &lt;&lt; KeyAuthApp.data.message;
+		Sleep(1500);
+		exit(0);
+	}
+
+	KeyAuthApp.check();
+	std::cout &lt;&lt; skCrypt(&quot;&quot;);
+
+	std::cout &lt;&lt; skCrypt(&quot;\n\n [1] Login\n [2] Register\n\n Choose an option: &quot;);
+
+	int option;
+	std::string username;
+	std::string password;
+	std::string key;
+
+	std::cin &gt;&gt; option;
+	switch (option)
+	{
+	case 1:
+		std::cout &lt;&lt; skCrypt(&quot;\n\n Enter username: &quot;);
+		std::cin &gt;&gt; username;
+		std::cout &lt;&lt; skCrypt(&quot;\n Enter password: &quot;);
+		std::cin &gt;&gt; password;
+		KeyAuthApp.login(username, password);
+		break;
+	case 2:
+		std::cout &lt;&lt; skCrypt(&quot;\n\n Enter username: &quot;);
+		std::cin &gt;&gt; username;
+		std::cout &lt;&lt; skCrypt(&quot;\n Enter password: &quot;);
+		std::cin &gt;&gt; password;
+		std::cout &lt;&lt; skCrypt(&quot;\n Enter your key: &quot;);
+		std::cin &gt;&gt; key;
+		KeyAuthApp.regstr(username, password, key);
+		break;
+	case 3:
+		std::cout &lt;&lt; skCrypt(&quot;\n\n Enter username: &quot;);
+		std::cin &gt;&gt; username;
+		std::cout &lt;&lt; skCrypt(&quot;\n Enter your key: &quot;);
+		std::cin &gt;&gt; key;
+		KeyAuthApp.upgrade(username, key);
+		break;
+	case 4:
+		std::cout &lt;&lt; skCrypt(&quot;\n Enter your key: &quot;);
+		std::cin &gt;&gt; key;
+		KeyAuthApp.license(key);
+		break;
+	default:
+		std::cout &lt;&lt; skCrypt(&quot;\n\n 1 = Login \n 2 = Register&quot;);
+		Sleep(3000);
+		exit(0);
+	}
+
+	if (!KeyAuthApp.data.success)
+	{
+		std::cout &lt;&lt; skCrypt(&quot;\n Status: &quot;) &lt;&lt; KeyAuthApp.data.message;
+		Sleep(1500);
+		exit(0);
+	}
+
+	std::cout &lt;&lt; skCrypt(&quot;\n Hardware-Id: &quot;) &lt;&lt; KeyAuthApp.data.hwid;
+}</description>
+    
+    <lastBuildDate>Thu, 18 Aug 2022 04:30:34 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/console-closes-after-login/670.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Console closes after login</title>
+        <dc:creator><![CDATA[Possbl]]></dc:creator>
+        <description><![CDATA[
+            <p>at the end of your code add <code> getchar();</code></p>
+          <p><a href="https://community.keyauth.cc/t/console-closes-after-login/670/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/console-closes-after-login/670/6</link>
+        <pubDate>Thu, 18 Aug 2022 04:30:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-670-6</guid>
+        <source url="https://community.keyauth.cc/t/console-closes-after-login/670.rss">Console closes after login</source>
+      </item>
+      <item>
+        <title>Console closes after login</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>sure Facepunch#0309</p>
+          <p><a href="https://community.keyauth.cc/t/console-closes-after-login/670/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/console-closes-after-login/670/5</link>
+        <pubDate>Thu, 18 Aug 2022 02:04:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-670-5</guid>
+        <source url="https://community.keyauth.cc/t/console-closes-after-login/670.rss">Console closes after login</source>
+      </item>
+      <item>
+        <title>Console closes after login</title>
+        <dc:creator><![CDATA[Sniffington]]></dc:creator>
+        <description><![CDATA[
+            <p>am i able to message you through discord i dont under stand <img src="https://community.keyauth.win/images/emoji/twitter/frowning.png?v=12" title=":frowning:" class="emoji" alt=":frowning:" loading="lazy" width="20" height="20"></p>
+          <p><a href="https://community.keyauth.cc/t/console-closes-after-login/670/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/console-closes-after-login/670/4</link>
+        <pubDate>Thu, 18 Aug 2022 02:02:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-670-4</guid>
+        <source url="https://community.keyauth.cc/t/console-closes-after-login/670.rss">Console closes after login</source>
+      </item>
+      <item>
+        <title>Console closes after login</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>or just use std::cin.get(); to dont close</p>
+          <p><a href="https://community.keyauth.cc/t/console-closes-after-login/670/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/console-closes-after-login/670/3</link>
+        <pubDate>Thu, 18 Aug 2022 02:01:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-670-3</guid>
+        <source url="https://community.keyauth.cc/t/console-closes-after-login/670.rss">Console closes after login</source>
+      </item>
+      <item>
+        <title>Console closes after login</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>u need to add ur code below this …</p>
+          <p><a href="https://community.keyauth.cc/t/console-closes-after-login/670/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/console-closes-after-login/670/2</link>
+        <pubDate>Thu, 18 Aug 2022 02:00:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-670-2</guid>
+        <source url="https://community.keyauth.cc/t/console-closes-after-login/670.rss">Console closes after login</source>
+      </item>
+      <item>
+        <title>Console closes after login</title>
+        <dc:creator><![CDATA[Sniffington]]></dc:creator>
+        <description><![CDATA[
+            <p>how do i get my code to start after ive logged in? the console just closes on it self</p>
+<p>sorry if its an easy fix im trying to learn c++ a bit better but im not expert</p>
+<p>if you want to message me personally: Sniff#8349</p>
+<p>int main()<br>
+{<br>
+system(“Color 0D”);<br>
+SetConsoleTitleA(skCrypt(“”));<br>
+std::cout &lt;&lt; skCrypt(“”);<br>
+KeyAuthApp.init();<br>
+if (!KeyAuthApp.data.success)<br>
+{<br>
+std::cout &lt;&lt; skCrypt("Status: ") &lt;&lt; KeyAuthApp.data.message;<br>
+Sleep(1500);<br>
+exit(0);<br>
+}</p>
+<pre><code>KeyAuthApp.check();
+std::cout &lt;&lt; skCrypt("");
+
+std::cout &lt;&lt; skCrypt("\n\n [1] Login\n [2] Register\n\n Choose an option: ");
+
+int option;
+std::string username;
+std::string password;
+std::string key;
+
+std::cin &gt;&gt; option;
+switch (option)
+{
+case 1:
+	std::cout &lt;&lt; skCrypt("\n\n Enter username: ");
+	std::cin &gt;&gt; username;
+	std::cout &lt;&lt; skCrypt("\n Enter password: ");
+	std::cin &gt;&gt; password;
+	KeyAuthApp.login(username, password);
+	break;
+case 2:
+	std::cout &lt;&lt; skCrypt("\n\n Enter username: ");
+	std::cin &gt;&gt; username;
+	std::cout &lt;&lt; skCrypt("\n Enter password: ");
+	std::cin &gt;&gt; password;
+	std::cout &lt;&lt; skCrypt("\n Enter your key: ");
+	std::cin &gt;&gt; key;
+	KeyAuthApp.regstr(username, password, key);
+	break;
+case 3:
+	std::cout &lt;&lt; skCrypt("\n\n Enter username: ");
+	std::cin &gt;&gt; username;
+	std::cout &lt;&lt; skCrypt("\n Enter your key: ");
+	std::cin &gt;&gt; key;
+	KeyAuthApp.upgrade(username, key);
+	break;
+case 4:
+	std::cout &lt;&lt; skCrypt("\n Enter your key: ");
+	std::cin &gt;&gt; key;
+	KeyAuthApp.license(key);
+	break;
+default:
+	std::cout &lt;&lt; skCrypt("\n\n 1 = Login \n 2 = Register");
+	Sleep(3000);
+	exit(0);
+}
+
+if (!KeyAuthApp.data.success)
+{
+	std::cout &lt;&lt; skCrypt("\n Status: ") &lt;&lt; KeyAuthApp.data.message;
+	Sleep(1500);
+	exit(0);
+}
+
+std::cout &lt;&lt; skCrypt("\n Hardware-Id: ") &lt;&lt; KeyAuthApp.data.hwid;
+</code></pre>
+<p>}</p>
+          <p><a href="https://community.keyauth.cc/t/console-closes-after-login/670/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/console-closes-after-login/670/1</link>
+        <pubDate>Thu, 18 Aug 2022 01:58:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-670-1</guid>
+        <source url="https://community.keyauth.cc/t/console-closes-after-login/670.rss">Console closes after login</source>
+      </item>
+  </channel>
+</rss>

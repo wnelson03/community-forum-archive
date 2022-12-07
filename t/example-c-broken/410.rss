@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Example c++ broken</title>
+    <link>https://community.keyauth.cc/t/example-c-broken/410</link>
+    <description>![image|690x95](upload://2k2NwytrUJFuVi6meqsXgzSmQWW.png)
+
+
+pls help, example is broken, it used to be built, but now no longer.
+Tried new source but source broken.</description>
+    
+    <lastBuildDate>Sat, 16 Jul 2022 06:48:11 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/example-c-broken/410.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Example c++ broken</title>
+        <dc:creator><![CDATA[SlickMooves]]></dc:creator>
+        <description><![CDATA[
+            <p>Read the GitHub documentation.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/2f5622007abfd89ce19f7527a762384b138cee13.jpeg" alt="image" data-base62-sha1="6KKYKs5gRLoiKqfsJEOBFwEKyIj" width="230" height="500"></p>
+          <p><a href="https://community.keyauth.cc/t/example-c-broken/410/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/example-c-broken/410/2</link>
+        <pubDate>Sat, 16 Jul 2022 06:48:11 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-410-2</guid>
+        <source url="https://community.keyauth.cc/t/example-c-broken/410.rss">Example c++ broken</source>
+      </item>
+      <item>
+        <title>Example c++ broken</title>
+        <dc:creator><![CDATA[Shamis]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/10486b891b0a9d73284f0ff181ccd1f6ea052de6.png" alt="image" data-base62-sha1="2k2NwytrUJFuVi6meqsXgzSmQWW" width="690" height="95"></p>
+<p>pls help, example is broken, it used to be built, but now no longer.<br>
+Tried new source but source broken.</p>
+          <p><a href="https://community.keyauth.cc/t/example-c-broken/410/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/example-c-broken/410/1</link>
+        <pubDate>Sat, 16 Jul 2022 05:07:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-410-1</guid>
+        <source url="https://community.keyauth.cc/t/example-c-broken/410.rss">Example c++ broken</source>
+      </item>
+  </channel>
+</rss>

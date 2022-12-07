@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Subscription Expire</title>
+    <link>https://community.keyauth.cc/t/subscription-expire/536</link>
+    <description>is it possible to get subscription expire details in c++
+
+My response on KeyAuthApp.Data and KeyAuthApp.Data.Subscriptions only includes a vector with subscription name and no expire</description>
+    
+    <lastBuildDate>Mon, 01 Aug 2022 17:21:16 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/subscription-expire/536.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Subscription Expire</title>
+        <dc:creator><![CDATA[Paul84]]></dc:creator>
+        <description><![CDATA[
+            <p>So is it possible to get expire for each subscription/level?</p>
+          <p><a href="https://community.keyauth.cc/t/subscription-expire/536/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/subscription-expire/536/4</link>
+        <pubDate>Mon, 01 Aug 2022 17:21:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-536-4</guid>
+        <source url="https://community.keyauth.cc/t/subscription-expire/536.rss">Subscription Expire</source>
+      </item>
+      <item>
+        <title>Subscription Expire</title>
+        <dc:creator><![CDATA[Paul84]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks for the reply. That only returns the expiry for one subscription</p>
+          <p><a href="https://community.keyauth.cc/t/subscription-expire/536/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/subscription-expire/536/3</link>
+        <pubDate>Sun, 31 Jul 2022 05:27:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-536-3</guid>
+        <source url="https://community.keyauth.cc/t/subscription-expire/536.rss">Subscription Expire</source>
+      </item>
+      <item>
+        <title>Subscription Expire</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>From the example on github</p>
+<aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L111">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L111" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L111" target="_blank" rel="noopener">KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L111</a></h4>
+
+
+
+    <pre class="onebox"><code class="lang-cpp">
+      <ol class="start lines" start="101" style="counter-reset: li-counter 100 ;">
+          <li>	std::cout &lt;&lt; skCrypt("\n User data:");</li>
+          <li>	std::cout &lt;&lt; skCrypt("\n Username: ") &lt;&lt; KeyAuthApp.data.username;</li>
+          <li>	std::cout &lt;&lt; skCrypt("\n IP address: ") &lt;&lt; KeyAuthApp.data.ip;</li>
+          <li>	std::cout &lt;&lt; skCrypt("\n Hardware-Id: ") &lt;&lt; KeyAuthApp.data.hwid;</li>
+          <li>	std::cout &lt;&lt; skCrypt("\n Create date: ") &lt;&lt; tm_to_readable_time(timet_to_tm(string_to_timet(KeyAuthApp.data.createdate)));</li>
+          <li>	std::cout &lt;&lt; skCrypt("\n Last login: ") &lt;&lt; tm_to_readable_time(timet_to_tm(string_to_timet(KeyAuthApp.data.lastlogin)));</li>
+          <li>	std::cout &lt;&lt; skCrypt("\n Subscription name(s): ");</li>
+          <li>	std::string subs;</li>
+          <li>	for (std::string value : KeyAuthApp.data.subscriptions)subs += value + " ";</li>
+          <li>	std::cout &lt;&lt; subs;</li>
+          <li class="selected">	std::cout &lt;&lt; skCrypt("\n Subscription expiry: ") &lt;&lt; tm_to_readable_time(timet_to_tm(string_to_timet(KeyAuthApp.data.expiry)));</li>
+          <li>	std::cout &lt;&lt; skCrypt("\n Checking session validation status (remove this if causing your loader to be slow)");</li>
+          <li>	KeyAuthApp.check();</li>
+          <li>	std::cout &lt;&lt; skCrypt("\n Current Session Validation Status: ") &lt;&lt; KeyAuthApp.data.message;</li>
+          <li>	</li>
+          <li>	/*</li>
+          <li>	KeyAuthApp.web_login();</li>
+          <li>
+          </li><li>	std::cout &lt;&lt; "\n Waiting for button to be clicked";</li>
+          <li>	KeyAuthApp.button("close");</li>
+          <li>	*/</li>
+      </ol>
+    </code></pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/subscription-expire/536/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/subscription-expire/536/2</link>
+        <pubDate>Sun, 31 Jul 2022 05:07:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-536-2</guid>
+        <source url="https://community.keyauth.cc/t/subscription-expire/536.rss">Subscription Expire</source>
+      </item>
+      <item>
+        <title>Subscription Expire</title>
+        <dc:creator><![CDATA[Paul84]]></dc:creator>
+        <description><![CDATA[
+            <p>is it possible to get subscription expire details in c++</p>
+<p>My response on KeyAuthApp.Data and KeyAuthApp.Data.Subscriptions only includes a vector with subscription name and no expire</p>
+          <p><a href="https://community.keyauth.cc/t/subscription-expire/536/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/subscription-expire/536/1</link>
+        <pubDate>Sun, 31 Jul 2022 01:33:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-536-1</guid>
+        <source url="https://community.keyauth.cc/t/subscription-expire/536.rss">Subscription Expire</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Logging with a key saved on a text file</title>
+    <link>https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86</link>
+    <description>Can anyone send me an example of logging in using a text file or can help me make one?</description>
+    
+    <lastBuildDate>Mon, 30 May 2022 17:25:39 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Logging with a key saved on a text file</title>
+        <dc:creator><![CDATA[Jaysen_Sua]]></dc:creator>
+        <description><![CDATA[
+            <p>you could just make a json file with 2 parameters a Username &amp; a password field then change the username &amp; password field if the user selects remember me and auto login using the new data in the json file</p>
+          <p><a href="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/7</link>
+        <pubDate>Mon, 30 May 2022 17:25:39 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-86-7</guid>
+        <source url="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86.rss">Logging with a key saved on a text file</source>
+      </item>
+      <item>
+        <title>Logging with a key saved on a text file</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>can you help me edit it? i am kinda new to making such things so sorry if i made some dumb mistakes</p>
+          <p><a href="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/6</link>
+        <pubDate>Mon, 30 May 2022 12:53:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-86-6</guid>
+        <source url="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86.rss">Logging with a key saved on a text file</source>
+      </item>
+      <item>
+        <title>Logging with a key saved on a text file</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="VVS" data-post="4" data-topic="86" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/vvs/40/87_2.png" class="avatar"> VVS:</div>
+<blockquote>
+<p>can you take a look at my code and tell me what is wrong with it?</p>
+</blockquote>
+</aside>
+<p>you’re defining a function inside a function…</p>
+          <p><a href="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/5</link>
+        <pubDate>Mon, 30 May 2022 12:49:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-86-5</guid>
+        <source url="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86.rss">Logging with a key saved on a text file</source>
+      </item>
+      <item>
+        <title>Logging with a key saved on a text file</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>can you take a look at my code and tell me what is wrong with it?</p>
+          <p><a href="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/4</link>
+        <pubDate>Mon, 30 May 2022 12:44:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-86-4</guid>
+        <source url="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86.rss">Logging with a key saved on a text file</source>
+      </item>
+      <item>
+        <title>Logging with a key saved on a text file</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>After the user logs in, you can take the string that contains the key and write it to a file using the File class of <code>System.IO</code>, <code>File.WriteAllText(keystring, "key.txt");</code>, and at the app startup you can do <code>string savedKey = File.ReadAllText("key.txt");</code> to retrieve the file content and login with it. For example <code>KeyAuthApp.license(savedkey);</code></p>
+<p>Complete Code:</p>
+<pre><code class="lang-auto">//After Login Code
+if(!File.Exists("key.txt"))
+{
+   File.WriteAllText(keyString, "key.txt");
+}
+// App startup code
+if(File.Exists("key.txt") &amp;&amp; !String.IsNullOrEmpty(File.ReadAllText("key.txt")))
+{
+   string key = File.ReadAllText("key.txt");
+   KeyAuthApp.license(key);
+}
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/3</link>
+        <pubDate>Mon, 30 May 2022 12:43:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-86-3</guid>
+        <source url="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86.rss">Logging with a key saved on a text file</source>
+      </item>
+      <item>
+        <title>Logging with a key saved on a text file</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>I’ve made something like this but i am a very big retard ( dont know how to make logging in with only key ) it just doesnt work.</p>
+<p>namespace KeyAuth<br>
+{<br>
+class Program<br>
+{</p>
+<pre><code>    public static api KeyAuthApp = new api(
+        name: ".",
+        ownerid: ".",
+        secret: ".",
+        version: "."
+    );
+    static void Main(string[] args)
+    {
+        string textFile = @"C:/ty.txt";
+
+        string key = File.ReadAllText(textFile);
+        Console.WriteLine(key);
+
+        Thread.Sleep(5000);
+        KeyAuthApp.license(key);
+        Thread.Sleep(5000);
+
+        if (!KeyAuthApp.response.success)
+        {
+            static void Something()
+            {
+                something is here
+            }
+            Something();
+        }
+    }
+}
+</code></pre>
+<p>}</p>
+          <p><a href="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/2</link>
+        <pubDate>Mon, 30 May 2022 12:41:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-86-2</guid>
+        <source url="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86.rss">Logging with a key saved on a text file</source>
+      </item>
+      <item>
+        <title>Logging with a key saved on a text file</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>Can anyone send me an example of logging in using a text file or can help me make one?</p>
+          <p><a href="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86/1</link>
+        <pubDate>Mon, 30 May 2022 12:37:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-86-1</guid>
+        <source url="https://community.keyauth.cc/t/logging-with-a-key-saved-on-a-text-file/86.rss">Logging with a key saved on a text file</source>
+      </item>
+  </channel>
+</rss>

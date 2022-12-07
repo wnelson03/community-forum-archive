@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How Can I Make An Automatic Login?</title>
+    <link>https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227</link>
+    <description>So To Login To My Application I Use Username And Pass, Is There Any Code That Shows An Automatic Login for ex. making a txt file with user;pass and reading it?</description>
+    
+    <lastBuildDate>Tue, 21 Jun 2022 15:22:12 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How Can I Make An Automatic Login?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/8</link>
+        <pubDate>Tue, 21 Jun 2022 15:22:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-227-8</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227.rss">How Can I Make An Automatic Login?</source>
+      </item>
+      <item>
+        <title>How Can I Make An Automatic Login?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>And you asked is twice</p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/7</link>
+        <pubDate>Tue, 21 Jun 2022 15:22:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-227-7</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227.rss">How Can I Make An Automatic Login?</source>
+      </item>
+      <item>
+        <title>How Can I Make An Automatic Login?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote" data-post="1" data-topic="86">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/vvs/40/87_2.png" class="avatar">
+    <a href="https://community.keyauth.win/t/logging-with-a-key-saved-on-a-text-file/86">Logging with a key saved on a text file</a> <a class="badge-wrapper  bullet" href="https://community.keyauth.cc/c/examples/csharp/8"><span class="badge-category-parent-bg" style="background-color: #0088CC;"></span><span class="badge-category-bg" style="background-color: #280068;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="The C# example is here https://github.com/KeyAuth/KeyAuth-CS-Example">C#</span></a>
+  </div>
+  <blockquote>
+    Can anyone send me an example of logging in using a text file or can help me make one?
+  </blockquote>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/6</link>
+        <pubDate>Tue, 21 Jun 2022 15:21:39 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-227-6</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227.rss">How Can I Make An Automatic Login?</source>
+      </item>
+      <item>
+        <title>How Can I Make An Automatic Login?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Like i said use the link and search<br>
+Breack it down like this to make it easier  to research.</p>
+<p>First find out how to write text to a .txt file or .csv file.<br>
+Then how to read that file to use the info</p>
+<p>Then if successful login save the details to file.<br>
+Next time your app opens have it look for that file and details if they exist fill in the text boxers.</p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/5</link>
+        <pubDate>Tue, 21 Jun 2022 15:19:29 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-227-5</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227.rss">How Can I Make An Automatic Login?</source>
+      </item>
+      <item>
+        <title>How Can I Make An Automatic Login?</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>this was a pretty dumb question</p>
+<pre><code>            string user = username.Text;
+            string pass = password.Text;
+
+            File.WriteAllText(@"C:\vvs.txt", user + ":" + pass);</code></pre>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/4</link>
+        <pubDate>Tue, 21 Jun 2022 15:18:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-227-4</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227.rss">How Can I Make An Automatic Login?</source>
+      </item>
+      <item>
+        <title>How Can I Make An Automatic Login?</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>How Can I Save The username.Text and password.Text in a text file in user;pass format</p>
+<pre><code>    private void guna2Button4_Click(object sender, EventArgs e)
+    {
+        KeyAuthApp.login(username.Text, password.Text);
+        if (KeyAuthApp.response.success)
+        {
+            Loading main = new Loading();
+            main.Show();
+            this.Hide();
+        }
+        else
+        {
+            incorrect_msg main = new incorrect_msg();
+            main.Show();
+        }</code></pre>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/3</link>
+        <pubDate>Tue, 21 Jun 2022 15:12:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-227-3</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227.rss">How Can I Make An Automatic Login?</source>
+      </item>
+      <item>
+        <title>How Can I Make An Automatic Login?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes you can do it and you will find the answers on <a href="http://stackoverflow.com/">stackoverflow.com/</a></p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/2</link>
+        <pubDate>Tue, 21 Jun 2022 15:08:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-227-2</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227.rss">How Can I Make An Automatic Login?</source>
+      </item>
+      <item>
+        <title>How Can I Make An Automatic Login?</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>So To Login To My Application I Use Username And Pass, Is There Any Code That Shows An Automatic Login for ex. making a txt file with user;pass and reading it?</p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227/1</link>
+        <pubDate>Tue, 21 Jun 2022 15:02:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-227-1</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-make-an-automatic-login/227.rss">How Can I Make An Automatic Login?</source>
+      </item>
+  </channel>
+</rss>

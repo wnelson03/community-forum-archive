@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Hosting A Site For Resellers/Managers</title>
+    <link>https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451</link>
+    <description>is it possible to self-host a website with login for resellers/managers</description>
+    
+    <lastBuildDate>Wed, 20 Jul 2022 22:10:22 +0000</lastBuildDate>
+    <category>PHP</category>
+    <atom:link href="https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Hosting A Site For Resellers/Managers</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes but no support is given for self hosting</p>
+          <p><a href="https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451/2</link>
+        <pubDate>Wed, 20 Jul 2022 22:10:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-451-2</guid>
+        <source url="https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451.rss">Hosting A Site For Resellers/Managers</source>
+      </item>
+      <item>
+        <title>Hosting A Site For Resellers/Managers</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>is it possible to self-host a website with login for resellers/managers</p>
+          <p><a href="https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451/1</link>
+        <pubDate>Wed, 20 Jul 2022 20:53:09 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-451-1</guid>
+        <source url="https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451.rss">Hosting A Site For Resellers/Managers</source>
+      </item>
+  </channel>
+</rss>

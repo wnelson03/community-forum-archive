@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Subscription Length</title>
+    <link>https://community.keyauth.cc/t/subscription-length/354</link>
+    <description>Yo, is there a way to add a thing that says how much days of sub the user has&#39;</description>
+    
+    <lastBuildDate>Thu, 07 Jul 2022 16:45:15 +0000</lastBuildDate>
+    <category>PHP</category>
+    <atom:link href="https://community.keyauth.cc/t/subscription-length/354.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Subscription Length</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>its in the php example already.</p><aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-Python-Example/blob/main/main.py#L112">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-Python-Example/blob/main/main.py#L112" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-Python-Example/blob/main/main.py#L112" target="_blank" rel="noopener">KeyAuth/KeyAuth-Python-Example/blob/main/main.py#L112</a></h4>
+
+
+
+    <pre class="onebox">      <code class="lang-py">
+        <ol class="start lines" start="102" style="counter-reset: li-counter 101 ;">
+            <li>#data = keyauthapp.webhook("WebhookID", "?type=resetuser&amp;user=username")
+</li>
+            <li>
+</li>
+            <li>#endregion
+</li>
+            <li>
+</li>
+            <li>print("\nUser data: ") 
+</li>
+            <li>print("Username: " + keyauthapp.user_data.username)
+</li>
+            <li>print("IP address: " + keyauthapp.user_data.ip)
+</li>
+            <li>print("Hardware-Id: " + keyauthapp.user_data.hwid)
+</li>
+            <li>#print("Subcription: " + keyauthapp.user_data.subscription) ## Print Subscription "ONE" name
+</li>
+            <li>
+</li>
+            <li class="selected">subs = keyauthapp.user_data.subscriptions ## Get all Subscription names, expiry, and timeleft
+</li>
+            <li>for i in range(len(subs)):
+</li>
+            <li>  sub = subs[i]["subscription"] # Subscription from every Sub
+</li>
+            <li>  expiry = datetime.utcfromtimestamp(int(subs[i]["expiry"])).strftime('%Y-%m-%d %H:%M:%S') ## Expiry date from every Sub
+</li>
+            <li>  timeleft = subs[i]["timeleft"] ## Timeleft from every Sub
+</li>
+            <li>
+</li>
+            <li>  print(f"[{i + 1} / {len(subs)}] | Subscription: {sub} - Expiry: {expiry} - Timeleft: {timeleft}")
+</li>
+            <li>
+</li>
+            <li>
+</li>
+            <li>print("Created at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.createdate)).strftime('%Y-%m-%d %H:%M:%S'))
+</li>
+            <li>print("Last login at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.lastlogin)).strftime('%Y-%m-%d %H:%M:%S'))
+</li>
+        </ol>
+      </code>
+    </pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/subscription-length/354/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/subscription-length/354/2</link>
+        <pubDate>Thu, 07 Jul 2022 16:45:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-354-2</guid>
+        <source url="https://community.keyauth.cc/t/subscription-length/354.rss">Subscription Length</source>
+      </item>
+      <item>
+        <title>Subscription Length</title>
+        <dc:creator><![CDATA[Afonso_Segredo]]></dc:creator>
+        <description><![CDATA[
+            <p>Yo, is there a way to add a thing that says how much days of sub the user has’</p>
+          <p><a href="https://community.keyauth.cc/t/subscription-length/354/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/subscription-length/354/1</link>
+        <pubDate>Thu, 07 Jul 2022 15:34:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-354-1</guid>
+        <source url="https://community.keyauth.cc/t/subscription-length/354.rss">Subscription Length</source>
+      </item>
+  </channel>
+</rss>

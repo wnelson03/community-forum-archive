@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>I need help with this error</title>
+    <link>https://community.keyauth.cc/t/i-need-help-with-this-error/764</link>
+    <description>This keeps getting highlighted when i click on the error and i dont know how to fix the error
+![image|661x361](upload://c7qvQnW1mH8jBxSTpSGfdpGx9IF.png)</description>
+    
+    <lastBuildDate>Sat, 03 Sep 2022 10:05:25 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/i-need-help-with-this-error/764.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>I need help with this error</title>
+        <dc:creator><![CDATA[lwr]]></dc:creator>
+        <description><![CDATA[
+            <p>how do i get it to load the rest of my code after key has been used tho?</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-this-error/764/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-this-error/764/6</link>
+        <pubDate>Fri, 02 Sep 2022 16:44:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-764-6</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-this-error/764.rss">I need help with this error</source>
+      </item>
+      <item>
+        <title>I need help with this error</title>
+        <dc:creator><![CDATA[thisistheway]]></dc:creator>
+        <description><![CDATA[
+            <aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp" target="_blank" rel="noopener nofollow ugc">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp" target="_blank" rel="noopener nofollow ugc">KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp</a></h4>
+
+
+      <pre><code class="lang-cpp">#include &lt;Windows.h&gt;
+#include "auth.hpp"
+#include &lt;string&gt;
+#include "skStr.h"
+std::string tm_to_readable_time(tm ctx);
+static std::time_t string_to_timet(std::string timestamp);
+static std::tm timet_to_tm(time_t timestamp);
+
+using namespace KeyAuth;
+
+std::string name = ""; // application name. right above the blurred text aka the secret on the licenses tab among other tabs
+std::string ownerid = ""; // ownerid, found in account settings. click your profile picture on top right of dashboard and then account settings.
+std::string secret = ""; // app secret, the blurred text on licenses tab and other tabs
+std::string version = "1.0"; // leave alone unless you've changed version on website
+std::string url = "https://keyauth.win/api/1.2/"; // change if you're self-hosting
+
+/*
+	Video on what ownerid and secret are https://youtu.be/uJ0Umy_C6Fg
+
+	Video on how to add KeyAuth to your own application https://youtu.be/GB4XW_TsHqA
+</code></pre>
+
+
+
+  This file has been truncated. <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp" target="_blank" rel="noopener nofollow ugc">show original</a>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>Check Line 15</p>
+<p>You need to add url too</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-this-error/764/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-this-error/764/5</link>
+        <pubDate>Fri, 02 Sep 2022 13:12:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-764-5</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-this-error/764.rss">I need help with this error</source>
+      </item>
+      <item>
+        <title>I need help with this error</title>
+        <dc:creator><![CDATA[lwr]]></dc:creator>
+        <description><![CDATA[
+            <p>wait nvm it did work tysm</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-this-error/764/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-this-error/764/4</link>
+        <pubDate>Fri, 02 Sep 2022 13:12:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-764-4</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-this-error/764.rss">I need help with this error</source>
+      </item>
+      <item>
+        <title>I need help with this error</title>
+        <dc:creator><![CDATA[lwr]]></dc:creator>
+        <description><![CDATA[
+            <p>didnt work</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-this-error/764/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-this-error/764/3</link>
+        <pubDate>Fri, 02 Sep 2022 13:11:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-764-3</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-this-error/764.rss">I need help with this error</source>
+      </item>
+      <item>
+        <title>I need help with this error</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="lwr" data-post="1" data-topic="764">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/letter_avatar_proxy/v4/letter/l/c89c15/40.png" class="avatar"> lwr:</div>
+<blockquote>
+<p>eeps getting highlighted when i click on t</p>
+</blockquote>
+</aside>
+<p>std::string name = “”;<br>
+std::string ownerid = “”;<br>
+std::string secret = “”;<br>
+std::string version = “1.0”;<br>
+std::string url = “<a href="https://keyauth.win/api/1.2/">https://keyauth.win/api/1.2/</a>”;</p>
+<p>api KeyAuthApp(name, ownerid, secret, version, url);</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-this-error/764/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-this-error/764/2</link>
+        <pubDate>Fri, 02 Sep 2022 13:07:59 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-764-2</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-this-error/764.rss">I need help with this error</source>
+      </item>
+      <item>
+        <title>I need help with this error</title>
+        <dc:creator><![CDATA[lwr]]></dc:creator>
+        <description><![CDATA[
+            <p>This keeps getting highlighted when i click on the error and i dont know how to fix the error<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/54f107e2992bdd250338a2f78402499a41ef3d2d.png" alt="image" data-base62-sha1="c7qvQnW1mH8jBxSTpSGfdpGx9IF" width="661" height="361"></p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-this-error/764/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-this-error/764/1</link>
+        <pubDate>Fri, 02 Sep 2022 13:05:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-764-1</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-this-error/764.rss">I need help with this error</source>
+      </item>
+  </channel>
+</rss>

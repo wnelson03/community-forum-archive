@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Add key in c++ sours</title>
+    <link>https://community.keyauth.cc/t/add-key-in-c-sours/644</link>
+    <description>hey 
+how i can create licenses in c++</description>
+    
+    <lastBuildDate>Mon, 15 Aug 2022 13:36:20 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/add-key-in-c-sours/644.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Add key in c++ sours</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>If you take a look at the api and see what it returns you can then do what you like with the information.<br>
+Read the api docs and you will see how to set it to 2 hrs.<br>
+We do not have a api wrapper for the seller api so you would have to make one yourself or if you can not do this then you need to go and look in the code channel on the discord and use one of the seller panels some of the community have made.</p>
+          <p><a href="https://community.keyauth.cc/t/add-key-in-c-sours/644/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/add-key-in-c-sours/644/4</link>
+        <pubDate>Mon, 15 Aug 2022 13:36:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-644-4</guid>
+        <source url="https://community.keyauth.cc/t/add-key-in-c-sours/644.rss">Add key in c++ sours</source>
+      </item>
+      <item>
+        <title>Add key in c++ sours</title>
+        <dc:creator><![CDATA[Pooya_Mahdavi]]></dc:creator>
+        <description><![CDATA[
+            <p>thanks<br>
+but how i save the key in one string<br>
+and how expire date set to 2 hours</p>
+          <p><a href="https://community.keyauth.cc/t/add-key-in-c-sours/644/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/add-key-in-c-sours/644/3</link>
+        <pubDate>Mon, 15 Aug 2022 12:02:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-644-3</guid>
+        <source url="https://community.keyauth.cc/t/add-key-in-c-sours/644.rss">Add key in c++ sours</source>
+      </item>
+      <item>
+        <title>Add key in c++ sours</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>You can use the seller api to make keys you will need a seller plan.</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://docs.keyauth.cc/seller/licenses">
+  <header class="source">
+      <span class="broken-image" title="This image is broken"><svg class="fa d-icon d-icon-unlink svg-icon" aria-hidden="true"><use href="#unlink"></use></svg></span>
+
+      <a href="https://docs.keyauth.cc/seller/licenses" target="_blank" rel="noopener">docs.keyauth.cc</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/0e8a070adb768680433f28e0d513e3f7cd224598.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://docs.keyauth.cc/seller/licenses" target="_blank" rel="noopener">Licenses</a></h3>
+
+  <p>SellerAPI endpoints for manging licenses (keys given to your customers to register users)</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/add-key-in-c-sours/644/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/add-key-in-c-sours/644/2</link>
+        <pubDate>Mon, 15 Aug 2022 11:39:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-644-2</guid>
+        <source url="https://community.keyauth.cc/t/add-key-in-c-sours/644.rss">Add key in c++ sours</source>
+      </item>
+      <item>
+        <title>Add key in c++ sours</title>
+        <dc:creator><![CDATA[Pooya_Mahdavi]]></dc:creator>
+        <description><![CDATA[
+            <p>hey<br>
+how i can create licenses in c++</p>
+          <p><a href="https://community.keyauth.cc/t/add-key-in-c-sours/644/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/add-key-in-c-sours/644/1</link>
+        <pubDate>Mon, 15 Aug 2022 07:24:11 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-644-1</guid>
+        <source url="https://community.keyauth.cc/t/add-key-in-c-sours/644.rss">Add key in c++ sours</source>
+      </item>
+  </channel>
+</rss>

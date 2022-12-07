@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Do I add Keyauth to my python code or do the example and upload file to website?</title>
+    <link>https://community.keyauth.cc/t/do-i-add-keyauth-to-my-python-code-or-do-the-example-and-upload-file-to-website/397</link>
+    <description>Hello, I am trying to set up keyauth, I am bit confused if i add to my python code or do it like the set up and add the file to my account.</description>
+    
+    <lastBuildDate>Wed, 13 Jul 2022 10:49:41 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/do-i-add-keyauth-to-my-python-code-or-do-the-example-and-upload-file-to-website/397.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Do I add Keyauth to my python code or do the example and upload file to website?</title>
+        <dc:creator><![CDATA[LofiaDev]]></dc:creator>
+        <description><![CDATA[
+            <p>What do you mean? You want to add the auth to a python script?</p>
+          <p><a href="https://community.keyauth.cc/t/do-i-add-keyauth-to-my-python-code-or-do-the-example-and-upload-file-to-website/397/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/do-i-add-keyauth-to-my-python-code-or-do-the-example-and-upload-file-to-website/397/2</link>
+        <pubDate>Wed, 13 Jul 2022 10:49:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-397-2</guid>
+        <source url="https://community.keyauth.cc/t/do-i-add-keyauth-to-my-python-code-or-do-the-example-and-upload-file-to-website/397.rss">Do I add Keyauth to my python code or do the example and upload file to website?</source>
+      </item>
+      <item>
+        <title>Do I add Keyauth to my python code or do the example and upload file to website?</title>
+        <dc:creator><![CDATA[Mr_Bond]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello, I am trying to set up keyauth, I am bit confused if i add to my python code or do it like the set up and add the file to my account.</p>
+          <p><a href="https://community.keyauth.cc/t/do-i-add-keyauth-to-my-python-code-or-do-the-example-and-upload-file-to-website/397/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/do-i-add-keyauth-to-my-python-code-or-do-the-example-and-upload-file-to-website/397/1</link>
+        <pubDate>Tue, 12 Jul 2022 22:48:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-397-1</guid>
+        <source url="https://community.keyauth.cc/t/do-i-add-keyauth-to-my-python-code-or-do-the-example-and-upload-file-to-website/397.rss">Do I add Keyauth to my python code or do the example and upload file to website?</source>
+      </item>
+  </channel>
+</rss>

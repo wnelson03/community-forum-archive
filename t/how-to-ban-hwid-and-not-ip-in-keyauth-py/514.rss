@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to ban HWID and not IP in keyauth.py</title>
+    <link>https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514</link>
+    <description>keyauthapp.ban() == blacklists IP and bans key, I would like it to blacklist HWID and ban key.
+
+Python of course.</description>
+    
+    <lastBuildDate>Wed, 27 Jul 2022 23:11:17 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to ban HWID and not IP in keyauth.py</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>Seller API: <a href="https://docs.keyauth.win/seller/blacklists" class="inline-onebox">Blacklists - KeyAuth</a></p>
+          <p><a href="https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514/2</link>
+        <pubDate>Wed, 27 Jul 2022 23:11:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-514-2</guid>
+        <source url="https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514.rss">How to ban HWID and not IP in keyauth.py</source>
+      </item>
+      <item>
+        <title>How to ban HWID and not IP in keyauth.py</title>
+        <dc:creator><![CDATA[Lucas_Manolia]]></dc:creator>
+        <description><![CDATA[
+            <p>keyauthapp.ban() == blacklists IP and bans key, I would like it to blacklist HWID and ban key.</p>
+<p>Python of course.</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514/1</link>
+        <pubDate>Wed, 27 Jul 2022 16:45:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-514-1</guid>
+        <source url="https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514.rss">How to ban HWID and not IP in keyauth.py</source>
+      </item>
+  </channel>
+</rss>

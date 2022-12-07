@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Download with webclient</title>
+    <link>https://community.keyauth.cc/t/download-with-webclient/633</link>
+    <description>How do i make a webclient/download file button? I mean if you start your application it would install a dll (example) then execute it or whatever. But after you close it, it deletes automatically the file.
+How can you do that? I know it doesent fit in this website, well technically it does but nvm. I hope you can help me</description>
+    
+    <lastBuildDate>Sat, 13 Aug 2022 13:39:00 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/download-with-webclient/633.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Download with webclient</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/download-with-webclient/633/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-with-webclient/633/4</link>
+        <pubDate>Sat, 13 Aug 2022 13:39:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-633-4</guid>
+        <source url="https://community.keyauth.cc/t/download-with-webclient/633.rss">Download with webclient</source>
+      </item>
+      <item>
+        <title>Download with webclient</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>You can download the file via the download function that keyauth has then its up to you from what you do with it.</p>
+          <p><a href="https://community.keyauth.cc/t/download-with-webclient/633/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-with-webclient/633/3</link>
+        <pubDate>Sat, 13 Aug 2022 13:39:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-633-3</guid>
+        <source url="https://community.keyauth.cc/t/download-with-webclient/633.rss">Download with webclient</source>
+      </item>
+      <item>
+        <title>Download with webclient</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Not keyauth example related or issue im afraid</p>
+          <p><a href="https://community.keyauth.cc/t/download-with-webclient/633/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-with-webclient/633/2</link>
+        <pubDate>Sat, 13 Aug 2022 13:37:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-633-2</guid>
+        <source url="https://community.keyauth.cc/t/download-with-webclient/633.rss">Download with webclient</source>
+      </item>
+      <item>
+        <title>Download with webclient</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>How do i make a webclient/download file button? I mean if you start your application it would install a dll (example) then execute it or whatever. But after you close it, it deletes automatically the file.<br>
+How can you do that? I know it doesent fit in this website, well technically it does but nvm. I hope you can help me</p>
+          <p><a href="https://community.keyauth.cc/t/download-with-webclient/633/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/download-with-webclient/633/1</link>
+        <pubDate>Sat, 13 Aug 2022 13:24:10 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-633-1</guid>
+        <source url="https://community.keyauth.cc/t/download-with-webclient/633.rss">Download with webclient</source>
+      </item>
+  </channel>
+</rss>

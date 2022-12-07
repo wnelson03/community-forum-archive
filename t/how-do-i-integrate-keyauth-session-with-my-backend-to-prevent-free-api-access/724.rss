@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How do I integrate KeyAuth Session with my backend to prevent Free API access?</title>
+    <link>https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724</link>
+    <description>:white_check_mark: I agree that **I will not ask for help with non-KeyAuth related topics**, this community site **is only for asking about the default KeyAuth example with NO changes made to it**
+
+Hello, I have made a program that uses KeyAuth for authentication. However I have a back end where my program will do most of the work (server sided). Is it possible to validate the session on the front end and send it to backend saying &quot;Hey Im Legit!&quot; This is to prevent people from Jacking my API and using my service for free. Thoughts?</description>
+    
+    <lastBuildDate>Fri, 02 Sep 2022 13:39:44 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How do I integrate KeyAuth Session with my backend to prevent Free API access?</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>Make a request then print out the response content</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724/5</link>
+        <pubDate>Fri, 02 Sep 2022 13:39:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-724-5</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724.rss">How do I integrate KeyAuth Session with my backend to prevent Free API access?</source>
+      </item>
+      <item>
+        <title>How do I integrate KeyAuth Session with my backend to prevent Free API access?</title>
+        <dc:creator><![CDATA[ethanperrine]]></dc:creator>
+        <description><![CDATA[
+            <p>I found a different way. Is there a way to call the session ID?<br>
+Only problem with sending to backend from keyauth’s servers it server load, as many people will be using my program and I do not want to shut down servers because of that.</p>
+<p>How I have set it up is it currently authenticates with Keyauth and uses the session ID checks if its validated and if it is, It will allow the user to use my backend. <em>How will i print the session id?</em></p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724/4</link>
+        <pubDate>Fri, 02 Sep 2022 01:11:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-724-4</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724.rss">How do I integrate KeyAuth Session with my backend to prevent Free API access?</source>
+      </item>
+      <item>
+        <title>How do I integrate KeyAuth Session with my backend to prevent Free API access?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>You can use the webhook function to send request to your backend from KeyAuth’s servers.</p>
+<p>Look at this line in example <a href="https://github.com/KeyAuth/KeyAuth-Python-Example/blob/5496f8748ab7cab3aee5af129776d82d8bc73ed9/main.py#L115" class="inline-onebox">KeyAuth-Python-Example/main.py at 5496f8748ab7cab3aee5af129776d82d8bc73ed9 · KeyAuth/KeyAuth-Python-Example · GitHub</a></p>
+<p>Here’s YouTube video explaining</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://www.youtube.com/watch?v=ENRaNPPYJbc">
+  <header class="source">
+      <img src="https://community.keyauth.win/uploads/default/original/1X/44d1ec80eae8c28f872d36663c70fe27b17c5e12.png" class="site-icon" width="" height="">
+
+      <a href="https://www.youtube.com/watch?v=ENRaNPPYJbc" target="_blank" rel="noopener">YouTube</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/a3b760ccd1ff1d42041816cea8e34741f6a50458.jpeg" class="thumbnail" width="" height="">
+
+<h3><a href="https://www.youtube.com/watch?v=ENRaNPPYJbc" target="_blank" rel="noopener">How to hide your API link while making requests from client c#, c++, python</a></h3>
+
+  <p>You can use KeyAuth to hide your API link while making requests from client c#, c++, python.KeyAuth is an open source authentication system with cloud-hosted...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724/3</link>
+        <pubDate>Mon, 29 Aug 2022 20:56:59 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-724-3</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724.rss">How do I integrate KeyAuth Session with my backend to prevent Free API access?</source>
+      </item>
+      <item>
+        <title>How do I integrate KeyAuth Session with my backend to prevent Free API access?</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>My idea would be to put the respected KeyAuth SDK on the back-end, then use any form of communication from your front-end to your back-end to send the login details to (including hwid and ip) (preferably encrypted).<br>
+from there, on the back-end, us the data to validate the user on every request</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/59bf7cb965733e0d6c47c156436a37523f95e1b0.png" alt="Screenshot 2022-08-27 195807" data-base62-sha1="cNWKLzJC01CPYCQGCyhGSCrI7Ly" width="418" height="375"></p>
+<p>when requesting to the server the next time, pass HWID, IP and session ID to validate the user is who they say they are.</p>
+<p>Obviously I haven’t explained everything in perfect detail but maybe this provides a decent idea on where to get started.</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724/2</link>
+        <pubDate>Sat, 27 Aug 2022 23:05:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-724-2</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724.rss">How do I integrate KeyAuth Session with my backend to prevent Free API access?</source>
+      </item>
+      <item>
+        <title>How do I integrate KeyAuth Session with my backend to prevent Free API access?</title>
+        <dc:creator><![CDATA[ethanperrine]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+<p>Hello, I have made a program that uses KeyAuth for authentication. However I have a back end where my program will do most of the work (server sided). Is it possible to validate the session on the front end and send it to backend saying “Hey Im Legit!” This is to prevent people from Jacking my API and using my service for free. Thoughts?</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724/1</link>
+        <pubDate>Sat, 27 Aug 2022 22:37:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-724-1</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724.rss">How do I integrate KeyAuth Session with my backend to prevent Free API access?</source>
+      </item>
+  </channel>
+</rss>

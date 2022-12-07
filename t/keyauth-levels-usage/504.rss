@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KeyAuth Levels Usage</title>
+    <link>https://community.keyauth.cc/t/keyauth-levels-usage/504</link>
+    <description>how to use keyauth levels? can someone send me example code for it</description>
+    
+    <lastBuildDate>Sat, 20 Aug 2022 11:58:04 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauth-levels-usage/504.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>KeyAuth Levels Usage</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>so</p>
+<pre><code class="lang-auto">for (std::string subs : KeyAuthApp.data.subscriptions)
+	{
+		if (subs == "1")
+		{
+			std::cout &lt;&lt; skCrypt("\n User has subscription with name: 1");
+		}
+		if (subs == "2")
+		{
+			std::cout &lt;&lt; skCrypt("\n User has subscription with name: 2");
+		}
+	}
+	*/
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/keyauth-levels-usage/504/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-levels-usage/504/4</link>
+        <pubDate>Sat, 20 Aug 2022 11:58:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-504-4</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-levels-usage/504.rss">KeyAuth Levels Usage</source>
+      </item>
+      <item>
+        <title>KeyAuth Levels Usage</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="mention" href="https://community.keyauth.cc/u/vvs">@VVS</a> subscriptions are given to a user depending on which key levels associate with the subscriptions. Then you can check subscription name in your program <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/de94f76fc53324fbbe10a2fea80461d52b0f76d7/main.cpp#L124" class="inline-onebox">KeyAuth-CPP-Example/main.cpp at de94f76fc53324fbbe10a2fea80461d52b0f76d7 · KeyAuth/KeyAuth-CPP-Example · GitHub</a></p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-levels-usage/504/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-levels-usage/504/3</link>
+        <pubDate>Wed, 27 Jul 2022 12:52:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-504-3</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-levels-usage/504.rss">KeyAuth Levels Usage</source>
+      </item>
+      <item>
+        <title>KeyAuth Levels Usage</title>
+        <dc:creator><![CDATA[OverDrive]]></dc:creator>
+        <description><![CDATA[
+            <p>Check the docs, itll have something there</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-levels-usage/504/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-levels-usage/504/2</link>
+        <pubDate>Tue, 26 Jul 2022 19:30:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-504-2</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-levels-usage/504.rss">KeyAuth Levels Usage</source>
+      </item>
+      <item>
+        <title>KeyAuth Levels Usage</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>how to use keyauth levels? can someone send me example code for it</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-levels-usage/504/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-levels-usage/504/1</link>
+        <pubDate>Mon, 25 Jul 2022 14:00:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-504-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-levels-usage/504.rss">KeyAuth Levels Usage</source>
+      </item>
+  </channel>
+</rss>

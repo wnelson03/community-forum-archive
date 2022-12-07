@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C# Hash Check A critical question about?</title>
+    <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262</link>
+    <description>![1|500x361](upload://55EoUig4GJQHlfzhE5XmjqfLDQH.png)
+
+
+We need to add hash before activating hash check, but is there a program for C# where we can drag the program and get the hash code?</description>
+    
+    <lastBuildDate>Mon, 25 Jul 2022 04:49:17 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[Gru]]></dc:creator>
+        <description><![CDATA[
+            <p>there are websites that you can use, idk if you would trust them, but one is called <a href="https://emn178.github.io/online-tools/md5_checksum.html" class="inline-onebox" rel="noopener nofollow ugc">MD5 File Checksum Online</a></p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/13</link>
+        <pubDate>Mon, 25 Jul 2022 04:49:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-13</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="mak" data-post="11" data-topic="262">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/mak/40/44_2.png" class="avatar"> mak:</div>
+<blockquote>
+<p>invalidver</p>
+</blockquote>
+</aside>
+<p>invalidver.<br>
+I checked if it is available. Available.</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/12</link>
+        <pubDate>Fri, 15 Jul 2022 14:06:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-12</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>The version is checked before the hash is checked, as seen here <a href="https://github.com/KeyAuth/KeyAuth-Source-Code/blob/42075d66929ebf497acd9e0c3eddfa55e7df168f/api/1.0/index.php#L99" class="inline-onebox">KeyAuth-Source-Code/index.php at 42075d66929ebf497acd9e0c3eddfa55e7df168f · KeyAuth/KeyAuth-Source-Code · GitHub</a></p>
+<p>Meaning, if you run the old program with outdated version number, the API will return error saying version failure, and the person will be instructed to download the download link set, which should be your program with the latest version. If you don’t set, it will notify the user the version is outdated and that no download link was supplied.</p>
+<p>Then, as long as you reset hash and run the latest program right after, or manually add hash of latest program to dashboard in app settings, when you run latest program, you will not get hash check failure message.</p>
+<p>I just tested this. I built c++ example with version 1.0. I renamed to <code>old_example.exe</code> after compiling to ensure it didn’t get overwritten by the next compile. I then changed the version in the c++ code to 1.1, and changed the version on keyauth dashboard in app settings to 1.1. I compiled the code again, and before running the latest file I compiled, I click the <strong>Reset Program Hash</strong> button in app settings on dashboard. I then ran the latest file, it worked, no hash check issues. Yes I turned on hash checking for this test. I then ran the old file with the outdated version, it automatically opened the download link I set on dashboard. And I tried removing the download link set on dashboard, and it then showed me the error saying no download link set.</p>
+<p>So, it’s working fine on my end. If you’re using c# example, make sure it has the code checking for <code>invalidver</code>. It’s in the examples, though perhaps you removed it on accident.</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/11</link>
+        <pubDate>Thu, 14 Jul 2022 18:20:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-11</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="Abastrax" data-post="7" data-topic="262">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/abastrax/40/65_2.png" class="avatar"> Abastrax:</div>
+<blockquote>
+<p>So if theres a new version and the new hash is saved its just gonna Auto-update and not give a hash error.</p>
+</blockquote>
+</aside>
+<p>So if theres a new version and the new hash is saved its just gonna Auto-update and not give a hash error.<br>
+You replied as.</p>
+<p>But it’s the opposite of what you said, so it doesn’t get an update because it checks the hash first.</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/10</link>
+        <pubDate>Wed, 06 Jul 2022 08:08:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-10</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>What do you mean by Opposite?</p>
+<p>You can also hardcode a hashcheck which is way safer.</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/9</link>
+        <pubDate>Wed, 06 Jul 2022 06:55:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-9</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>I tested this but unfortunately it was the opposite <img src="https://community.keyauth.win/images/emoji/twitter/frowning.png?v=12" title=":frowning:" class="emoji" alt=":frowning:" loading="lazy" width="20" height="20"> <a class="mention" href="https://community.keyauth.cc/u/abastrax">@Abastrax</a></p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/8</link>
+        <pubDate>Thu, 30 Jun 2022 15:00:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-8</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>It checks for updates before it checks for the hash.</p>
+<p>So if theres a new version and the new hash is saved its just gonna Auto-update and not give a hash error.</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/7</link>
+        <pubDate>Thu, 30 Jun 2022 09:25:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-7</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="mention" href="https://community.keyauth.cc/u/abastrax">@Abastrax</a><br>
+In addition, there is an answer I have to ask and I expect from you professionals, now I understand that it receives hash automatically, but when I open a recompiled .exe, it gives a hash mismatch error. By clicking on the “reset program hash” button on the keyauth panel and running the newly compiled .exe, it automatically saves the hash of the newly compiled program and now it opens. sorry it’s been long.</p>
+<p>So, when this is the case, users who use the previous version will get priority auto update because they open the previous old .exe when they receive an auto update, or will the hash not match error?</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/6</link>
+        <pubDate>Tue, 28 Jun 2022 22:14:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-6</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>thanks.</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/5</link>
+        <pubDate>Tue, 28 Jun 2022 19:28:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-5</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes that should be enough.</p>
+<p>There is also methods on getting the hash yourself.</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/4</link>
+        <pubDate>Mon, 27 Jun 2022 06:17:47 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-4</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>Is it enough to just Hash Check : Enabled ?</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/3</link>
+        <pubDate>Sun, 26 Jun 2022 21:40:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-3</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>in the py,c# and cpp (not sure) it automatically grabs the hash and in the server sided part of the function checks if a the given hash exists it will compare the previously set hash, if no hash is set, it will set the given hash</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/2</link>
+        <pubDate>Sun, 26 Jun 2022 21:24:58 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-2</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+      <item>
+        <title>C# Hash Check A critical question about?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/23ae6b2deb978b4331d42e27ec35366b6c73f257.png" alt="1" data-base62-sha1="55EoUig4GJQHlfzhE5XmjqfLDQH" width="500" height="361"></p>
+<p>We need to add hash before activating hash check, but is there a program for C# where we can drag the program and get the hash code?</p>
+          <p><a href="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262/1</link>
+        <pubDate>Sun, 26 Jun 2022 21:04:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-262-1</guid>
+        <source url="https://community.keyauth.cc/t/c-hash-check-a-critical-question-about/262.rss">C# Hash Check A critical question about?</source>
+      </item>
+  </channel>
+</rss>

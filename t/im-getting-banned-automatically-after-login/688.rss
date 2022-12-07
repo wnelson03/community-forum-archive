@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>I&#39;m getting banned automatically after login</title>
+    <link>https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688</link>
+    <description>I&#39;m getting banned automatically after login.
+![image|340x214](upload://a3xI9zmcDcopqzzYvTOQz3y1NZs.png)</description>
+    
+    <lastBuildDate>Fri, 19 Aug 2022 02:23:45 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>I&#39;m getting banned automatically after login</title>
+        <dc:creator><![CDATA[MrObsidyan]]></dc:creator>
+        <description><![CDATA[
+            <p>I managed to solve it!<br>
+I added my hwid to the blacklist, then clicked remove all, and it fixed it!</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/7</link>
+        <pubDate>Fri, 19 Aug 2022 02:23:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-688-7</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688.rss">I&#39;m getting banned automatically after login</source>
+      </item>
+      <item>
+        <title>I&#39;m getting banned automatically after login</title>
+        <dc:creator><![CDATA[MrObsidyan]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/691aac5d1a8a57f8bbd50fd8c049f27019353f7e.png" alt="image" data-base62-sha1="eZNhsJJrXu5T6EIhaSQcI67ZOZE" width="690" height="216"><br>
+Blacklist is empty</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/6</link>
+        <pubDate>Fri, 19 Aug 2022 02:10:36 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-688-6</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688.rss">I&#39;m getting banned automatically after login</source>
+      </item>
+      <item>
+        <title>I&#39;m getting banned automatically after login</title>
+        <dc:creator><![CDATA[MrObsidyan]]></dc:creator>
+        <description><![CDATA[
+            <p>I tested it on my notebook, the same .exe and it was not banned, maybe the keyauth is banning my HWID on server.</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/5</link>
+        <pubDate>Fri, 19 Aug 2022 01:55:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-688-5</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688.rss">I&#39;m getting banned automatically after login</source>
+      </item>
+      <item>
+        <title>I&#39;m getting banned automatically after login</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="MrObsidyan" data-post="3" data-topic="688">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/mrobsidyan/40/525_2.png" class="avatar"> MrObsidyan:</div>
+<blockquote>
+<p>my</p>
+</blockquote>
+</aside>
+<p>you probably are calling the ban method</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/4</link>
+        <pubDate>Fri, 19 Aug 2022 01:48:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-688-4</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688.rss">I&#39;m getting banned automatically after login</source>
+      </item>
+      <item>
+        <title>I&#39;m getting banned automatically after login</title>
+        <dc:creator><![CDATA[MrObsidyan]]></dc:creator>
+        <description><![CDATA[
+            <p>I already unban myself on my panel, but whenever I get banned again soon.</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/3</link>
+        <pubDate>Fri, 19 Aug 2022 01:45:27 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-688-3</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688.rss">I&#39;m getting banned automatically after login</source>
+      </item>
+      <item>
+        <title>I&#39;m getting banned automatically after login</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>U have blacklisted ur hwid / ip</p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/2</link>
+        <pubDate>Fri, 19 Aug 2022 01:38:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-688-2</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688.rss">I&#39;m getting banned automatically after login</source>
+      </item>
+      <item>
+        <title>I&#39;m getting banned automatically after login</title>
+        <dc:creator><![CDATA[MrObsidyan]]></dc:creator>
+        <description><![CDATA[
+            <p>I’m getting banned automatically after login.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/467c4a23189e8acab6f11aa60883ec4dc0a7ce1e.png" alt="image" data-base62-sha1="a3xI9zmcDcopqzzYvTOQz3y1NZs" width="340" height="214"></p>
+          <p><a href="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688/1</link>
+        <pubDate>Fri, 19 Aug 2022 01:36:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-688-1</guid>
+        <source url="https://community.keyauth.cc/t/im-getting-banned-automatically-after-login/688.rss">I&#39;m getting banned automatically after login</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Login and register on click of imgui button</title>
+    <link>https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624</link>
+    <description>I need help with making a login function with an if statement on a click of a button
+[Picture](https://imgur.com/a/VDgyHOZ)</description>
+    
+    <lastBuildDate>Wed, 10 Aug 2022 13:41:36 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Login and register on click of imgui button</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624/3</link>
+        <pubDate>Wed, 10 Aug 2022 13:42:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-624-3</guid>
+        <source url="https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624.rss">Login and register on click of imgui button</source>
+      </item>
+      <item>
+        <title>Login and register on click of imgui button</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>This is not a keyauth example related question or issue.<br>
+If you go into the keyauth discord and go to the <span class="hashtag">#code</span> channel and search you will find a imgui loader src built by a customer please go and look and use that as a reference.</p>
+          <p><a href="https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624/2</link>
+        <pubDate>Wed, 10 Aug 2022 13:41:36 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-624-2</guid>
+        <source url="https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624.rss">Login and register on click of imgui button</source>
+      </item>
+      <item>
+        <title>Login and register on click of imgui button</title>
+        <dc:creator><![CDATA[hase]]></dc:creator>
+        <description><![CDATA[
+            <p>I need help with making a login function with an if statement on a click of a button<br>
+<a href="https://imgur.com/a/VDgyHOZ" rel="noopener nofollow ugc">Picture</a></p>
+          <p><a href="https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624/1</link>
+        <pubDate>Wed, 10 Aug 2022 12:30:59 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-624-1</guid>
+        <source url="https://community.keyauth.cc/t/login-and-register-on-click-of-imgui-button/624.rss">Login and register on click of imgui button</source>
+      </item>
+  </channel>
+</rss>

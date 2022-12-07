@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Customer panel for my website having register/login issue</title>
+    <link>https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836</link>
+    <description>:white_check_mark: I agree that **I will not ask for help with non-KeyAuth related topics**, this community site **is only for asking about the default KeyAuth example with NO changes made to it**
+
+Hello, i added the customer panel to my site and i am using the demo seller account to connect to it, but when i try to register nothing seems to happen, i try to login and nothing happens either.</description>
+    
+    <lastBuildDate>Thu, 22 Sep 2022 21:26:44 +0000</lastBuildDate>
+    <category>PHP</category>
+    <atom:link href="https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Customer panel for my website having register/login issue</title>
+        <dc:creator><![CDATA[cxrrupted]]></dc:creator>
+        <description><![CDATA[
+            <p>fixed it. but how do i add custom domain to the customer panel i am hosting? rn it has /Customer-Panel/index.php but i want to change this to something else, i followed the youtube video about this and it works to a certain extent but i want to use my modified php code ( i edited the stle and design to the pages ) the youtube video when followed and using the custom domain the login forms are default</p>
+          <p><a href="https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836/2</link>
+        <pubDate>Thu, 22 Sep 2022 21:26:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-836-2</guid>
+        <source url="https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836.rss">Customer panel for my website having register/login issue</source>
+      </item>
+      <item>
+        <title>Customer panel for my website having register/login issue</title>
+        <dc:creator><![CDATA[cxrrupted]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+<p>Hello, i added the customer panel to my site and i am using the demo seller account to connect to it, but when i try to register nothing seems to happen, i try to login and nothing happens either.</p>
+          <p><a href="https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836/1</link>
+        <pubDate>Wed, 21 Sep 2022 17:25:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-836-1</guid>
+        <source url="https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836.rss">Customer panel for my website having register/login issue</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Displaying Variables As Labels</title>
+    <link>https://community.keyauth.cc/t/displaying-variables-as-labels/196</link>
+    <description>Is There A Way To Change Labels Text From KeyAuth Variable?</description>
+    
+    <lastBuildDate>Tue, 14 Jun 2022 14:54:56 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/displaying-variables-as-labels/196.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Displaying Variables As Labels</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>thanks</p>
+          <p><a href="https://community.keyauth.cc/t/displaying-variables-as-labels/196/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/displaying-variables-as-labels/196/5</link>
+        <pubDate>Tue, 14 Jun 2022 14:54:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-196-5</guid>
+        <source url="https://community.keyauth.cc/t/displaying-variables-as-labels/196.rss">Displaying Variables As Labels</source>
+      </item>
+      <item>
+        <title>Displaying Variables As Labels</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>yea it is possible</p>
+<pre><code class="lang-auto">label1.text = KeyAuthApp.var("spooferstatus");
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/displaying-variables-as-labels/196/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/displaying-variables-as-labels/196/4</link>
+        <pubDate>Tue, 14 Jun 2022 14:52:46 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-196-4</guid>
+        <source url="https://community.keyauth.cc/t/displaying-variables-as-labels/196.rss">Displaying Variables As Labels</source>
+      </item>
+      <item>
+        <title>Displaying Variables As Labels</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>Like For ex. status of the spoofer detection on some anti cheats, if its detected on eac i can change the label without users needing to update</p>
+          <p><a href="https://community.keyauth.cc/t/displaying-variables-as-labels/196/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/displaying-variables-as-labels/196/3</link>
+        <pubDate>Tue, 14 Jun 2022 14:50:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-196-3</guid>
+        <source url="https://community.keyauth.cc/t/displaying-variables-as-labels/196.rss">Displaying Variables As Labels</source>
+      </item>
+      <item>
+        <title>Displaying Variables As Labels</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>what do you mean?</p>
+          <p><a href="https://community.keyauth.cc/t/displaying-variables-as-labels/196/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/displaying-variables-as-labels/196/2</link>
+        <pubDate>Tue, 14 Jun 2022 14:48:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-196-2</guid>
+        <source url="https://community.keyauth.cc/t/displaying-variables-as-labels/196.rss">Displaying Variables As Labels</source>
+      </item>
+      <item>
+        <title>Displaying Variables As Labels</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>Is There A Way To Change Labels Text From KeyAuth Variable?</p>
+          <p><a href="https://community.keyauth.cc/t/displaying-variables-as-labels/196/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/displaying-variables-as-labels/196/1</link>
+        <pubDate>Tue, 14 Jun 2022 14:46:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-196-1</guid>
+        <source url="https://community.keyauth.cc/t/displaying-variables-as-labels/196.rss">Displaying Variables As Labels</source>
+      </item>
+  </channel>
+</rss>

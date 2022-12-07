@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Node Js Discord Bot - On Command Can Bot Create A Key</title>
+    <link>https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757</link>
+    <description>hello i am making a node.js discord bot auth, and before i buy the seller upgrade i was wondering if it is possible to make it so when someone does a certain command like !getkey then it creates a 1 day temp key and the key adds to the licenses section</description>
+    
+    <lastBuildDate>Thu, 01 Sep 2022 12:49:19 +0000</lastBuildDate>
+    <category>JavaScript</category>
+    <atom:link href="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Node Js Discord Bot - On Command Can Bot Create A Key</title>
+        <dc:creator><![CDATA[Globe]]></dc:creator>
+        <description><![CDATA[
+            <p>thank you so much</p>
+          <p><a href="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/6</link>
+        <pubDate>Thu, 01 Sep 2022 12:49:19 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-757-6</guid>
+        <source url="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757.rss">Node Js Discord Bot - On Command Can Bot Create A Key</source>
+      </item>
+      <item>
+        <title>Node Js Discord Bot - On Command Can Bot Create A Key</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-javascript">client.on('messageCreate', async message =&gt; {
+    if (message.author.bot) return;
+    var prefix = "!";
+    if (!message.content.startsWith(prefix)) return;
+
+    const args = message.content.slice(prefix.length).trim().split(/ +/);
+    const commandName = args.shift().toLowerCase();
+
+    if (commandName === "getkey") {
+        fetch('https://keyauth.win/api/seller/?sellerkey=sellerkeyhere&amp;type=add&amp;expiry=1&amp;mask=XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX&amp;level=1&amp;amount=1&amp;format=json').then(res =&gt; res.json()).then(json =&gt; {
+            message.author.send({
+                content: `Here is your key: ${json.key}`
+            })
+        })
+    }
+});
+</code></pre>
+<p>Also if you need anything else, I have a marketplace offer on KeyAuth Discord for anything special order or smth<br>
+Invite to Server: discord.gg/keyauth<br>
+Channel: <a href="https://discord.com/channels/824397012685291520/977635156154273904" class="inline-onebox">Discord</a></p>
+          <p><a href="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/5</link>
+        <pubDate>Thu, 01 Sep 2022 12:46:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-757-5</guid>
+        <source url="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757.rss">Node Js Discord Bot - On Command Can Bot Create A Key</source>
+      </item>
+      <item>
+        <title>Node Js Discord Bot - On Command Can Bot Create A Key</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>Wait, ill create an example…</p>
+          <p><a href="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/4</link>
+        <pubDate>Thu, 01 Sep 2022 12:41:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-757-4</guid>
+        <source url="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757.rss">Node Js Discord Bot - On Command Can Bot Create A Key</source>
+      </item>
+      <item>
+        <title>Node Js Discord Bot - On Command Can Bot Create A Key</title>
+        <dc:creator><![CDATA[Globe]]></dc:creator>
+        <description><![CDATA[
+            <p>thanks for responding so quick, is it possible for you to show me an exaple or tell me where i could find a example of it?</p>
+          <p><a href="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/3</link>
+        <pubDate>Thu, 01 Sep 2022 12:40:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-757-3</guid>
+        <source url="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757.rss">Node Js Discord Bot - On Command Can Bot Create A Key</source>
+      </item>
+      <item>
+        <title>Node Js Discord Bot - On Command Can Bot Create A Key</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>yes it is possible</p>
+          <p><a href="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/2</link>
+        <pubDate>Thu, 01 Sep 2022 12:39:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-757-2</guid>
+        <source url="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757.rss">Node Js Discord Bot - On Command Can Bot Create A Key</source>
+      </item>
+      <item>
+        <title>Node Js Discord Bot - On Command Can Bot Create A Key</title>
+        <dc:creator><![CDATA[Globe]]></dc:creator>
+        <description><![CDATA[
+            <p>hello i am making a node.js discord bot auth, and before i buy the seller upgrade i was wondering if it is possible to make it so when someone does a certain command like !getkey then it creates a 1 day temp key and the key adds to the licenses section</p>
+          <p><a href="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757/1</link>
+        <pubDate>Thu, 01 Sep 2022 12:36:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-757-1</guid>
+        <source url="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757.rss">Node Js Discord Bot - On Command Can Bot Create A Key</source>
+      </item>
+  </channel>
+</rss>

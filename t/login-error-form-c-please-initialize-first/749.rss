@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Login Error Form C#. Please initialize first</title>
+    <link>https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749</link>
+    <description>I am trying to make a login. and register same page
+and keep getting this when I press register.
+![](upload://PWzBco606r2xGaUSGb10ICYGeU.png)
+but the key does get redeemed.
+
+its in c# form. 
+if you could help me it will be easier on discord: Movie#7928</description>
+    
+    <lastBuildDate>Tue, 30 Aug 2022 18:21:44 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Login Error Form C#. Please initialize first</title>
+        <dc:creator><![CDATA[Unknown]]></dc:creator>
+        <description><![CDATA[
+            <p>Do KeyAuthApp.init(); before your login part<br>
+If you still need help dm my discord Shxde#6399</p>
+          <p><a href="https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749/2</link>
+        <pubDate>Tue, 30 Aug 2022 18:21:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-749-2</guid>
+        <source url="https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749.rss">Login Error Form C#. Please initialize first</source>
+      </item>
+      <item>
+        <title>Login Error Form C#. Please initialize first</title>
+        <dc:creator><![CDATA[CitiCriminal]]></dc:creator>
+        <description><![CDATA[
+            <p>I am trying to make a login. and register same page<br>
+and keep getting this when I press register.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/05df312c9ee838b76b64007a960db45e79d847c4.png" alt="" data-base62-sha1="PWzBco606r2xGaUSGb10ICYGeU" width="" height=""><br>
+but the key does get redeemed.</p>
+<p>its in c# form.<br>
+if you could help me it will be easier on discord: Movie#7928</p>
+          <p><a href="https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749/1</link>
+        <pubDate>Tue, 30 Aug 2022 18:18:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-749-1</guid>
+        <source url="https://community.keyauth.cc/t/login-error-form-c-please-initialize-first/749.rss">Login Error Form C#. Please initialize first</source>
+      </item>
+  </channel>
+</rss>

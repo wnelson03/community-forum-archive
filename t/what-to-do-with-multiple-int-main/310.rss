@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>What to do with multiple int main()</title>
+    <link>https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310</link>
+    <description>Once I added KeyAuth in my code the int main from KeyAuth is interfering with my already existing one and when I remove mine the code breaks. Any help on how to fix it?
+# Compiler Error C2447
+
+Yes Abastrax I know you cannot have multiple int mains but how would one add KeyAuth without breaking the already existing code?</description>
+    
+    <lastBuildDate>Fri, 01 Jul 2022 14:44:41 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>What to do with multiple int main()</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310/4</link>
+        <pubDate>Fri, 01 Jul 2022 14:44:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-310-4</guid>
+        <source url="https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310.rss">What to do with multiple int main()</source>
+      </item>
+      <item>
+        <title>What to do with multiple int main()</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Closing this for obvious reasons, you cannot have 2 int‘s with the same declared name how would the compiler know what main is the entry?</p>
+          <p><a href="https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310/3</link>
+        <pubDate>Fri, 01 Jul 2022 14:44:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-310-3</guid>
+        <source url="https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310.rss">What to do with multiple int main()</source>
+      </item>
+      <item>
+        <title>What to do with multiple int main()</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Thats a good question, I got the same error with my self coded spoofer source code… any help?</p>
+          <p><a href="https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310/2</link>
+        <pubDate>Fri, 01 Jul 2022 14:43:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-310-2</guid>
+        <source url="https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310.rss">What to do with multiple int main()</source>
+      </item>
+      <item>
+        <title>What to do with multiple int main()</title>
+        <dc:creator><![CDATA[Skelpix]]></dc:creator>
+        <description><![CDATA[
+            <p>Once I added KeyAuth in my code the int main from KeyAuth is interfering with my already existing one and when I remove mine the code breaks. Any help on how to fix it?</p>
+<h1>
+<a name="compiler-error-c2447-1" class="anchor" href="https://community.keyauth.cc#compiler-error-c2447-1"></a>Compiler Error C2447</h1>
+<p>Yes Abastrax I know you cannot have multiple int mains but how would one add KeyAuth without breaking the already existing code?</p>
+          <p><a href="https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310/1</link>
+        <pubDate>Fri, 01 Jul 2022 14:38:49 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-310-1</guid>
+        <source url="https://community.keyauth.cc/t/what-to-do-with-multiple-int-main/310.rss">What to do with multiple int main()</source>
+      </item>
+  </channel>
+</rss>

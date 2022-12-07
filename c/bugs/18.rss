@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Bugs - KeyAuth</title>
+    <link>https://community.keyauth.cc/c/bugs/18</link>
+    <description>Topics in the &#39;Bugs&#39; category Bugs are apparent mistakes that happen to &lt;strong&gt;multiple people, not just you&lt;/strong&gt;</description>
+    
+      <lastBuildDate>Sat, 27 Aug 2022 05:15:18 +0000</lastBuildDate>
+      <atom:link href="https://community.keyauth.cc/c/bugs/18.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Submit Bugs on Discord</title>
+          <dc:creator><![CDATA[mak]]></dc:creator>
+          <category>Bugs</category>
+          <description><![CDATA[
+            <p>Bugs are apparent mistakes that happen to <strong>multiple people, not just you</strong></p>
+<p>If you find a bug, please submit in the <a class="hashtag" href="https://community.keyauth.cc/c/bugs/18">#<span>bugs</span></a> channel in the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+<p>If the issue doesn’t happen to anyone but you, and it’s on the default code example with <strong>no changes</strong>, then please create topic under this category <a href="https://community.keyauth.win/c/examples/5">https://community.keyauth.win/c/examples/5</a></p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/submit-bugs-on-discord/722">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/submit-bugs-on-discord/722</link>
+          <pubDate>Sat, 27 Aug 2022 05:15:18 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-722</guid>
+          <source url="https://community.keyauth.cc/t/submit-bugs-on-discord/722.rss">Submit Bugs on Discord</source>
+        </item>
+  </channel>
+</rss>

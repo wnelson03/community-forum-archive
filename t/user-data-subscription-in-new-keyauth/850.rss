@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>User_data.subscription in new keyauth</title>
+    <link>https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850</link>
+    <description>hey 
+i before use keyauth and for get the key level i use 
+(KeyAuthApp.user_data.subscription == &quot;vip&quot;)
+but in new update keyauth i cant find subscription
+how i check subscription ?</description>
+    
+    <lastBuildDate>Sat, 24 Sep 2022 17:19:50 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>User_data.subscription in new keyauth</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Check out these lines from the example</p>
+<aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L132">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L132" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L132" target="_blank" rel="noopener">KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L132</a></h4>
+
+
+
+    <pre class="onebox"><code class="lang-cpp">
+      <ol class="start lines" start="122" style="counter-reset: li-counter 121 ;">
+          <li>	</li>
+          <li>	/*</li>
+          <li>	std::cout &lt;&lt; "\n Waiting for user to login";</li>
+          <li>	KeyAuthApp.web_login();</li>
+          <li>
+          </li><li>	std::cout &lt;&lt; "\n Waiting for button to be clicked";</li>
+          <li>	KeyAuthApp.button("close");</li>
+          <li>	*/</li>
+          <li>
+          </li><li>	/*</li>
+          <li class="selected">	for (std::string subs : KeyAuthApp.data.subscriptions)</li>
+          <li>	{</li>
+          <li>		if (subs == "default")</li>
+          <li>		{</li>
+          <li>			std::cout &lt;&lt; skCrypt("\n User has subscription with name: default");</li>
+          <li>		}</li>
+          <li>	}</li>
+          <li>	*/</li>
+          <li>
+          </li><li>	</li>
+          <li>	/*</li>
+      </ol>
+    </code></pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850/2</link>
+        <pubDate>Sat, 24 Sep 2022 17:19:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-850-2</guid>
+        <source url="https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850.rss">User_data.subscription in new keyauth</source>
+      </item>
+      <item>
+        <title>User_data.subscription in new keyauth</title>
+        <dc:creator><![CDATA[Pooya]]></dc:creator>
+        <description><![CDATA[
+            <p>hey<br>
+i before use keyauth and for get the key level i use<br>
+(KeyAuthApp.user_data.subscription == “vip”)<br>
+but in new update keyauth i cant find subscription<br>
+how i check subscription ?</p>
+          <p><a href="https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850/1</link>
+        <pubDate>Sat, 24 Sep 2022 16:35:58 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-850-1</guid>
+        <source url="https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850.rss">User_data.subscription in new keyauth</source>
+      </item>
+  </channel>
+</rss>

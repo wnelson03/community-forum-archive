@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>I need help with keyauth c# loader!</title>
+    <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326</link>
+    <description>So I get the errors cause I dont have api in there. So what is the using something; api code for it?</description>
+    
+    <lastBuildDate>Thu, 07 Jul 2022 19:23:55 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[Nekke]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey, how could I send webhooks when someone register or login.</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/17">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/17</link>
+        <pubDate>Thu, 07 Jul 2022 19:23:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-17</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>no need to keep opening topics please use this one and just reply so we can try to help you</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/16">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/16</link>
+        <pubDate>Mon, 04 Jul 2022 18:01:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-16</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>and also use the example get that working first with out your code and then learn how it works</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CSHARP-Example">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CSHARP-Example" target="_blank" rel="noopener">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/2ec557c09072499f1e66e12e9a69ee9784e4d8d9.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/KeyAuth-CSHARP-Example" target="_blank" rel="noopener">GitHub - KeyAuth/KeyAuth-CSHARP-Example: KeyAuth CSHARP Example</a></h3>
+
+  <p>KeyAuth CSHARP Example. Contribute to KeyAuth/KeyAuth-CSHARP-Example development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/15">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/15</link>
+        <pubDate>Mon, 04 Jul 2022 15:03:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-15</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>show me your login form code</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/14">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/14</link>
+        <pubDate>Mon, 04 Jul 2022 14:46:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-14</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[Nekke]]></dc:creator>
+        <description><![CDATA[
+            <p>When I log in, And when it goes to the loader. It says “Please initialize first”</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/13</link>
+        <pubDate>Mon, 04 Jul 2022 14:35:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-13</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>and going bk to the other post you do not need keyauthapp.init() in ur form again just need it once on your first form</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/12</link>
+        <pubDate>Mon, 04 Jul 2022 14:32:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-12</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[Nekke]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/8c6a2ac55b99d673344490a4208163ff77a94dc0.png" alt="image" data-base62-sha1="k2aj5498LeNk0QMlu17c1O5ydOM" width="690" height="388"></p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/11</link>
+        <pubDate>Mon, 04 Jul 2022 14:32:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-11</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>show me you solution so i can see what forms you have</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/10</link>
+        <pubDate>Mon, 04 Jul 2022 14:26:58 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-10</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="mention" href="https://community.keyauth.cc/u/nekke">@Nekke</a> reply</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/9</link>
+        <pubDate>Mon, 04 Jul 2022 14:24:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-9</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>did you even include it ?<br>
+make sure you are using the example and understand how it works</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/8</link>
+        <pubDate>Sun, 03 Jul 2022 23:37:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-8</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[Nekke]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes, But it doesn’t reconize the KeyAuthApp in the login or any other thing</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/7</link>
+        <pubDate>Sun, 03 Jul 2022 23:36:35 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-7</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>this person was having the same issue please give it a read.</p><aside class="quote quote-modified" data-post="7" data-topic="332">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/limonkieil/40/48_2.png" class="avatar">
+    <a href="https://community.keyauth.win/t/how-to-use-fileid-c/332/7">How to use FileID C#</a> <a class="badge-wrapper  bullet" href="https://community.keyauth.cc/c/examples/csharp/8"><span class="badge-category-parent-bg" style="background-color: #0088CC;"></span><span class="badge-category-bg" style="background-color: #280068;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="The C# example is here https://github.com/KeyAuth/KeyAuth-CS-Example">C#</span></a>
+  </div>
+  <blockquote>
+    this is in the example 
+it is declared in the login form 
+
+now this uses the keyauthapp from the login form
+  </blockquote>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/6</link>
+        <pubDate>Sun, 03 Jul 2022 23:26:46 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-6</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[Nekke]]></dc:creator>
+        <description><![CDATA[
+            <p>Form1, Form2, Form3</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/5</link>
+        <pubDate>Sun, 03 Jul 2022 23:23:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-5</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Whats your first form called ?</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/4</link>
+        <pubDate>Sun, 03 Jul 2022 23:00:10 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-4</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[Nekke]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes, but I have this<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/9c850c692d373dd73d3f22d470f154e5f92fc313.png" alt="image" data-base62-sha1="mkDxvsOSRRIo1ijGGd1RRZusTp9" width="690" height="26"></p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/3</link>
+        <pubDate>Sun, 03 Jul 2022 22:58:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-3</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>This is all in the example use it and read it all please</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/2</link>
+        <pubDate>Sun, 03 Jul 2022 21:35:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-2</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+      <item>
+        <title>I need help with keyauth c# loader!</title>
+        <dc:creator><![CDATA[Nekke]]></dc:creator>
+        <description><![CDATA[
+            <p>So I get the errors cause I dont have api in there. So what is the using something; api code for it?</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326/1</link>
+        <pubDate>Sun, 03 Jul 2022 20:47:38 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-326-1</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-with-keyauth-c-loader/326.rss">I need help with keyauth c# loader!</source>
+      </item>
+  </channel>
+</rss>

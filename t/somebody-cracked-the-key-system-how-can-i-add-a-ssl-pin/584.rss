@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Somebody cracked the key system, how can I add a SSL pin?</title>
+    <link>https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584</link>
+    <description>Somebody cracked the key system, how can I add a SSL pin? (C++)
+How does it look like, what do I have to do, how can I get it?</description>
+    
+    <lastBuildDate>Wed, 10 Aug 2022 22:45:22 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Somebody cracked the key system, how can I add a SSL pin?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Here’s some projects that you could use as inspiration for your client-side protection to twart off memory manipulation attacks (most common)</p>
+<aside class="onebox githubfolder" data-onebox-src="https://github.com/Acrillis/SynapseX/tree/master/Synapse/Src/Exploit/Security">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/Acrillis/SynapseX/tree/master/Synapse/Src/Exploit/Security" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h3><a href="https://github.com/Acrillis/SynapseX/tree/master/Synapse/Src/Exploit/Security" target="_blank" rel="noopener">SynapseX/Synapse/Src/Exploit/Security at master · Acrillis/SynapseX</a></h3>
+
+  <p><a href="https://github.com/Acrillis/SynapseX/tree/master/Synapse/Src/Exploit/Security" target="_blank" rel="noopener">master/Synapse/Src/Exploit/Security</a></p>
+
+  <p><span class="label1">The source code to a build of Synapse X dating from October 21, 2019</span></p>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<aside class="onebox githubblob" data-onebox-src="https://github.com/wnelson03/P2C-Client/blob/73a82245d93989efc0255de64c6e4b8d89e5471a/Security/Security.cpp#L81">
+  <header class="source">
+
+      <a href="https://github.com/wnelson03/P2C-Client/blob/73a82245d93989efc0255de64c6e4b8d89e5471a/Security/Security.cpp#L81" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/wnelson03/P2C-Client/blob/73a82245d93989efc0255de64c6e4b8d89e5471a/Security/Security.cpp#L81" target="_blank" rel="noopener">wnelson03/P2C-Client/blob/73a82245d93989efc0255de64c6e4b8d89e5471a/Security/Security.cpp#L81</a></h4>
+
+
+
+    <pre class="onebox"><code class="lang-cpp">
+      <ol class="start lines" start="71" style="counter-reset: li-counter 70 ;">
+          <li>				if (hFile != INVALID_HANDLE_VALUE)
+</li>
+          <li>					SecurityCallback(STR("Malicious activity [Blacklisted driver present]"));
+</li>
+          <li>			}
+</li>
+          <li>
+</li>
+          <li>			LI_FN(Sleep)(10);
+</li>
+          <li>		}
+</li>
+          <li>
+</li>
+          <li>		MUTATE_END
+</li>
+          <li>	}
+</li>
+          <li>
+</li>
+          <li class="selected">	void SecurityClass::CheckTraversedMem() {
+</li>
+          <li>
+</li>
+          <li>		MUTATE_START
+</li>
+          <li>
+</li>
+          <li>		for (;;) {
+</li>
+          <li>			const auto m = LI_FN(VirtualAlloc).Get()(nullptr, 4096, MEM_COMMIT | MEM_RESERVE, PAGE_READWRITE);
+</li>
+          <li>
+</li>
+          <li>			PSAPI_WORKING_SET_EX_INFORMATION set{ };
+</li>
+          <li>			set.VirtualAddress = m;
+</li>
+          <li>
+</li>
+          <li>			if (LI_FN(K32QueryWorkingSetEx).Get()(CurrentProc, &amp;set, sizeof(set) &amp;&amp; (set.VirtualAttributes.Valid &amp; 0x1)))
+</li>
+      </ol>
+    </code></pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/12</link>
+        <pubDate>Wed, 10 Aug 2022 22:45:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-584-12</guid>
+        <source url="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584.rss">Somebody cracked the key system, how can I add a SSL pin?</source>
+      </item>
+      <item>
+        <title>Somebody cracked the key system, how can I add a SSL pin?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>TCP is no more secure than HTTP and many experienced cybersecurity experts have said this.</p>
+<p>KeyAuth protects against network manipulation with HTTP debugger or alike tools, while many other systems at our price point do not do this.</p>
+<p>KeyAuth, as the same with authentication systems that cost tens of thousands of dollars a month, does not provide obfuscation for you. This is the developer’s responsibility.</p>
+          <p><a href="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/11</link>
+        <pubDate>Wed, 10 Aug 2022 22:41:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-584-11</guid>
+        <source url="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584.rss">Somebody cracked the key system, how can I add a SSL pin?</source>
+      </item>
+      <item>
+        <title>Somebody cracked the key system, how can I add a SSL pin?</title>
+        <dc:creator><![CDATA[Curve]]></dc:creator>
+        <description><![CDATA[
+            <p>You don’t need a debugger to jmp to a specific memory instruction<br>
+Do some solid .text and CRC integrity checks and even that can be bypassable<br>
+Nothing is uncrackable but you can make it extremely hard for reverse-engineers to break your auth function</p>
+<p>And I say auth function because even the safest algorithm in the world if your application is not secured you could still get your checks NOP’d (assembly) or jmp your login checks to another dummy instruction pointing to nothing, or directly pointing it to the function yourself execute in the loader when the user has successfully been authenticated.</p>
+<p>So yeah, the issue is not regarding KeyAuth in any-way and this is a you problem<br>
+Implement solid protection<br>
+Nobody bypassed KeyAuth, they only bypassed applications utilizing it.</p>
+          <p><a href="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/10</link>
+        <pubDate>Tue, 09 Aug 2022 20:03:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-584-10</guid>
+        <source url="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584.rss">Somebody cracked the key system, how can I add a SSL pin?</source>
+      </item>
+      <item>
+        <title>Somebody cracked the key system, how can I add a SSL pin?</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Did you forget to encrypt a string within a logged in function and didnt add a check?</p>
+<p>Did you use Xor?</p>
+<p>Did you add any type of debugger/network check?</p>
+          <p><a href="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/9</link>
+        <pubDate>Tue, 09 Aug 2022 08:21:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-584-9</guid>
+        <source url="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584.rss">Somebody cracked the key system, how can I add a SSL pin?</source>
+      </item>
+      <item>
+        <title>Somebody cracked the key system, how can I add a SSL pin?</title>
+        <dc:creator><![CDATA[OverDrive]]></dc:creator>
+        <description><![CDATA[
+            <p>Just utilize anti debuggers?</p>
+          <p><a href="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/8</link>
+        <pubDate>Sat, 06 Aug 2022 06:46:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-584-8</guid>
+        <source url="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584.rss">Somebody cracked the key system, how can I add a SSL pin?</source>
+      </item>
+      <item>
+        <title>Somebody cracked the key system, how can I add a SSL pin?</title>
+        <dc:creator><![CDATA[Yero]]></dc:creator>
+        <description><![CDATA[
+            <p>yeah still but what would be the SSl public key, I have to enter?</p>
+          <p><a href="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/7</link>
+        <pubDate>Fri, 05 Aug 2022 00:52:47 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-584-7</guid>
+        <source url="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584.rss">Somebody cracked the key system, how can I add a SSL pin?</source>
+      </item>
+      <item>
+        <title>Somebody cracked the key system, how can I add a SSL pin?</title>
+        <dc:creator><![CDATA[Yero]]></dc:creator>
+        <description><![CDATA[
+            <p>No they used http debugger to get rid of the key system. Its obfuscated and everything</p>
+          <p><a href="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/3</link>
+        <pubDate>Fri, 05 Aug 2022 00:44:11 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-584-3</guid>
+        <source url="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584.rss">Somebody cracked the key system, how can I add a SSL pin?</source>
+      </item>
+      <item>
+        <title>Somebody cracked the key system, how can I add a SSL pin?</title>
+        <dc:creator><![CDATA[OverDrive]]></dc:creator>
+        <description><![CDATA[
+            <p>They most likely didnt crack the key system, they most likely cracked your program which means your protection was not sufficient. I recommend using better obfuscation / better anti dump / anti debug.</p>
+          <p><a href="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/2</link>
+        <pubDate>Fri, 05 Aug 2022 00:40:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-584-2</guid>
+        <source url="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584.rss">Somebody cracked the key system, how can I add a SSL pin?</source>
+      </item>
+      <item>
+        <title>Somebody cracked the key system, how can I add a SSL pin?</title>
+        <dc:creator><![CDATA[Yero]]></dc:creator>
+        <description><![CDATA[
+            <p>Somebody cracked the key system, how can I add a SSL pin? (C++)<br>
+How does it look like, what do I have to do, how can I get it?</p>
+          <p><a href="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584/1</link>
+        <pubDate>Fri, 05 Aug 2022 00:36:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-584-1</guid>
+        <source url="https://community.keyauth.cc/t/somebody-cracked-the-key-system-how-can-i-add-a-ssl-pin/584.rss">Somebody cracked the key system, how can I add a SSL pin?</source>
+      </item>
+  </channel>
+</rss>

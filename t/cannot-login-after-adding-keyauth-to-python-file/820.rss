@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Cannot login after adding keyauth to python file</title>
+    <link>https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820</link>
+    <description>:white_check_mark: I agree that **I will not ask for help with non-KeyAuth related topics**, this community site **is only for asking about the default KeyAuth example with NO changes made to it**
+
+![image|690x145](upload://4zWmjCjKMOl9lgQDpDpnd7OCwwW.png)
+
+
+Does that when i try to register</description>
+    
+    <lastBuildDate>Fri, 16 Sep 2022 18:49:57 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Cannot login after adding keyauth to python file</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>Did you modify the example</p>
+          <p><a href="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/6</link>
+        <pubDate>Fri, 16 Sep 2022 18:49:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-820-6</guid>
+        <source url="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820.rss">Cannot login after adding keyauth to python file</source>
+      </item>
+      <item>
+        <title>Cannot login after adding keyauth to python file</title>
+        <dc:creator><![CDATA[reapz]]></dc:creator>
+        <description><![CDATA[
+            <p>yea i imported keyauth.py and from keyauth import api</p>
+          <p><a href="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/5</link>
+        <pubDate>Thu, 15 Sep 2022 17:07:11 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-820-5</guid>
+        <source url="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820.rss">Cannot login after adding keyauth to python file</source>
+      </item>
+      <item>
+        <title>Cannot login after adding keyauth to python file</title>
+        <dc:creator><![CDATA[reapz]]></dc:creator>
+        <description><![CDATA[
+            <p>i have, sorry for the late response still doesnt work</p>
+          <p><a href="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/4</link>
+        <pubDate>Thu, 15 Sep 2022 17:06:36 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-820-4</guid>
+        <source url="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820.rss">Cannot login after adding keyauth to python file</source>
+      </item>
+      <item>
+        <title>Cannot login after adding keyauth to python file</title>
+        <dc:creator><![CDATA[alexlol]]></dc:creator>
+        <description><![CDATA[
+            <p>hello you need to add keyauth file from github repo into same folder hope this helps</p>
+          <p><a href="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/3</link>
+        <pubDate>Wed, 14 Sep 2022 21:02:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-820-3</guid>
+        <source url="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820.rss">Cannot login after adding keyauth to python file</source>
+      </item>
+      <item>
+        <title>Cannot login after adding keyauth to python file</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>Is the api file imported or did u delete the api</p>
+          <p><a href="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/2</link>
+        <pubDate>Wed, 14 Sep 2022 21:01:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-820-2</guid>
+        <source url="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820.rss">Cannot login after adding keyauth to python file</source>
+      </item>
+      <item>
+        <title>Cannot login after adding keyauth to python file</title>
+        <dc:creator><![CDATA[reapz]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/2018c67baa3f607504e7bc3e624274a82598664a.png" alt="image" data-base62-sha1="4zWmjCjKMOl9lgQDpDpnd7OCwwW" width="690" height="145"></p>
+<p>Does that when i try to register</p>
+          <p><a href="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820/1</link>
+        <pubDate>Wed, 14 Sep 2022 20:59:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-820-1</guid>
+        <source url="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820.rss">Cannot login after adding keyauth to python file</source>
+      </item>
+  </channel>
+</rss>

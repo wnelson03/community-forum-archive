@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Cooding err0r help me</title>
+    <link>https://community.keyauth.cc/t/cooding-err0r-help-me/649</link>
+    <description>    Traceback (most recent call last):
+  File &quot;C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py&quot;, line 133, in &lt;module&gt;
+    onlineUsers = keyauthapp.fetchOnline()
+  File &quot;C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\keyauth.py&quot;, line 435, in fetchOnline
+    if json[&quot;users&quot;][&quot;0&quot;]:
+TypeError: list indices must be integers or slices, not str
+Press any key to continue . . .</description>
+    
+    <lastBuildDate>Tue, 16 Aug 2022 12:24:07 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/cooding-err0r-help-me/649.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Cooding err0r help me</title>
+        <dc:creator><![CDATA[JATIN_Kumar]]></dc:creator>
+        <description><![CDATA[
+            <p>KEYAUTH.PY</p>
+<p>import win32security <span class="hashtag">#get</span> sid<br>
+import json as jsond  # json</p>
+<p>import time  # sleep before exit</p>
+<p>import binascii  # hex encoding</p>
+<h1>
+<a name="https-requests-1" class="anchor" href="https://community.keyauth.cc#https-requests-1"></a>https requests</h1>
+<p>from uuid import uuid4  # gen random guid<br>
+import webbrowser<br>
+import platform<br>
+import subprocess<br>
+import datetime<br>
+import sys<br>
+import os<br>
+import requests<br>
+from requests_toolbelt.adapters.fingerprint import FingerprintAdapter</p>
+<p>try:<br>
+from Crypto.Cipher import AES<br>
+from Crypto.Hash import SHA256<br>
+from Crypto.Util.Padding import pad, unpad<br>
+except ModuleNotFoundError:<br>
+print(“Exception when importing modules”)<br>
+print(“installing necessary modules…”)<br>
+os.system(“pip install pycryptodome”)<br>
+print(“Modules installed!”)<br>
+time.sleep(1.5)<br>
+exit(0)</p>
+<p>class api:<br>
+name = ownerid = secret = version = hash_to_check = “”</p>
+<pre><code>def __init__(self, name, ownerid, secret, version, hash_to_check):
+    self.name = name
+
+    self.ownerid = ownerid
+
+    self.secret = secret
+
+    self.version = version
+    self.hash_to_check = hash_to_check
+    self.init()
+
+sessionid = enckey = ""
+initialized = False
+
+def init(self):
+
+    if self.sessionid != "":
+        print("You've already initialized!")
+        time.sleep(2)
+        exit(0)
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    self.enckey = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("init").encode()),
+        "ver": encryption.encrypt(self.version, self.secret, init_iv),
+        "hash": self.hash_to_check,
+        "enckey": encryption.encrypt(self.enckey, self.secret, init_iv),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    if response == "KeyAuth_Invalid":
+        print("The application doesn't exist")
+        sys.exit()
+
+    response = encryption.decrypt(response, self.secret, init_iv)
+    json = jsond.loads(response)
+
+    if json["message"] == "invalidver":
+        if json["download"] != "":
+            print("New Version Available")
+            download_link = json["download"]
+            os.system(f"start {download_link}")
+            sys.exit()
+        else:
+            print("Invalid Version, Contact owner to add download link to latest app version")
+            sys.exit()
+
+    if not json["success"]:
+        print(json["message"])
+        sys.exit()
+
+    self.sessionid = json["sessionid"]
+    self.initialized = True
+    self.__load_app_data(json["appinfo"])
+
+
+
+def register(self, user, password, license, hwid=None):
+    self.checkinit()
+    if hwid is None:
+        hwid = others.get_hwid()
+
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("register").encode()),
+        "username": encryption.encrypt(user, self.enckey, init_iv),
+        "pass": encryption.encrypt(password, self.enckey, init_iv),
+        "key": encryption.encrypt(license, self.enckey, init_iv),
+        "hwid": encryption.encrypt(hwid, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+
+    if json["success"]:
+        print("successfully registered")
+        self.__load_user_data(json["info"])
+    else:
+        print(json["message"])
+        sys.exit()
+
+def upgrade(self, user, license):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("upgrade").encode()),
+        "username": encryption.encrypt(user, self.enckey, init_iv),
+        "key": encryption.encrypt(license, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        print("successfully upgraded user")
+        print("please restart program and login")
+        sys.exit()
+    else:
+        print(json["message"])
+        sys.exit()
+
+def login(self, user, password, hwid=None):
+    self.checkinit()
+    if hwid is None:
+        hwid = others.get_hwid()
+
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("login").encode()),
+        "username": encryption.encrypt(user, self.enckey, init_iv),
+        "pass": encryption.encrypt(password, self.enckey, init_iv),
+        "hwid": encryption.encrypt(hwid, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        self.__load_user_data(json["info"])
+        print("successfully logged in")
+    else:
+        print(json["message"])
+        sys.exit()
+
+def license(self, key, hwid=None):
+    self.checkinit()
+    if hwid is None:
+        hwid = others.get_hwid()
+
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("license").encode()),
+        "key": encryption.encrypt(key, self.enckey, init_iv),
+        "hwid": encryption.encrypt(hwid, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        self.__load_user_data(json["info"])
+        print("successfully logged into license")
+    else:
+        print(json["message"])
+        sys.exit()
+
+def var(self, name):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("var").encode()),
+        "varid": encryption.encrypt(name, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        return json["message"]
+    else:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()
+
+def getvar(self, var_name):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("getvar").encode()),
+        "var": encryption.encrypt(var_name, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+
+    if json["success"]:
+        return json["response"]
+    else:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()
+
+def setvar(self, var_name, var_data):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+    post_data = {
+        "type": binascii.hexlify(("setvar").encode()),
+        "var": encryption.encrypt(var_name, self.enckey, init_iv),
+        "data": encryption.encrypt(var_data, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+    
+    if json["success"]:
+        return True
+    else:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()    
+
+def ban(self):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+    post_data = {
+        "type": binascii.hexlify(("ban").encode()),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+    
+    if json["success"]:
+        return True
+    else:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()    
+
+def file(self, fileid):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("file").encode()),
+        "fileid": encryption.encrypt(fileid, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if not json["success"]:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()
+    return binascii.unhexlify(json["contents"])
+
+def webhook(self, webid, param):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("webhook").encode()),
+        "webid": encryption.encrypt(webid, self.enckey, init_iv),
+        "params": encryption.encrypt(param, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+
+    if json["success"]:
+        return json["message"]
+    else:
+        print(json["message"])
+        time.sleep(5)
+        sys.exit()
+
+def check(self):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+    post_data = {
+        "type": binascii.hexlify(("check").encode()),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+    if json["success"]:
+        return True
+    else:
+        return False
+
+def checkblacklist(self):
+    self.checkinit()
+    hwid = others.get_hwid()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+    post_data = {
+        "type": binascii.hexlify(("checkblacklist").encode()),
+        "hwid": encryption.encrypt(hwid, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+    response = self.__do_request(post_data)
+
+    response = encryption.decrypt(response, self.enckey, init_iv)
+    json = jsond.loads(response)
+    if json["success"]:
+        return True
+    else:
+        return False
+
+def log(self, message):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("log").encode()),
+        "pcuser": encryption.encrypt(os.getenv('username'), self.enckey, init_iv),
+        "message": encryption.encrypt(message, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    self.__do_request(post_data)
+
+def fetchOnline(self): 
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("fetchOnline").encode()),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+    
+    if json["success"]:
+        if json["users"]["0"]:
+            return None ## THIS IS ISSUE ON KEYAUTH SERVER SIDE 6.8.2022 so it will return none if it is not an array.
+        else: 
+            return json["users"]
+    else: 
+        return None
+
+def chatGet(self, channel):
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("chatget").encode()),
+        "channel": encryption.encrypt(channel, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        return json["messages"]
+    else:
+        return None
+
+def chatSend(self, message, channel): 
+    self.checkinit()
+    init_iv = SHA256.new(str(uuid4())[:8].encode()).hexdigest()
+
+    post_data = {
+        "type": binascii.hexlify(("chatsend").encode()),
+        "message": encryption.encrypt(message, self.enckey, init_iv),
+        "channel": encryption.encrypt(channel, self.enckey, init_iv),
+        "sessionid": binascii.hexlify(self.sessionid.encode()),
+        "name": binascii.hexlify(self.name.encode()),
+        "ownerid": binascii.hexlify(self.ownerid.encode()),
+        "init_iv": init_iv
+    }
+
+    response = self.__do_request(post_data)
+    response = encryption.decrypt(response, self.enckey, init_iv)
+
+    json = jsond.loads(response)
+
+    if json["success"]:
+        return True
+    else:
+        return False
+
+def checkinit(self):
+    if not self.initialized:
+        print("Initialize first, in order to use the functions")
+        sys.exit()
+
+def __do_request(self, post_data):
+
+    rq_out = requests.post(
+        "https://keyauth.win/api/1.0/", data=post_data
+    )
+
+    return rq_out.text
+
+class application_data_class:
+    numUsers = numKeys = app_ver = customer_panel = onlineUsers = ""
+# region user_data
+class user_data_class:
+    username = ip = hwid = expires = createdate = lastlogin = subscription = ""
+
+user_data = user_data_class()
+app_data = application_data_class()
+
+def __load_app_data(self, data):
+    self.app_data.numUsers = data["numUsers"]
+    self.app_data.numKeys = data["numKeys"]
+    self.app_data.app_ver = data["version"]
+    self.app_data.customer_panel = data["customerPanelLink"]
+    self.app_data.onlineUsers = data["numOnlineUsers"]
+
+def __load_user_data(self, data):
+    self.user_data.username = data["username"]
+    self.user_data.ip = data["ip"]
+    self.user_data.hwid = data["hwid"]
+    self.user_data.expires = data["subscriptions"][0]["expiry"]
+    self.user_data.createdate = data["createdate"]
+    self.user_data.lastlogin = data["lastlogin"]
+    self.user_data.subscription = data["subscriptions"][0]["subscription"]
+    self.user_data.subscriptions = data["subscriptions"]
+</code></pre>
+<p>class others:<br>
+<span class="mention">@staticmethod</span><br>
+def get_hwid():<br>
+winuser = os.getlogin()<br>
+if platform.system() != “Windows”:<br>
+with open(“/etc/machine-id”) as f:<br>
+hwid = f.read()<br>
+return hwid</p>
+<pre><code>    sid = win32security.LookupAccountName(None, winuser)[0]
+    sidstr = win32security.ConvertSidToStringSid(sid)
+
+    return sidstr
+</code></pre>
+<p>class encryption:<br>
+<span class="mention">@staticmethod</span><br>
+def encrypt_string(plain_text, key, iv):<br>
+plain_text = pad(plain_text, 16)</p>
+<pre><code>    aes_instance = AES.new(key, AES.MODE_CBC, iv)
+
+    raw_out = aes_instance.encrypt(plain_text)
+
+    return binascii.hexlify(raw_out)
+
+@staticmethod
+def decrypt_string(cipher_text, key, iv):
+    cipher_text = binascii.unhexlify(cipher_text)
+
+    aes_instance = AES.new(key, AES.MODE_CBC, iv)
+
+    cipher_text = aes_instance.decrypt(cipher_text)
+
+    return unpad(cipher_text, 16)
+
+@staticmethod
+def encrypt(message, enc_key, iv):
+    try:
+        _key = SHA256.new(enc_key.encode()).hexdigest()[:32]
+
+        _iv = SHA256.new(iv.encode()).hexdigest()[:16]
+
+        return encryption.encrypt_string(message.encode(), _key.encode(), _iv.encode()).decode()
+    except:
+        print("Invalid Application Information. Long text is secret short text is ownerid. Name is supposed to be app name not username")
+        sys.exit()
+
+@staticmethod
+def decrypt(message, enc_key, iv):
+    try:
+        _key = SHA256.new(enc_key.encode()).hexdigest()[:32]
+
+        _iv = SHA256.new(iv.encode()).hexdigest()[:16]
+
+        return encryption.decrypt_string(message.encode(), _key.encode(), _iv.encode()).decode()
+    except:
+        print("Invalid Application Information. Long text is secret short text is ownerid. Name is supposed to be app name not username")
+        sys.exit()
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/cooding-err0r-help-me/649/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/cooding-err0r-help-me/649/4</link>
+        <pubDate>Tue, 16 Aug 2022 12:24:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-649-4</guid>
+        <source url="https://community.keyauth.cc/t/cooding-err0r-help-me/649.rss">Cooding err0r help me</source>
+      </item>
+      <item>
+        <title>Cooding err0r help me</title>
+        <dc:creator><![CDATA[JATIN_Kumar]]></dc:creator>
+        <description><![CDATA[
+            <p>MAIN.PY</p>
+<p>from keyauth import api</p>
+<p>import os</p>
+<p>import sys</p>
+<p>import os.path</p>
+<p>import platform</p>
+<p>import hashlib</p>
+<p>from time import sleep</p>
+<p>from datetime import datetime</p>
+<h1>
+<a name="watch-setup-video-if-you-need-help-httpswwwyoutubecomwatchvl2eaqomuuia-1" class="anchor" href="https://community.keyauth.cc#watch-setup-video-if-you-need-help-httpswwwyoutubecomwatchvl2eaqomuuia-1"></a>watch setup video if you need help <a href="https://www.youtube.com/watch?v=L2eAQOmuUiA" class="inline-onebox" rel="noopener nofollow ugc">How To Setup KeyAuth Python Login System - YouTube</a>
+</h1>
+<p>os.system(“cls”)</p>
+<p>os.system(“title Python Example”)</p>
+<p>print(“Initializing”)</p>
+<p>def getchecksum():</p>
+<p>path = os.path.basename(<strong>file</strong>)</p>
+<p>if not os.path.exists(path):</p>
+<p>path = path[:-2] + “exe”</p>
+<p>md5_hash = hashlib.md5()</p>
+<p>a_file = open(path,“rb”)</p>
+<p>content = a_file.read()</p>
+<p>md5_hash.update(content)</p>
+<p>digest = md5_hash.hexdigest()</p>
+<p>return digest</p>
+<p>keyauthapp = api(</p>
+<p>name = “”,</p>
+<p>ownerid = “”,</p>
+<p>secret = “”,</p>
+<p>version = “1.0”,</p>
+<p>hash_to_check = getchecksum()</p>
+<p>)</p>
+<p>print(f"“”</p>
+<p>App data:</p>
+<p>Number of users: {keyauthapp.app_data.numUsers}</p>
+<p>Number of online users: {keyauthapp.app_data.onlineUsers}</p>
+<p>Number of keys: {keyauthapp.app_data.numKeys}</p>
+<p>Application Version: {keyauthapp.app_data.app_ver}</p>
+<p>Customer panel link: {keyauthapp.app_data.customer_panel}</p>
+<p>“”")</p>
+<p>print(f"Current Session Validation Status: {keyauthapp.check()}")</p>
+<p>print(f"Blacklisted? : {keyauthapp.checkblacklist()}") # check if blacklisted, you can edit this and make it exit the program if blacklisted</p>
+<p>print (“”"</p>
+<p>1.Login</p>
+<p>2.Register</p>
+<p>3.Upgrade</p>
+<p>4.License Key Only</p>
+<p>“”")</p>
+<p>ans=input("Select Option: ")</p>
+<p>if ans==“1”:</p>
+<p>user = input('Provide username: ')</p>
+<p>password = input('Provide password: ')</p>
+<p>keyauthapp.login(user,password)</p>
+<p>elif ans==“2”:</p>
+<p>user = input('Provide username: ')</p>
+<p>password = input('Provide password: ')</p>
+<p>license = input('Provide License: ')</p>
+<p>keyauthapp.register(user,password,license)</p>
+<p>elif ans==“3”:</p>
+<p>user = input('Provide username: ')</p>
+<p>license = input('Provide License: ')</p>
+<p>keyauthapp.upgrade(user,license)</p>
+<p>elif ans==“4”:</p>
+<p>key = input('Enter your license: ')</p>
+<p>keyauthapp.license(key)</p>
+<p>else:</p>
+<p>print(“\nNot Valid Option”)</p>
+<p>sys.exit()</p>
+<p><span class="hashtag">#region</span> Extra Functions</p>
+<p>#* Download Files form the server to your computer using the download function in the api class</p>
+<p><span class="hashtag">#bytes</span> = keyauthapp.download(“FILEID”)</p>
+<p><span class="hashtag">#f</span> = open(“example.exe”, “wb”)</p>
+<p><span class="hashtag">#f</span>.write(bytes)</p>
+<p><span class="hashtag">#f</span>.close()</p>
+<p>#* Set up user variable</p>
+<p><span class="hashtag">#keyauthapp</span>.setvar(“varName”, “varValue”)</p>
+<p>#* Get user variable and print it</p>
+<p><span class="hashtag">#data</span> = keyauthapp.getvar(“varName”)</p>
+<p><span class="hashtag">#print</span>(data)</p>
+<p>#* Get normal variable and print it</p>
+<p><span class="hashtag">#data</span> = keyauthapp.var(“varName”)</p>
+<p><span class="hashtag">#print</span>(data)</p>
+<p>#* Log message to the server and then to your webhook what is set on app settings</p>
+<p><span class="hashtag">#keyauthapp</span>.log(“Message”)</p>
+<p>#* Get if the user pc have been blacklisted</p>
+<p><span class="hashtag">#print</span>(f"Blacklisted? : {keyauthapp.checkblacklist()}")</p>
+<p>#* See if the current session is validated</p>
+<p><span class="hashtag">#print</span>(f"Session Validated?: {keyauthapp.check()}")</p>
+<p>#* example to send normal request with no POST data</p>
+<p><span class="hashtag">#data</span> = keyauthapp.webhook(“WebhookID”, “?type=resetuser&amp;user=username”)</p>
+<p>#* Get chat messages</p>
+<p><span class="hashtag">#messages</span> = keyauthapp.chatGet(“CHANNEL”)</p>
+<p><span class="hashtag">#Messages</span> = “”</p>
+<p><span class="hashtag">#for</span> i in range(len(messages)):</p>
+<h1>
+<a name="messages-datetimeutcfromtimestampintmessagesitimestampstrftimey-m-d-hms-messagesiauthor-messagesimessage-n-2" class="anchor" href="https://community.keyauth.cc#messages-datetimeutcfromtimestampintmessagesitimestampstrftimey-m-d-hms-messagesiauthor-messagesimessage-n-2"></a>Messages += datetime.utcfromtimestamp(int(messages[i][“timestamp”])).strftime(‘%Y-%m-%d %H:%M:%S’) + " - " + messages[i][“author”] + ": " + messages[i][“message”] + “\n”</h1>
+<p><span class="hashtag">#print</span>(“\n\n” + Messages)</p>
+<p>#* Send chat message</p>
+<p><span class="hashtag">#keyauthapp</span>.chatSend(“MESSAGE”, “CHANNEL”)</p>
+<p><span class="hashtag">#endregion</span></p>
+<p>print("\nUser data: ")</p>
+<p>print("Username: " + keyauthapp.user_data.username)</p>
+<p>print("IP address: " + keyauthapp.user_data.ip)</p>
+<p>print("Hardware-Id: " + keyauthapp.user_data.hwid)</p>
+<p><span class="hashtag">#print</span>("Subcription: " + keyauthapp.user_data.subscription) ## Print Subscription “ONE” name</p>
+<p>subs = keyauthapp.user_data.subscriptions ## Get all Subscription names, expiry, and timeleft</p>
+<p>for i in range(len(subs)):</p>
+<p>sub = subs[i][“subscription”] # Subscription from every Sub</p>
+<p>expiry = datetime.utcfromtimestamp(int(subs[i][“expiry”])).strftime(‘%Y-%m-%d %H:%M:%S’) ## Expiry date from every Sub</p>
+<p>timeleft = subs[i][“timeleft”] ## Timeleft from every Sub</p>
+<p>print(f"[{i + 1} / {len(subs)}] | Subscription: {sub} - Expiry: {expiry} - Timeleft: {timeleft}")</p>
+<p>onlineUsers = keyauthapp.fetchOnline()</p>
+<p>OU = “” ## KEEP THIS EMPTY FOR NOW, THIS WILL BE USED TO CREATE ONLINE USER STRING.</p>
+<p>if onlineUsers == None:</p>
+<p>OU = “No online users”</p>
+<p>else:</p>
+<p>for i in range(len(onlineUsers)):</p>
+<p>OU += onlineUsers[i][“credential”] + " "</p>
+<p>print(“\n” + OU + “\n”)</p>
+<p>print("Created at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.createdate)).strftime(‘%Y-%m-%d %H:%M:%S’))</p>
+<p>print("Last login at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.lastlogin)).strftime(‘%Y-%m-%d %H:%M:%S’))</p>
+<p>print("Expires at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.expires)).strftime(‘%Y-%m-%d %H:%M:%S’))</p>
+<p>print(f"Current Session Validation Status: {keyauthapp.check()}")</p>
+<p>print(“Exiting in 10 secs…”)</p>
+<p>sleep(10)</p>
+<p>sys.exit(0)</p>
+          <p><a href="https://community.keyauth.cc/t/cooding-err0r-help-me/649/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/cooding-err0r-help-me/649/3</link>
+        <pubDate>Tue, 16 Aug 2022 12:23:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-649-3</guid>
+        <source url="https://community.keyauth.cc/t/cooding-err0r-help-me/649.rss">Cooding err0r help me</source>
+      </item>
+      <item>
+        <title>Cooding err0r help me</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>We need to see some code</p>
+          <p><a href="https://community.keyauth.cc/t/cooding-err0r-help-me/649/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/cooding-err0r-help-me/649/2</link>
+        <pubDate>Mon, 15 Aug 2022 21:52:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-649-2</guid>
+        <source url="https://community.keyauth.cc/t/cooding-err0r-help-me/649.rss">Cooding err0r help me</source>
+      </item>
+      <item>
+        <title>Cooding err0r help me</title>
+        <dc:creator><![CDATA[JATIN_Kumar]]></dc:creator>
+        <description><![CDATA[
+            <pre><code>Traceback (most recent call last):
+</code></pre>
+<p>File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py”, line 133, in <br>
+onlineUsers = keyauthapp.fetchOnline()<br>
+File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\keyauth.py”, line 435, in fetchOnline<br>
+if json[“users”][“0”]:<br>
+TypeError: list indices must be integers or slices, not str<br>
+Press any key to continue . . .</p>
+          <p><a href="https://community.keyauth.cc/t/cooding-err0r-help-me/649/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/cooding-err0r-help-me/649/1</link>
+        <pubDate>Mon, 15 Aug 2022 15:45:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-649-1</guid>
+        <source url="https://community.keyauth.cc/t/cooding-err0r-help-me/649.rss">Cooding err0r help me</source>
+      </item>
+  </channel>
+</rss>

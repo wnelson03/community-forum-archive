@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Session expiration</title>
+    <link>https://community.keyauth.cc/t/session-expiration/233</link>
+    <description>i have problem with session expire. even though the session is expired the session still validated 
+
+i use this get request : https://keyauth.win/api/1.1/?type=check&amp;sessionid=test&amp;name=test&amp;ownerid=test</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 06:58:22 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/session-expiration/233.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Session expiration</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/session-expiration/233/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/session-expiration/233/6</link>
+        <pubDate>Mon, 27 Jun 2022 06:58:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-233-6</guid>
+        <source url="https://community.keyauth.cc/t/session-expiration/233.rss">Session expiration</source>
+      </item>
+      <item>
+        <title>Session expiration</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>As there is no new reply I will close this ticket for now, if the issue isn‘t resolved feel free to open another ticket.</p>
+          <p><a href="https://community.keyauth.cc/t/session-expiration/233/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/session-expiration/233/5</link>
+        <pubDate>Mon, 27 Jun 2022 06:58:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-233-5</guid>
+        <source url="https://community.keyauth.cc/t/session-expiration/233.rss">Session expiration</source>
+      </item>
+      <item>
+        <title>Session expiration</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Is the issue still present?</p>
+          <p><a href="https://community.keyauth.cc/t/session-expiration/233/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/session-expiration/233/4</link>
+        <pubDate>Sun, 26 Jun 2022 12:18:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-233-4</guid>
+        <source url="https://community.keyauth.cc/t/session-expiration/233.rss">Session expiration</source>
+      </item>
+      <item>
+        <title>Session expiration</title>
+        <dc:creator><![CDATA[Hiro]]></dc:creator>
+        <description><![CDATA[
+            <p>ok thank! ill be waiting for the update</p>
+          <p><a href="https://community.keyauth.cc/t/session-expiration/233/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/session-expiration/233/3</link>
+        <pubDate>Wed, 22 Jun 2022 23:32:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-233-3</guid>
+        <source url="https://community.keyauth.cc/t/session-expiration/233.rss">Session expiration</source>
+      </item>
+      <item>
+        <title>Session expiration</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>Okay i will investigate this…</p>
+          <p><a href="https://community.keyauth.cc/t/session-expiration/233/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/session-expiration/233/2</link>
+        <pubDate>Wed, 22 Jun 2022 17:48:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-233-2</guid>
+        <source url="https://community.keyauth.cc/t/session-expiration/233.rss">Session expiration</source>
+      </item>
+      <item>
+        <title>Session expiration</title>
+        <dc:creator><![CDATA[Hiro]]></dc:creator>
+        <description><![CDATA[
+            <p>i have problem with session expire. even though the session is expired the session still validated</p>
+<p>i use this get request : <a href="https://keyauth.win/api/1.1/?type=check&amp;sessionid=test&amp;name=test&amp;ownerid=test" rel="noopener nofollow ugc">https://keyauth.win/api/1.1/?type=check&amp;sessionid=test&amp;name=test&amp;ownerid=test</a></p>
+          <p><a href="https://community.keyauth.cc/t/session-expiration/233/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/session-expiration/233/1</link>
+        <pubDate>Wed, 22 Jun 2022 05:36:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-233-1</guid>
+        <source url="https://community.keyauth.cc/t/session-expiration/233.rss">Session expiration</source>
+      </item>
+  </channel>
+</rss>

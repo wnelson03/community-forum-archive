@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KeyAuth not working after update</title>
+    <link>https://community.keyauth.cc/t/keyauth-not-working-after-update/822</link>
+    <description>Getting this error when running default python code:
+
+&gt; urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host=&#39;keyauth.win&#39;, port=443): Max retries exceeded with url: /api/1.0/ (Caused by SSLError(SSLError(1, &#39;[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)&#39;)))
+
+&gt; requests.exceptions.SSLError: HTTPSConnectionPool(host=&#39;keyauth.win&#39;, port=443): Max retries exceeded with url: /api/1.0/ (Caused by SSLError(SSLError(1, &#39;[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)&#39;)))</description>
+    
+    <lastBuildDate>Tue, 20 Sep 2022 16:07:26 +0000</lastBuildDate>
+    <category>General</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauth-not-working-after-update/822.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>KeyAuth not working after update</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/keyauth-not-working-after-update/822/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-not-working-after-update/822/6</link>
+        <pubDate>Tue, 20 Sep 2022 16:07:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-822-6</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-not-working-after-update/822.rss">KeyAuth not working after update</source>
+      </item>
+      <item>
+        <title>KeyAuth not working after update</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes. Setup custom domain. They’re available now for developer and tester plans.</p>
+<p>Watch tutorial video <a href="https://www.youtube.com/watch?v=a2SROFJ0eYc" class="inline-onebox">KeyAuth Custom Domains for API. Never deal ISP blockage again! - YouTube</a> I show how to get a domain name for free if you don’t want to buy a domain name.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-not-working-after-update/822/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-not-working-after-update/822/5</link>
+        <pubDate>Tue, 20 Sep 2022 16:07:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-822-5</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-not-working-after-update/822.rss">KeyAuth not working after update</source>
+      </item>
+      <item>
+        <title>KeyAuth not working after update</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>Visit this <a href="https://keyauth.win/api/1.0/">https://keyauth.win/api/1.0/</a><br>
+and send sreenshot also do not use vpn i want to see the response</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-not-working-after-update/822/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-not-working-after-update/822/4</link>
+        <pubDate>Fri, 16 Sep 2022 18:50:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-822-4</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-not-working-after-update/822.rss">KeyAuth not working after update</source>
+      </item>
+      <item>
+        <title>KeyAuth not working after update</title>
+        <dc:creator><![CDATA[jorjeoliveira]]></dc:creator>
+        <description><![CDATA[
+            <p>worked, however 60% of my customers are getting the same error. it’s really impossible to make all them using VPN.</p>
+<p>is there any fix?</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-not-working-after-update/822/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-not-working-after-update/822/3</link>
+        <pubDate>Fri, 16 Sep 2022 01:09:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-822-3</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-not-working-after-update/822.rss">KeyAuth not working after update</source>
+      </item>
+      <item>
+        <title>KeyAuth not working after update</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group quote-modified" data-username="jorjeoliveira" data-post="1" data-topic="822">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/letter_avatar_proxy/v4/letter/j/d07c76/40.png" class="avatar"> jorjeoliveira:</div>
+<blockquote>
+<blockquote>
+<p>requests.exceptions.SSLError: HTTPSConnectionPool(host=‘keyauth.win’, port=443): Max retries exceeded with url: /api/1.0/ (Caused by SSLError(SSLError(1, ‘[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)’)))</p>
+</blockquote>
+</blockquote>
+</aside>
+<p>try using a vpn</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-not-working-after-update/822/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-not-working-after-update/822/2</link>
+        <pubDate>Fri, 16 Sep 2022 00:22:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-822-2</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-not-working-after-update/822.rss">KeyAuth not working after update</source>
+      </item>
+      <item>
+        <title>KeyAuth not working after update</title>
+        <dc:creator><![CDATA[jorjeoliveira]]></dc:creator>
+        <description><![CDATA[
+            <p>Getting this error when running default python code:</p>
+<blockquote>
+<p>urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host=‘keyauth.win’, port=443): Max retries exceeded with url: /api/1.0/ (Caused by SSLError(SSLError(1, ‘[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)’)))</p>
+</blockquote>
+<blockquote>
+<p>requests.exceptions.SSLError: HTTPSConnectionPool(host=‘keyauth.win’, port=443): Max retries exceeded with url: /api/1.0/ (Caused by SSLError(SSLError(1, ‘[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)’)))</p>
+</blockquote>
+          <p><a href="https://community.keyauth.cc/t/keyauth-not-working-after-update/822/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-not-working-after-update/822/1</link>
+        <pubDate>Fri, 16 Sep 2022 00:19:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-822-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-not-working-after-update/822.rss">KeyAuth not working after update</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Key Auth Loader downloading software</title>
+    <link>https://community.keyauth.cc/t/key-auth-loader-downloading-software/427</link>
+    <description>I have a program that uses a loader that needs a auth key to use. I also have a program that is a CMD prompt. I basically want this program to be able to be run on others computers and run the command prompt without them having to download anything special of any sort. Just my exe and that&#39;s it. I dont have any source code for the file tho. I can send my loader code if needed tho</description>
+    
+    <lastBuildDate>Tue, 19 Jul 2022 00:52:44 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/key-auth-loader-downloading-software/427.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Key Auth Loader downloading software</title>
+        <dc:creator><![CDATA[Blaze_Escape]]></dc:creator>
+        <description><![CDATA[
+            <p>I have a program that uses a loader that needs a auth key to use. I also have a program that is a CMD prompt. I basically want this program to be able to be run on others computers and run the command prompt without them having to download anything special of any sort. Just my exe and that’s it. I dont have any source code for the file tho. I can send my loader code if needed tho</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading-software/427/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading-software/427/1</link>
+        <pubDate>Tue, 19 Jul 2022 00:52:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-427-1</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading-software/427.rss">Key Auth Loader downloading software</source>
+      </item>
+  </channel>
+</rss>

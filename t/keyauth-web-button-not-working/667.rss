@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Keyauth web button not working</title>
+    <link>https://community.keyauth.cc/t/keyauth-web-button-not-working/667</link>
+    <description>Im using web loader to control all my apps and stuff like that
+and the probelem is that when my login is success its not showing the buttons
+Image Of Login Success But No BUTTON:
+![](upload://r7ySDS37ipFdQ7i7mtRFZo5gsMV.png)
+As you can see its not working or showing buttons
+My code thats supposed to be &quot;working&quot;
+![image|690x388](upload://izb5A087M3MOXNSU7OpT3rfzydg.png)</description>
+    
+    <lastBuildDate>Thu, 18 Aug 2022 00:43:57 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauth-web-button-not-working/667.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Keyauth web button not working</title>
+        <dc:creator><![CDATA[focuskid]]></dc:creator>
+        <description><![CDATA[
+            <p>Im using web loader to control all my apps and stuff like that<br>
+and the probelem is that when my login is success its not showing the buttons<br>
+Image Of Login Success But No BUTTON:<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/be158bc2757c8451abfe4cf0f7d21d917d31aad9.png" alt="" data-base62-sha1="r7ySDS37ipFdQ7i7mtRFZo5gsMV" width="" height=""><br>
+As you can see its not working or showing buttons<br>
+My code thats supposed to be “working”<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/822125d6ca498256bfa63b983449d9014a646176.png" alt="image" data-base62-sha1="izb5A087M3MOXNSU7OpT3rfzydg" width="690" height="388"></p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-web-button-not-working/667/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-web-button-not-working/667/1</link>
+        <pubDate>Thu, 18 Aug 2022 00:43:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-667-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-web-button-not-working/667.rss">Keyauth web button not working</source>
+      </item>
+  </channel>
+</rss>

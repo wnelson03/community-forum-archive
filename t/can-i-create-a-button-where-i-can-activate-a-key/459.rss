@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Can i create a button where I can activate a key?</title>
+    <link>https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459</link>
+    <description>Can I use the keyauth free version in my c++ program to create a button where I can activate a key?</description>
+    
+    <lastBuildDate>Sun, 24 Jul 2022 16:13:19 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Can i create a button where I can activate a key?</title>
+        <dc:creator><![CDATA[rajon]]></dc:creator>
+        <description><![CDATA[
+            <p>thank you bro</p>
+          <p><a href="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459/5</link>
+        <pubDate>Sun, 24 Jul 2022 16:13:19 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-459-5</guid>
+        <source url="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459.rss">Can i create a button where I can activate a key?</source>
+      </item>
+      <item>
+        <title>Can i create a button where I can activate a key?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Use keyauthapp.upgrade(username , key)</p>
+          <p><a href="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459/4</link>
+        <pubDate>Sun, 24 Jul 2022 12:10:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-459-4</guid>
+        <source url="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459.rss">Can i create a button where I can activate a key?</source>
+      </item>
+      <item>
+        <title>Can i create a button where I can activate a key?</title>
+        <dc:creator><![CDATA[rajon]]></dc:creator>
+        <description><![CDATA[
+            <p>I mean when a user’s key expires they can enter a new one in a text box and redeem it without having to create a new account all the time in imgui</p>
+          <p><a href="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459/3</link>
+        <pubDate>Sun, 24 Jul 2022 01:28:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-459-3</guid>
+        <source url="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459.rss">Can i create a button where I can activate a key?</source>
+      </item>
+      <item>
+        <title>Can i create a button where I can activate a key?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes, you can use the <code>KeyAuthApp.license()</code> if you want users to be able to login with just license after activating key.</p>
+<p>Or you can use <code>KeyAuthApp.register()</code> and <code>KeyAuthApp.login()</code> functions if you want users to login with username and password after activating key.</p>
+          <p><a href="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459/2</link>
+        <pubDate>Thu, 21 Jul 2022 21:37:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-459-2</guid>
+        <source url="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459.rss">Can i create a button where I can activate a key?</source>
+      </item>
+      <item>
+        <title>Can i create a button where I can activate a key?</title>
+        <dc:creator><![CDATA[rajon]]></dc:creator>
+        <description><![CDATA[
+            <p>Can I use the keyauth free version in my c++ program to create a button where I can activate a key?</p>
+          <p><a href="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459/1</link>
+        <pubDate>Thu, 21 Jul 2022 21:36:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-459-1</guid>
+        <source url="https://community.keyauth.cc/t/can-i-create-a-button-where-i-can-activate-a-key/459.rss">Can i create a button where I can activate a key?</source>
+      </item>
+  </channel>
+</rss>

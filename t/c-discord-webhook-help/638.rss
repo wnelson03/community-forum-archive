@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C# discord webhook help</title>
+    <link>https://community.keyauth.cc/t/c-discord-webhook-help/638</link>
+    <description>how do i make it so when a user opens/logs into my tool i get a message from discord webhook?</description>
+    
+    <lastBuildDate>Sun, 21 Aug 2022 08:32:30 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/c-discord-webhook-help/638.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C# discord webhook help</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>not keyauth related, search it on yt theres like 50 tutorials about it</p>
+          <p><a href="https://community.keyauth.cc/t/c-discord-webhook-help/638/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-discord-webhook-help/638/3</link>
+        <pubDate>Sun, 21 Aug 2022 08:32:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-638-3</guid>
+        <source url="https://community.keyauth.cc/t/c-discord-webhook-help/638.rss">C# discord webhook help</source>
+      </item>
+      <item>
+        <title>C# discord webhook help</title>
+        <dc:creator><![CDATA[Lypc]]></dc:creator>
+        <description><![CDATA[
+            <p>uhh can anyone help</p>
+          <p><a href="https://community.keyauth.cc/t/c-discord-webhook-help/638/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-discord-webhook-help/638/2</link>
+        <pubDate>Fri, 19 Aug 2022 00:00:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-638-2</guid>
+        <source url="https://community.keyauth.cc/t/c-discord-webhook-help/638.rss">C# discord webhook help</source>
+      </item>
+      <item>
+        <title>C# discord webhook help</title>
+        <dc:creator><![CDATA[Lypc]]></dc:creator>
+        <description><![CDATA[
+            <p>how do i make it so when a user opens/logs into my tool i get a message from discord webhook?</p>
+          <p><a href="https://community.keyauth.cc/t/c-discord-webhook-help/638/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-discord-webhook-help/638/1</link>
+        <pubDate>Sun, 14 Aug 2022 05:02:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-638-1</guid>
+        <source url="https://community.keyauth.cc/t/c-discord-webhook-help/638.rss">C# discord webhook help</source>
+      </item>
+  </channel>
+</rss>

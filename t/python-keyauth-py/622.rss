@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Python Keyauth.py</title>
+    <link>https://community.keyauth.cc/t/python-keyauth-py/622</link>
+    <description>When compiling my Main.py is there anyway to make the KeyAuth.py hidden or remove it completely without disabling functionality?</description>
+    
+    <lastBuildDate>Wed, 10 Aug 2022 13:43:28 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/python-keyauth-py/622.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Python Keyauth.py</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Iv moved this to the <a class="hashtag" href="https://community.keyauth.cc/c/examples/python/9">#<span>examples:python</span></a></p>
+          <p><a href="https://community.keyauth.cc/t/python-keyauth-py/622/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-keyauth-py/622/3</link>
+        <pubDate>Wed, 10 Aug 2022 13:43:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-622-3</guid>
+        <source url="https://community.keyauth.cc/t/python-keyauth-py/622.rss">Python Keyauth.py</source>
+      </item>
+      <item>
+        <title>Python Keyauth.py</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>Merge the 2 files</p>
+          <p><a href="https://community.keyauth.cc/t/python-keyauth-py/622/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-keyauth-py/622/2</link>
+        <pubDate>Wed, 10 Aug 2022 09:38:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-622-2</guid>
+        <source url="https://community.keyauth.cc/t/python-keyauth-py/622.rss">Python Keyauth.py</source>
+      </item>
+      <item>
+        <title>Python Keyauth.py</title>
+        <dc:creator><![CDATA[Snowwy]]></dc:creator>
+        <description><![CDATA[
+            <p>When compiling my Main.py is there anyway to make the KeyAuth.py hidden or remove it completely without disabling functionality?</p>
+          <p><a href="https://community.keyauth.cc/t/python-keyauth-py/622/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-keyauth-py/622/1</link>
+        <pubDate>Wed, 10 Aug 2022 02:36:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-622-1</guid>
+        <source url="https://community.keyauth.cc/t/python-keyauth-py/622.rss">Python Keyauth.py</source>
+      </item>
+  </channel>
+</rss>

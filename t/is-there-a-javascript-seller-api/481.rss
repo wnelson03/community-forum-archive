@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Is there a javascript seller api?</title>
+    <link>https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481</link>
+    <description>Is there a javascript seller api?</description>
+    
+    <lastBuildDate>Sat, 23 Jul 2022 08:30:27 +0000</lastBuildDate>
+    <category>JavaScript</category>
+    <atom:link href="https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Is there a javascript seller api?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes we have a seller api but no javascript wrapper you would have to code that yourself im afraid</p>
+          <p><a href="https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481/2</link>
+        <pubDate>Sat, 23 Jul 2022 08:30:27 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-481-2</guid>
+        <source url="https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481.rss">Is there a javascript seller api?</source>
+      </item>
+      <item>
+        <title>Is there a javascript seller api?</title>
+        <dc:creator><![CDATA[PixelX]]></dc:creator>
+        <description><![CDATA[
+            <p>Is there a javascript seller api?</p>
+          <p><a href="https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481/1</link>
+        <pubDate>Sat, 23 Jul 2022 07:50:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-481-1</guid>
+        <source url="https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481.rss">Is there a javascript seller api?</source>
+      </item>
+  </channel>
+</rss>

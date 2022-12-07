@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C++ application not working</title>
+    <link>https://community.keyauth.cc/t/c-application-not-working/615</link>
+    <description>I havent used keyauth for a few months and now my application wont work. I am using RunPe btw. 
+I am able to login but when i try to load the program it just crashes.
+![image|498x124](upload://f59xalU76NUDwoYkeWMwS4VwEoV.png)
+Normally my program is executed then the loader closes which is why i have the exit code. Does this have something to do with a new keyauth update or anything?</description>
+    
+    <lastBuildDate>Tue, 09 Aug 2022 20:00:13 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/c-application-not-working/615.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C++ application not working</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/c-application-not-working/615/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-application-not-working/615/5</link>
+        <pubDate>Fri, 12 Aug 2022 09:02:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-615-5</guid>
+        <source url="https://community.keyauth.cc/t/c-application-not-working/615.rss">C++ application not working</source>
+      </item>
+      <item>
+        <title>C++ application not working</title>
+        <dc:creator><![CDATA[Curve]]></dc:creator>
+        <description><![CDATA[
+            <p>Faulty RunPe64, not KeyAuth.<br>
+This is not our problem, manage your code yourself and start right now before wasting time hoping that KeyAuth support team will reply.</p>
+<p>In-case you have any KeyAuth related bugs/issues you want to discuss and resolve, let us know by creating an appropriate thread.</p>
+<p>Closed until further notice r4</p>
+          <p><a href="https://community.keyauth.cc/t/c-application-not-working/615/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-application-not-working/615/4</link>
+        <pubDate>Tue, 09 Aug 2022 20:00:13 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-615-4</guid>
+        <source url="https://community.keyauth.cc/t/c-application-not-working/615.rss">C++ application not working</source>
+      </item>
+      <item>
+        <title>C++ application not working</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>this isnt an official example so we can’t help with your problem</p>
+          <p><a href="https://community.keyauth.cc/t/c-application-not-working/615/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-application-not-working/615/3</link>
+        <pubDate>Tue, 09 Aug 2022 18:19:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-615-3</guid>
+        <source url="https://community.keyauth.cc/t/c-application-not-working/615.rss">C++ application not working</source>
+      </item>
+      <item>
+        <title>C++ application not working</title>
+        <dc:creator><![CDATA[YangerOne0001]]></dc:creator>
+        <description><![CDATA[
+            <p>i am able to login btw<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/3b15e785397c02686139509d31007b0c94a3527f.png" alt="image" data-base62-sha1="8qH6eXK6ln0L4qbK4hFe41yib3F" width="401" height="293"></p>
+          <p><a href="https://community.keyauth.cc/t/c-application-not-working/615/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-application-not-working/615/2</link>
+        <pubDate>Tue, 09 Aug 2022 17:19:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-615-2</guid>
+        <source url="https://community.keyauth.cc/t/c-application-not-working/615.rss">C++ application not working</source>
+      </item>
+      <item>
+        <title>C++ application not working</title>
+        <dc:creator><![CDATA[YangerOne0001]]></dc:creator>
+        <description><![CDATA[
+            <p>I havent used keyauth for a few months and now my application wont work. I am using RunPe btw.<br>
+I am able to login but when i try to load the program it just crashes.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/69b5c05b01a5b9219cc2c789d0dd9b012d27ba39.png" alt="image" data-base62-sha1="f59xalU76NUDwoYkeWMwS4VwEoV" width="498" height="124"><br>
+Normally my program is executed then the loader closes which is why i have the exit code. Does this have something to do with a new keyauth update or anything?</p>
+          <p><a href="https://community.keyauth.cc/t/c-application-not-working/615/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-application-not-working/615/1</link>
+        <pubDate>Tue, 09 Aug 2022 17:18:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-615-1</guid>
+        <source url="https://community.keyauth.cc/t/c-application-not-working/615.rss">C++ application not working</source>
+      </item>
+  </channel>
+</rss>

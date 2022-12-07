@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>General - KeyAuth</title>
+    <link>https://community.keyauth.cc/c/general/19</link>
+    <description>Topics in the &#39;General&#39; category &lt;p&gt;Create topics here that don’t fit into any other existing category.&lt;/p&gt;</description>
+    
+      <lastBuildDate>Tue, 20 Sep 2022 15:56:02 +0000</lastBuildDate>
+      <atom:link href="https://community.keyauth.cc/c/general/19.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>KeyAuth not work selfhost after update</title>
+          <dc:creator><![CDATA[Xeda_1337]]></dc:creator>
+          <category>General</category>
+          <description><![CDATA[
+            <p>I updated the site keyauth files on my website, my loader doesn’t start anymore</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://www.youtube.com/watch?v=eswbGqbabyQ">
+  <header class="source">
+      <img src="https://community.keyauth.win/uploads/default/original/1X/534633dc42b9a36a76f47d6071714bf0c463fd9e.png" class="site-icon" width="" height="">
+
+      <a href="https://www.youtube.com/watch?v=eswbGqbabyQ" target="_blank" rel="noopener nofollow ugc">YouTube</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/bebf7eb86c61e268027f3cf921bf4d91f6535f76.jpeg" class="thumbnail" width="" height="">
+
+<h3><a href="https://www.youtube.com/watch?v=eswbGqbabyQ" target="_blank" rel="noopener nofollow ugc">help</a></h3>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+            <p><small>6 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/keyauth-not-work-selfhost-after-update/831">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/keyauth-not-work-selfhost-after-update/831</link>
+          <pubDate>Tue, 20 Sep 2022 15:56:02 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-831</guid>
+          <source url="https://community.keyauth.cc/t/keyauth-not-work-selfhost-after-update/831.rss">KeyAuth not work selfhost after update</source>
+        </item>
+        <item>
+          <title>KeyAuth not working after update</title>
+          <dc:creator><![CDATA[jorjeoliveira]]></dc:creator>
+          <category>General</category>
+          <description><![CDATA[
+            <p>Getting this error when running default python code:</p>
+<blockquote>
+<p>urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host=‘keyauth.win’, port=443): Max retries exceeded with url: /api/1.0/ (Caused by SSLError(SSLError(1, ‘[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)’)))</p>
+</blockquote>
+<blockquote>
+<p>requests.exceptions.SSLError: HTTPSConnectionPool(host=‘keyauth.win’, port=443): Max retries exceeded with url: /api/1.0/ (Caused by SSLError(SSLError(1, ‘[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)’)))</p>
+</blockquote>
+            <p><small>6 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/keyauth-not-working-after-update/822">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/keyauth-not-working-after-update/822</link>
+          <pubDate>Fri, 16 Sep 2022 00:19:23 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-822</guid>
+          <source url="https://community.keyauth.cc/t/keyauth-not-working-after-update/822.rss">KeyAuth not working after update</source>
+        </item>
+        <item>
+          <title>I added keyauth to my site and it&#39;s not working</title>
+          <dc:creator><![CDATA[JoaoSousa]]></dc:creator>
+          <category>General</category>
+          <description><![CDATA[
+            <p>I just added a keyauth to my site it doesn’t log in can you help me? someone contact me on discord<br>
+João Sousa#9999</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/i-added-keyauth-to-my-site-and-its-not-working/807">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/i-added-keyauth-to-my-site-and-its-not-working/807</link>
+          <pubDate>Sat, 10 Sep 2022 14:40:30 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-807</guid>
+          <source url="https://community.keyauth.cc/t/i-added-keyauth-to-my-site-and-its-not-working/807.rss">I added keyauth to my site and it&#39;s not working</source>
+        </item>
+        <item>
+          <title>Vars auto delete</title>
+          <dc:creator><![CDATA[Jennie001]]></dc:creator>
+          <category>General</category>
+          <description><![CDATA[
+            <p>i create vars but it auto delete few hours later. How can i solve it</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/vars-auto-delete/805">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/vars-auto-delete/805</link>
+          <pubDate>Sat, 10 Sep 2022 09:53:13 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-805</guid>
+          <source url="https://community.keyauth.cc/t/vars-auto-delete/805.rss">Vars auto delete</source>
+        </item>
+        <item>
+          <title>About the General category</title>
+          <dc:creator><![CDATA[system]]></dc:creator>
+          <category>General</category>
+          <description><![CDATA[
+            <p>Create topics here that don’t fit into any other existing category.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/about-the-general-category/743">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/about-the-general-category/743</link>
+          <pubDate>Mon, 29 Aug 2022 20:23:08 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-743</guid>
+          <source url="https://community.keyauth.cc/t/about-the-general-category/743.rss">About the General category</source>
+        </item>
+  </channel>
+</rss>

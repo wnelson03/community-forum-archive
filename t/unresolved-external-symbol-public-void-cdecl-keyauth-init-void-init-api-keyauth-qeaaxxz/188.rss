@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</title>
+    <link>https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188</link>
+    <description>unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 06:52:32 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188/5</link>
+        <pubDate>Mon, 27 Jun 2022 06:57:49 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-188-5</guid>
+        <source url="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188.rss">unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</source>
+      </item>
+      <item>
+        <title>unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Solution: Add the KeyAuth Library to your project.</p>
+<p>This is not a thread that belongs here tho so please don‘t make another thread not related to official KeyAuth examples.</p>
+<p>I will close this now, have a good day.</p>
+          <p><a href="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188/4</link>
+        <pubDate>Mon, 27 Jun 2022 06:52:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-188-4</guid>
+        <source url="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188.rss">unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</source>
+      </item>
+      <item>
+        <title>unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>False, seems like the Library is not even included in the project.</p>
+          <p><a href="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188/3</link>
+        <pubDate>Mon, 27 Jun 2022 06:51:02 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-188-3</guid>
+        <source url="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188.rss">unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</source>
+      </item>
+      <item>
+        <title>unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</title>
+        <dc:creator><![CDATA[Vasie]]></dc:creator>
+        <description><![CDATA[
+            <p>It’s something with the library from keyauth, did you use the right ones, are you compiling on the  version of the library.</p>
+<p>Just download the cpp example and compile on x64 release</p>
+          <p><a href="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188/2</link>
+        <pubDate>Thu, 16 Jun 2022 19:36:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-188-2</guid>
+        <source url="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188.rss">unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</source>
+      </item>
+      <item>
+        <title>unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</title>
+        <dc:creator><![CDATA[flamingo_Poop]]></dc:creator>
+        <description><![CDATA[
+            <p>unresolved external symbol “public: void __cdecl KeyAuth::api::init(void)” (?init@api@KeyAuth@<span class="mention">@QEAAXXZ</span>)</p>
+          <p><a href="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188/1</link>
+        <pubDate>Mon, 13 Jun 2022 21:26:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-188-1</guid>
+        <source url="https://community.keyauth.cc/t/unresolved-external-symbol-public-void-cdecl-keyauth-init-void-init-api-keyauth-qeaaxxz/188.rss">unresolved external symbol &quot;public: void __cdecl KeyAuth::api::init(void)&quot; (?init@api@KeyAuth@@QEAAXXZ)</source>
+      </item>
+  </channel>
+</rss>

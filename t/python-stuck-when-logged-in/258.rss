@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Python Stuck When Logged In</title>
+    <link>https://community.keyauth.cc/t/python-stuck-when-logged-in/258</link>
+    <description>Hi when i execute my program and i log in it prints my succesful login message but doenst continue with the script :confused: 
+![image|390x299](upload://f3rH5PYY162qT4B9MCMflZMuamw.png)</description>
+    
+    <lastBuildDate>Sat, 25 Jun 2022 21:02:23 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/python-stuck-when-logged-in/258.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Python Stuck When Logged In</title>
+        <dc:creator><![CDATA[Supplier]]></dc:creator>
+        <description><![CDATA[
+            <p>still nothing happends</p>
+          <p><a href="https://community.keyauth.cc/t/python-stuck-when-logged-in/258/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-stuck-when-logged-in/258/9</link>
+        <pubDate>Sat, 25 Jun 2022 21:02:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-258-9</guid>
+        <source url="https://community.keyauth.cc/t/python-stuck-when-logged-in/258.rss">Python Stuck When Logged In</source>
+      </item>
+      <item>
+        <title>Python Stuck When Logged In</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Just use</p>
+<pre><code class="lang-auto">Keyauthapp.login(username,pass)
+Print("test")
+</code></pre>
+<p>The keyauth.py will just quit ur program if returns false</p>
+          <p><a href="https://community.keyauth.cc/t/python-stuck-when-logged-in/258/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-stuck-when-logged-in/258/8</link>
+        <pubDate>Sat, 25 Jun 2022 20:52:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-258-8</guid>
+        <source url="https://community.keyauth.cc/t/python-stuck-when-logged-in/258.rss">Python Stuck When Logged In</source>
+      </item>
+      <item>
+        <title>Python Stuck When Logged In</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Remove if cuz the code will only continue if successful login anyway</p>
+          <p><a href="https://community.keyauth.cc/t/python-stuck-when-logged-in/258/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-stuck-when-logged-in/258/7</link>
+        <pubDate>Sat, 25 Jun 2022 20:50:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-258-7</guid>
+        <source url="https://community.keyauth.cc/t/python-stuck-when-logged-in/258.rss">Python Stuck When Logged In</source>
+      </item>
+      <item>
+        <title>Python Stuck When Logged In</title>
+        <dc:creator><![CDATA[Supplier]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/69e34fff15bf862c85e0e9f87d4c0b56bb51094d.png" alt="image" data-base62-sha1="f6J9flbWJt9CozGBVUWIMjB2gd7" width="369" height="132"><br>
+This is from the keyauth.py</p>
+          <p><a href="https://community.keyauth.cc/t/python-stuck-when-logged-in/258/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-stuck-when-logged-in/258/6</link>
+        <pubDate>Sat, 25 Jun 2022 20:48:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-258-6</guid>
+        <source url="https://community.keyauth.cc/t/python-stuck-when-logged-in/258.rss">Python Stuck When Logged In</source>
+      </item>
+      <item>
+        <title>Python Stuck When Logged In</title>
+        <dc:creator><![CDATA[Supplier]]></dc:creator>
+        <description><![CDATA[
+            <p>yeye was about to upload xd<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/dd2d6188aabe294700a1b839e6feffe8617365b2.png" alt="image" data-base62-sha1="vyCKsi4hVNTyEAkYyzX9V3Lrq7w" width="312" height="80"></p>
+          <p><a href="https://community.keyauth.cc/t/python-stuck-when-logged-in/258/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-stuck-when-logged-in/258/5</link>
+        <pubDate>Sat, 25 Jun 2022 20:47:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-258-5</guid>
+        <source url="https://community.keyauth.cc/t/python-stuck-when-logged-in/258.rss">Python Stuck When Logged In</source>
+      </item>
+      <item>
+        <title>Python Stuck When Logged In</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Lol</p>
+          <p><a href="https://community.keyauth.cc/t/python-stuck-when-logged-in/258/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-stuck-when-logged-in/258/4</link>
+        <pubDate>Sat, 25 Jun 2022 20:47:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-258-4</guid>
+        <source url="https://community.keyauth.cc/t/python-stuck-when-logged-in/258.rss">Python Stuck When Logged In</source>
+      </item>
+      <item>
+        <title>Python Stuck When Logged In</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>You will need to share code</p>
+          <p><a href="https://community.keyauth.cc/t/python-stuck-when-logged-in/258/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-stuck-when-logged-in/258/3</link>
+        <pubDate>Sat, 25 Jun 2022 20:47:21 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-258-3</guid>
+        <source url="https://community.keyauth.cc/t/python-stuck-when-logged-in/258.rss">Python Stuck When Logged In</source>
+      </item>
+      <item>
+        <title>Python Stuck When Logged In</title>
+        <dc:creator><![CDATA[xenos]]></dc:creator>
+        <description><![CDATA[
+            <p>We can’t help without seeing your code.</p>
+          <p><a href="https://community.keyauth.cc/t/python-stuck-when-logged-in/258/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-stuck-when-logged-in/258/2</link>
+        <pubDate>Sat, 25 Jun 2022 20:47:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-258-2</guid>
+        <source url="https://community.keyauth.cc/t/python-stuck-when-logged-in/258.rss">Python Stuck When Logged In</source>
+      </item>
+      <item>
+        <title>Python Stuck When Logged In</title>
+        <dc:creator><![CDATA[Supplier]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi when i execute my program and i log in it prints my succesful login message but doenst continue with the script <img src="https://community.keyauth.win/images/emoji/twitter/confused.png?v=12" title=":confused:" class="emoji" alt=":confused:" loading="lazy" width="20" height="20"><br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/698459d9ec539e1ff07dcf8349804ba7c00cfdcc.png" alt="image" data-base62-sha1="f3rH5PYY162qT4B9MCMflZMuamw" width="390" height="299"></p>
+          <p><a href="https://community.keyauth.cc/t/python-stuck-when-logged-in/258/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-stuck-when-logged-in/258/1</link>
+        <pubDate>Sat, 25 Jun 2022 20:45:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-258-1</guid>
+        <source url="https://community.keyauth.cc/t/python-stuck-when-logged-in/258.rss">Python Stuck When Logged In</source>
+      </item>
+  </channel>
+</rss>

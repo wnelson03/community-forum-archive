@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C++ Auto Login Console App</title>
+    <link>https://community.keyauth.cc/t/c-auto-login-console-app/200</link>
+    <description>Is there a way that I can make my CPP app save a key to a text file or registry and auto login with that. Also I’m not using imgui it’s a console app with no GUI</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 06:52:54 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/c-auto-login-console-app/200.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C++ Auto Login Console App</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/c-auto-login-console-app/200/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-auto-login-console-app/200/4</link>
+        <pubDate>Mon, 27 Jun 2022 06:53:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-200-4</guid>
+        <source url="https://community.keyauth.cc/t/c-auto-login-console-app/200.rss">C++ Auto Login Console App</source>
+      </item>
+      <item>
+        <title>C++ Auto Login Console App</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>As there is no new reply I will close this ticket for now, if the issue isn‘t resolved feel free to open another ticket.</p>
+          <p><a href="https://community.keyauth.cc/t/c-auto-login-console-app/200/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-auto-login-console-app/200/3</link>
+        <pubDate>Mon, 27 Jun 2022 06:52:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-200-3</guid>
+        <source url="https://community.keyauth.cc/t/c-auto-login-console-app/200.rss">C++ Auto Login Console App</source>
+      </item>
+      <item>
+        <title>C++ Auto Login Console App</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Plenty of ways to do this and you would probs get a faster answer from stack overflow for this as it is generally coding related and coverd in plenty of places on the web.</p>
+<p>I will post a link to one way you could do it. But not the only way it can be done.</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://www.gormanalysis.com/blog/reading-and-writing-csv-files-with-cpp/">
+  <header class="source">
+      <img src="https://community.keyauth.win/uploads/default/original/1X/6056259763a2f034abec6f8bca69c1e97f0dddf7.png" class="site-icon" width="" height="">
+
+      <a href="https://www.gormanalysis.com/blog/reading-and-writing-csv-files-with-cpp/" target="_blank" rel="noopener" title="12:00AM - 16 January 2019">gormanalysis.com – 16 Jan 19</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/fe67ec039e3e81d938f68c6300a0ed1f1a197534.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://www.gormanalysis.com/blog/reading-and-writing-csv-files-with-cpp/" target="_blank" rel="noopener">Reading And Writing CSV Files With C++</a></h3>
+
+  <p>As a data scientist, reading and writing data from/to CSV is one of the most common tasks I do on the daily. R, my language of choice, makes this easy with read.csv() and write.csv() (although I tend to use fread() and fwrite() from the data.table...</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/c-auto-login-console-app/200/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-auto-login-console-app/200/2</link>
+        <pubDate>Wed, 15 Jun 2022 10:16:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-200-2</guid>
+        <source url="https://community.keyauth.cc/t/c-auto-login-console-app/200.rss">C++ Auto Login Console App</source>
+      </item>
+      <item>
+        <title>C++ Auto Login Console App</title>
+        <dc:creator><![CDATA[SnowyTobi]]></dc:creator>
+        <description><![CDATA[
+            <p>Is there a way that I can make my CPP app save a key to a text file or registry and auto login with that. Also I’m not using imgui it’s a console app with no GUI</p>
+          <p><a href="https://community.keyauth.cc/t/c-auto-login-console-app/200/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-auto-login-console-app/200/1</link>
+        <pubDate>Tue, 14 Jun 2022 23:21:58 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-200-1</guid>
+        <source url="https://community.keyauth.cc/t/c-auto-login-console-app/200.rss">C++ Auto Login Console App</source>
+      </item>
+  </channel>
+</rss>

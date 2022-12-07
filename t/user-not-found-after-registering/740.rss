@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>User not found after registering</title>
+    <link>https://community.keyauth.cc/t/user-not-found-after-registering/740</link>
+    <description>After i register a user to my program and i try to login it says user not found, it also doesnt pop up on the website that i made it after it says registered successfully. idk what to do</description>
+    
+    <lastBuildDate>Mon, 29 Aug 2022 11:39:15 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/user-not-found-after-registering/740.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>User not found after registering</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>show code the register process</p>
+          <p><a href="https://community.keyauth.cc/t/user-not-found-after-registering/740/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/user-not-found-after-registering/740/3</link>
+        <pubDate>Mon, 29 Aug 2022 11:39:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-740-3</guid>
+        <source url="https://community.keyauth.cc/t/user-not-found-after-registering/740.rss">User not found after registering</source>
+      </item>
+      <item>
+        <title>User not found after registering</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>Why do you Register the people ? they should it do by theyreself or use only key</p>
+          <p><a href="https://community.keyauth.cc/t/user-not-found-after-registering/740/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/user-not-found-after-registering/740/2</link>
+        <pubDate>Mon, 29 Aug 2022 11:31:47 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-740-2</guid>
+        <source url="https://community.keyauth.cc/t/user-not-found-after-registering/740.rss">User not found after registering</source>
+      </item>
+      <item>
+        <title>User not found after registering</title>
+        <dc:creator><![CDATA[Sleepy]]></dc:creator>
+        <description><![CDATA[
+            <p>After i register a user to my program and i try to login it says user not found, it also doesnt pop up on the website that i made it after it says registered successfully. idk what to do</p>
+          <p><a href="https://community.keyauth.cc/t/user-not-found-after-registering/740/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/user-not-found-after-registering/740/1</link>
+        <pubDate>Mon, 29 Aug 2022 11:29:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-740-1</guid>
+        <source url="https://community.keyauth.cc/t/user-not-found-after-registering/740.rss">User not found after registering</source>
+      </item>
+  </channel>
+</rss>

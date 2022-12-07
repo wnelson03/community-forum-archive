@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C# .exe in memory loader</title>
+    <link>https://community.keyauth.cc/t/c-exe-in-memory-loader/720</link>
+    <description>My cheat is in .exe and I need to put it inside my loader. But when I put it in the task manager, 2 processes are open (loader and cheat). I would like to put it in my loader&#39;s memory. I tried to use a source from a KeyAuth user but it wasn&#39;t working anymore.</description>
+    
+    <lastBuildDate>Sat, 27 Aug 2022 01:22:56 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/c-exe-in-memory-loader/720.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C# .exe in memory loader</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>We have docs on how to download files and store them into memory, though if you don’t provide a specific error we can’t help</p>
+          <p><a href="https://community.keyauth.cc/t/c-exe-in-memory-loader/720/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-exe-in-memory-loader/720/4</link>
+        <pubDate>Sat, 27 Aug 2022 01:22:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-720-4</guid>
+        <source url="https://community.keyauth.cc/t/c-exe-in-memory-loader/720.rss">C# .exe in memory loader</source>
+      </item>
+      <item>
+        <title>C# .exe in memory loader</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/c-exe-in-memory-loader/720/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-exe-in-memory-loader/720/3</link>
+        <pubDate>Sat, 27 Aug 2022 01:21:27 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-720-3</guid>
+        <source url="https://community.keyauth.cc/t/c-exe-in-memory-loader/720.rss">C# .exe in memory loader</source>
+      </item>
+      <item>
+        <title>C# .exe in memory loader</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>We don’t provide assistance to fix your cheats.</p>
+          <p><a href="https://community.keyauth.cc/t/c-exe-in-memory-loader/720/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-exe-in-memory-loader/720/2</link>
+        <pubDate>Sat, 27 Aug 2022 01:21:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-720-2</guid>
+        <source url="https://community.keyauth.cc/t/c-exe-in-memory-loader/720.rss">C# .exe in memory loader</source>
+      </item>
+      <item>
+        <title>C# .exe in memory loader</title>
+        <dc:creator><![CDATA[lika]]></dc:creator>
+        <description><![CDATA[
+            <p>My cheat is in .exe and I need to put it inside my loader. But when I put it in the task manager, 2 processes are open (loader and cheat). I would like to put it in my loader’s memory. I tried to use a source from a KeyAuth user but it wasn’t working anymore.</p>
+          <p><a href="https://community.keyauth.cc/t/c-exe-in-memory-loader/720/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-exe-in-memory-loader/720/1</link>
+        <pubDate>Sat, 27 Aug 2022 00:22:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-720-1</guid>
+        <source url="https://community.keyauth.cc/t/c-exe-in-memory-loader/720.rss">C# .exe in memory loader</source>
+      </item>
+  </channel>
+</rss>

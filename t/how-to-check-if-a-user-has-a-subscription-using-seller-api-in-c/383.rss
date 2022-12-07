@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to check if a user has a subscription using seller api in c#</title>
+    <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383</link>
+    <description>Basically trying to make an account checker app to check if a user has an active subscription.</description>
+    
+    <lastBuildDate>Mon, 11 Jul 2022 14:48:35 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to check if a user has a subscription using seller api in c#</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>you could use this keyauthseller.sc class that I made is it no where near perfect and needs work<br>
+you can just include the class and use</p>
+<pre><code class="lang-auto">public static SellerApi sellerApi = new SellerApi(); // you can also set the seller key here as well
+sellerApi.SetSellerKey("YourSellerKey") /// to set the seller api key
+sellerApi.ViewUserData("Username");
+if (sellerApi.response.Success)
+  foreach (var subs in sellerApi.users.Subscriptions)
+  {
+      console.writeline(subs.Subscription) // sub name
+      console.writeline(subs.timeleft)
+      console.writeline(subs.expiry)
+      console.writeline(subs.level)
+  }
+</code></pre>
+<aside class="onebox githubblob" data-onebox-src="https://github.com/lIMonkieIl/KeyAuth-Seller-Panel/blob/main/SellerPanel/Classes/KeyAuthSeller.cs">
+  <header class="source">
+
+      <a href="https://github.com/lIMonkieIl/KeyAuth-Seller-Panel/blob/main/SellerPanel/Classes/KeyAuthSeller.cs" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/lIMonkieIl/KeyAuth-Seller-Panel/blob/main/SellerPanel/Classes/KeyAuthSeller.cs" target="_blank" rel="noopener">lIMonkieIl/KeyAuth-Seller-Panel/blob/main/SellerPanel/Classes/KeyAuthSeller.cs</a></h4>
+
+
+      <pre><code class="lang-cs">﻿using KeyAuth_Seller_Panel;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Text.Json.Serialization;
+using System.Windows.Forms;
+
+namespace KeyAuthSeller
+{
+    public class SellerApi
+    {
+        #region SellerAPI
+        private string _sellerKey;
+
+</code></pre>
+
+
+
+  This file has been truncated. <a href="https://github.com/lIMonkieIl/KeyAuth-Seller-Panel/blob/main/SellerPanel/Classes/KeyAuthSeller.cs" target="_blank" rel="noopener">show original</a>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383/3</link>
+        <pubDate>Mon, 11 Jul 2022 14:48:35 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-383-3</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383.rss">How to check if a user has a subscription using seller api in c#</source>
+      </item>
+      <item>
+        <title>How to check if a user has a subscription using seller api in c#</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <blockquote>
+<p>USE and can search via username<br>
+<a href="https://docs.keyauth.win/seller/users#retrieve-user-data" class="inline-onebox">Users - KeyAuth</a></p>
+</blockquote>
+<blockquote>
+<p>Will return a response like below (example)</p>
+</blockquote>
+<pre><code class="lang-auto">{"success":true,"username":"mak","subscriptions":
+[{"subscription":"default","expiry":"1642968815","timeleft":2588179},
+{"subscription":"default","expiry":"1671913200","timeleft":31532564},
+{"subscription":"default","expiry":"1671915000","timeleft":31534364}],
+"ip":"8.8.8.8","hwid":"asassa","createdate":"1640379353","lastlogin":"1640373896"}
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383/2</link>
+        <pubDate>Mon, 11 Jul 2022 14:34:02 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-383-2</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383.rss">How to check if a user has a subscription using seller api in c#</source>
+      </item>
+      <item>
+        <title>How to check if a user has a subscription using seller api in c#</title>
+        <dc:creator><![CDATA[PixelX]]></dc:creator>
+        <description><![CDATA[
+            <p>Basically trying to make an account checker app to check if a user has an active subscription.</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383/1</link>
+        <pubDate>Mon, 11 Jul 2022 14:16:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-383-1</guid>
+        <source url="https://community.keyauth.cc/t/how-to-check-if-a-user-has-a-subscription-using-seller-api-in-c/383.rss">How to check if a user has a subscription using seller api in c#</source>
+      </item>
+  </channel>
+</rss>

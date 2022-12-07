@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>HTTP 500 Error with PHP Example</title>
+    <link>https://community.keyauth.cc/t/http-500-error-with-php-example/485</link>
+    <description>Error 500 idk why
+![image|523x247](upload://h2PkaJI1biP7hI8g8FwGeheJHS8.png)</description>
+    
+    <lastBuildDate>Sat, 23 Jul 2022 23:14:30 +0000</lastBuildDate>
+    <category>PHP</category>
+    <atom:link href="https://community.keyauth.cc/t/http-500-error-with-php-example/485.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>HTTP 500 Error with PHP Example</title>
+        <dc:creator><![CDATA[Spinayy]]></dc:creator>
+        <description><![CDATA[
+            <p>1: sudo apt-get install php-curl<br>
+2: sudo service apache2 restart</p>
+          <p><a href="https://community.keyauth.cc/t/http-500-error-with-php-example/485/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/http-500-error-with-php-example/485/3</link>
+        <pubDate>Sat, 23 Jul 2022 23:14:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-485-3</guid>
+        <source url="https://community.keyauth.cc/t/http-500-error-with-php-example/485.rss">HTTP 500 Error with PHP Example</source>
+      </item>
+      <item>
+        <title>HTTP 500 Error with PHP Example</title>
+        <dc:creator><![CDATA[Spinayy]]></dc:creator>
+        <description><![CDATA[
+            <p><strong>Fatal error</strong> : Uncaught Error: Call to undefined function KeyAuth\curl_init() in /var/www/html/mpoumpis/keyauth.php:249 Stack trace: <span class="hashtag">#0</span> /var/www/html/mpoumpis/keyauth.php(32): KeyAuth\api-&gt;req() <span class="hashtag">#1</span> /var/www/html/mpoumpis/index.php(19): KeyAuth\api-&gt;init() <span class="hashtag">#2</span> {main} thrown in <strong>/var/www/html/mpoumpis/keyauth.php</strong> on line <strong>249</strong></p>
+<p>enabled errors and found this</p>
+<p>basically the line  249 is the api url <a href="https://keyauth.win/api/1.1/" rel="noopener nofollow ugc">https://keyauth.win/api/1.1/</a></p>
+          <p><a href="https://community.keyauth.cc/t/http-500-error-with-php-example/485/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/http-500-error-with-php-example/485/2</link>
+        <pubDate>Sat, 23 Jul 2022 22:42:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-485-2</guid>
+        <source url="https://community.keyauth.cc/t/http-500-error-with-php-example/485.rss">HTTP 500 Error with PHP Example</source>
+      </item>
+      <item>
+        <title>HTTP 500 Error with PHP Example</title>
+        <dc:creator><![CDATA[Spinayy]]></dc:creator>
+        <description><![CDATA[
+            <p>Error 500 idk why<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/7776ca3d1c4dbd4390f97091531b63a2608737a0.png" alt="image" data-base62-sha1="h2PkaJI1biP7hI8g8FwGeheJHS8" width="523" height="247"></p>
+          <p><a href="https://community.keyauth.cc/t/http-500-error-with-php-example/485/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/http-500-error-with-php-example/485/1</link>
+        <pubDate>Sat, 23 Jul 2022 21:04:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-485-1</guid>
+        <source url="https://community.keyauth.cc/t/http-500-error-with-php-example/485.rss">HTTP 500 Error with PHP Example</source>
+      </item>
+  </channel>
+</rss>

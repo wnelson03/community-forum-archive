@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Getting an error after adding the library_x64.lib</title>
+    <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231</link>
+    <description>i added the right library now i get this error thats LNK2001 unresolved external symbol _imp_DwmExtendFrameIntoClientArea someone please help me</description>
+    
+    <lastBuildDate>Wed, 22 Jun 2022 17:46:05 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/22">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/22</link>
+        <pubDate>Sun, 26 Jun 2022 12:23:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-22</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>Hopefully you will have an awesome day!, if you think our support was fast and helpfull leave <span class="hashtag">#vouches</span></p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/21">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/21</link>
+        <pubDate>Wed, 22 Jun 2022 17:46:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-21</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>np.</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/20">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/20</link>
+        <pubDate>Wed, 22 Jun 2022 17:45:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-20</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[Zeus]]></dc:creator>
+        <description><![CDATA[
+            <p>omg bro thank you</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/19">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/19</link>
+        <pubDate>Wed, 22 Jun 2022 17:45:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-19</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>just reopen app</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/18">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/18</link>
+        <pubDate>Wed, 22 Jun 2022 17:45:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-18</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>That doesn’t seem to be keyauth issue, but somewhere in your code you need to include some lib named <code>Dwmapi.lib</code></p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/17">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/17</link>
+        <pubDate>Wed, 22 Jun 2022 17:43:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-17</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>wait</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/16">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/16</link>
+        <pubDate>Wed, 22 Jun 2022 17:42:39 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-16</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>Interesting…</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/15">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/15</link>
+        <pubDate>Wed, 22 Jun 2022 17:41:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-15</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/e39999b1c5735642cd69bc2a66867b4020ac9841.png" alt="image" data-base62-sha1="wtrtksuDpYFB3NONq7lXlMECC6B" width="676" height="500"></p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/14">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/14</link>
+        <pubDate>Wed, 22 Jun 2022 17:41:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-14</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p><a href="https://community.keyauth.cc">Uploading: image.png(1)…</a></p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/13</link>
+        <pubDate>Wed, 22 Jun 2022 17:41:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-13</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>then rebuild solution</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/12</link>
+        <pubDate>Wed, 22 Jun 2022 17:40:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-12</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/978d0f6e56a40748aea735d12262babf563df931.png" alt="image" data-base62-sha1="lCGjJv0r1jeMAhWYYTYhw4nBd73" width="690" height="443"></p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/11</link>
+        <pubDate>Wed, 22 Jun 2022 17:40:02 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-11</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>second…</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/10</link>
+        <pubDate>Wed, 22 Jun 2022 17:39:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-10</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>okay, could you right click solution and goto properties?</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/9</link>
+        <pubDate>Wed, 22 Jun 2022 17:38:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-9</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[Zeus]]></dc:creator>
+        <description><![CDATA[
+            <p>yes</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/8</link>
+        <pubDate>Wed, 22 Jun 2022 17:37:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-8</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>can you join &lt;#vc&gt; for second i will transfer to live support, then if you could liveshare and show it.<br>
+Cannot really speak atm. so if you could screenshare where it happens</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/7</link>
+        <pubDate>Wed, 22 Jun 2022 17:36:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-7</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>hmm</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/6</link>
+        <pubDate>Wed, 22 Jun 2022 17:35:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-6</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[Zeus]]></dc:creator>
+        <description><![CDATA[
+            <p>yes i have</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/5</link>
+        <pubDate>Wed, 22 Jun 2022 17:35:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-5</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>and you tryed <span class="hashtag">#faq-common-issues</span>?</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/4</link>
+        <pubDate>Wed, 22 Jun 2022 17:34:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-4</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[Zeus]]></dc:creator>
+        <description><![CDATA[
+            <p>yes i googled still cant find it</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/3</link>
+        <pubDate>Wed, 22 Jun 2022 01:24:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-3</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>ever heard of stack overflow/google</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/2</link>
+        <pubDate>Wed, 22 Jun 2022 01:23:49 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-2</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+      <item>
+        <title>Getting an error after adding the library_x64.lib</title>
+        <dc:creator><![CDATA[Zeus]]></dc:creator>
+        <description><![CDATA[
+            <p>i added the right library now i get this error thats LNK2001 unresolved external symbol _imp_DwmExtendFrameIntoClientArea someone please help me</p>
+          <p><a href="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231/1</link>
+        <pubDate>Wed, 22 Jun 2022 01:22:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-231-1</guid>
+        <source url="https://community.keyauth.cc/t/getting-an-error-after-adding-the-library-x64-lib/231.rss">Getting an error after adding the library_x64.lib</source>
+      </item>
+  </channel>
+</rss>

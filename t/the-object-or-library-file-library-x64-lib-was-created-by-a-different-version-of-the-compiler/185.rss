@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</title>
+    <link>https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185</link>
+    <description>I went to the github here https://github.com/KeyAuth/KeyAuth-CPP an downloaded the one they provide in the readme file. Still getting the same error.</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 06:49:26 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/6</link>
+        <pubDate>Mon, 27 Jun 2022 06:58:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-185-6</guid>
+        <source url="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185.rss">The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</source>
+      </item>
+      <item>
+        <title>The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>The Library is open source, download the source from the official KeyAuth GitHub and recompile it with your desired compiler settings.</p>
+<p>Tickets like those are in general not allowed since this is not an issue caused by KeyAuth itself.</p>
+<p>I am closing this Ticket now, have a good day.</p>
+          <p><a href="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/5</link>
+        <pubDate>Mon, 27 Jun 2022 06:49:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-185-5</guid>
+        <source url="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185.rss">The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</source>
+      </item>
+      <item>
+        <title>The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</title>
+        <dc:creator><![CDATA[ermac]]></dc:creator>
+        <description><![CDATA[
+            <p>if u use VS19 u need to download the same library for VS19 . in this link u can find all library’s for keyauth</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/BINM7MD/KeyAuth-Libraries">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/BINM7MD/KeyAuth-Libraries" target="_blank" rel="noopener nofollow ugc">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/26e11a42db50bbd0d06eaea793430a222f525b7f.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/BINM7MD/KeyAuth-Libraries" target="_blank" rel="noopener nofollow ugc">GitHub - BINM7MD/KeyAuth-Libraries: V142 / V143 Libraries / x86 / x64</a></h3>
+
+  <p>V142 / V143 Libraries / x86 / x64. Contribute to BINM7MD/KeyAuth-Libraries development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/4</link>
+        <pubDate>Wed, 15 Jun 2022 13:58:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-185-4</guid>
+        <source url="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185.rss">The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</source>
+      </item>
+      <item>
+        <title>The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</title>
+        <dc:creator><![CDATA[haonski]]></dc:creator>
+        <description><![CDATA[
+            <p>How does this help me?</p>
+          <p><a href="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/3</link>
+        <pubDate>Tue, 14 Jun 2022 13:51:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-185-3</guid>
+        <source url="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185.rss">The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</source>
+      </item>
+      <item>
+        <title>The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</title>
+        <dc:creator><![CDATA[ermac]]></dc:creator>
+        <description><![CDATA[
+            <p><a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/5c901ca92c27d201d6ac259afa298a75732da5ca/libs.zip?raw=true" class="onebox" target="_blank" rel="noopener nofollow ugc">https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/5c901ca92c27d201d6ac259afa298a75732da5ca/libs.zip?raw=true</a></p>
+          <p><a href="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/2</link>
+        <pubDate>Tue, 14 Jun 2022 07:21:11 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-185-2</guid>
+        <source url="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185.rss">The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</source>
+      </item>
+      <item>
+        <title>The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</title>
+        <dc:creator><![CDATA[haonski]]></dc:creator>
+        <description><![CDATA[
+            <p>I went to the github here <a href="https://github.com/KeyAuth/KeyAuth-CPP" rel="noopener nofollow ugc">https://github.com/KeyAuth/KeyAuth-CPP</a> an downloaded the one they provide in the readme file. Still getting the same error.</p>
+          <p><a href="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185/1</link>
+        <pubDate>Mon, 13 Jun 2022 20:19:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-185-1</guid>
+        <source url="https://community.keyauth.cc/t/the-object-or-library-file-library-x64-lib-was-created-by-a-different-version-of-the-compiler/185.rss">The object or library file &#39;library_x64.lib&#39; was created by a different version of the compiler</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How can I check for a subscription/permission level</title>
+    <link>https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236</link>
+    <description>Hello i was just wondering if someone could point me in the right direction to check for a subscription/permission level possibly using an if statement, thanks :heart:</description>
+    
+    <lastBuildDate>Thu, 23 Jun 2022 02:47:23 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How can I check for a subscription/permission level</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/9</link>
+        <pubDate>Thu, 23 Jun 2022 03:05:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-236-9</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236.rss">How can I check for a subscription/permission level</source>
+      </item>
+      <item>
+        <title>How can I check for a subscription/permission level</title>
+        <dc:creator><![CDATA[Bwep]]></dc:creator>
+        <description><![CDATA[
+            <p>helped very much, thanks again <img src="https://community.keyauth.win/images/emoji/twitter/heart.png?v=12" title=":heart:" class="emoji" alt=":heart:" loading="lazy" width="20" height="20"> i was stuck on this for an embarrassingly amount of time</p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/8</link>
+        <pubDate>Thu, 23 Jun 2022 02:47:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-236-8</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236.rss">How can I check for a subscription/permission level</source>
+      </item>
+      <item>
+        <title>How can I check for a subscription/permission level</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Hope that helps you understand it a little more for you haha.</p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/7</link>
+        <pubDate>Thu, 23 Jun 2022 02:13:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-236-7</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236.rss">How can I check for a subscription/permission level</source>
+      </item>
+      <item>
+        <title>How can I check for a subscription/permission level</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Or</p>
+<p>Foreach(var sub in Login.KeyAuthApp.user_data.subscriptions)<br>
+{<br>
+///Then you have these vars to use.<br>
+///sub.subscription = sub name<br>
+<a href="//sub.expiry">//sub.expiry</a> = expiry date for that sub<br>
+<a href="//sub.timeleft">//sub.timeleft</a> = time left on the sub</p>
+<p>///So now you can use that information by doing</p>
+<p>if(sub.name == “TheSubName”)<br>
+{<br>
+///you could then open a new form maybe<br>
+Form form1 = new Form();<br>
+form1.Show();<br>
+this.Hide();<br>
+///or even show/enable a button</p>
+<p>ButtonName.enable = true</p>
+<p>}<br>
+if(sub.name == “AnotherSubName”)<br>
+{<br>
+///do code here again but for a different sub name.<br>
+}</p>
+<p>}</p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/6</link>
+        <pubDate>Thu, 23 Jun 2022 02:12:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-236-6</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236.rss">How can I check for a subscription/permission level</source>
+      </item>
+      <item>
+        <title>How can I check for a subscription/permission level</title>
+        <dc:creator><![CDATA[Bwep]]></dc:creator>
+        <description><![CDATA[
+            <p>It worked, Thank you very much and thank you Hiro if you read this. <img src="https://community.keyauth.win/images/emoji/twitter/heart.png?v=12" title=":heart:" class="emoji" alt=":heart:" loading="lazy" width="20" height="20"></p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/5</link>
+        <pubDate>Thu, 23 Jun 2022 02:05:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-236-5</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236.rss">How can I check for a subscription/permission level</source>
+      </item>
+      <item>
+        <title>How can I check for a subscription/permission level</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Do the same as above but put the form where keyauthapp is at so if you’re form is call login and this one is call main you would do like this for example</p>
+<p>Login.KeyAuthApp.user_data.subscriptions.Count</p>
+<p>Hope that helps</p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/4</link>
+        <pubDate>Thu, 23 Jun 2022 01:58:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-236-4</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236.rss">How can I check for a subscription/permission level</source>
+      </item>
+      <item>
+        <title>How can I check for a subscription/permission level</title>
+        <dc:creator><![CDATA[Bwep]]></dc:creator>
+        <description><![CDATA[
+            <p>not sure if this will work for me as the form i need to put it on is separate from the login form, I’ve tried getting the username, but haven’t been able to. When i use the subscriptions.Count or anything like that I get the error that it returned null. So I’m not even sure what I’m attempting is possible.</p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/3</link>
+        <pubDate>Thu, 23 Jun 2022 01:29:46 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-236-3</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236.rss">How can I check for a subscription/permission level</source>
+      </item>
+      <item>
+        <title>How can I check for a subscription/permission level</title>
+        <dc:creator><![CDATA[Hiro]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-auto">for (var i = 0; i &lt; KeyAuthApp.user_data.subscriptions.Count; i++)
+            {
+                Console.WriteLine(" Subscription name: " + KeyAuthApp.user_data.subscriptions[i].subscription + " - Expires at: " + UnixTimeToDateTime(long.Parse(KeyAuthApp.user_data.subscriptions[i].expiry)) + " - Time left in seconds: " + KeyAuthApp.user_data.subscriptions[i].timeleft);
+
+            if(KeyAuthApp.user_data.subscriptions[i].subscription == "level one")
+                        enable only bla
+             else
+                        enable more bla bla bla
+            }
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/2</link>
+        <pubDate>Wed, 22 Jun 2022 23:25:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-236-2</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236.rss">How can I check for a subscription/permission level</source>
+      </item>
+      <item>
+        <title>How can I check for a subscription/permission level</title>
+        <dc:creator><![CDATA[Bwep]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello i was just wondering if someone could point me in the right direction to check for a subscription/permission level possibly using an if statement, thanks <img src="https://community.keyauth.win/images/emoji/twitter/heart.png?v=12" title=":heart:" class="emoji" alt=":heart:" loading="lazy" width="20" height="20"></p>
+          <p><a href="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236/1</link>
+        <pubDate>Wed, 22 Jun 2022 22:44:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-236-1</guid>
+        <source url="https://community.keyauth.cc/t/how-can-i-check-for-a-subscription-permission-level/236.rss">How can I check for a subscription/permission level</source>
+      </item>
+  </channel>
+</rss>

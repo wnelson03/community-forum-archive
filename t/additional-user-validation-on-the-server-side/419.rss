@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Additional user validation on the server side</title>
+    <link>https://community.keyauth.cc/t/additional-user-validation-on-the-server-side/419</link>
+    <description> Hi! I want to add additional user validation through my server, someone implemented something similar, without involving the entire API (login, pass, hwid, session and etc) with all the fields from the client?
+
+Perhaps someone has already implemented this in a more elegant way?
+
+p.s. I tried passing the login and password and it works, but as long as it happens on my PC, because on other PCs I have to pass the full set of parameters for the login and it seems redundant to me.</description>
+    
+    <lastBuildDate>Sun, 17 Jul 2022 04:14:42 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/additional-user-validation-on-the-server-side/419.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Additional user validation on the server side</title>
+        <dc:creator><![CDATA[quado]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi! I want to add additional user validation through my server, someone implemented something similar, without involving the entire API (login, pass, hwid, session and etc) with all the fields from the client?</p>
+<p>Perhaps someone has already implemented this in a more elegant way?</p>
+<p>p.s. I tried passing the login and password and it works, but as long as it happens on my PC, because on other PCs I have to pass the full set of parameters for the login and it seems redundant to me.</p>
+          <p><a href="https://community.keyauth.cc/t/additional-user-validation-on-the-server-side/419/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/additional-user-validation-on-the-server-side/419/1</link>
+        <pubDate>Sun, 17 Jul 2022 04:14:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-419-1</guid>
+        <source url="https://community.keyauth.cc/t/additional-user-validation-on-the-server-side/419.rss">Additional user validation on the server side</source>
+      </item>
+  </channel>
+</rss>

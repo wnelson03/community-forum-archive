@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>If(keyauthapp.licence == textBox1.Text)</title>
+    <link>https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187</link>
+    <description>![Screenshot 2022-06-13 221930|690x209](upload://cHG13N7rVdVNXaaU0SwPXnkf4Z4.png)
+
+I cant seem to work out why it happens.
+
+if any one can help as i am a bit stuck but i cant really explain it</description>
+    
+    <lastBuildDate>Tue, 14 Jun 2022 14:26:34 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>If(keyauthapp.licence == textBox1.Text)</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>You Should Use:</p>
+<pre><code>    private void button1_Click(object sender, EventArgs e)
+    {
+        KeyAuthApp.init();
+        KeyAuthApp.license(keyBox.Text);
+        if (KeyAuthApp.response.success)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
+            this.Hide();
+        }
+        else
+            MessageBox.Show("Wrong/Used Key!");
+    }</code></pre>
+          <p><a href="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/7</link>
+        <pubDate>Tue, 14 Jun 2022 14:26:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-187-7</guid>
+        <source url="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187.rss">If(keyauthapp.licence == textBox1.Text)</source>
+      </item>
+      <item>
+        <title>If(keyauthapp.licence == textBox1.Text)</title>
+        <dc:creator><![CDATA[Dersire]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks It Fixed My Issue</p>
+<p>Appreciate It Man</p>
+<p>Have A Lovely Day</p>
+          <p><a href="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/6</link>
+        <pubDate>Tue, 14 Jun 2022 14:18:19 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-187-6</guid>
+        <source url="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187.rss">If(keyauthapp.licence == textBox1.Text)</source>
+      </item>
+      <item>
+        <title>If(keyauthapp.licence == textBox1.Text)</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>correct way</p>
+<pre><code class="lang-auto">string key = string.Empty;
+Console.WriteLine("\n\n Enter license: ");
+key = Console.ReadLine();
+KeyAuthApp.license(key);
+if (!KeyAuthApp.response.success)
+{
+  Console.WriteLine("\n Status: " + KeyAuthApp.response.message);
+  Thread.Sleep(1500);
+  Environment.Exit(0);
+}
+Console.WriteLine("\n Logged In!");
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/5</link>
+        <pubDate>Tue, 14 Jun 2022 07:37:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-187-5</guid>
+        <source url="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187.rss">If(keyauthapp.licence == textBox1.Text)</source>
+      </item>
+      <item>
+        <title>If(keyauthapp.licence == textBox1.Text)</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>bc <code>license</code> is a function, you cant compare a function with a string, and the <code>license</code> function doesn’t return anything, so comparing in anyway doesn’t make sense</p>
+          <p><a href="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/4</link>
+        <pubDate>Tue, 14 Jun 2022 07:35:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-187-4</guid>
+        <source url="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187.rss">If(keyauthapp.licence == textBox1.Text)</source>
+      </item>
+      <item>
+        <title>If(keyauthapp.licence == textBox1.Text)</title>
+        <dc:creator><![CDATA[Dersire]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/88c3ad2913518f0b1c1d58ef6f9b59ca9c974ec4.png" alt="image" data-base62-sha1="jvSaAmVb6JUajZd3i8tz1Je4G56" width="690" height="67"></p>
+          <p><a href="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/3</link>
+        <pubDate>Tue, 14 Jun 2022 06:57:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-187-3</guid>
+        <source url="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187.rss">If(keyauthapp.licence == textBox1.Text)</source>
+      </item>
+      <item>
+        <title>If(keyauthapp.licence == textBox1.Text)</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Show error from the log</p>
+          <p><a href="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/2</link>
+        <pubDate>Mon, 13 Jun 2022 21:25:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-187-2</guid>
+        <source url="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187.rss">If(keyauthapp.licence == textBox1.Text)</source>
+      </item>
+      <item>
+        <title>If(keyauthapp.licence == textBox1.Text)</title>
+        <dc:creator><![CDATA[Dersire]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/590a0ba1a3c68c3d099ecd73f8ec8b58c1cd4b02.png" alt="Screenshot 2022-06-13 221930" data-base62-sha1="cHG13N7rVdVNXaaU0SwPXnkf4Z4" width="690" height="209"></p>
+<p>I cant seem to work out why it happens.</p>
+<p>if any one can help as i am a bit stuck but i cant really explain it</p>
+          <p><a href="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187/1</link>
+        <pubDate>Mon, 13 Jun 2022 21:21:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-187-1</guid>
+        <source url="https://community.keyauth.cc/t/if-keyauthapp-licence-textbox1-text/187.rss">If(keyauthapp.licence == textBox1.Text)</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from community.keyauth.cc/categories by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 22:38:17 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>KeyAuth - Open-source authentication API</title>
+    <meta name="description" content="Open-source authentication API">
+    <meta name="generator" content="Discourse 2.9.0.beta14 - https://github.com/discourse/discourse version 64b781dacfd915f63480ddc7f8f0f4b0452bcecd">
+<link rel="icon" type="image/png" href="uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_180x180.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="categories.html" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch.xml" title="KeyAuth Search">
+
+    <link href="stylesheets/color_definitions_base___4c54df19f9f59e26ee232a7eb94b30e03c73cdbf.css_%3b%20filename_%3dUTF-8%27%27color_definitions_base___4c54df19f9f59e26ee232a7eb94b30e03c73cdbf0123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" class="light-scheme"/><link href="stylesheets/color_definitions_dark_1__4f4f1c6b9f8578178ed894e2ff0a35ea00dd6d1b.css_%3b%20filename_%3dUTF-8%27%27color_definitions_dark_1__4f4f1c6b9f8578178ed894e2ff0a35ea00dd6d1b0123.css?__ws=community.keyauth.cc" media="(prefers-color-scheme: dark)" rel="stylesheet" class="dark-scheme"/>
+
+  <link href="stylesheets/desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="stylesheets/discourse-canned-replies_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-canned-replies_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-canned-replies"  />
+  <link href="stylesheets/discourse-chat-integration_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-chat-integration_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.cs?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-chat-integration"  />
+  <link href="stylesheets/discourse-details_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-details_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="stylesheets/discourse-local-dates_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-local-dates_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="stylesheets/discourse-narrative-bot_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-narrative-bot_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="stylesheets/discourse-presence_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-presence_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="stylesheets/discourse-solved_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-solved_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="stylesheets/discourse-tooltips_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-tooltips_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-tooltips"  />
+  <link href="stylesheets/discourse-voting_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-voting_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-voting"  />
+  <link href="stylesheets/lazy-yt_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27lazy-yt_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="lazy-yt"  />
+  <link href="stylesheets/poll_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27poll_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="stylesheets/discourse-voting_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27discourse-voting_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="discourse-voting_desktop"  />
+  <link href="stylesheets/poll_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad588.css_%3b%20filename_%3dUTF-8%27%27poll_desktop_6eee9354a7018c9d962b1bf78eac8fa3049ad5880123.css?__ws=community.keyauth.cc" media="all" rel="stylesheet" data-target="poll_desktop"  />
+
+
+    
+    
+      <meta property="og:site_name" content="KeyAuth" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png" />
+<meta property="og:image" content="uploads/default/original/1X/a55ac7229768d3add960d06b75f692ab87da4677.png" />
+<meta property="og:url" content="categories.html" />
+<meta name="twitter:url" content="categories.html" />
+<meta property="og:title" content="KeyAuth" />
+<meta name="twitter:title" content="KeyAuth" />
+<meta property="og:description" content="Open-source authentication API" />
+<meta name="twitter:description" content="Open-source authentication API" />
+
+    
+  </head>
+  <body class="crawler">
+    
+    <header>
+  <a href="index.html">
+    KeyAuth
+  </a>
+</header>
+
+    <div id="main-outlet" class="wrap" role="main">
+      <div itemscope itemtype='http://schema.org/ItemList'>
+  <meta itemprop='itemListOrder' content='http://schema.org/ItemListOrderDescending'>
+  <table class='category-list'>
+    <thead>
+      <tr>
+        <th class='category'>Category</th>
+        <th class='topics'>Topics</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td class='category' style='border-color: #0088CC;'>
+            <div itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='0'>
+              <meta itemprop='url' content='/c/examples/5'>
+              <h3>
+                <a href='c/examples/5.html'>
+                  <span itemprop='name'>Questions/Help with Examples</span>
+                </a>
+              </h3>
+              <div itemprop='description'>Ask for help with examples. Make sure you read the pinned topic for the category you post in. Most examples can be found here <a href="https://github.com/KeyAuth/" class="inline-onebox">KeyAuth · GitHub</a></div>
+            </div>
+          </td>
+          <td class='topics'>
+            <div title='0 Topics'>0</div>
+          </td>
+        </tr>
+        <tr>
+          <td class='category' style='border-color: #25AAE2;'>
+            <div itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='1'>
+              <meta itemprop='url' content='/c/general/19'>
+              <h3>
+                <a href='c/general/19.html'>
+                  <span itemprop='name'>General</span>
+                </a>
+              </h3>
+              <div itemprop='description'><p>Create topics here that don’t fit into any other existing category.</p></div>
+            </div>
+          </td>
+          <td class='topics'>
+            <div title='4 Topics'>4</div>
+          </td>
+        </tr>
+        <tr>
+          <td class='category' style='border-color: #0088CC;'>
+            <div itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='2'>
+              <meta itemprop='url' content='/c/account-issues/7'>
+              <h3>
+                <a href='c/account-issues/7.html'>
+                  <span itemprop='name'>Account issues/Purchase problems</span>
+                </a>
+              </h3>
+              <div itemprop='description'>If you have account issues or purchase problems, please make a ticket in the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox-loading">https://discord.gg/keyauth</a></div>
+            </div>
+          </td>
+          <td class='topics'>
+            <div title='0 Topics'>0</div>
+          </td>
+        </tr>
+        <tr>
+          <td class='category' style='border-color: #0088CC;'>
+            <div itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='3'>
+              <meta itemprop='url' content='/c/suggestions/17'>
+              <h3>
+                <a href='c/suggestions/17.html'>
+                  <span itemprop='name'>Suggestions</span>
+                </a>
+              </h3>
+              <div itemprop='description'>Submit suggestions in the <a class="hashtag" href="c/suggestions/17.html">#<span>suggestions</span></a> channel of the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox-loading">https://discord.gg/keyauth</a></div>
+            </div>
+          </td>
+          <td class='topics'>
+            <div title='0 Topics'>0</div>
+          </td>
+        </tr>
+        <tr>
+          <td class='category' style='border-color: #0088CC;'>
+            <div itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='4'>
+              <meta itemprop='url' content='/c/bugs/18'>
+              <h3>
+                <a href='c/bugs/18.html'>
+                  <span itemprop='name'>Bugs</span>
+                </a>
+              </h3>
+              <div itemprop='description'>Bugs are apparent mistakes that happen to <strong>multiple people, not just you</strong></div>
+            </div>
+          </td>
+          <td class='topics'>
+            <div title='0 Topics'>0</div>
+          </td>
+        </tr>
+        <tr>
+          <td class='category' style='border-color: #BF1E2E;'>
+            <div itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'>
+              <meta itemprop='position' content='5'>
+              <meta itemprop='url' content='/c/coding-services/16'>
+              <h3>
+                <a href='c/coding-services/16.html'>
+                  <span itemprop='name'>Coding Services for Sale</span>
+                </a>
+              </h3>
+              <div itemprop='description'>Pay experienced programmers to develop your application.</div>
+            </div>
+          </td>
+          <td class='topics'>
+            <div title='0 Topics'>0</div>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+    </div>
+    <footer class="container wrap">
+  <nav class='crawler-nav'>
+    <ul>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='index.html' itemprop="url">Home </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='categories.html' itemprop="url">Categories </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='guidelines.html' itemprop="url">FAQ/Guidelines </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='tos.html' itemprop="url">Terms of Service </a>
+        </span>
+      </li>
+      <li itemscope itemtype='http://schema.org/SiteNavigationElement'>
+        <span itemprop='name'>
+          <a href='privacy.html' itemprop="url">Privacy Policy </a>
+        </span>
+      </li>
+    </ul>
+  </nav>
+  <p class='powered-by-link'>Powered by <a href="https://www.discourse.org/">Discourse</a>, best viewed with JavaScript enabled</p>
+</footer>
+
+    
+    
+  <script>(function(){var js = "window['__CF$cv$params']={r:'7760bf424ef3dadd',m:'a3QME9KEltlplZ6VYhOqfmS703PNSHU6auJaZwdwICE-1670452659-0-AfJ7roWpWMGXsXfO2qIgdT2sPoZZZguvaUGZe8BrbxmvK+87+jZUNIb18fdmnNwPtZudSB7zGNyJFqdKAs8N5M18bWAL9A/mQgraARSTG/e+uX+HgiAsOZKZx4EdEZSB7w==',s:[0xa57a7039d8,0xdec70f6d7d],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible5615.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"7760bf424ef3dadd","version":"2022.11.3","r":1,"token":"e335876c42b04d78890a250ef7586bf5","si":100}' crossorigin="anonymous"></script>
+</body>
+  
+
+<!-- Mirrored from community.keyauth.cc/categories by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Dec 2022 22:38:17 GMT -->
+</html>

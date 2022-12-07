@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Proper Runtime C++ Protection</title>
+    <link>https://community.keyauth.cc/t/proper-runtime-c-protection/508</link>
+    <description>Hello! I am currently developing a hardwareID spoofer and don&#39;t want it cracked. The issue is I&#39;ve had friends crack it with ease in under 30 seconds &amp; bypass auth + get keyauth details. I have tried the following protection combinations (Note: It is getting bypassed on runtime since all of the encryption is only for static analysis)
+
+Themidia + Skcrypt
+VMProtect + Skcrypt
+Skcrypt is no help as on runtime it decrypts everything
+
+Does anyone know any proper protection free or paid that will prevent this? I have definitely seen spoofers that have the needed protection to stop this</description>
+    
+    <lastBuildDate>Wed, 27 Jul 2022 12:49:07 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/proper-runtime-c-protection/508.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Proper Runtime C++ Protection</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/proper-runtime-c-protection/508/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/proper-runtime-c-protection/508/3</link>
+        <pubDate>Wed, 27 Jul 2022 12:49:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-508-3</guid>
+        <source url="https://community.keyauth.cc/t/proper-runtime-c-protection/508.rss">Proper Runtime C++ Protection</source>
+      </item>
+      <item>
+        <title>Proper Runtime C++ Protection</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p><a href="https://github.com/UntitledEntity/P2C-Client" class="inline-onebox">GitHub - UntitledEntity/P2C-Client: A simple, P2C Client made in C++</a> and <a href="https://github.com/Acrillis/SynapseX/tree/master/Synapse/Src/Exploit/Security" class="inline-onebox">SynapseX/Synapse/Src/Exploit/Security at master · Acrillis/SynapseX · GitHub</a> are good for detecting  modifications made by bad actors.</p>
+<p>Aside from that, you’ll need to do research on your own. This isn’t KeyAuth related.</p>
+          <p><a href="https://community.keyauth.cc/t/proper-runtime-c-protection/508/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/proper-runtime-c-protection/508/2</link>
+        <pubDate>Wed, 27 Jul 2022 12:49:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-508-2</guid>
+        <source url="https://community.keyauth.cc/t/proper-runtime-c-protection/508.rss">Proper Runtime C++ Protection</source>
+      </item>
+      <item>
+        <title>Proper Runtime C++ Protection</title>
+        <dc:creator><![CDATA[softaim.xyz]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello! I am currently developing a hardwareID spoofer and don’t want it cracked. The issue is I’ve had friends crack it with ease in under 30 seconds &amp; bypass auth + get keyauth details. I have tried the following protection combinations (Note: It is getting bypassed on runtime since all of the encryption is only for static analysis)</p>
+<p>Themidia + Skcrypt<br>
+VMProtect + Skcrypt<br>
+Skcrypt is no help as on runtime it decrypts everything</p>
+<p>Does anyone know any proper protection free or paid that will prevent this? I have definitely seen spoofers that have the needed protection to stop this</p>
+          <p><a href="https://community.keyauth.cc/t/proper-runtime-c-protection/508/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/proper-runtime-c-protection/508/1</link>
+        <pubDate>Tue, 26 Jul 2022 21:01:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-508-1</guid>
+        <source url="https://community.keyauth.cc/t/proper-runtime-c-protection/508.rss">Proper Runtime C++ Protection</source>
+      </item>
+  </channel>
+</rss>

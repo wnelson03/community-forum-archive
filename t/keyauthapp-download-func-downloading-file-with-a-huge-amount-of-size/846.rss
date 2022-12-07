@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KeyAuthApp.download func downloading file with a huge amount of size</title>
+    <link>https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846</link>
+    <description>so basically i made some changes to keyauth download func so i can save it to other places so i can keep code minimized but when i added changes to KeyAuthApp.download function it shows 14kb size instead of 7kb which is the orginal size of the file, here is the modified download function code:
+
+		bool download(std::string fileid, std::string output = XorStr(&quot;same.exe&quot;).c_str(), bool memory = false, unsigned char* ape = 0x00) {
+			auto iv = encryption::sha256(encryption::iv_key());
+			auto data =
+				XorStr(&quot;type=&quot;).c_str() + encryption::encode(&quot;file&quot;) +
+				XorStr(&quot;&amp;fileid=&quot;).c_str() + encryption::encrypt(fileid, enckey, iv) +
+				XorStr(&quot;&amp;sessionid=&quot;).c_str() + encryption::encode(sessionid) +
+				XorStr(&quot;&amp;name=&quot;).c_str() + encryption::encode(name) +
+				XorStr(&quot;&amp;ownerid=&quot;).c_str() + encryption::encode(ownerid) +
+				XorStr(&quot;&amp;init_iv=&quot;).c_str() + iv;
+
+			auto response = req(data);
+			response = encryption::decrypt(response, enckey, iv);
+			auto json = response_decoder.parse(response);
+
+			if (!json[&quot;success&quot;])
+			{
+				error(json[(&quot;message&quot;)]);
+			}
+
+			auto file = encryption::decode(json[&quot;contents&quot;]);
+
+			if (memory)
+			{
+				ape = (unsigned char*)response.data();
+			}
+			else // Not loading in memory.
+			{
+				std::ofstream file(output.c_str(), std::ios_base::out | std::ios_base::binary);
+				file.write(response.data(), response.size());
+				file.close();
+			}
+		}
+
+example of me using the function below:
+KeyAuthApp.download(&quot;965601&quot;, &quot;E:\\adoption_recs\\test.sys&quot;);
+
+if anyone can help, thx greatly appreciated</description>
+    
+    <lastBuildDate>Sun, 25 Sep 2022 16:20:08 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>KeyAuthApp.download func downloading file with a huge amount of size</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Make sure you’re using this API link, not an older one: <a href="https://keyauth.win/api/1.0/">https://keyauth.win/api/1.0/</a></p>
+<p>Also, make sure you’re submitting the direct download link on KeyAuth dashboard. when you go to the link you submit in dashboard, it should download right away. if it doesn’t and you have to click a button or something to download, you submitted the wrong link to KeyAuth</p>
+<p>The community site is closed now. You can ask your question in the <span class="hashtag">#coding</span> channel of the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+<p>Nobody is required to help you though. If your question is easy to solve with Google, people will likely ignore you.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846/3</link>
+        <pubDate>Sun, 25 Sep 2022 16:20:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-846-3</guid>
+        <source url="https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846.rss">KeyAuthApp.download func downloading file with a huge amount of size</source>
+      </item>
+      <item>
+        <title>KeyAuthApp.download func downloading file with a huge amount of size</title>
+        <dc:creator><![CDATA[Floriam]]></dc:creator>
+        <description><![CDATA[
+            <p>Dont drop to disk</p>
+          <p><a href="https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846/2</link>
+        <pubDate>Sat, 24 Sep 2022 07:48:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-846-2</guid>
+        <source url="https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846.rss">KeyAuthApp.download func downloading file with a huge amount of size</source>
+      </item>
+      <item>
+        <title>KeyAuthApp.download func downloading file with a huge amount of size</title>
+        <dc:creator><![CDATA[focuskid]]></dc:creator>
+        <description><![CDATA[
+            <p>so basically i made some changes to keyauth download func so i can save it to other places so i can keep code minimized but when i added changes to KeyAuthApp.download function it shows 14kb size instead of 7kb which is the orginal size of the file, here is the modified download function code:</p>
+<pre><code>	bool download(std::string fileid, std::string output = XorStr("same.exe").c_str(), bool memory = false, unsigned char* ape = 0x00) {
+		auto iv = encryption::sha256(encryption::iv_key());
+		auto data =
+			XorStr("type=").c_str() + encryption::encode("file") +
+			XorStr("&amp;fileid=").c_str() + encryption::encrypt(fileid, enckey, iv) +
+			XorStr("&amp;sessionid=").c_str() + encryption::encode(sessionid) +
+			XorStr("&amp;name=").c_str() + encryption::encode(name) +
+			XorStr("&amp;ownerid=").c_str() + encryption::encode(ownerid) +
+			XorStr("&amp;init_iv=").c_str() + iv;
+
+		auto response = req(data);
+		response = encryption::decrypt(response, enckey, iv);
+		auto json = response_decoder.parse(response);
+
+		if (!json["success"])
+		{
+			error(json[("message")]);
+		}
+
+		auto file = encryption::decode(json["contents"]);
+
+		if (memory)
+		{
+			ape = (unsigned char*)response.data();
+		}
+		else // Not loading in memory.
+		{
+			std::ofstream file(output.c_str(), std::ios_base::out | std::ios_base::binary);
+			file.write(response.data(), response.size());
+			file.close();
+		}
+	}
+</code></pre>
+<p>example of me using the function below:<br>
+KeyAuthApp.download(“965601”, “E:\adoption_recs\test.sys”);</p>
+<p>if anyone can help, thx greatly appreciated</p>
+          <p><a href="https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846/1</link>
+        <pubDate>Fri, 23 Sep 2022 22:46:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-846-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846.rss">KeyAuthApp.download func downloading file with a huge amount of size</source>
+      </item>
+  </channel>
+</rss>

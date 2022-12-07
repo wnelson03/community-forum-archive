@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C# example letters staying white</title>
+    <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307</link>
+    <description>In the example my app name, owner id, etc. stay as white letters which leads it to say that I set it up wrong. How do I fix this?</description>
+    
+    <lastBuildDate>Fri, 01 Jul 2022 07:38:57 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C# example letters staying white</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/c-example-letters-staying-white/307/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307/10</link>
+        <pubDate>Fri, 01 Jul 2022 07:39:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-307-10</guid>
+        <source url="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss">C# example letters staying white</source>
+      </item>
+      <item>
+        <title>C# example letters staying white</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>no problem im going to close the topic now as its solved</p>
+          <p><a href="https://community.keyauth.cc/t/c-example-letters-staying-white/307/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307/9</link>
+        <pubDate>Fri, 01 Jul 2022 07:38:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-307-9</guid>
+        <source url="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss">C# example letters staying white</source>
+      </item>
+      <item>
+        <title>C# example letters staying white</title>
+        <dc:creator><![CDATA[388sad]]></dc:creator>
+        <description><![CDATA[
+            <p>awesome, thank you! sorry im really new to this. i appreciate it</p>
+          <p><a href="https://community.keyauth.cc/t/c-example-letters-staying-white/307/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307/8</link>
+        <pubDate>Fri, 01 Jul 2022 07:38:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-307-8</guid>
+        <source url="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss">C# example letters staying white</source>
+      </item>
+      <item>
+        <title>C# example letters staying white</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>you are just changing comments or params there not code</p>
+          <p><a href="https://community.keyauth.cc/t/c-example-letters-staying-white/307/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307/7</link>
+        <pubDate>Fri, 01 Jul 2022 07:36:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-307-7</guid>
+        <source url="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss">C# example letters staying white</source>
+      </item>
+      <item>
+        <title>C# example letters staying white</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>its all in the example give it a proper read first before messing with it.</p>
+<p>change these lines</p>
+<p>Form</p><aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CS-Example/blob/main/Form/Login.cs#L42">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CS-Example/blob/main/Form/Login.cs#L42" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-CS-Example/blob/main/Form/Login.cs#L42" target="_blank" rel="noopener">KeyAuth/KeyAuth-CS-Example/blob/main/Form/Login.cs#L42</a></h4>
+
+
+
+    <pre class="onebox">      <code class="lang-cs">
+        <ol class="start lines" start="32" style="counter-reset: li-counter 31 ;">
+            <li>
+            </li>
+<li>// byte[] result = KeyAuthApp.download("902901"); // downloads application file</li>
+            <li>// File.WriteAllBytes("C:\\Users\\mak\\Downloads\\KeyAuth-CSHARP-Example-main (5)\\KeyAuth-CSHARP-Example-main\\ConsoleExample\\bin\\Debug\\countkeys.txt", result);</li>
+            <li>
+            </li>
+<li>MessageBox.Show(KeyAuthApp.var("123456")); // retrieve application variable</li>
+            <li>*/</li>
+            <li>
+            </li>
+<li>        // KeyAuthApp.register("username", "password", "key");</li>
+            <li>        //KeyAuthApp.login("username", "password"); </li>
+            <li>
+            </li>
+<li class="selected">        public static api KeyAuthApp = new api(</li>
+            <li>            name: "",</li>
+            <li>            ownerid: "",</li>
+            <li>            secret: "",</li>
+            <li>            version: "1.0"</li>
+            <li>        );</li>
+            <li>
+            </li>
+<li>        public Login()</li>
+            <li>        {</li>
+            <li>            InitializeComponent();</li>
+            <li>        }</li>
+        </ol>
+      </code>
+    </pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>console</p><aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CS-Example/blob/main/Console/Program.cs#L21">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CS-Example/blob/main/Console/Program.cs#L21" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-CS-Example/blob/main/Console/Program.cs#L21" target="_blank" rel="noopener">KeyAuth/KeyAuth-CS-Example/blob/main/Console/Program.cs#L21</a></h4>
+
+
+
+    <pre class="onebox">      <code class="lang-cs">
+        <ol class="start lines" start="11" style="counter-reset: li-counter 10 ;">
+            <li>{</li>
+            <li>
+            </li>
+<li>    /*</li>
+            <li>     * </li>
+            <li>     * WATCH THIS VIDEO TO SETUP APPLICATION: https://youtube.com/watch?v=UXRkNEvgxJU</li>
+            <li>     * </li>
+            <li>     */</li>
+            <li>
+            </li>
+<li>
+            </li>
+<li>
+            </li>
+<li class="selected">    public static api KeyAuthApp = new api(</li>
+            <li>        name: "",</li>
+            <li>        ownerid: "",</li>
+            <li>        secret: "",</li>
+            <li>        version: "1.0"</li>
+            <li>    );</li>
+            <li>
+            </li>
+<li>    static void Main(string[] args)</li>
+            <li>    {</li>
+            <li>
+            </li>
+<li>        Console.Title = "Loader";</li>
+        </ol>
+      </code>
+    </pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/c-example-letters-staying-white/307/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307/6</link>
+        <pubDate>Fri, 01 Jul 2022 07:34:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-307-6</guid>
+        <source url="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss">C# example letters staying white</source>
+      </item>
+      <item>
+        <title>C# example letters staying white</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>you are doing it completely wrong</p>
+          <p><a href="https://community.keyauth.cc/t/c-example-letters-staying-white/307/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307/5</link>
+        <pubDate>Fri, 01 Jul 2022 07:31:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-307-5</guid>
+        <source url="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss">C# example letters staying white</source>
+      </item>
+      <item>
+        <title>C# example letters staying white</title>
+        <dc:creator><![CDATA[388sad]]></dc:creator>
+        <description><![CDATA[
+            <p>The circled text stays white when I put in my info, i figured that was causing my issue<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/bf0f33a71c4fe3eed5feb942ee34a5e9747b5a73.png" alt="image" data-base62-sha1="rgbLwpceG0aeJ7cRcRLzJd0c32H" width="689" height="154"></p>
+          <p><a href="https://community.keyauth.cc/t/c-example-letters-staying-white/307/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307/4</link>
+        <pubDate>Fri, 01 Jul 2022 07:31:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-307-4</guid>
+        <source url="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss">C# example letters staying white</source>
+      </item>
+      <item>
+        <title>C# example letters staying white</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>or show code</p>
+          <p><a href="https://community.keyauth.cc/t/c-example-letters-staying-white/307/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307/3</link>
+        <pubDate>Fri, 01 Jul 2022 07:19:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-307-3</guid>
+        <source url="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss">C# example letters staying white</source>
+      </item>
+      <item>
+        <title>C# example letters staying white</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>what ?</p>
+<p>screen shot</p>
+          <p><a href="https://community.keyauth.cc/t/c-example-letters-staying-white/307/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307/2</link>
+        <pubDate>Fri, 01 Jul 2022 07:17:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-307-2</guid>
+        <source url="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss">C# example letters staying white</source>
+      </item>
+      <item>
+        <title>C# example letters staying white</title>
+        <dc:creator><![CDATA[388sad]]></dc:creator>
+        <description><![CDATA[
+            <p>In the example my app name, owner id, etc. stay as white letters which leads it to say that I set it up wrong. How do I fix this?</p>
+          <p><a href="https://community.keyauth.cc/t/c-example-letters-staying-white/307/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-example-letters-staying-white/307/1</link>
+        <pubDate>Fri, 01 Jul 2022 07:16:37 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-307-1</guid>
+        <source url="https://community.keyauth.cc/t/c-example-letters-staying-white/307.rss">C# example letters staying white</source>
+      </item>
+  </channel>
+</rss>

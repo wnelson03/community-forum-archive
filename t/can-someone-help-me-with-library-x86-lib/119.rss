@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Can someone help me with library_x86.lib</title>
+    <link>https://community.keyauth.cc/t/can-someone-help-me-with-library-x86-lib/119</link>
+    <description>after compile and added to example sln get this
+![Capture|690x172](upload://ykXsApwajJcys6RvZfPULZLYKYS.png)</description>
+    
+    <lastBuildDate>Thu, 02 Jun 2022 21:43:12 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/can-someone-help-me-with-library-x86-lib/119.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Can someone help me with library_x86.lib</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" target="_blank" rel="noopener">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/b1d7d9491fc55bf8377dd4cfbab69e9c7976bfa0.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" target="_blank" rel="noopener">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a></h3>
+
+  <p>KeyAuth C++ Library. Contribute to KeyAuth/keyauth-cpp-library development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/can-someone-help-me-with-library-x86-lib/119/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/can-someone-help-me-with-library-x86-lib/119/2</link>
+        <pubDate>Thu, 02 Jun 2022 21:43:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-119-2</guid>
+        <source url="https://community.keyauth.cc/t/can-someone-help-me-with-library-x86-lib/119.rss">Can someone help me with library_x86.lib</source>
+      </item>
+      <item>
+        <title>Can someone help me with library_x86.lib</title>
+        <dc:creator><![CDATA[IzE-PewPewPew]]></dc:creator>
+        <description><![CDATA[
+            <p>after compile and added to example sln get this<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/f0a86f1a86568cb77b5c613df289fc97e26fbba6.png" alt="Capture" data-base62-sha1="ykXsApwajJcys6RvZfPULZLYKYS" width="690" height="172"></p>
+          <p><a href="https://community.keyauth.cc/t/can-someone-help-me-with-library-x86-lib/119/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/can-someone-help-me-with-library-x86-lib/119/1</link>
+        <pubDate>Thu, 02 Jun 2022 15:52:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-119-1</guid>
+        <source url="https://community.keyauth.cc/t/can-someone-help-me-with-library-x86-lib/119.rss">Can someone help me with library_x86.lib</source>
+      </item>
+  </channel>
+</rss>

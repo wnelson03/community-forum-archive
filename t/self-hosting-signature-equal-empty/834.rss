@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Self hosting signature equal empty</title>
+    <link>https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834</link>
+    <description>I am trying to use a self hosting
+After sending the init request, the response is received successfully
+curl &#39;header_callback&#39; Did not send the signature header
+when checking the signature the app got aborted
+signature = &quot;&quot;;, why does this problem occur and how do I solve it?
+
+&#39;header_callback&#39; data
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Server: Microsoft-IIS/10.0
+X-Powered-By: PHP/8.0.0
+X-Powered-By: ASP.NET
+Date: Wed, 21 Sep 2022 09:55:55 GMT
+Content-Length: 211</description>
+    
+    <lastBuildDate>Sun, 25 Sep 2022 16:22:14 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Self hosting signature equal empty</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>We don’t help with selfhosting unless the person purchases KeyAuth enterprise  <a href="https://shop.keyauth.cc/product/keyauth-enterprise">https://shop.keyauth.cc/product/keyauth-enterprise</a></p>
+<p>The community site is closed now. You can ask your question in the <span class="hashtag">#coding</span> channel of the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+<p>Nobody is required to help you though. If your question is easy to solve with Google, people will likely ignore you.</p>
+          <p><a href="https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834/2</link>
+        <pubDate>Sun, 25 Sep 2022 16:22:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-834-2</guid>
+        <source url="https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834.rss">Self hosting signature equal empty</source>
+      </item>
+      <item>
+        <title>Self hosting signature equal empty</title>
+        <dc:creator><![CDATA[xConquer]]></dc:creator>
+        <description><![CDATA[
+            <p>I am trying to use a self hosting<br>
+After sending the init request, the response is received successfully<br>
+curl ‘header_callback’ Did not send the signature header<br>
+when checking the signature the app got aborted<br>
+signature = “”;, why does this problem occur and how do I solve it?</p>
+<p>‘header_callback’ data</p>
+<p>HTTP/1.1 200 OK<br>
+Content-Type: text/html; charset=UTF-8<br>
+Server: Microsoft-IIS/10.0<br>
+X-Powered-By: PHP/8.0.0<br>
+X-Powered-By: <a href="http://ASP.NET" rel="noopener nofollow ugc">ASP.NET</a><br>
+Date: Wed, 21 Sep 2022 09:55:55 GMT<br>
+Content-Length: 211</p>
+          <p><a href="https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834/1</link>
+        <pubDate>Wed, 21 Sep 2022 09:46:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-834-1</guid>
+        <source url="https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834.rss">Self hosting signature equal empty</source>
+      </item>
+  </channel>
+</rss>

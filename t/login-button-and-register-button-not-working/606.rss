@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Login Button and Register Button not working</title>
+    <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606</link>
+    <description>I made my own form no errors no problems (in visual studio), but when i click on login or register nothing happens. Yes i copied the register code and the login code, still nothing happens. And i created a Main.cs (Windows forms) I can type and so on, but i cant register or login. Can someone help me?</description>
+    
+    <lastBuildDate>Tue, 09 Aug 2022 07:39:02 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>BROTHER IT WORKED!!!<br>
+Thank you so much bro!</p>
+<p>Now i need to learn how to download stuff automatically and then done. Thank you so much i couldnt figure it out</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/19">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/19</link>
+        <pubDate>Tue, 09 Aug 2022 07:39:02 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-19</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Once you have done that show use the response you get so we can see the error<br>
+Also do the same for</p>
+<p>keyauthapp.init()<br>
+MessageBox.Show(KeyAuthApp.response.message)</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/18">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/18</link>
+        <pubDate>Tue, 09 Aug 2022 07:34:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-18</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>ye i am trying to learn💀</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/17">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/17</link>
+        <pubDate>Tue, 09 Aug 2022 07:34:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-17</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>ok thx</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/16">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/16</link>
+        <pubDate>Tue, 09 Aug 2022 07:32:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-16</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>You clearly need to learn some more c# sorry if this comes across rude.</p>
+<p>You have something like this</p>
+<pre><code class="lang-auto">Keyauthapp.login
+If()
+MessageBox.Show()
+</code></pre>
+<p>Thats ^^ wrong</p>
+<p>When should be</p>
+<pre><code class="lang-auto">Keyauthapp.login()
+MessageBox.Show()
+Then here is where your if statement should go
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/15">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/15</link>
+        <pubDate>Tue, 09 Aug 2022 07:31:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-15</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>i dunno why i marked the name lmao</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/14">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/14</link>
+        <pubDate>Tue, 09 Aug 2022 07:25:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-14</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/9044362c845c7e5f3860dc4dad33b797848f9f68.png" alt="unknown" data-base62-sha1="kAeTHG4YRZTN5YACKfr9mSZ6WeY" width="429" height="500"></p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/13</link>
+        <pubDate>Tue, 09 Aug 2022 07:25:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-13</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Screen shot</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/12</link>
+        <pubDate>Tue, 09 Aug 2022 07:20:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-12</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Shsow code</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/11</link>
+        <pubDate>Tue, 09 Aug 2022 07:19:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-11</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>i did it, and it just says login and then it closes</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/10</link>
+        <pubDate>Tue, 09 Aug 2022 07:19:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-10</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>After each call to the api print the response to a message box or something so we can see the reply from the api<br>
+Example<br>
+KeyAuthApp.init()<br>
+Messagebox.show(KeyAuthApp.response.message)</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/8</link>
+        <pubDate>Mon, 08 Aug 2022 16:55:46 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-8</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>ik but i changed the secret id</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/7</link>
+        <pubDate>Mon, 08 Aug 2022 15:47:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-7</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[XTR]]></dc:creator>
+        <description><![CDATA[
+            <p>Man you posted your App Credentials…</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/6</link>
+        <pubDate>Mon, 08 Aug 2022 14:49:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-6</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>And to mention again it has zero errors</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/5</link>
+        <pubDate>Mon, 08 Aug 2022 14:26:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-5</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>using System;<br>
+using System.Collections.Generic;<br>
+using System.ComponentModel;<br>
+using System.Data;<br>
+using System.Drawing;<br>
+using System.Linq;<br>
+using System.Text;<br>
+using System.Threading.Tasks;<br>
+using System.Windows.Forms;<br>
+using KeyAuth;</p>
+<p>namespace Loader<br>
+{<br>
+public partial class Form1 : Form<br>
+{</p>
+<pre><code>    public static api KeyAuthApp = new api(
+name: "WildLoader",
+ownerid: "A9FR60eVcX",
+secret: "ad4bde026d9b45b4e7e2a805de86fb491d9c63ed66ef83180ea28a8f3bb13cd0",
+version: "1.0"
+</code></pre>
+<p>);<br>
+public Form1()<br>
+{<br>
+InitializeComponent();<br>
+KeyAuthApp.init();<br>
+}</p>
+<pre><code>    private void login_Click(object sender, EventArgs e)
+    {
+        {
+            KeyAuthApp.login(username.Text, password.Text);
+            if (KeyAuthApp.response.success)
+            {
+                Main main = new Main();
+                main.Show();
+                this.Hide();
+            }
+        }
+}
+
+    private void register_Click(object sender, EventArgs e)
+    {
+        {
+            KeyAuthApp.register(username.Text, password.Text, key.Text);
+            if (KeyAuthApp.response.success)
+            {
+                Main main = new Main();
+                main.Show();
+                this.Hide();
+            }
+        }
+}
+</code></pre>
+<p>}<br>
+}</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/4</link>
+        <pubDate>Mon, 08 Aug 2022 14:21:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-4</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>show code</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/2</link>
+        <pubDate>Mon, 08 Aug 2022 14:19:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-2</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+      <item>
+        <title>Login Button and Register Button not working</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>I made my own form no errors no problems (in visual studio), but when i click on login or register nothing happens. Yes i copied the register code and the login code, still nothing happens. And i created a Main.cs (Windows forms) I can type and so on, but i cant register or login. Can someone help me?</p>
+          <p><a href="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-button-and-register-button-not-working/606/1</link>
+        <pubDate>Mon, 08 Aug 2022 14:11:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-606-1</guid>
+        <source url="https://community.keyauth.cc/t/login-button-and-register-button-not-working/606.rss">Login Button and Register Button not working</source>
+      </item>
+  </channel>
+</rss>

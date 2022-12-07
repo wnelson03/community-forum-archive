@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How do you extend a subscription with username and key using c#?</title>
+    <link>https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117</link>
+    <description>I am trying to extend an existing subscription of a user using a key and their username in c#. How do i do this?</description>
+    
+    <lastBuildDate>Thu, 02 Jun 2022 21:48:22 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How do you extend a subscription with username and key using c#?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Ah. I guess that’s how it works right now. Good thing is if you extend user, it’ll add time to subscription if subscription with name already exists, rather than adding new subscription</p>
+<p>I’ll take this logic and implement into upgrade of API in next update</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/8</link>
+        <pubDate>Thu, 02 Jun 2022 21:48:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-117-8</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117.rss">How do you extend a subscription with username and key using c#?</source>
+      </item>
+      <item>
+        <title>How do you extend a subscription with username and key using c#?</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>thats how it works?</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/7</link>
+        <pubDate>Thu, 02 Jun 2022 19:56:21 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-117-7</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117.rss">How do you extend a subscription with username and key using c#?</source>
+      </item>
+      <item>
+        <title>How do you extend a subscription with username and key using c#?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>Is that how it works logically anyway?</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/6</link>
+        <pubDate>Thu, 02 Jun 2022 13:54:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-117-6</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117.rss">How do you extend a subscription with username and key using c#?</source>
+      </item>
+      <item>
+        <title>How do you extend a subscription with username and key using c#?</title>
+        <dc:creator><![CDATA[PixelX]]></dc:creator>
+        <description><![CDATA[
+            <p>that doesnt extend the existing subscription. it creates a new subscription on the same user at a different level</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/5</link>
+        <pubDate>Thu, 02 Jun 2022 13:08:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-117-5</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117.rss">How do you extend a subscription with username and key using c#?</source>
+      </item>
+      <item>
+        <title>How do you extend a subscription with username and key using c#?</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>KeyAuthApp.upgrade(username, key);</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/4</link>
+        <pubDate>Thu, 02 Jun 2022 12:52:37 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-117-4</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117.rss">How do you extend a subscription with username and key using c#?</source>
+      </item>
+      <item>
+        <title>How do you extend a subscription with username and key using c#?</title>
+        <dc:creator><![CDATA[PixelX]]></dc:creator>
+        <description><![CDATA[
+            <p>sorry that was meant to be a question</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/3</link>
+        <pubDate>Thu, 02 Jun 2022 12:22:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-117-3</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117.rss">How do you extend a subscription with username and key using c#?</source>
+      </item>
+      <item>
+        <title>How do you extend a subscription with username and key using c#?</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>yes?</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/2</link>
+        <pubDate>Thu, 02 Jun 2022 12:16:39 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-117-2</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117.rss">How do you extend a subscription with username and key using c#?</source>
+      </item>
+      <item>
+        <title>How do you extend a subscription with username and key using c#?</title>
+        <dc:creator><![CDATA[PixelX]]></dc:creator>
+        <description><![CDATA[
+            <p>I am trying to extend an existing subscription of a user using a key and their username in c#. How do i do this?</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117/1</link>
+        <pubDate>Thu, 02 Jun 2022 12:14:38 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-117-1</guid>
+        <source url="https://community.keyauth.cc/t/how-do-you-extend-a-subscription-with-username-and-key-using-c/117.rss">How do you extend a subscription with username and key using c#?</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Help solving coding errors</title>
+    <link>https://community.keyauth.cc/t/help-solving-coding-errors/254</link>
+    <description>Hey so how can I fix this error!
+![image|690x282](upload://rymGn4f2Mth3ETaX9si9DIsnOF1.png)</description>
+    
+    <lastBuildDate>Sat, 25 Jun 2022 20:19:28 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/help-solving-coding-errors/254.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Help solving coding errors</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/help-solving-coding-errors/254/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/help-solving-coding-errors/254/6</link>
+        <pubDate>Mon, 27 Jun 2022 10:59:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-254-6</guid>
+        <source url="https://community.keyauth.cc/t/help-solving-coding-errors/254.rss">Help solving coding errors</source>
+      </item>
+      <item>
+        <title>Help solving coding errors</title>
+        <dc:creator><![CDATA[xenos]]></dc:creator>
+        <description><![CDATA[
+            <p>below the function you need it to be <a href="https://github.com/KeyAuth/KeyAuth-CS-Example/blob/eb5eccda93d32312447af6ec86d8a26e536b3679/Form/Main.cs#L49-L54">Example code</a></p>
+          <p><a href="https://community.keyauth.cc/t/help-solving-coding-errors/254/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/help-solving-coding-errors/254/5</link>
+        <pubDate>Sat, 25 Jun 2022 20:19:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-254-5</guid>
+        <source url="https://community.keyauth.cc/t/help-solving-coding-errors/254.rss">Help solving coding errors</source>
+      </item>
+      <item>
+        <title>Help solving coding errors</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>This is all in the example for you to copy and past</p>
+          <p><a href="https://community.keyauth.cc/t/help-solving-coding-errors/254/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/help-solving-coding-errors/254/4</link>
+        <pubDate>Sat, 25 Jun 2022 20:18:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-254-4</guid>
+        <source url="https://community.keyauth.cc/t/help-solving-coding-errors/254.rss">Help solving coding errors</source>
+      </item>
+      <item>
+        <title>Help solving coding errors</title>
+        <dc:creator><![CDATA[chica.gamer]]></dc:creator>
+        <description><![CDATA[
+            <p>Where would I add this</p>
+          <p><a href="https://community.keyauth.cc/t/help-solving-coding-errors/254/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/help-solving-coding-errors/254/3</link>
+        <pubDate>Sat, 25 Jun 2022 20:16:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-254-3</guid>
+        <source url="https://community.keyauth.cc/t/help-solving-coding-errors/254.rss">Help solving coding errors</source>
+      </item>
+      <item>
+        <title>Help solving coding errors</title>
+        <dc:creator><![CDATA[xenos]]></dc:creator>
+        <description><![CDATA[
+            <p>you have to add</p>
+<pre><code class="lang-auto">        public DateTime UnixTimeToDateTime(long unixtime)
+        {
+            System.DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Local);
+            dtDateTime = dtDateTime.AddSeconds(unixtime).ToLocalTime();
+            return dtDateTime;
+        }
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/help-solving-coding-errors/254/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/help-solving-coding-errors/254/2</link>
+        <pubDate>Sat, 25 Jun 2022 20:16:21 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-254-2</guid>
+        <source url="https://community.keyauth.cc/t/help-solving-coding-errors/254.rss">Help solving coding errors</source>
+      </item>
+      <item>
+        <title>Help solving coding errors</title>
+        <dc:creator><![CDATA[chica.gamer]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey so how can I fix this error!<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/c11d2fb9726b5502d84951f82b2edadd50cf347f.png" alt="image" data-base62-sha1="rymGn4f2Mth3ETaX9si9DIsnOF1" width="690" height="282"></p>
+          <p><a href="https://community.keyauth.cc/t/help-solving-coding-errors/254/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/help-solving-coding-errors/254/1</link>
+        <pubDate>Sat, 25 Jun 2022 20:13:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-254-1</guid>
+        <source url="https://community.keyauth.cc/t/help-solving-coding-errors/254.rss">Help solving coding errors</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Need help with getvar()</title>
+    <link>https://community.keyauth.cc/t/need-help-with-getvar/395</link>
+    <description>Hey Everyone !
+So i wanted to make an auto update system and for that i want to use some variables 
+So i created one and i tryed to print it out but if i run the application it breaks !
+and a window with &quot;example.exe doesnt work anymore&quot; appears
+
+	std::cout &lt;&lt; KeyAuthApp.getvar(&quot;fileid&quot;) &lt;&lt; std::endl;
+
+thats my code ...</description>
+    
+    <lastBuildDate>Tue, 12 Jul 2022 18:44:10 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/need-help-with-getvar/395.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Need help with getvar()</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>getvar = gets a user variable (user needs to be logged in)<br>
+setvar = sets a user variable (user needs to be logged in)<br>
+var = gets global variable (you can pick if needs to be authed or not)</p>
+<p>its “var” you need to use i believe.</p>
+          <p><a href="https://community.keyauth.cc/t/need-help-with-getvar/395/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/need-help-with-getvar/395/2</link>
+        <pubDate>Tue, 12 Jul 2022 18:44:10 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-395-2</guid>
+        <source url="https://community.keyauth.cc/t/need-help-with-getvar/395.rss">Need help with getvar()</source>
+      </item>
+      <item>
+        <title>Need help with getvar()</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey Everyone !<br>
+So i wanted to make an auto update system and for that i want to use some variables<br>
+So i created one and i tryed to print it out but if i run the application it breaks !<br>
+and a window with “example.exe doesnt work anymore” appears</p>
+<pre><code>std::cout &lt;&lt; KeyAuthApp.getvar("fileid") &lt;&lt; std::endl;
+</code></pre>
+<p>thats my code …</p>
+          <p><a href="https://community.keyauth.cc/t/need-help-with-getvar/395/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/need-help-with-getvar/395/1</link>
+        <pubDate>Tue, 12 Jul 2022 18:32:47 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-395-1</guid>
+        <source url="https://community.keyauth.cc/t/need-help-with-getvar/395.rss">Need help with getvar()</source>
+      </item>
+  </channel>
+</rss>

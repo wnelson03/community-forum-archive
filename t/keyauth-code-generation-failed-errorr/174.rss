@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Keyauth Code Generation Failed Errorr</title>
+    <link>https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174</link>
+    <description>So Basicly When I call KeyAuthApp.license(key); It gives error
+potentially uninitialized local pointer variable $L0 used
+idk how to fix please help
+![unknown|625x499](upload://jY40XHoF2Dc2TQcHw3XswbQFmu0.png)</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 06:54:24 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Keyauth Code Generation Failed Errorr</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174/4</link>
+        <pubDate>Mon, 27 Jun 2022 06:54:29 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-174-4</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174.rss">Keyauth Code Generation Failed Errorr</source>
+      </item>
+      <item>
+        <title>Keyauth Code Generation Failed Errorr</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>As there is no new reply I will close this ticket now.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174/3</link>
+        <pubDate>Mon, 27 Jun 2022 06:54:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-174-3</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174.rss">Keyauth Code Generation Failed Errorr</source>
+      </item>
+      <item>
+        <title>Keyauth Code Generation Failed Errorr</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>use <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example">Example</a></p>
+<p>don’t modify it</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174/2</link>
+        <pubDate>Mon, 13 Jun 2022 21:25:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-174-2</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174.rss">Keyauth Code Generation Failed Errorr</source>
+      </item>
+      <item>
+        <title>Keyauth Code Generation Failed Errorr</title>
+        <dc:creator><![CDATA[Rentalistic]]></dc:creator>
+        <description><![CDATA[
+            <p>So Basicly When I call KeyAuthApp.license(key); It gives error<br>
+potentially uninitialized local pointer variable $L0 used<br>
+idk how to fix please help<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/8bf37a1edc8dc4332ca4709d1bb0023001940034.png" alt="unknown" data-base62-sha1="jY40XHoF2Dc2TQcHw3XswbQFmu0" width="625" height="499"></p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174/1</link>
+        <pubDate>Sat, 11 Jun 2022 07:41:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-174-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-code-generation-failed-errorr/174.rss">Keyauth Code Generation Failed Errorr</source>
+      </item>
+  </channel>
+</rss>

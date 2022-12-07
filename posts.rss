@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KeyAuth - Latest posts</title>
+    <link>https://community.keyauth.cc</link>
+    <description>Latest posts</description>
+      <item>
+        <title>Self hosting signature equal empty</title>
+        <dc:creator><![CDATA[@mak]]></dc:creator>
+        <description><![CDATA[ <p>We don’t help with selfhosting unless the person purchases KeyAuth enterprise  <a href="https://shop.keyauth.cc/product/keyauth-enterprise">https://shop.keyauth.cc/product/keyauth-enterprise</a></p>
+<p>The community site is closed now. You can ask your question in the <span class="hashtag">#coding</span> channel of the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+<p>Nobody is required to help you though. If your question is easy to solve with Google, people will likely ignore you.</p> ]]></description>
+        <link>https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834#post_2</link>
+        <pubDate>Sun, 25 Sep 2022 16:22:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2090</guid>
+      </item>
+      <item>
+        <title>KeyAuthApp.download func downloading file with a huge amount of size</title>
+        <dc:creator><![CDATA[@mak]]></dc:creator>
+        <description><![CDATA[ <p>Make sure you’re using this API link, not an older one: <a href="https://keyauth.win/api/1.0/">https://keyauth.win/api/1.0/</a></p>
+<p>Also, make sure you’re submitting the direct download link on KeyAuth dashboard. when you go to the link you submit in dashboard, it should download right away. if it doesn’t and you have to click a button or something to download, you submitted the wrong link to KeyAuth</p>
+<p>The community site is closed now. You can ask your question in the <span class="hashtag">#coding</span> channel of the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+<p>Nobody is required to help you though. If your question is easy to solve with Google, people will likely ignore you.</p> ]]></description>
+        <link>https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846#post_3</link>
+        <pubDate>Sun, 25 Sep 2022 16:20:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2089</guid>
+      </item>
+      <item>
+        <title>C++ use custom domain error</title>
+        <dc:creator><![CDATA[@mak]]></dc:creator>
+        <description><![CDATA[ <p>Watch the video it’s quite simple <a href="https://www.youtube.com/watch?v=a2SROFJ0eYc" class="inline-onebox">KeyAuth Custom Domains for API. Never deal ISP blockage again! - YouTube</a></p>
+<p>If your domain is <a href="https://example.com">https://example.com</a>, then the link you should have in the <code>main.cpp</code> file should be <a href="https://example.com/1.2/">https://example.com/1.2/</a></p>
+<p>The community site is closed now. You can ask your question in the <span class="hashtag">#coding</span> channel of the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+<p>Nobody is required to help you though. If your question is easy to solve with Google, people will likely ignore you.</p> ]]></description>
+        <link>https://community.keyauth.cc/t/c-use-custom-domain-error/848#post_4</link>
+        <pubDate>Sun, 25 Sep 2022 16:17:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2088</guid>
+      </item>
+      <item>
+        <title>LNK2001 error c++</title>
+        <dc:creator><![CDATA[@mak]]></dc:creator>
+        <description><![CDATA[ <p>You’re supposed to compile as Release x64. If you added the libs to your own project, then you need to make sure your project has the same project configuration settings as the example project. If you can’t figure it out, it’s recommended that you add your code to the example project instead.</p>
+<p>The community site is closed now. You can ask your question in the <span class="hashtag">#coding</span> channel of the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+<p>Nobody is required to help you though. If your question is easy to solve with Google, people will likely ignore you.</p> ]]></description>
+        <link>https://community.keyauth.cc/t/lnk2001-error-c/852#post_2</link>
+        <pubDate>Sun, 25 Sep 2022 16:13:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2087</guid>
+      </item>
+      <item>
+        <title>LNK2001 error c++</title>
+        <dc:creator><![CDATA[@Ronix]]></dc:creator>
+        <description><![CDATA[ <p>im getting this error in my c++ keyauth app even though all the libs are included<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/e42b3f7641b8341313aed447b7dc48647f286604.png" alt="Screenshot_1" data-base62-sha1="wytwktN7YGfztpNlwVY4kSyheAY" width="690" height="61"></p> ]]></description>
+        <link>https://community.keyauth.cc/t/lnk2001-error-c/852#post_1</link>
+        <pubDate>Sun, 25 Sep 2022 01:08:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2085</guid>
+      </item>
+      <item>
+        <title>User_data.subscription in new keyauth</title>
+        <dc:creator><![CDATA[@lIMonkieIl]]></dc:creator>
+        <description><![CDATA[ <p>Check out these lines from the example</p>
+<aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L132">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L132" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L132" target="_blank" rel="noopener">KeyAuth/KeyAuth-CPP-Example/blob/main/main.cpp#L132</a></h4>
+
+
+
+    <pre class="onebox"><code class="lang-cpp">
+      <ol class="start lines" start="122" style="counter-reset: li-counter 121 ;">
+          <li>	</li>
+          <li>	/*</li>
+          <li>	std::cout &lt;&lt; "\n Waiting for user to login";</li>
+          <li>	KeyAuthApp.web_login();</li>
+          <li>
+          </li><li>	std::cout &lt;&lt; "\n Waiting for button to be clicked";</li>
+          <li>	KeyAuthApp.button("close");</li>
+          <li>	*/</li>
+          <li>
+          </li><li>	/*</li>
+          <li class="selected">	for (std::string subs : KeyAuthApp.data.subscriptions)</li>
+          <li>	{</li>
+          <li>		if (subs == "default")</li>
+          <li>		{</li>
+          <li>			std::cout &lt;&lt; skCrypt("\n User has subscription with name: default");</li>
+          <li>		}</li>
+          <li>	}</li>
+          <li>	*/</li>
+          <li>
+          </li><li>	</li>
+          <li>	/*</li>
+      </ol>
+    </code></pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+ ]]></description>
+        <link>https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850#post_2</link>
+        <pubDate>Sat, 24 Sep 2022 17:19:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2082</guid>
+      </item>
+      <item>
+        <title>User_data.subscription in new keyauth</title>
+        <dc:creator><![CDATA[@Pooya]]></dc:creator>
+        <description><![CDATA[ <p>hey<br>
+i before use keyauth and for get the key level i use<br>
+(KeyAuthApp.user_data.subscription == “vip”)<br>
+but in new update keyauth i cant find subscription<br>
+how i check subscription ?</p> ]]></description>
+        <link>https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850#post_1</link>
+        <pubDate>Sat, 24 Sep 2022 16:35:58 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2081</guid>
+      </item>
+      <item>
+        <title>C++ use custom domain error</title>
+        <dc:creator><![CDATA[@Jennie001]]></dc:creator>
+        <description><![CDATA[ <p>curl in cmd :<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/a988d9f2da89fe1fcab5fd18bdce8d88186ea4de.png" alt="image" data-base62-sha1="obLTv8oILmpEaoprIPXvIjaK71Q" width="690" height="368"></p> ]]></description>
+        <link>https://community.keyauth.cc/t/c-use-custom-domain-error/848#post_3</link>
+        <pubDate>Sat, 24 Sep 2022 11:22:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2079</guid>
+      </item>
+      <item>
+        <title>C++ use custom domain error</title>
+        <dc:creator><![CDATA[@Jennie001]]></dc:creator>
+        <description><![CDATA[ <p>if i use <a href="https://keyauth.win/api/1.2/" rel="noopener nofollow ugc">https://keyauth.win/api/1.2/</a>, it is work!</p> ]]></description>
+        <link>https://community.keyauth.cc/t/c-use-custom-domain-error/848#post_2</link>
+        <pubDate>Sat, 24 Sep 2022 11:21:49 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2078</guid>
+      </item>
+      <item>
+        <title>C++ use custom domain error</title>
+        <dc:creator><![CDATA[@Jennie001]]></dc:creator>
+        <description><![CDATA[ <p>i use cutom domain but i got :<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/6aab8e81b327a7dcc688c450c323f317947ebbb3.png" alt="image" data-base62-sha1="fdEayKxp7KY8Sap9cnrku3Np1Cj" width="686" height="224"><br>
+How can i solve?</p> ]]></description>
+        <link>https://community.keyauth.cc/t/c-use-custom-domain-error/848#post_1</link>
+        <pubDate>Sat, 24 Sep 2022 11:20:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2077</guid>
+      </item>
+      <item>
+        <title>KeyAuthApp.download func downloading file with a huge amount of size</title>
+        <dc:creator><![CDATA[@Floriam]]></dc:creator>
+        <description><![CDATA[ <p>Dont drop to disk</p> ]]></description>
+        <link>https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846#post_2</link>
+        <pubDate>Sat, 24 Sep 2022 07:48:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2076</guid>
+      </item>
+      <item>
+        <title>KeyAuthApp.download func downloading file with a huge amount of size</title>
+        <dc:creator><![CDATA[@focuskid]]></dc:creator>
+        <description><![CDATA[ <p>so basically i made some changes to keyauth download func so i can save it to other places so i can keep code minimized but when i added changes to KeyAuthApp.download function it shows 14kb size instead of 7kb which is the orginal size of the file, here is the modified download function code:</p>
+<pre><code>	bool download(std::string fileid, std::string output = XorStr("same.exe").c_str(), bool memory = false, unsigned char* ape = 0x00) {
+		auto iv = encryption::sha256(encryption::iv_key());
+		auto data =
+			XorStr("type=").c_str() + encryption::encode("file") +
+			XorStr("&amp;fileid=").c_str() + encryption::encrypt(fileid, enckey, iv) +
+			XorStr("&amp;sessionid=").c_str() + encryption::encode(sessionid) +
+			XorStr("&amp;name=").c_str() + encryption::encode(name) +
+			XorStr("&amp;ownerid=").c_str() + encryption::encode(ownerid) +
+			XorStr("&amp;init_iv=").c_str() + iv;
+
+		auto response = req(data);
+		response = encryption::decrypt(response, enckey, iv);
+		auto json = response_decoder.parse(response);
+
+		if (!json["success"])
+		{
+			error(json[("message")]);
+		}
+
+		auto file = encryption::decode(json["contents"]);
+
+		if (memory)
+		{
+			ape = (unsigned char*)response.data();
+		}
+		else // Not loading in memory.
+		{
+			std::ofstream file(output.c_str(), std::ios_base::out | std::ios_base::binary);
+			file.write(response.data(), response.size());
+			file.close();
+		}
+	}
+</code></pre>
+<p>example of me using the function below:<br>
+KeyAuthApp.download(“965601”, “E:\adoption_recs\test.sys”);</p>
+<p>if anyone can help, thx greatly appreciated</p> ]]></description>
+        <link>https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846#post_1</link>
+        <pubDate>Fri, 23 Sep 2022 22:46:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2074</guid>
+      </item>
+      <item>
+        <title>PHP KeyAuth not showing hwid</title>
+        <dc:creator><![CDATA[@mak]]></dc:creator>
+        <description><![CDATA[ <p>Fixed</p> ]]></description>
+        <link>https://community.keyauth.cc/t/php-keyauth-not-showing-hwid/842#post_4</link>
+        <pubDate>Fri, 23 Sep 2022 21:35:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2071</guid>
+      </item>
+      <item>
+        <title>PHP KeyAuth not showing hwid</title>
+        <dc:creator><![CDATA[@mazkdevf]]></dc:creator>
+        <description><![CDATA[ <p>Is the example modified in any way or is it a normal example?</p> ]]></description>
+        <link>https://community.keyauth.cc/t/php-keyauth-not-showing-hwid/842#post_3</link>
+        <pubDate>Fri, 23 Sep 2022 12:12:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2068</guid>
+      </item>
+      <item>
+        <title>PHP KeyAuth not showing hwid</title>
+        <dc:creator><![CDATA[@mazkdevf]]></dc:creator>
+        <description><![CDATA[ <p>Hello…</p> ]]></description>
+        <link>https://community.keyauth.cc/t/php-keyauth-not-showing-hwid/842#post_2</link>
+        <pubDate>Fri, 23 Sep 2022 12:11:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2067</guid>
+      </item>
+      <item>
+        <title>PHP KeyAuth not showing hwid</title>
+        <dc:creator><![CDATA[@Projectile_Invalid]]></dc:creator>
+        <description><![CDATA[ <p>Hello am having issues with php keyauth, on the keyauth.cc panel I can see the hwid but when I return it from the api on my website I  get this</p>
+<p>array(6) { [“username”]=&gt; string(10) “Projectile” [“subscriptions”]=&gt; array(2) { [0]=&gt; object(stdClass)<span class="hashtag">#3</span> (4) { [“subscription”]=&gt; string(9) “developer” [“key”]=&gt; NULL [“expiry”]=&gt; string(11) “32495026860” [“timeleft”]=&gt; int(30831094142) } [1]=&gt; object(stdClass)<span class="hashtag">#4</span> (4) { [“subscription”]=&gt; string(7) “default” [“key”]=&gt; NULL [“expiry”]=&gt; string(10) “1979448448” [“timeleft”]=&gt; int(315515730) } } [“ip”]=&gt; string(12) “x.xx.xxx.xxx” [“hwid”]=&gt; NULL [“createdate”]=&gt; string(10) “1663878138” [“lastlogin”]=&gt; string(10) “1663932718” }</p> ]]></description>
+        <link>https://community.keyauth.cc/t/php-keyauth-not-showing-hwid/842#post_1</link>
+        <pubDate>Fri, 23 Sep 2022 12:09:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2066</guid>
+      </item>
+      <item>
+        <title>Customer panel for my website having register/login issue</title>
+        <dc:creator><![CDATA[@cxrrupted]]></dc:creator>
+        <description><![CDATA[ <p>fixed it. but how do i add custom domain to the customer panel i am hosting? rn it has /Customer-Panel/index.php but i want to change this to something else, i followed the youtube video about this and it works to a certain extent but i want to use my modified php code ( i edited the stle and design to the pages ) the youtube video when followed and using the custom domain the login forms are default</p> ]]></description>
+        <link>https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836#post_2</link>
+        <pubDate>Thu, 22 Sep 2022 21:26:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2063</guid>
+      </item>
+      <item>
+        <title>Question about c# (autologin)</title>
+        <dc:creator><![CDATA[@ABHASH]]></dc:creator>
+        <description><![CDATA[ <p>I have made remember username and password for login in c# if u need come discord dm</p> ]]></description>
+        <link>https://community.keyauth.cc/t/question-about-c-autologin/838#post_2</link>
+        <pubDate>Thu, 22 Sep 2022 13:53:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2062</guid>
+      </item>
+      <item>
+        <title>Question about c# (autologin)</title>
+        <dc:creator><![CDATA[@I_Want_Some_Mint]]></dc:creator>
+        <description><![CDATA[ <p>Hi everyone! I have a question. Can i somehow make it remember the password and username that i entered? or just skip first log in window? Let me know asap ty!</p> ]]></description>
+        <link>https://community.keyauth.cc/t/question-about-c-autologin/838#post_1</link>
+        <pubDate>Wed, 21 Sep 2022 18:38:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-2060</guid>
+      </item>
+  </channel>
+</rss>

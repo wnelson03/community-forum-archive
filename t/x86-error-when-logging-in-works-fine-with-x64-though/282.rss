@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>X86 Error when logging in, works fine with x64 though</title>
+    <link>https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282</link>
+    <description>So I decided to use my x64 loader as my base for my x86 project and I added the other libs to make it all work correctly it runs fine but whenever I try to log in it gives me an error that doesn&#39;t happen on x64.
+
+There isn&#39;t any obvious reason on why it&#39;s doing this as it was working fine but as soon as I changed the architecture it just no longer let me log in, Thanks for any help.
+
+![DEED4583-89FF-4B62-9423-A6E343BA1166|272x500](upload://wqqpQwKn6k9nl0QUAkCz0c2V38e.jpeg)</description>
+    
+    <lastBuildDate>Thu, 30 Jun 2022 09:37:42 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>X86 Error when logging in, works fine with x64 though</title>
+        <dc:creator><![CDATA[ItzDreamzyy]]></dc:creator>
+        <description><![CDATA[
+            <p>Yes I am</p>
+          <p><a href="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282/5</link>
+        <pubDate>Thu, 30 Jun 2022 09:37:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-282-5</guid>
+        <source url="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282.rss">X86 Error when logging in, works fine with x64 though</source>
+      </item>
+      <item>
+        <title>X86 Error when logging in, works fine with x64 though</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Are you using x86 Libcurl?</p>
+          <p><a href="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282/4</link>
+        <pubDate>Thu, 30 Jun 2022 09:26:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-282-4</guid>
+        <source url="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282.rss">X86 Error when logging in, works fine with x64 though</source>
+      </item>
+      <item>
+        <title>X86 Error when logging in, works fine with x64 though</title>
+        <dc:creator><![CDATA[ItzDreamzyy]]></dc:creator>
+        <description><![CDATA[
+            <p>I have and it seems to be something with connecting to key Auth but it works fine with x64</p>
+          <p><a href="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282/3</link>
+        <pubDate>Wed, 29 Jun 2022 21:27:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-282-3</guid>
+        <source url="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282.rss">X86 Error when logging in, works fine with x64 though</source>
+      </item>
+      <item>
+        <title>X86 Error when logging in, works fine with x64 though</title>
+        <dc:creator><![CDATA[Hiro]]></dc:creator>
+        <description><![CDATA[
+            <p>try to debug ur project and check what it cause of that error</p>
+          <p><a href="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282/2</link>
+        <pubDate>Wed, 29 Jun 2022 13:04:27 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-282-2</guid>
+        <source url="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282.rss">X86 Error when logging in, works fine with x64 though</source>
+      </item>
+      <item>
+        <title>X86 Error when logging in, works fine with x64 though</title>
+        <dc:creator><![CDATA[ItzDreamzyy]]></dc:creator>
+        <description><![CDATA[
+            <p>So I decided to use my x64 loader as my base for my x86 project and I added the other libs to make it all work correctly it runs fine but whenever I try to log in it gives me an error that doesn’t happen on x64.</p>
+<p>There isn’t any obvious reason on why it’s doing this as it was working fine but as soon as I changed the architecture it just no longer let me log in, Thanks for any help.</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/e3424ae38088b3f850651418918a578b9fa06362.jpeg" alt="DEED4583-89FF-4B62-9423-A6E343BA1166" data-base62-sha1="wqqpQwKn6k9nl0QUAkCz0c2V38e" width="272" height="500"></p>
+          <p><a href="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282/1</link>
+        <pubDate>Wed, 29 Jun 2022 08:07:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-282-1</guid>
+        <source url="https://community.keyauth.cc/t/x86-error-when-logging-in-works-fine-with-x64-though/282.rss">X86 Error when logging in, works fine with x64 though</source>
+      </item>
+  </channel>
+</rss>

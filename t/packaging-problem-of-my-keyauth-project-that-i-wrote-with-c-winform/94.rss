@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+    <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94</link>
+    <description>
+Packaging problem of my keyauth project that I wrote with C# winform?
+
+
+I want to use vmprotect, but when I pack, the C# software I wrote with keyauth does not open. I tried not to encrypt the api file. Again, there must be a solution for this.</description>
+    
+    <lastBuildDate>Mon, 06 Jun 2022 22:11:57 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/14">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/14</link>
+        <pubDate>Mon, 06 Jun 2022 22:12:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-14</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>try 3.4 then. am locking this topic, as it’s not an issue with KeyAuth but rather obfuscation.</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/13</link>
+        <pubDate>Mon, 06 Jun 2022 22:11:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-13</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>Actually I can’t change any settings, I use it by default.</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/12</link>
+        <pubDate>Mon, 06 Jun 2022 21:09:50 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-12</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>my vmp 3.5<br>
+Is it caused by it?</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/11</link>
+        <pubDate>Mon, 06 Jun 2022 21:07:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-11</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Default VMP settings work for me. I assume you’ve changed some settings, so I recommend you try changing settings back until you get it working.</p>
+<p>I’m using this <a href="https://cracked.io/Thread-Cracked-VMProtect-ULTIMATE-3-4-0-Build-1155" class="inline-onebox">VMProtect ULTIMATE 3.4.0 Build 1155</a></p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/10</link>
+        <pubDate>Sat, 04 Jun 2022 20:04:10 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-10</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>Do you have a chance to publish a short tutorial or post a picture while packing a sample exe using keyauth so that we don’t get any errors with vmp?</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/9</link>
+        <pubDate>Fri, 03 Jun 2022 22:24:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-9</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>so</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/51376cfcaa62b2736f49d5c1140a2a58a4fa42db.png" alt="Fxix5uu3Y9" data-base62-sha1="bAtqizpgC9PswPOJaeEeRQ2LzVp" width="690" height="454"></p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/8</link>
+        <pubDate>Fri, 03 Jun 2022 22:18:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-8</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Must do <code>KeyAuthApp.init();</code> before any other KeyAuth functions</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/7</link>
+        <pubDate>Fri, 03 Jun 2022 22:11:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-7</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>yes, I take these into account, but the error is:  Not initialized Check if KeyAuthApp.init() does exist</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/6</link>
+        <pubDate>Fri, 03 Jun 2022 21:57:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-6</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>To test, even if I encrypt nothing but only the login form, it still does not open.</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/5</link>
+        <pubDate>Fri, 03 Jun 2022 20:28:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-5</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi, mak.<br>
+first of all thank you for your answer.</p>
+<p>" <code>success</code> , <code>message</code> , etc "</p>
+<p>Is there a short tutorial or a sample screenshoot about this part?</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/4</link>
+        <pubDate>Tue, 31 May 2022 23:05:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-4</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>You need to set VMP settings to ignore the JSON attributes used in KeyAuth.cs, such as <code>success</code>, <code>message</code>, etc. These cannot be renamed by an obfuscator renamer or it breaks the program.</p>
+<p>The default VMP settings work fine for me, so it’s a configuration problem with your VMP instance. Just play around with it and you should get it working.</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/3</link>
+        <pubDate>Mon, 30 May 2022 23:03:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-3</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>dont virtualize everything of the api class, only virtualize the important functions, login, register and etc, also the function that parses the json content since that can be tampered with</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/2</link>
+        <pubDate>Mon, 30 May 2022 23:01:38 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-2</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+      <item>
+        <title>Packaging problem of my keyauth project that I wrote with C# winform?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>Packaging problem of my keyauth project that I wrote with C# winform?</p>
+<p>I want to use vmprotect, but when I pack, the C# software I wrote with keyauth does not open. I tried not to encrypt the api file. Again, there must be a solution for this.</p>
+          <p><a href="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94/1</link>
+        <pubDate>Mon, 30 May 2022 22:59:09 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-94-1</guid>
+        <source url="https://community.keyauth.cc/t/packaging-problem-of-my-keyauth-project-that-i-wrote-with-c-winform/94.rss">Packaging problem of my keyauth project that I wrote with C# winform?</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KeyAuthApp.init()</title>
+    <link>https://community.keyauth.cc/t/keyauthapp-init/386</link>
+    <description>Hello I need help, When I click on login on my app, the console opens saying: &quot; Not initialized Check if KeyAuthApp.init() does exist &quot; can someone help me please ?</description>
+    
+    <lastBuildDate>Tue, 12 Jul 2022 07:49:07 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauthapp-init/386.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>KeyAuthApp.init()</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>And also refer to the example as its all in the example very simple if you know how to code (tbh can be read without coding experience).</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CS-Example">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CS-Example" target="_blank" rel="noopener">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/07d27ccb2426971d247a38686c04322cc82ec6a1.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/KeyAuth-CS-Example" target="_blank" rel="noopener">GitHub - KeyAuth/KeyAuth-CS-Example: Temporary repo for KeyAuth C#</a></h3>
+
+  <p>Temporary repo for KeyAuth C#. Contribute to KeyAuth/KeyAuth-CS-Example development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/keyauthapp-init/386/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauthapp-init/386/3</link>
+        <pubDate>Tue, 12 Jul 2022 07:49:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-386-3</guid>
+        <source url="https://community.keyauth.cc/t/keyauthapp-init/386.rss">KeyAuthApp.init()</source>
+      </item>
+      <item>
+        <title>KeyAuthApp.init()</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>So you need to make sure you have keyauthapp.init() in ur app first before any other keyauthapp calls<br>
+The error tells you exactly.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauthapp-init/386/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauthapp-init/386/2</link>
+        <pubDate>Tue, 12 Jul 2022 07:46:19 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-386-2</guid>
+        <source url="https://community.keyauth.cc/t/keyauthapp-init/386.rss">KeyAuthApp.init()</source>
+      </item>
+      <item>
+        <title>KeyAuthApp.init()</title>
+        <dc:creator><![CDATA[Enzo]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello I need help, When I click on login on my app, the console opens saying: " Not initialized Check if KeyAuthApp.init() does exist " can someone help me please ?</p>
+          <p><a href="https://community.keyauth.cc/t/keyauthapp-init/386/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauthapp-init/386/1</link>
+        <pubDate>Tue, 12 Jul 2022 07:38:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-386-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauthapp-init/386.rss">KeyAuthApp.init()</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KEY AUTH Python Downloading</title>
+    <link>https://community.keyauth.cc/t/key-auth-python-downloading/444</link>
+    <description>![image|400x67](upload://xB8IRpuXV26DN6VgyRkHw6tPNPK.png)
+
+Basically when I try to open my loader is wont open unless I add 
+```
+f.close()
+    os._exit(1)
+```
+right under the code
+
+But when I do that I refuses to open up when I use my loader. If you need the source code of the loader I can happily send it. Let me know!</description>
+    
+    <lastBuildDate>Wed, 20 Jul 2022 18:05:32 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/key-auth-python-downloading/444.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>KEY AUTH Python Downloading</title>
+        <dc:creator><![CDATA[Blaze_Escape]]></dc:creator>
+        <description><![CDATA[
+            <p>Idk. Ill try removing the exit. I was just going off what other people told me. Let me try that out.</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-python-downloading/444/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-python-downloading/444/6</link>
+        <pubDate>Wed, 20 Jul 2022 18:05:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-444-6</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-python-downloading/444.rss">KEY AUTH Python Downloading</source>
+      </item>
+      <item>
+        <title>KEY AUTH Python Downloading</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>So whats the problem exactly</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-python-downloading/444/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-python-downloading/444/5</link>
+        <pubDate>Wed, 20 Jul 2022 17:41:58 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-444-5</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-python-downloading/444.rss">KEY AUTH Python Downloading</source>
+      </item>
+      <item>
+        <title>KEY AUTH Python Downloading</title>
+        <dc:creator><![CDATA[Blaze_Escape]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/aead37486bec29a32e3b10139f3533cd0e59dfb6.png" alt="image" data-base62-sha1="oVgbZ6PHgm5JzS1AQXTBRv8nzDg" width="441" height="117"></p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-python-downloading/444/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-python-downloading/444/4</link>
+        <pubDate>Wed, 20 Jul 2022 17:31:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-444-4</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-python-downloading/444.rss">KEY AUTH Python Downloading</source>
+      </item>
+      <item>
+        <title>KEY AUTH Python Downloading</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>Why are u adding exit? file close is fine but why are u extiting</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-python-downloading/444/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-python-downloading/444/3</link>
+        <pubDate>Wed, 20 Jul 2022 17:25:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-444-3</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-python-downloading/444.rss">KEY AUTH Python Downloading</source>
+      </item>
+      <item>
+        <title>KEY AUTH Python Downloading</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>I dont understand</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-python-downloading/444/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-python-downloading/444/2</link>
+        <pubDate>Wed, 20 Jul 2022 17:24:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-444-2</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-python-downloading/444.rss">KEY AUTH Python Downloading</source>
+      </item>
+      <item>
+        <title>KEY AUTH Python Downloading</title>
+        <dc:creator><![CDATA[Blaze_Escape]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/eb7a878662d2710af29c7eef30eb2526423ab944.png" alt="image" data-base62-sha1="xB8IRpuXV26DN6VgyRkHw6tPNPK" width="400" height="67"></p>
+<p>Basically when I try to open my loader is wont open unless I add</p>
+<pre><code class="lang-auto">f.close()
+    os._exit(1)
+</code></pre>
+<p>right under the code</p>
+<p>But when I do that I refuses to open up when I use my loader. If you need the source code of the loader I can happily send it. Let me know!</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-python-downloading/444/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-python-downloading/444/1</link>
+        <pubDate>Wed, 20 Jul 2022 17:20:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-444-1</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-python-downloading/444.rss">KEY AUTH Python Downloading</source>
+      </item>
+  </channel>
+</rss>

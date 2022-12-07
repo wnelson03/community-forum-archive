@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Login and Register button not right working?</title>
+    <link>https://community.keyauth.cc/t/login-and-register-button-not-right-working/628</link>
+    <description>Everything works beside the login and register button. When i type my data WRONG in the fields (username, password, Key/license) It still sends me to the main.cs form. No message box. Nothing. I can type whatever i want like 23123e 232e24qd 231q23e and it still sends me there. How can i fix this?
+And i would like to add a message box. I hope you can help me!</description>
+    
+    <lastBuildDate>Fri, 12 Aug 2022 17:15:08 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/login-and-register-button-not-right-working/628.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Login and Register button not right working?</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Login and register Code:</p>
+<p>private void button1_Click(object sender, EventArgs e)<br>
+{<br>
+KeyAuthApp.login(username.Text, password.Text);<br>
+if (KeyAuthApp.response.success)<br>
+{<br>
+Main main = new Main();<br>
+main.Show();<br>
+this.Hide();<br>
+}<br>
+}</p>
+<pre><code>    private void button2_Click(object sender, EventArgs e)
+    {
+        KeyAuthApp.register(username.Text, password.Text, key.Text);
+        if (KeyAuthApp.response.success)
+        {
+            Main main = new Main();
+            main.Show();
+            this.Hide();
+        }
+    }
+}
+</code></pre>
+<p>}</p>
+          <p><a href="https://community.keyauth.cc/t/login-and-register-button-not-right-working/628/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-and-register-button-not-right-working/628/3</link>
+        <pubDate>Fri, 12 Aug 2022 17:15:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-628-3</guid>
+        <source url="https://community.keyauth.cc/t/login-and-register-button-not-right-working/628.rss">Login and Register button not right working?</source>
+      </item>
+      <item>
+        <title>Login and Register button not right working?</title>
+        <dc:creator><![CDATA[ItsNetworking]]></dc:creator>
+        <description><![CDATA[
+            <p>What code are you using? … how do you have it setup? Either copy/paste the login part of the code or send a picture</p>
+          <p><a href="https://community.keyauth.cc/t/login-and-register-button-not-right-working/628/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-and-register-button-not-right-working/628/2</link>
+        <pubDate>Fri, 12 Aug 2022 17:03:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-628-2</guid>
+        <source url="https://community.keyauth.cc/t/login-and-register-button-not-right-working/628.rss">Login and Register button not right working?</source>
+      </item>
+      <item>
+        <title>Login and Register button not right working?</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Everything works beside the login and register button. When i type my data WRONG in the fields (username, password, Key/license) It still sends me to the main.cs form. No message box. Nothing. I can type whatever i want like 23123e 232e24qd 231q23e and it still sends me there. How can i fix this?<br>
+And i would like to add a message box. I hope you can help me!</p>
+          <p><a href="https://community.keyauth.cc/t/login-and-register-button-not-right-working/628/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/login-and-register-button-not-right-working/628/1</link>
+        <pubDate>Fri, 12 Aug 2022 17:02:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-628-1</guid>
+        <source url="https://community.keyauth.cc/t/login-and-register-button-not-right-working/628.rss">Login and Register button not right working?</source>
+      </item>
+  </channel>
+</rss>

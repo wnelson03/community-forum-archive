@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to add KeyAuth to application</title>
+    <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611</link>
+    <description>How do i add KeyAuth to my Application? Like how do i bind them? My goal is to start the KeyAuth first with a nice imgui/form and after you logged in with the key my application shows up. But after the trial you cant access the Application anymore. Is this possible? And yes i watched all tutorials on youtube and so on, i just dont know how to do it like order and what to include in the code. Because i created my code in the past. So my Question is, how can i do that? Am i creating an Folder named KeyAuth then putting all files in the folder then starting and then it works like i imagined? Sry for asking i am a beginner. I hope you can help me!</description>
+    
+    <lastBuildDate>Tue, 09 Aug 2022 12:44:15 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/12</link>
+        <pubDate>Tue, 09 Aug 2022 12:44:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-12</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>I am now going to close this topic because as the main topic states we will not help you add keyauth to your code</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/11</link>
+        <pubDate>Tue, 09 Aug 2022 12:44:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-11</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Oke</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/10</link>
+        <pubDate>Tue, 09 Aug 2022 12:43:37 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-10</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Iv given you what you need.<br>
+The example code use it and you would see what you need and for the other questions yes you can do it but will need to learn.<br>
+Topics are for keyauth examples only.</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/9</link>
+        <pubDate>Tue, 09 Aug 2022 12:42:13 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-9</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Bro i will code it myself just answer what to include or what to do💀</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/8</link>
+        <pubDate>Tue, 09 Aug 2022 12:40:37 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-8</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Just a reminder of what topics are for.</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/e8008bec9028e5aeef2162f80610aa1d6c240268.jpeg" alt="SmartSelect_20220809-133808_Firefox" data-base62-sha1="x6nWxrfO4HPz2Lq12qpcSpIGERy" width="577" height="500"></p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/7</link>
+        <pubDate>Tue, 09 Aug 2022 12:38:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-7</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Answere what?<br>
+Yes you can do what you ask but you need to code it your self.</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/6</link>
+        <pubDate>Tue, 09 Aug 2022 12:34:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-6</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Cant you just answer to my questions💀</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/5</link>
+        <pubDate>Tue, 09 Aug 2022 12:33:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-5</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>ye i just did what i wanted</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/4</link>
+        <pubDate>Tue, 09 Aug 2022 12:31:10 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-4</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Link to the example</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CPP-Example">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example" target="_blank" rel="noopener">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/71b9c33d0a9de00bc48448e345cac0da2d2df74d.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/KeyAuth-CPP-Example" target="_blank" rel="noopener">GitHub - KeyAuth/KeyAuth-CPP-Example: KeyAuth CPP Example</a></h3>
+
+  <p>KeyAuth CPP Example. Contribute to KeyAuth/KeyAuth-CPP-Example development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/3</link>
+        <pubDate>Tue, 09 Aug 2022 12:29:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-3</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Use the github example and learn it then add it to your code or add your code to it, you will need to know how to code in cpp to do this.</p>
+<p>Also you have a topic open in the c# section and say you are new to coding and learning but now you are using cpp.</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/2</link>
+        <pubDate>Tue, 09 Aug 2022 12:28:09 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-2</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+      <item>
+        <title>How to add KeyAuth to application</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>How do i add KeyAuth to my Application? Like how do i bind them? My goal is to start the KeyAuth first with a nice imgui/form and after you logged in with the key my application shows up. But after the trial you cant access the Application anymore. Is this possible? And yes i watched all tutorials on youtube and so on, i just dont know how to do it like order and what to include in the code. Because i created my code in the past. So my Question is, how can i do that? Am i creating an Folder named KeyAuth then putting all files in the folder then starting and then it works like i imagined? Sry for asking i am a beginner. I hope you can help me!</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611/1</link>
+        <pubDate>Tue, 09 Aug 2022 10:46:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-611-1</guid>
+        <source url="https://community.keyauth.cc/t/how-to-add-keyauth-to-application/611.rss">How to add KeyAuth to application</source>
+      </item>
+  </channel>
+</rss>

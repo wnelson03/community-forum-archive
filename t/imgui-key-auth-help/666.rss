@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>IMGUI key auth help</title>
+    <link>https://community.keyauth.cc/t/imgui-key-auth-help/666</link>
+    <description>do u know how i would make a login ui and add it to my csgo cheat using keyauth, im new to imgui</description>
+    
+    <lastBuildDate>Thu, 18 Aug 2022 00:29:51 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/imgui-key-auth-help/666.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>IMGUI key auth help</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/imgui-key-auth-help/666/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/imgui-key-auth-help/666/6</link>
+        <pubDate>Thu, 18 Aug 2022 00:29:58 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-666-6</guid>
+        <source url="https://community.keyauth.cc/t/imgui-key-auth-help/666.rss">IMGUI key auth help</source>
+      </item>
+      <item>
+        <title>IMGUI key auth help</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p><strong>Closing</strong></p>
+<p><strong>We do not support cheats</strong></p>
+          <p><a href="https://community.keyauth.cc/t/imgui-key-auth-help/666/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/imgui-key-auth-help/666/5</link>
+        <pubDate>Thu, 18 Aug 2022 00:29:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-666-5</guid>
+        <source url="https://community.keyauth.cc/t/imgui-key-auth-help/666.rss">IMGUI key auth help</source>
+      </item>
+      <item>
+        <title>IMGUI key auth help</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>So first u need a bool which is called for example „loginstate“ and set it to false<br>
+Than u create a if statement where u render imgui and do it like that</p>
+<p>std::string key;</p>
+<p>ImGui::Begin(„Test“, …);<br>
+if(!loginstate)<br>
+{<br>
+Imgui::input(„Key“, &amp;key);</p>
+<pre><code> if(Imgui::Button(„Login“))
+ {
+ KeyAuth.key(key);
+ loginstate = true;
+ }
+</code></pre>
+<p>}<br>
+else<br>
+{<br>
+// normal render menu</p>
+<p>}</p>
+<p>Hope that is enough so u can do the rest at your own …</p>
+          <p><a href="https://community.keyauth.cc/t/imgui-key-auth-help/666/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/imgui-key-auth-help/666/4</link>
+        <pubDate>Thu, 18 Aug 2022 00:26:29 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-666-4</guid>
+        <source url="https://community.keyauth.cc/t/imgui-key-auth-help/666.rss">IMGUI key auth help</source>
+      </item>
+      <item>
+        <title>IMGUI key auth help</title>
+        <dc:creator><![CDATA[Shootamike_1]]></dc:creator>
+        <description><![CDATA[
+            <p>I used a base for the cheat, do you have any links to login examples, and how would i add my keyauth</p>
+          <p><a href="https://community.keyauth.cc/t/imgui-key-auth-help/666/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/imgui-key-auth-help/666/3</link>
+        <pubDate>Thu, 18 Aug 2022 00:19:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-666-3</guid>
+        <source url="https://community.keyauth.cc/t/imgui-key-auth-help/666.rss">IMGUI key auth help</source>
+      </item>
+      <item>
+        <title>IMGUI key auth help</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>pretty sure imGui has examples, and if you made a cheat you should be able to do it easily</p>
+          <p><a href="https://community.keyauth.cc/t/imgui-key-auth-help/666/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/imgui-key-auth-help/666/2</link>
+        <pubDate>Thu, 18 Aug 2022 00:09:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-666-2</guid>
+        <source url="https://community.keyauth.cc/t/imgui-key-auth-help/666.rss">IMGUI key auth help</source>
+      </item>
+      <item>
+        <title>IMGUI key auth help</title>
+        <dc:creator><![CDATA[Shootamike_1]]></dc:creator>
+        <description><![CDATA[
+            <p>do u know how i would make a login ui and add it to my csgo cheat using keyauth, im new to imgui</p>
+          <p><a href="https://community.keyauth.cc/t/imgui-key-auth-help/666/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/imgui-key-auth-help/666/1</link>
+        <pubDate>Thu, 18 Aug 2022 00:08:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-666-1</guid>
+        <source url="https://community.keyauth.cc/t/imgui-key-auth-help/666.rss">IMGUI key auth help</source>
+      </item>
+  </channel>
+</rss>

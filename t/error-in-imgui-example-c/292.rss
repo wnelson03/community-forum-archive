@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Error in IMGUI example C++</title>
+    <link>https://community.keyauth.cc/t/error-in-imgui-example-c/292</link>
+    <description>Yo, im trying a IMGUI example in C++, but when i click login it closes, and debugging i get this error,
+
+![image|690x266](upload://33d6hdRak1OB6OgK9Zu6yXKpl4d.png)
+can someone help me?</description>
+    
+    <lastBuildDate>Thu, 30 Jun 2022 15:46:03 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/error-in-imgui-example-c/292.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Error in IMGUI example C++</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>we can only provide help &amp; support for official keyauth examples im afraid.</p>
+          <p><a href="https://community.keyauth.cc/t/error-in-imgui-example-c/292/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-in-imgui-example-c/292/3</link>
+        <pubDate>Thu, 30 Jun 2022 15:46:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-292-3</guid>
+        <source url="https://community.keyauth.cc/t/error-in-imgui-example-c/292.rss">Error in IMGUI example C++</source>
+      </item>
+      <item>
+        <title>Error in IMGUI example C++</title>
+        <dc:creator><![CDATA[Afonso_Segredo]]></dc:creator>
+        <description><![CDATA[
+            <p>tried another one, and i get this error.</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/fb27e7fbe9790b7c887d3032a49067dda9d34133.png" alt="image" data-base62-sha1="zPPljaenlbW9thf5vW5kiQvNk1Z" width="547" height="218"></p>
+          <p><a href="https://community.keyauth.cc/t/error-in-imgui-example-c/292/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-in-imgui-example-c/292/2</link>
+        <pubDate>Thu, 30 Jun 2022 13:17:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-292-2</guid>
+        <source url="https://community.keyauth.cc/t/error-in-imgui-example-c/292.rss">Error in IMGUI example C++</source>
+      </item>
+      <item>
+        <title>Error in IMGUI example C++</title>
+        <dc:creator><![CDATA[Afonso_Segredo]]></dc:creator>
+        <description><![CDATA[
+            <p>Yo, im trying a IMGUI example in C++, but when i click login it closes, and debugging i get this error,</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/156373a563aca522c6a092ac44ac710d59e3eb91.png" alt="image" data-base62-sha1="33d6hdRak1OB6OgK9Zu6yXKpl4d" width="690" height="266"><br>
+can someone help me?</p>
+          <p><a href="https://community.keyauth.cc/t/error-in-imgui-example-c/292/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-in-imgui-example-c/292/1</link>
+        <pubDate>Thu, 30 Jun 2022 13:15:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-292-1</guid>
+        <source url="https://community.keyauth.cc/t/error-in-imgui-example-c/292.rss">Error in IMGUI example C++</source>
+      </item>
+  </channel>
+</rss>

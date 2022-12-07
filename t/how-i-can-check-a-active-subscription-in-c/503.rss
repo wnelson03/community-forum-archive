@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How i can check a active subscription in c++?</title>
+    <link>https://community.keyauth.cc/t/how-i-can-check-a-active-subscription-in-c/503</link>
+    <description>Hello guys, i have a  question about keyauth subscription time check. So i need a code to check this in my cheatloader project.. 
+
+thx for helping</description>
+    
+    <lastBuildDate>Mon, 25 Jul 2022 16:24:48 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/how-i-can-check-a-active-subscription-in-c/503.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How i can check a active subscription in c++?</title>
+        <dc:creator><![CDATA[Gru]]></dc:creator>
+        <description><![CDATA[
+            <p>first you need to make sure you put</p>
+<p>std::string tm_to_readable_time(tm ctx) {<br>
+char buffer[80];</p>
+<pre><code>strftime(buffer, sizeof(buffer), "%a %m/%d/%y %H:%M:%S %Z", &amp;ctx);
+
+return std::string(buffer);
+</code></pre>
+<p>}</p>
+<p>static std::time_t string_to_timet(std::string timestamp) {<br>
+auto cv = strtol(timestamp.c_str(), NULL, 10); // long</p>
+<pre><code>return (time_t)cv;
+</code></pre>
+<p>}</p>
+<p>static std::tm timet_to_tm(time_t timestamp) {<br>
+std::tm context;</p>
+<pre><code>localtime_s(&amp;context, &amp;timestamp);
+
+return context;
+</code></pre>
+<p>}</p>
+<p>at the top of your code but below all the includes, after that you should be able to use<br>
+std::cout &lt;&lt; skCrypt("\n Subscription ends on: ") &lt;&lt; tm_to_readable_time(timet_to_tm(string_to_timet(KeyAuthApp.data.expiry)));</p>
+<p>right now i have it set to show how much time the user has left but you can adapt it to your use</p>
+<p>this was just my solution not sure if it will work depending on how your trying to use it</p>
+          <p><a href="https://community.keyauth.cc/t/how-i-can-check-a-active-subscription-in-c/503/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-i-can-check-a-active-subscription-in-c/503/2</link>
+        <pubDate>Mon, 25 Jul 2022 16:24:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-503-2</guid>
+        <source url="https://community.keyauth.cc/t/how-i-can-check-a-active-subscription-in-c/503.rss">How i can check a active subscription in c++?</source>
+      </item>
+      <item>
+        <title>How i can check a active subscription in c++?</title>
+        <dc:creator><![CDATA[felixdll]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello guys, i have a  question about keyauth subscription time check. So i need a code to check this in my cheatloader project…</p>
+<p>thx for helping</p>
+          <p><a href="https://community.keyauth.cc/t/how-i-can-check-a-active-subscription-in-c/503/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-i-can-check-a-active-subscription-in-c/503/1</link>
+        <pubDate>Mon, 25 Jul 2022 08:34:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-503-1</guid>
+        <source url="https://community.keyauth.cc/t/how-i-can-check-a-active-subscription-in-c/503.rss">How i can check a active subscription in c++?</source>
+      </item>
+  </channel>
+</rss>

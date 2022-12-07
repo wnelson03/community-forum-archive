@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Openssl &amp; library_x64</title>
+    <link>https://community.keyauth.cc/t/openssl-library-x64/635</link>
+    <description>Hello, 
+does keyauth use openssl and what does library_x64 contain? Could I build it myself?</description>
+    
+    <lastBuildDate>Sat, 13 Aug 2022 15:13:10 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/openssl-library-x64/635.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Openssl &amp; library_x64</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello,<br>
+I can only help with one of your questions.<br>
+The library src so you can compile yourself.</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/keyauth-cpp-library">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/keyauth-cpp-library" target="_blank" rel="noopener">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/a06e2be2fc02de56a493e344760e4a8a5d8e1df0.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/keyauth-cpp-library" target="_blank" rel="noopener">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a></h3>
+
+  <p>KeyAuth C++ Library. Contribute to KeyAuth/keyauth-cpp-library development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/openssl-library-x64/635/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/openssl-library-x64/635/2</link>
+        <pubDate>Sat, 13 Aug 2022 15:13:10 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-635-2</guid>
+        <source url="https://community.keyauth.cc/t/openssl-library-x64/635.rss">Openssl &amp; library_x64</source>
+      </item>
+      <item>
+        <title>Openssl &amp; library_x64</title>
+        <dc:creator><![CDATA[Aktor]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello,<br>
+does keyauth use openssl and what does library_x64 contain? Could I build it myself?</p>
+          <p><a href="https://community.keyauth.cc/t/openssl-library-x64/635/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/openssl-library-x64/635/1</link>
+        <pubDate>Sat, 13 Aug 2022 13:44:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-635-1</guid>
+        <source url="https://community.keyauth.cc/t/openssl-library-x64/635.rss">Openssl &amp; library_x64</source>
+      </item>
+  </channel>
+</rss>

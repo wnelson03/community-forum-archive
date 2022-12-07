@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Account issues/Purchase problems - KeyAuth</title>
+    <link>https://community.keyauth.cc/c/account-issues/7</link>
+    <description>Topics in the &#39;Account issues/Purchase problems&#39; category If you have account issues or purchase problems, please make a ticket in the Discord server &lt;a href=&quot;https://discord.gg/keyauth&quot; class=&quot;inline-onebox-loading&quot;&gt;https://discord.gg/keyauth&lt;/a&gt;</description>
+    
+      <lastBuildDate>Mon, 23 May 2022 15:26:36 +0000</lastBuildDate>
+      <atom:link href="https://community.keyauth.cc/c/account-issues/7.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Make ticket on Discord</title>
+          <dc:creator><![CDATA[mak]]></dc:creator>
+          <category>Account issues/Purchase problems</category>
+          <description><![CDATA[
+            <p>If you have account issues or purchase problems, please make a ticket in the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+<p>Making a ticket for reasons such as questions about an example, will result in the ticket being closed. You’re supposed to make post on this community website for that.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/make-ticket-on-discord/14">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/make-ticket-on-discord/14</link>
+          <pubDate>Mon, 23 May 2022 15:26:36 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-14</guid>
+          <source url="https://community.keyauth.cc/t/make-ticket-on-discord/14.rss">Make ticket on Discord</source>
+        </item>
+  </channel>
+</rss>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Best way to go about combatting people bypassing auth through changing auth api</title>
+    <link>https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221</link>
+    <description>So recently I released an application that fought off reversers pretty well for as long as it did last. Unfortunately someone very skilled at reversing managed to change the api my tool was sending requests to. How can I prevent something like this happening in the future with Keyauth?</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 12:59:07 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Best way to go about combatting people bypassing auth through changing auth api</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/8</link>
+        <pubDate>Mon, 27 Jun 2022 12:59:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-221-8</guid>
+        <source url="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221.rss">Best way to go about combatting people bypassing auth through changing auth api</source>
+      </item>
+      <item>
+        <title>Best way to go about combatting people bypassing auth through changing auth api</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Closing this as there is no new replys.</p>
+          <p><a href="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/7</link>
+        <pubDate>Mon, 27 Jun 2022 12:59:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-221-7</guid>
+        <source url="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221.rss">Best way to go about combatting people bypassing auth through changing auth api</source>
+      </item>
+      <item>
+        <title>Best way to go about combatting people bypassing auth through changing auth api</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Ah you’re c#. The link I sent above is c++. c# is inherently easier for attackers to deobfuscate given the fact it leaves behind far more metadata than c++</p>
+          <p><a href="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/6</link>
+        <pubDate>Mon, 20 Jun 2022 19:35:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-221-6</guid>
+        <source url="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221.rss">Best way to go about combatting people bypassing auth through changing auth api</source>
+      </item>
+      <item>
+        <title>Best way to go about combatting people bypassing auth through changing auth api</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>This code is pretty good, I’ve been told it’s never been cracked <a href="https://github.com/Acrillis/SynapseX/tree/master/Synapse/Src/Exploit/Security" class="inline-onebox">SynapseX/Synapse/Src/Exploit/Security at master · Acrillis/SynapseX · GitHub</a></p>
+          <p><a href="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/5</link>
+        <pubDate>Mon, 20 Jun 2022 19:33:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-221-5</guid>
+        <source url="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221.rss">Best way to go about combatting people bypassing auth through changing auth api</source>
+      </item>
+      <item>
+        <title>Best way to go about combatting people bypassing auth through changing auth api</title>
+        <dc:creator><![CDATA[Scxr]]></dc:creator>
+        <description><![CDATA[
+            <p>I pay for a per file obfuscation and have limited details on what is actually in the obfuscation and protection included with it, it’s enough to stop low to mid level reversers but when you have a entire forum trying to reverse it it’s sort of hard to prevent <img src="https://community.keyauth.win/images/emoji/twitter/pensive.png?v=12" title=":pensive:" class="emoji" alt=":pensive:" loading="lazy" width="20" height="20"></p>
+          <p><a href="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/4</link>
+        <pubDate>Mon, 20 Jun 2022 01:51:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-221-4</guid>
+        <source url="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221.rss">Best way to go about combatting people bypassing auth through changing auth api</source>
+      </item>
+      <item>
+        <title>Best way to go about combatting people bypassing auth through changing auth api</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>Enable hash checks on keyauth and if the obfuscator you’re using has anti tamper use it aswell</p>
+          <p><a href="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/3</link>
+        <pubDate>Mon, 20 Jun 2022 01:00:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-221-3</guid>
+        <source url="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221.rss">Best way to go about combatting people bypassing auth through changing auth api</source>
+      </item>
+      <item>
+        <title>Best way to go about combatting people bypassing auth through changing auth api</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <p>Anti tamper</p>
+          <p><a href="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/2</link>
+        <pubDate>Mon, 20 Jun 2022 00:59:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-221-2</guid>
+        <source url="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221.rss">Best way to go about combatting people bypassing auth through changing auth api</source>
+      </item>
+      <item>
+        <title>Best way to go about combatting people bypassing auth through changing auth api</title>
+        <dc:creator><![CDATA[Scxr]]></dc:creator>
+        <description><![CDATA[
+            <p>So recently I released an application that fought off reversers pretty well for as long as it did last. Unfortunately someone very skilled at reversing managed to change the api my tool was sending requests to. How can I prevent something like this happening in the future with Keyauth?</p>
+          <p><a href="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221/1</link>
+        <pubDate>Mon, 20 Jun 2022 00:44:21 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-221-1</guid>
+        <source url="https://community.keyauth.cc/t/best-way-to-go-about-combatting-people-bypassing-auth-through-changing-auth-api/221.rss">Best way to go about combatting people bypassing auth through changing auth api</source>
+      </item>
+  </channel>
+</rss>

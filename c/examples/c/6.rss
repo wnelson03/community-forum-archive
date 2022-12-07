@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C++ - KeyAuth</title>
+    <link>https://community.keyauth.cc/c/examples/c/6</link>
+    <description>Topics in the &#39;C++&#39; category The C++ example is here &lt;a href=&quot;https://github.com/KeyAuth/KeyAuth-CPP-Example&quot; class=&quot;inline-onebox&quot;&gt;GitHub - KeyAuth/KeyAuth-CPP-Example: KeyAuth CPP Example&lt;/a&gt;</description>
+    
+      <lastBuildDate>Sun, 25 Sep 2022 01:08:04 +0000</lastBuildDate>
+      <atom:link href="https://community.keyauth.cc/c/examples/c/6.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>LNK2001 error c++</title>
+          <dc:creator><![CDATA[Ronix]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>im getting this error in my c++ keyauth app even though all the libs are included<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/e42b3f7641b8341313aed447b7dc48647f286604.png" alt="Screenshot_1" data-base62-sha1="wytwktN7YGfztpNlwVY4kSyheAY" width="690" height="61"></p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/lnk2001-error-c/852">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/lnk2001-error-c/852</link>
+          <pubDate>Sun, 25 Sep 2022 01:08:04 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-852</guid>
+          <source url="https://community.keyauth.cc/t/lnk2001-error-c/852.rss">LNK2001 error c++</source>
+        </item>
+        <item>
+          <title>User_data.subscription in new keyauth</title>
+          <dc:creator><![CDATA[Pooya]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>hey<br>
+i before use keyauth and for get the key level i use<br>
+(KeyAuthApp.user_data.subscription == “vip”)<br>
+but in new update keyauth i cant find subscription<br>
+how i check subscription ?</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850</link>
+          <pubDate>Sat, 24 Sep 2022 16:35:58 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-850</guid>
+          <source url="https://community.keyauth.cc/t/user-data-subscription-in-new-keyauth/850.rss">User_data.subscription in new keyauth</source>
+        </item>
+        <item>
+          <title>C++ use custom domain error</title>
+          <dc:creator><![CDATA[Jennie001]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>i use cutom domain but i got :<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/6aab8e81b327a7dcc688c450c323f317947ebbb3.png" alt="image" data-base62-sha1="fdEayKxp7KY8Sap9cnrku3Np1Cj" width="686" height="224"><br>
+How can i solve?</p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/c-use-custom-domain-error/848">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/c-use-custom-domain-error/848</link>
+          <pubDate>Sat, 24 Sep 2022 11:20:50 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-848</guid>
+          <source url="https://community.keyauth.cc/t/c-use-custom-domain-error/848.rss">C++ use custom domain error</source>
+        </item>
+        <item>
+          <title>KeyAuthApp.download func downloading file with a huge amount of size</title>
+          <dc:creator><![CDATA[focuskid]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>so basically i made some changes to keyauth download func so i can save it to other places so i can keep code minimized but when i added changes to KeyAuthApp.download function it shows 14kb size instead of 7kb which is the orginal size of the file, here is the modified download function code:</p>
+<pre><code>	bool download(std::string fileid, std::string output = XorStr("same.exe").c_str(), bool memory = false, unsigned char* ape = 0x00) {
+		auto iv = encryption::sha256(encryption::iv_key());
+		auto data =
+			XorStr("type=").c_str() + encryption::encode("file") +
+			XorStr("&amp;fileid=").c_str() + encryption::encrypt(fileid, enckey, iv) +
+			XorStr("&amp;sessionid=").c_str() + encryption::encode(sessionid) +
+			XorStr("&amp;name=").c_str() + encryption::encode(name) +
+			XorStr("&amp;ownerid=").c_str() + encryption::encode(ownerid) +
+			XorStr("&amp;init_iv=").c_str() + iv;
+
+		auto response = req(data);
+		response = encryption::decrypt(response, enckey, iv);
+		auto json = response_decoder.parse(response);
+
+		if (!json["success"])
+		{
+			error(json[("message")]);
+		}
+
+		auto file = encryption::decode(json["contents"]);
+
+		if (memory)
+		{
+			ape = (unsigned char*)response.data();
+		}
+		else // Not loading in memory.
+		{
+			std::ofstream file(output.c_str(), std::ios_base::out | std::ios_base::binary);
+			file.write(response.data(), response.size());
+			file.close();
+		}
+	}
+</code></pre>
+<p>example of me using the function below:<br>
+KeyAuthApp.download(“965601”, “E:\adoption_recs\test.sys”);</p>
+<p>if anyone can help, thx greatly appreciated</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846</link>
+          <pubDate>Fri, 23 Sep 2022 22:46:24 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-846</guid>
+          <source url="https://community.keyauth.cc/t/keyauthapp-download-func-downloading-file-with-a-huge-amount-of-size/846.rss">KeyAuthApp.download func downloading file with a huge amount of size</source>
+        </item>
+        <item>
+          <title>Self hosting signature equal empty</title>
+          <dc:creator><![CDATA[xConquer]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>I am trying to use a self hosting<br>
+After sending the init request, the response is received successfully<br>
+curl ‘header_callback’ Did not send the signature header<br>
+when checking the signature the app got aborted<br>
+signature = “”;, why does this problem occur and how do I solve it?</p>
+<p>‘header_callback’ data</p>
+<p>HTTP/1.1 200 OK<br>
+Content-Type: text/html; charset=UTF-8<br>
+Server: Microsoft-IIS/10.0<br>
+X-Powered-By: PHP/8.0.0<br>
+X-Powered-By: <a href="http://ASP.NET" rel="noopener nofollow ugc">ASP.NET</a><br>
+Date: Wed, 21 Sep 2022 09:55:55 GMT<br>
+Content-Length: 211</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834</link>
+          <pubDate>Wed, 21 Sep 2022 09:46:15 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-834</guid>
+          <source url="https://community.keyauth.cc/t/self-hosting-signature-equal-empty/834.rss">Self hosting signature equal empty</source>
+        </item>
+        <item>
+          <title>KeyAuth WebLogin not working</title>
+          <dc:creator><![CDATA[Spinayy]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+<p>Look, basically I want to make a web loader, I followed the tutorial but it just gets stuck at the “Waiting for user to login”. I have tried everything such as removing my custom api domain and a few other stuff. Also me and mazk tried and his weblogin is working fine but mine is not. Are there any possible reasons as to why my web login does not work?</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/keyauth-weblogin-not-working/818">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/keyauth-weblogin-not-working/818</link>
+          <pubDate>Wed, 14 Sep 2022 12:09:15 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-818</guid>
+          <source url="https://community.keyauth.cc/t/keyauth-weblogin-not-working/818.rss">KeyAuth WebLogin not working</source>
+        </item>
+        <item>
+          <title>App crashes when using keyauth download function</title>
+          <dc:creator><![CDATA[sohcz]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>the title explains everything, basically it just closes once it gets to the download function.</p>
+            <p><small>4 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/app-crashes-when-using-keyauth-download-function/809">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/app-crashes-when-using-keyauth-download-function/809</link>
+          <pubDate>Sun, 11 Sep 2022 06:57:01 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-809</guid>
+          <source url="https://community.keyauth.cc/t/app-crashes-when-using-keyauth-download-function/809.rss">App crashes when using keyauth download function</source>
+        </item>
+        <item>
+          <title>Need help KeyAuth Error</title>
+          <dc:creator><![CDATA[sohcz]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>Basically I’m getting this new error ‘KeyauthApp’: undeclared identifier, and I have no clue how to fix it. I’m not a pro at C++ so don’t blame me please, any fix would be helpful. Dropping an image of the error here.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/b3fc646f384fda9731b92c7eec34027fe400d688.png" alt="image" data-base62-sha1="pGedlu2H3o60E9mEEUBnoRwZhdC" width="309" height="25"></p>
+            <p><small>8 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/need-help-keyauth-error/796">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/need-help-keyauth-error/796</link>
+          <pubDate>Thu, 08 Sep 2022 17:00:26 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-796</guid>
+          <source url="https://community.keyauth.cc/t/need-help-keyauth-error/796.rss">Need help KeyAuth Error</source>
+        </item>
+        <item>
+          <title>Getting a bunch of errors from KeyAuth</title>
+          <dc:creator><![CDATA[sohcz]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/2b4851b38e026d507d612892314854c1d41d904f.png" alt="image" data-base62-sha1="6aTtp9q4Fiu48q80TMxNiJ6qvEP" width="459" height="500"><br>
+Everything I blurred out was important stuff lol so just ignore the blurry stuff, any help would be useful.</p>
+            <p><small>10 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/getting-a-bunch-of-errors-from-keyauth/793">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/getting-a-bunch-of-errors-from-keyauth/793</link>
+          <pubDate>Wed, 07 Sep 2022 14:22:05 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-793</guid>
+          <source url="https://community.keyauth.cc/t/getting-a-bunch-of-errors-from-keyauth/793.rss">Getting a bunch of errors from KeyAuth</source>
+        </item>
+        <item>
+          <title>Need help with cpp example(i made my own cpp application) didnt use the source code from keyauth github</title>
+          <dc:creator><![CDATA[Shootamike_1]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/b47942b2a68a0072a8b461e9a3bed02a71fc6f6a.png" alt="Screenshot 2022-09-07 041359" data-base62-sha1="pKxK8ErL7mz1CUR3iCrbzG2MItk" width="690" height="67"><br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/20967148e51b9b08c96a0d72e2553b1fe7bc2ed3.png" alt="Screenshot 2022-09-07 041410" data-base62-sha1="4EhBeX0f5RSMM73staqjr2HQiPx" width="322" height="127"><br>
+Any idea about this error?</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/need-help-with-cpp-example-i-made-my-own-cpp-application-didnt-use-the-source-code-from-keyauth-github/789">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/need-help-with-cpp-example-i-made-my-own-cpp-application-didnt-use-the-source-code-from-keyauth-github/789</link>
+          <pubDate>Wed, 07 Sep 2022 03:15:56 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-789</guid>
+          <source url="https://community.keyauth.cc/t/need-help-with-cpp-example-i-made-my-own-cpp-application-didnt-use-the-source-code-from-keyauth-github/789.rss">Need help with cpp example(i made my own cpp application) didnt use the source code from keyauth github</source>
+        </item>
+        <item>
+          <title>App with x86 lib error</title>
+          <dc:creator><![CDATA[Jerry_Ho]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong><br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/6992bc616e15a1eb0f19898cf25b578e7d6b62ae.png" alt="image" data-base62-sha1="f3WvTR6S8PZn1qOqWUZpKm5nvKS" width="690" height="366"><br>
+i use <a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" class="inline-onebox" rel="noopener nofollow ugc">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a> and build lib_x86<br>
+than add to <a href="https://github.com/KeyAuth/KeyAuth-CPP-Example" class="inline-onebox" rel="noopener nofollow ugc">GitHub - KeyAuth/KeyAuth-CPP-Example: KeyAuth CPP Example</a> and choice release x86<br>
+than get this error</p>
+            <p><small>4 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/app-with-x86-lib-error/787">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/app-with-x86-lib-error/787</link>
+          <pubDate>Mon, 05 Sep 2022 09:32:45 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-787</guid>
+          <source url="https://community.keyauth.cc/t/app-with-x86-lib-error/787.rss">App with x86 lib error</source>
+        </item>
+        <item>
+          <title>5 Erros with c++</title>
+          <dc:creator><![CDATA[Enzyme]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>im adding keyauth to my c<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/471d2d0f44054a447652e3afb817476738a7b982.png" alt="image" data-base62-sha1="a96poYHijTPmDD7VyvMS6wN3kjw" width="690" height="155"><br>
+++ application and i get these 5 errors</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/5-erros-with-c/778">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/5-erros-with-c/778</link>
+          <pubDate>Sat, 03 Sep 2022 18:15:40 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-778</guid>
+          <source url="https://community.keyauth.cc/t/5-erros-with-c/778.rss">5 Erros with c++</source>
+        </item>
+        <item>
+          <title>How to fix this error?</title>
+          <dc:creator><![CDATA[jakeisblazing247]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/4fdaa44710121142d48bbc593fcffc4c2df3cb5a.png" alt="image" data-base62-sha1="boq9MQcniOKzPv9i6Zanr9Sm8yK" width="690" height="64"></p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/how-to-fix-this-error/772">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/how-to-fix-this-error/772</link>
+          <pubDate>Fri, 02 Sep 2022 23:09:15 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-772</guid>
+          <source url="https://community.keyauth.cc/t/how-to-fix-this-error/772.rss">How to fix this error?</source>
+        </item>
+        <item>
+          <title>I cant seem to get my code to run after key system</title>
+          <dc:creator><![CDATA[lwr]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>Every single time it just registers the key and closes the application instead of loading the program</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/i-cant-seem-to-get-my-code-to-run-after-key-system/771">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/i-cant-seem-to-get-my-code-to-run-after-key-system/771</link>
+          <pubDate>Fri, 02 Sep 2022 16:47:47 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-771</guid>
+          <source url="https://community.keyauth.cc/t/i-cant-seem-to-get-my-code-to-run-after-key-system/771.rss">I cant seem to get my code to run after key system</source>
+        </item>
+        <item>
+          <title>I need help with this error</title>
+          <dc:creator><![CDATA[lwr]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>This keeps getting highlighted when i click on the error and i dont know how to fix the error<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/54f107e2992bdd250338a2f78402499a41ef3d2d.png" alt="image" data-base62-sha1="c7qvQnW1mH8jBxSTpSGfdpGx9IF" width="661" height="361"></p>
+            <p><small>6 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/i-need-help-with-this-error/764">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/i-need-help-with-this-error/764</link>
+          <pubDate>Fri, 02 Sep 2022 13:05:17 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-764</guid>
+          <source url="https://community.keyauth.cc/t/i-need-help-with-this-error/764.rss">I need help with this error</source>
+        </item>
+        <item>
+          <title>I need help i get this errors</title>
+          <dc:creator><![CDATA[jakeisblazing247]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/0958887f7ee5b3ab87a352b09debe288417491ea.png" alt="image" data-base62-sha1="1kFYGeRXnz1j8YM5muEoQulAzZE" width="690" height="85"></p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/i-need-help-i-get-this-errors/760">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/i-need-help-i-get-this-errors/760</link>
+          <pubDate>Thu, 01 Sep 2022 22:45:25 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-760</guid>
+          <source url="https://community.keyauth.cc/t/i-need-help-i-get-this-errors/760.rss">I need help i get this errors</source>
+        </item>
+        <item>
+          <title>How open link api in c++</title>
+          <dc:creator><![CDATA[Pooya_Mahdavi]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>hey how i open link without user see the link<br>
+<a href="https://keyauth.win/api/seller/?sellerkey=sellerkeyhere&amp;type=add&amp;expiry=1&amp;mask=XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX&amp;level=1&amp;amount=1&amp;format=json" class="onebox" target="_blank" rel="noopener nofollow ugc">https://keyauth.win/api/seller/?sellerkey=sellerkeyhere&amp;type=add&amp;expiry=1&amp;mask=XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX&amp;level=1&amp;amount=1&amp;format=json</a><br>
+links like this</p>
+            <p><small>4 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/how-open-link-api-in-c/751">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/how-open-link-api-in-c/751</link>
+          <pubDate>Wed, 31 Aug 2022 09:32:53 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-751</guid>
+          <source url="https://community.keyauth.cc/t/how-open-link-api-in-c/751.rss">How open link api in c++</source>
+        </item>
+        <item>
+          <title>How to make key login only?</title>
+          <dc:creator><![CDATA[sohcz]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>How to only make the software say “Enter Key:” when they open it and that signs them in? any help please…</p>
+            <p><small>9 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/how-to-make-key-login-only/746">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/how-to-make-key-login-only/746</link>
+          <pubDate>Tue, 30 Aug 2022 12:43:13 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-746</guid>
+          <source url="https://community.keyauth.cc/t/how-to-make-key-login-only/746.rss">How to make key login only?</source>
+        </item>
+        <item>
+          <title>Adding keyauth to my project</title>
+          <dc:creator><![CDATA[florispovel]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>Hey i made an project where i tried to use KeyAuth but i can figure it out to add it to it someone who can help me?</p>
+            <p><small>4 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/adding-keyauth-to-my-project/742">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/adding-keyauth-to-my-project/742</link>
+          <pubDate>Mon, 29 Aug 2022 20:13:56 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-742</guid>
+          <source url="https://community.keyauth.cc/t/adding-keyauth-to-my-project/742.rss">Adding keyauth to my project</source>
+        </item>
+        <item>
+          <title>User not found after registering</title>
+          <dc:creator><![CDATA[Sleepy]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>After i register a user to my program and i try to login it says user not found, it also doesnt pop up on the website that i made it after it says registered successfully. idk what to do</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/user-not-found-after-registering/740">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/user-not-found-after-registering/740</link>
+          <pubDate>Mon, 29 Aug 2022 11:29:12 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-740</guid>
+          <source url="https://community.keyauth.cc/t/user-not-found-after-registering/740.rss">User not found after registering</source>
+        </item>
+        <item>
+          <title>Software skips account check when login</title>
+          <dc:creator><![CDATA[Aktor]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>I built the latest x64 library and tried to login, but no matter what, it lets me in without correct username / password. there’s nothing wrong with my code, I even pasted it from the github page. What causes this?</p>
+            <p><small>7 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/software-skips-account-check-when-login/732">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/software-skips-account-check-when-login/732</link>
+          <pubDate>Sun, 28 Aug 2022 17:01:31 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-732</guid>
+          <source url="https://community.keyauth.cc/t/software-skips-account-check-when-login/732.rss">Software skips account check when login</source>
+        </item>
+        <item>
+          <title>Erore (2 question)</title>
+          <dc:creator><![CDATA[eblis]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/ca400050defc3ac72eeba8e05c85d0e978192478.png" alt="image" data-base62-sha1="sRbzp5kxTbWNJiCbFsRX6mpipMQ" width="650" height="66"><br>
+what is this erore (i dont make anychanges on keyauth cheat laoder but erore shows up)</p>
+<p>Does keyauth injector Works For Fivem ?</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/erore-2-question/712">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/erore-2-question/712</link>
+          <pubDate>Tue, 23 Aug 2022 18:02:08 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-712</guid>
+          <source url="https://community.keyauth.cc/t/erore-2-question/712.rss">Erore (2 question)</source>
+        </item>
+        <item>
+          <title>Application crashes when KeyAuthApp.init() is executed</title>
+          <dc:creator><![CDATA[_L1ghtex2]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>Hello I just opened my project and I am building my project but when I am trying to open the application it shows everything normally and when the application gets to KeyAuthApp.init() it just closes.<br>
+Yesterday it worked just fine.</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/application-crashes-when-keyauthapp-init-is-executed/709">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/application-crashes-when-keyauthapp-init-is-executed/709</link>
+          <pubDate>Tue, 23 Aug 2022 12:43:20 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-709</guid>
+          <source url="https://community.keyauth.cc/t/application-crashes-when-keyauthapp-init-is-executed/709.rss">Application crashes when KeyAuthApp.init() is executed</source>
+        </item>
+        <item>
+          <title>CPP ImGui Error</title>
+          <dc:creator><![CDATA[roralsorom]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/149c884e95a57c922f3d481beeca4535d6b6e377.png" alt="errrrr" data-base62-sha1="2WkUXejM81nDWwWWh7IfwHPfYUv" width="690" height="52">  &lt; hello i get this error in my cpp imgui app</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/cpp-imgui-error/708">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/cpp-imgui-error/708</link>
+          <pubDate>Tue, 23 Aug 2022 04:29:39 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-708</guid>
+          <source url="https://community.keyauth.cc/t/cpp-imgui-error/708.rss">CPP ImGui Error</source>
+        </item>
+        <item>
+          <title>How do i make a keyauth dll library and call it from c#?</title>
+          <dc:creator><![CDATA[0Tolerance]]></dc:creator>
+          <category>C++</category>
+          <description><![CDATA[
+            <p>hello people,</p>
+<p>so what i’m trying to do is implement keyauth inside a dll library and call it from a c# program, the c++ lib will simply try to login to keyauth and return the output (or either true false).</p>
+<p>i’m not too familiar with c++ so any kind of sample is appreciated</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706</link>
+          <pubDate>Mon, 22 Aug 2022 17:50:28 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-706</guid>
+          <source url="https://community.keyauth.cc/t/how-do-i-make-a-keyauth-dll-library-and-call-it-from-c/706.rss">How do i make a keyauth dll library and call it from c#?</source>
+        </item>
+  </channel>
+</rss>

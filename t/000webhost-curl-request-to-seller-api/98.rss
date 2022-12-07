@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>000webhost curl request to seller api</title>
+    <link>https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98</link>
+    <description>Hey there! I&#39;m here to ask a question do you guys block 000webhost requests? because I&#39;m trying to send a curl request to my seller api and it gives me this error:
+
+ &quot;Failed connect to keyauth.win:443; Connection timed out&quot;
+
+(by the way I tried a raw pastebin and that worked perfectly)
+
+If I don&#39;t respond hit me up on discord Smeezy#9999</description>
+    
+    <lastBuildDate>Tue, 31 May 2022 12:00:29 +0000</lastBuildDate>
+    <category>PHP</category>
+    <atom:link href="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>000webhost curl request to seller api</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Try this code and replace with your URL</p>
+<pre><code class="lang-php">&lt;?php
+
+$url = "https://example.com";
+
+$curl = curl_init($url);
+curl_setopt($curl, CURLOPT_URL, $url);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+
+$resp = curl_exec($curl);
+
+?&gt;
+</code></pre>
+<p>If it still doesn’t work, please send the URL and replace your seller key with <code>sellerkeyhere</code></p>
+          <p><a href="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98/5</link>
+        <pubDate>Tue, 31 May 2022 12:00:29 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-98-5</guid>
+        <source url="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98.rss">000webhost curl request to seller api</source>
+      </item>
+      <item>
+        <title>000webhost curl request to seller api</title>
+        <dc:creator><![CDATA[Tommy_Nulled]]></dc:creator>
+        <description><![CDATA[
+            <p>That’s very strange but maybe 000webhosting is blocking the connection to other websites.<br>
+Also I don’t suggest you to use 000webhosting since if you are their client for very long time, after 1 year they will delete your account with no reason.</p>
+          <p><a href="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98/4</link>
+        <pubDate>Tue, 31 May 2022 05:48:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-98-4</guid>
+        <source url="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98.rss">000webhost curl request to seller api</source>
+      </item>
+      <item>
+        <title>000webhost curl request to seller api</title>
+        <dc:creator><![CDATA[Smeezy]]></dc:creator>
+        <description><![CDATA[
+            <p>                    <a href="https://cdn.discordapp.com/attachments/933214407213867018/981030813992910888/unknown.png" target="_blank" rel="noopener nofollow ugc" class="onebox">
+            <img src="https://community.keyauth.win/uploads/default/original/1X/7c49be9ca9e1cf75927466d0c68203f07706d9ec.png" width="" height="">
+          </a>
+
+</p>
+<p>that’s literally what I’m getting not sure if I did something wrong<br>
+sorry for the delay</p>
+          <p><a href="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98/3</link>
+        <pubDate>Tue, 31 May 2022 03:05:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-98-3</guid>
+        <source url="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98.rss">000webhost curl request to seller api</source>
+      </item>
+      <item>
+        <title>000webhost curl request to seller api</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Please make request to <a href="http://myip.wtf/headers">http://myip.wtf/headers</a> from curl.</p>
+<p>And send the response body here please.</p>
+          <p><a href="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98/2</link>
+        <pubDate>Tue, 31 May 2022 02:34:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-98-2</guid>
+        <source url="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98.rss">000webhost curl request to seller api</source>
+      </item>
+      <item>
+        <title>000webhost curl request to seller api</title>
+        <dc:creator><![CDATA[Smeezy]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey there! I’m here to ask a question do you guys block 000webhost requests? because I’m trying to send a curl request to my seller api and it gives me this error:</p>
+<p>“Failed connect to keyauth.win:443; Connection timed out”</p>
+<p>(by the way I tried a raw pastebin and that worked perfectly)</p>
+<p>If I don’t respond hit me up on discord Smeezy#9999</p>
+          <p><a href="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98/1</link>
+        <pubDate>Tue, 31 May 2022 01:14:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-98-1</guid>
+        <source url="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98.rss">000webhost curl request to seller api</source>
+      </item>
+  </channel>
+</rss>

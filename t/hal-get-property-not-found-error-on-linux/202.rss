@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Hal-get-property not found error on linux</title>
+    <link>https://community.keyauth.cc/t/hal-get-property-not-found-error-on-linux/202</link>
+    <description>hi, I&#39;m just trying to run main.py script from your&#39;s github (https://github.com/KeyAuth/KeyAuth-Python-Example) on Kali Linux 2022.2 and after input licence key I got error `hal-get-property not found` . I was trying to search some resolution but I found out hal is no more supported by Linuxes. On windows all is working great but is there any way to use it on Linux (Debian/Ubuntu)?</description>
+    
+    <lastBuildDate>Wed, 15 Jun 2022 10:03:52 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/hal-get-property-not-found-error-on-linux/202.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Hal-get-property not found error on linux</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>We do not support linux</p>
+          <p><a href="https://community.keyauth.cc/t/hal-get-property-not-found-error-on-linux/202/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/hal-get-property-not-found-error-on-linux/202/2</link>
+        <pubDate>Wed, 15 Jun 2022 10:03:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-202-2</guid>
+        <source url="https://community.keyauth.cc/t/hal-get-property-not-found-error-on-linux/202.rss">Hal-get-property not found error on linux</source>
+      </item>
+      <item>
+        <title>Hal-get-property not found error on linux</title>
+        <dc:creator><![CDATA[jusfor]]></dc:creator>
+        <description><![CDATA[
+            <p>hi, I’m just trying to run main.py script from your’s github (<a href="https://github.com/KeyAuth/KeyAuth-Python-Example" class="inline-onebox" rel="noopener nofollow ugc">GitHub - KeyAuth/KeyAuth-Python-Example: KeyAuth Python Example</a>) on Kali Linux 2022.2 and after input licence key I got error <code>hal-get-property not found</code> . I was trying to search some resolution but I found out hal is no more supported by Linuxes. On windows all is working great but is there any way to use it on Linux (Debian/Ubuntu)?</p>
+          <p><a href="https://community.keyauth.cc/t/hal-get-property-not-found-error-on-linux/202/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/hal-get-property-not-found-error-on-linux/202/1</link>
+        <pubDate>Wed, 15 Jun 2022 06:12:46 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-202-1</guid>
+        <source url="https://community.keyauth.cc/t/hal-get-property-not-found-error-on-linux/202.rss">Hal-get-property not found error on linux</source>
+      </item>
+  </channel>
+</rss>

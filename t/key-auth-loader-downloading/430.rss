@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Key auth loader downloading</title>
+    <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430</link>
+    <description>I have a program that uses a loader that needs a auth key to use. I also have a program that is a CMD prompt. I basically want this program to be able to be run on others computers and run the command prompt without them having to download anything special of any sort. Just my exe and that’s it. I dont have any source code for the file tho. I can send my loader code if needed tho</description>
+    
+    <lastBuildDate>Wed, 20 Jul 2022 16:56:33 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[BlazeEscape]]></dc:creator>
+        <description><![CDATA[
+            <p>Hey, Thank you very much for the help.</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/11</link>
+        <pubDate>Wed, 20 Jul 2022 16:56:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-11</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>its all in the python example we just have to read it <img src="https://community.keyauth.win/images/emoji/twitter/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20"></p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/KeyAuth-Python-Example">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-Python-Example" target="_blank" rel="noopener">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/f13fb8184ebf55b1574ae3a5feb9cb0d410a64d7.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/KeyAuth-Python-Example" target="_blank" rel="noopener">GitHub - KeyAuth/KeyAuth-Python-Example: KeyAuth Python Example</a></h3>
+
+  <p>KeyAuth Python Example. Contribute to KeyAuth/KeyAuth-Python-Example development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-Python-Example/blob/main/main.py#L73">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-Python-Example/blob/main/main.py#L73" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-Python-Example/blob/main/main.py#L73" target="_blank" rel="noopener">KeyAuth/KeyAuth-Python-Example/blob/main/main.py#L73</a></h4>
+
+
+
+    <pre class="onebox"><code class="lang-py">
+      <ol class="start lines" start="63" style="counter-reset: li-counter 62 ;">
+          <li>elif ans=="4":
+</li>
+          <li>	key = input('Enter your license: ')
+</li>
+          <li>	keyauthapp.license(key)
+</li>
+          <li>else:
+</li>
+          <li>	print("\nNot Valid Option") 
+</li>
+          <li>	sys.exit()
+</li>
+          <li>
+</li>
+          <li>
+</li>
+          <li>#region Extra Functions
+</li>
+          <li>
+</li>
+          <li class="selected">#* Download Files form the server to your computer using the download function in the api class
+</li>
+          <li>#bytes = keyauthapp.download("FILEID")
+</li>
+          <li>#f = open("example.exe", "wb")
+</li>
+          <li>#f.write(bytes)
+</li>
+          <li>#f.close()
+</li>
+          <li>
+</li>
+          <li>
+</li>
+          <li>#* Set up user variable
+</li>
+          <li>#keyauthapp.setvar("varName", "varValue")
+</li>
+          <li>
+</li>
+          <li>#* Get user variable and print it
+</li>
+      </ol>
+    </code></pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/10</link>
+        <pubDate>Wed, 20 Jul 2022 16:37:47 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-10</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[BlazeEscape]]></dc:creator>
+        <description><![CDATA[
+            <p>Ah thank you. Do you have a source bin/paste bin that happens to have code for it? Thank you!</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/9</link>
+        <pubDate>Wed, 20 Jul 2022 16:33:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-9</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>so use keyauths download feature and download the file after successful sign in</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/8</link>
+        <pubDate>Wed, 20 Jul 2022 11:50:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-8</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[BlazeEscape]]></dc:creator>
+        <description><![CDATA[
+            <p>I do have source code for the loader if needed. I used skynets key auth loader.</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/7</link>
+        <pubDate>Wed, 20 Jul 2022 05:53:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-7</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[BlazeEscape]]></dc:creator>
+        <description><![CDATA[
+            <p>Basically. As an example. Cheats. You know how they typically have like a key authorization so people cant just sell them to others? Kind of like that where the main program is unable to be opened without first using the program I created. I already have the key authorization loader completed I just need a viable way to put my software that I want behind the pay wall in the code. The only issue is I don’t have the source code since It was done such a long time ago. But I basically want my loader to open up this exe file without letting them access the software without the loader. Sorry if that still doesn’t make sense.</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/6</link>
+        <pubDate>Wed, 20 Jul 2022 05:51:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-6</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[BlazeEscape]]></dc:creator>
+        <description><![CDATA[
+            <p>Yea, accidentally set the topic to c++ Instead of python and logged into the wrong account</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/5</link>
+        <pubDate>Wed, 20 Jul 2022 05:48:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-5</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>same as above what is it you are asking here ?</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/4</link>
+        <pubDate>Tue, 19 Jul 2022 19:12:14 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-4</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>same guy different account asking same thing for a different language.</p>
+<aside class="quote" data-post="1" data-topic="427">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/blaze_escape/40/338_2.png" class="avatar">
+    <a href="https://community.keyauth.win/t/key-auth-loader-downloading-software/427">Key Auth Loader downloading software</a> <a class="badge-wrapper  bullet" href="https://community.keyauth.cc/c/examples/c/6"><span class="badge-category-parent-bg" style="background-color: #0088CC;"></span><span class="badge-category-bg" style="background-color: #044F88;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="The C++ example is here GitHub - KeyAuth/KeyAuth-CPP-Example: KeyAuth CPP Example">C++</span></a>
+  </div>
+  <blockquote>
+    I have a program that uses a loader that needs a auth key to use. I also have a program that is a CMD prompt. I basically want this program to be able to be run on others computers and run the command prompt without them having to download anything special of any sort. Just my exe and that’s it. I dont have any source code for the file tho. I can send my loader code if needed tho
+  </blockquote>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/3</link>
+        <pubDate>Tue, 19 Jul 2022 19:06:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-3</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>And whats the question ? im confused</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/2</link>
+        <pubDate>Tue, 19 Jul 2022 17:28:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-2</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+      <item>
+        <title>Key auth loader downloading</title>
+        <dc:creator><![CDATA[BlazeEscape]]></dc:creator>
+        <description><![CDATA[
+            <p>I have a program that uses a loader that needs a auth key to use. I also have a program that is a CMD prompt. I basically want this program to be able to be run on others computers and run the command prompt without them having to download anything special of any sort. Just my exe and that’s it. I dont have any source code for the file tho. I can send my loader code if needed tho</p>
+          <p><a href="https://community.keyauth.cc/t/key-auth-loader-downloading/430/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/key-auth-loader-downloading/430/1</link>
+        <pubDate>Tue, 19 Jul 2022 16:54:09 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-430-1</guid>
+        <source url="https://community.keyauth.cc/t/key-auth-loader-downloading/430.rss">Key auth loader downloading</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Python - KeyAuth</title>
+    <link>https://community.keyauth.cc/c/examples/python/9</link>
+    <description>Topics in the &#39;Python&#39; category The Python example is here &lt;a href=&quot;https://github.com/KeyAuth/KeyAuth-Python-Example&quot; class=&quot;inline-onebox-loading&quot;&gt;https://github.com/KeyAuth/KeyAuth-Python-Example&lt;/a&gt;</description>
+    
+      <lastBuildDate>Wed, 14 Sep 2022 20:59:23 +0000</lastBuildDate>
+      <atom:link href="https://community.keyauth.cc/c/examples/python/9.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Cannot login after adding keyauth to python file</title>
+          <dc:creator><![CDATA[reapz]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/2018c67baa3f607504e7bc3e624274a82598664a.png" alt="image" data-base62-sha1="4zWmjCjKMOl9lgQDpDpnd7OCwwW" width="690" height="145"></p>
+<p>Does that when i try to register</p>
+            <p><small>6 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820</link>
+          <pubDate>Wed, 14 Sep 2022 20:59:23 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-820</guid>
+          <source url="https://community.keyauth.cc/t/cannot-login-after-adding-keyauth-to-python-file/820.rss">Cannot login after adding keyauth to python file</source>
+        </item>
+        <item>
+          <title>Register not creating a user in python</title>
+          <dc:creator><![CDATA[WhiteShadow]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+<p>I am using the defauly keyauth example but when i use option 2(register) then input username, password and key, the key gets used but no user is added or created</p>
+            <p><small>6 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/register-not-creating-a-user-in-python/800">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/register-not-creating-a-user-in-python/800</link>
+          <pubDate>Fri, 09 Sep 2022 11:12:11 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-800</guid>
+          <source url="https://community.keyauth.cc/t/register-not-creating-a-user-in-python/800.rss">Register not creating a user in python</source>
+        </item>
+        <item>
+          <title>Welcome I have a problem when I run the script it shows me an error (misc.exe)even though the file is there</title>
+          <dc:creator><![CDATA[M7amed11]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong><br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/342efbdc9d3e69d84f6d72b95fdd80b5530ffb4b.png" alt="unknown (1)" data-base62-sha1="7rDuqT2DvawpqIm6BuRVjft2wMb" width="524" height="71"></p>
+            <p><small>10 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/welcome-i-have-a-problem-when-i-run-the-script-it-shows-me-an-error-misc-exe-even-though-the-file-is-there/770">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/welcome-i-have-a-problem-when-i-run-the-script-it-shows-me-an-error-misc-exe-even-though-the-file-is-there/770</link>
+          <pubDate>Fri, 02 Sep 2022 15:15:40 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-770</guid>
+          <source url="https://community.keyauth.cc/t/welcome-i-have-a-problem-when-i-run-the-script-it-shows-me-an-error-misc-exe-even-though-the-file-is-there/770.rss">Welcome I have a problem when I run the script it shows me an error (misc.exe)even though the file is there</source>
+        </item>
+        <item>
+          <title>Error misc.exe When I run the script, an error appears</title>
+          <dc:creator><![CDATA[M7amed]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong><br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/91f60dfd88d7d86355f55d0af331ebd9533921d3.png" alt="unknown (1)" data-base62-sha1="kPeoYDudO7hVIhCDTe0ggOfOazh" width="524" height="71"></p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/error-misc-exe-when-i-run-the-script-an-error-appears/767">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/error-misc-exe-when-i-run-the-script-an-error-appears/767</link>
+          <pubDate>Fri, 02 Sep 2022 13:31:50 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-767</guid>
+          <source url="https://community.keyauth.cc/t/error-misc-exe-when-i-run-the-script-an-error-appears/767.rss">Error misc.exe When I run the script, an error appears</source>
+        </item>
+        <item>
+          <title>Keyuath Host Error</title>
+          <dc:creator><![CDATA[FlorinPT]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/510a8480e296c451d343297625cadc3a9b6a6d0e.png" alt="Screenshot_2" data-base62-sha1="byVcXaQQ2kuUPilfpVNk0MqkDLg" width="690" height="377"></p>
+<p>i am getting this error how can i fix it</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/keyuath-host-error/737">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/keyuath-host-error/737</link>
+          <pubDate>Mon, 29 Aug 2022 10:10:54 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-737</guid>
+          <source url="https://community.keyauth.cc/t/keyuath-host-error/737.rss">Keyuath Host Error</source>
+        </item>
+        <item>
+          <title>Getting this error after login attempt</title>
+          <dc:creator><![CDATA[cxrrupted]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/9e4510055dd89931b1ee120d4cc923071d148adc.png" alt="image" data-base62-sha1="mA7pby2pW9ydYUan4DJIJ8pkZrK" width="690" height="245"></p>
+<p>i try to login and i get this all of a sudden not sure why now</p>
+<p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+            <p><small>21 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/getting-this-error-after-login-attempt/735">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/getting-this-error-after-login-attempt/735</link>
+          <pubDate>Sun, 28 Aug 2022 20:09:10 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-735</guid>
+          <source url="https://community.keyauth.cc/t/getting-this-error-after-login-attempt/735.rss">Getting this error after login attempt</source>
+        </item>
+        <item>
+          <title>Ip displaying on the console for keyauth</title>
+          <dc:creator><![CDATA[cxrrupted]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>Hello, i am new and abit lost i managed to add the auth to my python script and works fine and all even when logging in,  1 thing i wish to remove though is the part where when i login it shows my ip and hardware id and so on… how do i remove this completely? i am new with python and just trying to learn <img src="https://community.keyauth.win/images/emoji/twitter/slight_smile.png?v=12" title=":slight_smile:" class="emoji" alt=":slight_smile:" loading="lazy" width="20" height="20"></p>
+<p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727</link>
+          <pubDate>Sat, 27 Aug 2022 23:23:07 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-727</guid>
+          <source url="https://community.keyauth.cc/t/ip-displaying-on-the-console-for-keyauth/727.rss">Ip displaying on the console for keyauth</source>
+        </item>
+        <item>
+          <title>How do I integrate KeyAuth Session with my backend to prevent Free API access?</title>
+          <dc:creator><![CDATA[ethanperrine]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+<p>Hello, I have made a program that uses KeyAuth for authentication. However I have a back end where my program will do most of the work (server sided). Is it possible to validate the session on the front end and send it to backend saying “Hey Im Legit!” This is to prevent people from Jacking my API and using my service for free. Thoughts?</p>
+            <p><small>5 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724</link>
+          <pubDate>Sat, 27 Aug 2022 22:37:16 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-724</guid>
+          <source url="https://community.keyauth.cc/t/how-do-i-integrate-keyauth-session-with-my-backend-to-prevent-free-api-access/724.rss">How do I integrate KeyAuth Session with my backend to prevent Free API access?</source>
+        </item>
+        <item>
+          <title>[SELLER API] Get expiry of a user</title>
+          <dc:creator><![CDATA[vorace32]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>Hi, it’s possible to get the expiry of a user with the seller api ?<br>
+I saw that it was possible with the <strong>fetchallkeys</strong> but it is not update everytime, we need to create a key manually on the site to update the api.</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685</link>
+          <pubDate>Thu, 18 Aug 2022 22:58:55 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-685</guid>
+          <source url="https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685.rss">[SELLER API] Get expiry of a user</source>
+        </item>
+        <item>
+          <title>Invalid app info</title>
+          <dc:creator><![CDATA[Amogus_Sus]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>im getting an error <code>Invalid Application Information. Long text is secret short text is ownerid. Name is supposed to be app name not username</code> even tho my details are correct</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/invalid-app-info/676">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/invalid-app-info/676</link>
+          <pubDate>Thu, 18 Aug 2022 10:04:08 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-676</guid>
+          <source url="https://community.keyauth.cc/t/invalid-app-info/676.rss">Invalid app info</source>
+        </item>
+        <item>
+          <title>Cooding err0r help me</title>
+          <dc:creator><![CDATA[JATIN_Kumar]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <pre><code>Traceback (most recent call last):
+</code></pre>
+<p>File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py”, line 133, in <br>
+onlineUsers = keyauthapp.fetchOnline()<br>
+File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\keyauth.py”, line 435, in fetchOnline<br>
+if json[“users”][“0”]:<br>
+TypeError: list indices must be integers or slices, not str<br>
+Press any key to continue . . .</p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/cooding-err0r-help-me/649">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/cooding-err0r-help-me/649</link>
+          <pubDate>Mon, 15 Aug 2022 15:45:02 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-649</guid>
+          <source url="https://community.keyauth.cc/t/cooding-err0r-help-me/649.rss">Cooding err0r help me</source>
+        </item>
+        <item>
+          <title>Coding error plz help me out</title>
+          <dc:creator><![CDATA[JATIN_Kumar]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>Traceback (most recent call last):<br>
+File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py”, line 1, in <br>
+from keyauth import api<br>
+File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\keyauth.py”, line 505<br>
+username = ip = hwid = expires = createdate = lastlogin = subscription = subscriptions " "<br>
+SyntaxError: invalid syntax<br>
+Press any key to continue . . .</p>
+<p>HELP ME TO SOLV</p>
+            <p><small>6 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/coding-error-plz-help-me-out/648</link>
+          <pubDate>Mon, 15 Aug 2022 14:55:10 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-648</guid>
+          <source url="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648.rss">Coding error plz help me out</source>
+        </item>
+        <item>
+          <title>I Try to start it and this come</title>
+          <dc:creator><![CDATA[Noritem-Dev]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>Error:<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/4e682b19cf9b6af34e27831649dbbb45ea03c571.png" alt="" data-base62-sha1="bbCqbDB4AZTZMVbKgA7Zux0upS9" width="" height=""></p>
+<p>Code:<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/3f6779f752dd5cce9442255b7cd9c6f83c52d330.png" alt="" data-base62-sha1="92TMe7zf8XlOuImY0Lmg6nAsGPK" width="" height=""><br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/3f6779f752dd5cce9442255b7cd9c6f83c52d330.png" alt="image" data-base62-sha1="92TMe7zf8XlOuImY0Lmg6nAsGPK" width="665" height="373"></p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/i-try-to-start-it-and-this-come/645">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/i-try-to-start-it-and-this-come/645</link>
+          <pubDate>Mon, 15 Aug 2022 13:30:06 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-645</guid>
+          <source url="https://community.keyauth.cc/t/i-try-to-start-it-and-this-come/645.rss">I Try to start it and this come</source>
+        </item>
+        <item>
+          <title>Python Keyauth.py</title>
+          <dc:creator><![CDATA[Snowwy]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>When compiling my Main.py is there anyway to make the KeyAuth.py hidden or remove it completely without disabling functionality?</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/python-keyauth-py/622">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/python-keyauth-py/622</link>
+          <pubDate>Wed, 10 Aug 2022 02:36:06 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-622</guid>
+          <source url="https://community.keyauth.cc/t/python-keyauth-py/622.rss">Python Keyauth.py</source>
+        </item>
+        <item>
+          <title>Python Downloader</title>
+          <dc:creator><![CDATA[H0QL]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>hey i cant download my exe file i did everthing but i need some help its not downloading is there a code to put in the python script to download after the auth it like the key</p>
+            <p><small>6 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/python-downloader/618">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/python-downloader/618</link>
+          <pubDate>Tue, 09 Aug 2022 21:44:13 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-618</guid>
+          <source url="https://community.keyauth.cc/t/python-downloader/618.rss">Python Downloader</source>
+        </item>
+        <item>
+          <title>How To Setup KeyAuth in script python</title>
+          <dc:creator><![CDATA[SARKOZY]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>How To Setup KeyAuth  in  script python<br>
+While the method on youtube is not valid, please help</p>
+            <p><small>9 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/how-to-setup-keyauth-in-script-python/600">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/how-to-setup-keyauth-in-script-python/600</link>
+          <pubDate>Sat, 06 Aug 2022 21:16:34 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-600</guid>
+          <source url="https://community.keyauth.cc/t/how-to-setup-keyauth-in-script-python/600.rss">How To Setup KeyAuth in script python</source>
+        </item>
+        <item>
+          <title>I need help Injection with dll</title>
+          <dc:creator><![CDATA[H0QL]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>Hey I need help adding a injector for python</p>
+            <p><small>6 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/i-need-help-injection-with-dll/564">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/i-need-help-injection-with-dll/564</link>
+          <pubDate>Tue, 02 Aug 2022 20:04:44 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-564</guid>
+          <source url="https://community.keyauth.cc/t/i-need-help-injection-with-dll/564.rss">I need help Injection with dll</source>
+        </item>
+        <item>
+          <title>How to get &#39;timeleft&#39; from api response?</title>
+          <dc:creator><![CDATA[jorjeoliveira]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>After the update, I’m not getting ‘timeleft’ in the JSON. Is there any way to get it? Cause if don’t I will need to find a way to get the current time from a security server.</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/how-to-get-timeleft-from-api-response/553">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/how-to-get-timeleft-from-api-response/553</link>
+          <pubDate>Tue, 02 Aug 2022 00:35:16 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-553</guid>
+          <source url="https://community.keyauth.cc/t/how-to-get-timeleft-from-api-response/553.rss">How to get &#39;timeleft&#39; from api response?</source>
+        </item>
+        <item>
+          <title>Time to read the errors</title>
+          <dc:creator><![CDATA[Too_Many]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>I want to give people time to read the errors like “Password does not match” cus when i put wrong password I can see the error for only 0.5 seconds</p>
+            <p><small>8 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/time-to-read-the-errors/548">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/time-to-read-the-errors/548</link>
+          <pubDate>Mon, 01 Aug 2022 17:15:51 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-548</guid>
+          <source url="https://community.keyauth.cc/t/time-to-read-the-errors/548.rss">Time to read the errors</source>
+        </item>
+        <item>
+          <title>Username Validation</title>
+          <dc:creator><![CDATA[MickeyYe]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>Im trying to make a backend server for my application and im making a route where the user’s username needs be sent. I need to check if the username is actually registered on the auth. Is there a way to do that?</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/username-validation/546">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/username-validation/546</link>
+          <pubDate>Mon, 01 Aug 2022 02:35:18 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-546</guid>
+          <source url="https://community.keyauth.cc/t/username-validation/546.rss">Username Validation</source>
+        </item>
+        <item>
+          <title>VPN Block Doesn&#39;t work</title>
+          <dc:creator><![CDATA[Yaz0x]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>the vpn block doesn’t work with the python exemple</p>
+            <p><small>3 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/vpn-block-doesnt-work/533">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/vpn-block-doesnt-work/533</link>
+          <pubDate>Sat, 30 Jul 2022 14:30:42 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-533</guid>
+          <source url="https://community.keyauth.cc/t/vpn-block-doesnt-work/533.rss">VPN Block Doesn&#39;t work</source>
+        </item>
+        <item>
+          <title>How to ban HWID and not IP in keyauth.py</title>
+          <dc:creator><![CDATA[Lucas_Manolia]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>keyauthapp.ban() == blacklists IP and bans key, I would like it to blacklist HWID and ban key.</p>
+<p>Python of course.</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514</link>
+          <pubDate>Wed, 27 Jul 2022 16:45:17 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-514</guid>
+          <source url="https://community.keyauth.cc/t/how-to-ban-hwid-and-not-ip-in-keyauth-py/514.rss">How to ban HWID and not IP in keyauth.py</source>
+        </item>
+        <item>
+          <title>i have keyauth problem in python</title>
+          <dc:creator><![CDATA[FlorinPT]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p>The program does not close even though the user’s key time has expired. and unlimited use</p>
+            <p><small>4 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512</link>
+          <pubDate>Wed, 27 Jul 2022 12:59:25 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-512</guid>
+          <source url="https://community.keyauth.cc/t/i-have-keyauth-problem-in-python/512.rss">i have keyauth problem in python</source>
+        </item>
+        <item>
+          <title>Process Error/Bug</title>
+          <dc:creator><![CDATA[Blaze_Escape]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/e9ee3d849c8fa2e33258c206ef84a04c029fecf6.png" alt="image" data-base62-sha1="xnrG2Fqw0csGXPQMnFt3BHAnAiy" width="612" height="38"></p>
+            <p><small>4 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/process-error-bug/477">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/process-error-bug/477</link>
+          <pubDate>Fri, 22 Jul 2022 18:22:59 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-477</guid>
+          <source url="https://community.keyauth.cc/t/process-error-bug/477.rss">Process Error/Bug</source>
+        </item>
+        <item>
+          <title>Restrict access to file</title>
+          <dc:creator><![CDATA[Blaze_Escape]]></dc:creator>
+          <category>Python</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/8c4c2841a037e0098b17473426323ce007279c00.png" alt="image" data-base62-sha1="k180Kd2twGHSZLeiUfy4rcSv9WE" width="641" height="80"></p>
+<p>I want to restrict access to the “WINDOWS_10_PRO_ACTIVATION.bat” unless you open Windows.exe which is my key authorization loader. Is there any way I can possibly do that? I havent found a solution yet.</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/restrict-access-to-file/462">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/restrict-access-to-file/462</link>
+          <pubDate>Thu, 21 Jul 2022 22:02:21 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-462</guid>
+          <source url="https://community.keyauth.cc/t/restrict-access-to-file/462.rss">Restrict access to file</source>
+        </item>
+  </channel>
+</rss>

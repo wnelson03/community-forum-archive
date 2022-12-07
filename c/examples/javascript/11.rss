@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>JavaScript - KeyAuth</title>
+    <link>https://community.keyauth.cc/c/examples/javascript/11</link>
+    <description>Topics in the &#39;JavaScript&#39; category The Javascript example is here &lt;a href=&quot;https://github.com/mazk5145/KeyAuth-JS-Example&quot; class=&quot;inline-onebox-loading&quot;&gt;https://github.com/mazk5145/KeyAuth-JS-Example&lt;/a&gt;</description>
+    
+      <lastBuildDate>Thu, 01 Sep 2022 12:36:43 +0000</lastBuildDate>
+      <atom:link href="https://community.keyauth.cc/c/examples/javascript/11.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>Node Js Discord Bot - On Command Can Bot Create A Key</title>
+          <dc:creator><![CDATA[Globe]]></dc:creator>
+          <category>JavaScript</category>
+          <description><![CDATA[
+            <p>hello i am making a node.js discord bot auth, and before i buy the seller upgrade i was wondering if it is possible to make it so when someone does a certain command like !getkey then it creates a 1 day temp key and the key adds to the licenses section</p>
+            <p><small>6 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757</link>
+          <pubDate>Thu, 01 Sep 2022 12:36:43 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-757</guid>
+          <source url="https://community.keyauth.cc/t/node-js-discord-bot-on-command-can-bot-create-a-key/757.rss">Node Js Discord Bot - On Command Can Bot Create A Key</source>
+        </item>
+        <item>
+          <title>Is there a javascript seller api?</title>
+          <dc:creator><![CDATA[PixelX]]></dc:creator>
+          <category>JavaScript</category>
+          <description><![CDATA[
+            <p>Is there a javascript seller api?</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481</link>
+          <pubDate>Sat, 23 Jul 2022 07:50:47 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-481</guid>
+          <source url="https://community.keyauth.cc/t/is-there-a-javascript-seller-api/481.rss">Is there a javascript seller api?</source>
+        </item>
+        <item>
+          <title>I need help with html</title>
+          <dc:creator><![CDATA[insane]]></dc:creator>
+          <category>JavaScript</category>
+          <description><![CDATA[
+            <p>i want to use key auth in my html file i imported these ( <a href="https://github.com/mazk5145/KeyAuth-JS-Example" class="inline-onebox" rel="noopener nofollow ugc">GitHub - mazk5145/KeyAuth-JS-Example: KeyAuth JS Example</a> ) to the html file, now i dont know how to make a login forum</p>
+<p>Thanks</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/i-need-help-with-html/392">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/i-need-help-with-html/392</link>
+          <pubDate>Tue, 12 Jul 2022 16:57:44 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-392</guid>
+          <source url="https://community.keyauth.cc/t/i-need-help-with-html/392.rss">I need help with html</source>
+        </item>
+        <item>
+          <title>Read before posting in JavaScript</title>
+          <dc:creator><![CDATA[mak]]></dc:creator>
+          <category>JavaScript</category>
+          <description><![CDATA[
+            <p>The Javascript example is here <a href="https://github.com/mazk5145/KeyAuth-JS-Example" class="inline-onebox">GitHub - mazk5145/KeyAuth-JS-Example: KeyAuth JS Example</a></p>
+<p>Please look at the videos on YouTube too <a href="https://youtube.com/KeyAuth">https://youtube.com/KeyAuth</a><br>
+<br><br>
+<br></p>
+<p>We will only assist with the default example that hasn’t been changed, or added to your code.</p>
+<p>So, <strong>do not</strong> make a post if you’re having issues adding KeyAuth to your code, only make an issue if KeyAuth is causing problems by myself.</p>
+<p>For other circumstances, you should use <a href="https://google.com">https://google.com</a> or <a href="https://stackoverflow.com">https://stackoverflow.com</a>, or try adding your code to KeyAuth example instead of the other way around.</p>
+            <p><small>2 posts - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/read-before-posting-in-javascript/18">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/read-before-posting-in-javascript/18</link>
+          <pubDate>Mon, 23 May 2022 15:35:58 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-18</guid>
+          <source url="https://community.keyauth.cc/t/read-before-posting-in-javascript/18.rss">Read before posting in JavaScript</source>
+        </item>
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to use the download feature in keyauth</title>
+    <link>https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80</link>
+    <description>How do I use the download feature in keyauth and where can i make it download in a specific path??? lmk asap</description>
+    
+    <lastBuildDate>Sun, 29 May 2022 16:57:22 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to use the download feature in keyauth</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Make sure you replace <code>167212</code> with your file ID on KeyAuth dashboard</p>
+<p>And replace <code>C:\\PATH\\file.exe</code> with the path you want to download file to.</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80/3</link>
+        <pubDate>Sun, 29 May 2022 16:57:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-80-3</guid>
+        <source url="https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80.rss">How to use the download feature in keyauth</source>
+      </item>
+      <item>
+        <title>How to use the download feature in keyauth</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p><a href="https://pastebin.com/raw/2HVYpQAV" class="onebox" target="_blank" rel="noopener">https://pastebin.com/raw/2HVYpQAV</a></p>
+          <p><a href="https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80/2</link>
+        <pubDate>Sun, 29 May 2022 16:34:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-80-2</guid>
+        <source url="https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80.rss">How to use the download feature in keyauth</source>
+      </item>
+      <item>
+        <title>How to use the download feature in keyauth</title>
+        <dc:creator><![CDATA[sohcz]]></dc:creator>
+        <description><![CDATA[
+            <p>How do I use the download feature in keyauth and where can i make it download in a specific path??? lmk asap</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80/1</link>
+        <pubDate>Sun, 29 May 2022 16:27:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-80-1</guid>
+        <source url="https://community.keyauth.cc/t/how-to-use-the-download-feature-in-keyauth/80.rss">How to use the download feature in keyauth</source>
+      </item>
+  </channel>
+</rss>

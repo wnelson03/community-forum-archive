@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>[SELLER API] Get expiry of a user</title>
+    <link>https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685</link>
+    <description>Hi, it&#39;s possible to get the expiry of a user with the seller api ?
+I saw that it was possible with the **fetchallkeys** but it is not update everytime, we need to create a key manually on the site to update the api.</description>
+    
+    <lastBuildDate>Thu, 18 Aug 2022 23:13:18 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>[SELLER API] Get expiry of a user</title>
+        <dc:creator><![CDATA[vorace32]]></dc:creator>
+        <description><![CDATA[
+            <p>" self.user_data.expires " don’t use the seller api, I need the seller api for a discord bot, not a exe</p>
+          <p><a href="https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685/3</link>
+        <pubDate>Thu, 18 Aug 2022 23:13:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-685-3</guid>
+        <source url="https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685.rss">[SELLER API] Get expiry of a user</source>
+      </item>
+      <item>
+        <title>[SELLER API] Get expiry of a user</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <p>self.user_data.expires</p>
+          <p><a href="https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685/2</link>
+        <pubDate>Thu, 18 Aug 2022 23:06:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-685-2</guid>
+        <source url="https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685.rss">[SELLER API] Get expiry of a user</source>
+      </item>
+      <item>
+        <title>[SELLER API] Get expiry of a user</title>
+        <dc:creator><![CDATA[vorace32]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi, it’s possible to get the expiry of a user with the seller api ?<br>
+I saw that it was possible with the <strong>fetchallkeys</strong> but it is not update everytime, we need to create a key manually on the site to update the api.</p>
+          <p><a href="https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685/1</link>
+        <pubDate>Thu, 18 Aug 2022 22:58:56 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-685-1</guid>
+        <source url="https://community.keyauth.cc/t/seller-api-get-expiry-of-a-user/685.rss">[SELLER API] Get expiry of a user</source>
+      </item>
+  </channel>
+</rss>

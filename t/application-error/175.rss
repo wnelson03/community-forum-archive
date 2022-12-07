@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Application error</title>
+    <link>https://community.keyauth.cc/t/application-error/175</link>
+    <description>After changing code Under the API Application launch for sec and crash after fixing to normal code without changes it launch without any issues
+![image|690x356](upload://eeGzY6ifmYitqnnZ8Z4tvRoIAWj.png)</description>
+    
+    <lastBuildDate>Wed, 20 Jul 2022 16:40:53 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/application-error/175.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Application error</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>what is the question you are asking here ?</p>
+          <p><a href="https://community.keyauth.cc/t/application-error/175/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/application-error/175/2</link>
+        <pubDate>Wed, 20 Jul 2022 16:40:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-175-2</guid>
+        <source url="https://community.keyauth.cc/t/application-error/175.rss">Application error</source>
+      </item>
+      <item>
+        <title>Application error</title>
+        <dc:creator><![CDATA[Life_dark]]></dc:creator>
+        <description><![CDATA[
+            <p>After changing code Under the API Application launch for sec and crash after fixing to normal code without changes it launch without any issues<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/63c7721d88bbd1f4eaee84368781935ed694f76f.png" alt="image" data-base62-sha1="eeGzY6ifmYitqnnZ8Z4tvRoIAWj" width="690" height="356"></p>
+          <p><a href="https://community.keyauth.cc/t/application-error/175/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/application-error/175/1</link>
+        <pubDate>Sat, 11 Jun 2022 08:20:23 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-175-1</guid>
+        <source url="https://community.keyauth.cc/t/application-error/175.rss">Application error</source>
+      </item>
+  </channel>
+</rss>

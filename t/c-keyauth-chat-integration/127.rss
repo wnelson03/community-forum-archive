@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C# KeyAuth Chat Integration</title>
+    <link>https://community.keyauth.cc/t/c-keyauth-chat-integration/127</link>
+    <description>Hi, does anyone have any proper documentation, example or code snippets containing usage of the new KeyAuth chat integration? Thanks.</description>
+    
+    <lastBuildDate>Fri, 03 Jun 2022 19:13:51 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/c-keyauth-chat-integration/127.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C# KeyAuth Chat Integration</title>
+        <dc:creator><![CDATA[ATX]]></dc:creator>
+        <description><![CDATA[
+            <p><strong>SOLVED</strong></p>
+<p>C# Chat Integration example isn’t in Console example, only WinForms example.</p>
+          <p><a href="https://community.keyauth.cc/t/c-keyauth-chat-integration/127/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-keyauth-chat-integration/127/3</link>
+        <pubDate>Fri, 03 Jun 2022 19:13:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-127-3</guid>
+        <source url="https://community.keyauth.cc/t/c-keyauth-chat-integration/127.rss">C# KeyAuth Chat Integration</source>
+      </item>
+      <item>
+        <title>C# KeyAuth Chat Integration</title>
+        <dc:creator><![CDATA[ItsNetworking]]></dc:creator>
+        <description><![CDATA[
+            <p>View examples on GitHub and <a href="https://docs.KeyAuth.win">https://docs.KeyAuth.win</a></p>
+          <p><a href="https://community.keyauth.cc/t/c-keyauth-chat-integration/127/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-keyauth-chat-integration/127/2</link>
+        <pubDate>Fri, 03 Jun 2022 16:49:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-127-2</guid>
+        <source url="https://community.keyauth.cc/t/c-keyauth-chat-integration/127.rss">C# KeyAuth Chat Integration</source>
+      </item>
+      <item>
+        <title>C# KeyAuth Chat Integration</title>
+        <dc:creator><![CDATA[ATX]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi, does anyone have any proper documentation, example or code snippets containing usage of the new KeyAuth chat integration? Thanks.</p>
+          <p><a href="https://community.keyauth.cc/t/c-keyauth-chat-integration/127/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-keyauth-chat-integration/127/1</link>
+        <pubDate>Fri, 03 Jun 2022 13:28:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-127-1</guid>
+        <source url="https://community.keyauth.cc/t/c-keyauth-chat-integration/127.rss">C# KeyAuth Chat Integration</source>
+      </item>
+  </channel>
+</rss>

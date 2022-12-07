@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Loader not taking user to new download after update</title>
+    <link>https://community.keyauth.cc/t/loader-not-taking-user-to-new-download-after-update/526</link>
+    <description>so i just made an update to my app and changed version in code and online but when i open the old loader it doesnt bring user to the download link for the new loader like it used to and i didnt touch a thing with the keyauth code just my code</description>
+    
+    <lastBuildDate>Fri, 29 Jul 2022 08:59:47 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/loader-not-taking-user-to-new-download-after-update/526.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Loader not taking user to new download after update</title>
+        <dc:creator><![CDATA[Gru]]></dc:creator>
+        <description><![CDATA[
+            <p>nvm i figured it out it was because i was using 1.3.2 as my version and that breaks auto update for some reason, prob cuz its more that 1 decimals</p>
+          <p><a href="https://community.keyauth.cc/t/loader-not-taking-user-to-new-download-after-update/526/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/loader-not-taking-user-to-new-download-after-update/526/2</link>
+        <pubDate>Fri, 29 Jul 2022 08:59:47 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-526-2</guid>
+        <source url="https://community.keyauth.cc/t/loader-not-taking-user-to-new-download-after-update/526.rss">Loader not taking user to new download after update</source>
+      </item>
+      <item>
+        <title>Loader not taking user to new download after update</title>
+        <dc:creator><![CDATA[Gru]]></dc:creator>
+        <description><![CDATA[
+            <p>so i just made an update to my app and changed version in code and online but when i open the old loader it doesnt bring user to the download link for the new loader like it used to and i didnt touch a thing with the keyauth code just my code</p>
+          <p><a href="https://community.keyauth.cc/t/loader-not-taking-user-to-new-download-after-update/526/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/loader-not-taking-user-to-new-download-after-update/526/1</link>
+        <pubDate>Fri, 29 Jul 2022 08:43:11 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-526-1</guid>
+        <source url="https://community.keyauth.cc/t/loader-not-taking-user-to-new-download-after-update/526.rss">Loader not taking user to new download after update</source>
+      </item>
+  </channel>
+</rss>

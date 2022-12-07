@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>crypt_stream.FlushFinalBlock(); -- &quot;The padding is incorrect and cannot be removed.&quot;</title>
+    <link>https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753</link>
+    <description>hello, im using c# and i ran into an error: crypt_stream.FlushFinalBlock(); -- System.Security.Cryptography.CryptographicException: &quot;The padding is incorrect and cannot be removed.&quot;
+
+This exception was originally thrown in this call stack:This exception was originally thrown in this call stack:
+    [External code]
+    KeyAuth.encryption.decrypt_string(string, byte[], byte[]) в KeyAuth.cs
+    KeyAuth.encryption.decrypt(string, string, string) в KeyAuth.cs
+    KeyAuth.api.init() в KeyAuth.cs
+    REx_redux.Resources.logins.logins_Load(object, System.EventArgs) в logins.cs
+    [External code]</description>
+    
+    <lastBuildDate>Thu, 01 Sep 2022 18:55:55 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>crypt_stream.FlushFinalBlock(); -- &quot;The padding is incorrect and cannot be removed.&quot;</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753/3</link>
+        <pubDate>Thu, 01 Sep 2022 18:56:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-753-3</guid>
+        <source url="https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753.rss">crypt_stream.FlushFinalBlock(); -- &quot;The padding is incorrect and cannot be removed.&quot;</source>
+      </item>
+      <item>
+        <title>crypt_stream.FlushFinalBlock(); -- &quot;The padding is incorrect and cannot be removed.&quot;</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Use the default example with no changes <a href="https://github.com/KeyAuth/KeyAuth-CSHARP-Example" class="inline-onebox">GitHub - KeyAuth/KeyAuth-CSHARP-Example: KeyAuth CSHARP Example</a></p>
+<p>nobody has any issues with it. it is your responsibility to add KeyAuth to your code or vise versa correctly. we only assist with issues with examples that have had no changes to them.</p>
+<p>You’ve been blocked from submitting suggestions and bugs on Discord since you spammed them</p>
+          <p><a href="https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753/2</link>
+        <pubDate>Thu, 01 Sep 2022 18:55:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-753-2</guid>
+        <source url="https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753.rss">crypt_stream.FlushFinalBlock(); -- &quot;The padding is incorrect and cannot be removed.&quot;</source>
+      </item>
+      <item>
+        <title>crypt_stream.FlushFinalBlock(); -- &quot;The padding is incorrect and cannot be removed.&quot;</title>
+        <dc:creator><![CDATA[igromanvTV]]></dc:creator>
+        <description><![CDATA[
+            <p>hello, im using c# and i ran into an error: crypt_stream.FlushFinalBlock(); – System.Security.Cryptography.CryptographicException: “The padding is incorrect and cannot be removed.”</p>
+<p>This exception was originally thrown in this call stack:This exception was originally thrown in this call stack:<br>
+[External code]<br>
+KeyAuth.encryption.decrypt_string(string, byte[], byte[]) в KeyAuth.cs<br>
+KeyAuth.encryption.decrypt(string, string, string) в KeyAuth.cs<br>
+KeyAuth.api.init() в KeyAuth.cs<br>
+REx_redux.Resources.logins.logins_Load(object, System.EventArgs) в logins.cs<br>
+[External code]</p>
+          <p><a href="https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753/1</link>
+        <pubDate>Wed, 31 Aug 2022 19:14:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-753-1</guid>
+        <source url="https://community.keyauth.cc/t/crypt-stream-flushfinalblock-the-padding-is-incorrect-and-cannot-be-removed/753.rss">crypt_stream.FlushFinalBlock(); -- &quot;The padding is incorrect and cannot be removed.&quot;</source>
+      </item>
+  </channel>
+</rss>

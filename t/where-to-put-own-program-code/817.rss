@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Where to put own program code</title>
+    <link>https://community.keyauth.cc/t/where-to-put-own-program-code/817</link>
+    <description>:white_check_mark: I agree that **I will not ask for help with non-KeyAuth related topics**, this community site **is only for asking about the default KeyAuth example with NO changes made to it**
+
+keyauth is working fine now here should i put my own program code so when the key is activated that my own program opens</description>
+    
+    <lastBuildDate>Wed, 14 Sep 2022 04:40:57 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/where-to-put-own-program-code/817.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Where to put own program code</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/where-to-put-own-program-code/817/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/where-to-put-own-program-code/817/7</link>
+        <pubDate>Wed, 14 Sep 2022 04:41:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-817-7</guid>
+        <source url="https://community.keyauth.cc/t/where-to-put-own-program-code/817.rss">Where to put own program code</source>
+      </item>
+      <item>
+        <title>Where to put own program code</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>This has absolutely nothing to do with KeyAuth. The code goes at the bottom after the user data is printed out. You should replace the section of code that says <code>Closing in ten seconds</code> with your code.</p>
+<p>This is very basic c# programming and you should Google or watch YouTube videos. Please do not ask unrelated questions such as these here again.</p>
+          <p><a href="https://community.keyauth.cc/t/where-to-put-own-program-code/817/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/where-to-put-own-program-code/817/6</link>
+        <pubDate>Wed, 14 Sep 2022 04:40:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-817-6</guid>
+        <source url="https://community.keyauth.cc/t/where-to-put-own-program-code/817.rss">Where to put own program code</source>
+      </item>
+      <item>
+        <title>Where to put own program code</title>
+        <dc:creator><![CDATA[RqEqEqZ]]></dc:creator>
+        <description><![CDATA[
+            <p>yes</p>
+          <p><a href="https://community.keyauth.cc/t/where-to-put-own-program-code/817/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/where-to-put-own-program-code/817/5</link>
+        <pubDate>Tue, 13 Sep 2022 19:34:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-817-5</guid>
+        <source url="https://community.keyauth.cc/t/where-to-put-own-program-code/817.rss">Where to put own program code</source>
+      </item>
+      <item>
+        <title>Where to put own program code</title>
+        <dc:creator><![CDATA[xKaih]]></dc:creator>
+        <description><![CDATA[
+            <p>You have added all the references that has your project like nuget packages?</p>
+          <p><a href="https://community.keyauth.cc/t/where-to-put-own-program-code/817/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/where-to-put-own-program-code/817/4</link>
+        <pubDate>Tue, 13 Sep 2022 19:28:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-817-4</guid>
+        <source url="https://community.keyauth.cc/t/where-to-put-own-program-code/817.rss">Where to put own program code</source>
+      </item>
+      <item>
+        <title>Where to put own program code</title>
+        <dc:creator><![CDATA[RqEqEqZ]]></dc:creator>
+        <description><![CDATA[
+            <p>already did 20 times and i get 20+, 99+ errors</p>
+          <p><a href="https://community.keyauth.cc/t/where-to-put-own-program-code/817/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/where-to-put-own-program-code/817/3</link>
+        <pubDate>Tue, 13 Sep 2022 19:19:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-817-3</guid>
+        <source url="https://community.keyauth.cc/t/where-to-put-own-program-code/817.rss">Where to put own program code</source>
+      </item>
+      <item>
+        <title>Where to put own program code</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Using the example its all there for you take time to read it and the question you asking the answer is in the code.</p>
+          <p><a href="https://community.keyauth.cc/t/where-to-put-own-program-code/817/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/where-to-put-own-program-code/817/2</link>
+        <pubDate>Tue, 13 Sep 2022 18:47:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-817-2</guid>
+        <source url="https://community.keyauth.cc/t/where-to-put-own-program-code/817.rss">Where to put own program code</source>
+      </item>
+      <item>
+        <title>Where to put own program code</title>
+        <dc:creator><![CDATA[RqEqEqZ]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+<p>keyauth is working fine now here should i put my own program code so when the key is activated that my own program opens</p>
+          <p><a href="https://community.keyauth.cc/t/where-to-put-own-program-code/817/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/where-to-put-own-program-code/817/1</link>
+        <pubDate>Tue, 13 Sep 2022 18:41:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-817-1</guid>
+        <source url="https://community.keyauth.cc/t/where-to-put-own-program-code/817.rss">Where to put own program code</source>
+      </item>
+  </channel>
+</rss>

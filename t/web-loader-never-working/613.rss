@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Web Loader never working</title>
+    <link>https://community.keyauth.cc/t/web-loader-never-working/613</link>
+    <description>Hello there,
+So uhm basically I&#39;ve edited the main.cpp of keyauth example (api 1.2) to only do web login
+```
+
+{
+	SetConsoleTitleA(skCrypt(&quot;Loader&quot;));
+	std::cout &lt;&lt; skCrypt(&quot;\n\n Connecting..&quot;);
+	KeyAuthApp.init();
+	if (!KeyAuthApp.data.success)
+	{
+		std::cout &lt;&lt; skCrypt(&quot;\n Status: &quot;) &lt;&lt; KeyAuthApp.data.message;
+		Sleep(1500);
+		exit(0);
+	}
+	
+	std::cout &lt;&lt; &quot;\n Waiting for user to login&quot;;
+	KeyAuthApp.web_login();
+
+	std::cout &lt;&lt; &quot;\n Waiting for button to be clicked&quot;;
+	KeyAuthApp.button(&quot;hwid&quot;); 
+```
+And keyauth initializes successfully without any problem
+The only thing is that whenever I go to the customer panel (yes I have seller plan) it keeps on saying Waiting on user to login and when I even downloaded the customer panel example from github and hosted it on my localhost it STILL was stuck on waiting for user to login.
+
+I&#39;ve tried with localhost:1337 in the code, nope didnt work
+And then ive tried with removing the :1337
+Ive tried the normal code, modified code, everything doesnt work
+
+Please help.
+Thx!!</description>
+    
+    <lastBuildDate>Wed, 10 Aug 2022 22:37:39 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/web-loader-never-working/613.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Web Loader never working</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/web-loader-never-working/613/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/web-loader-never-working/613/10</link>
+        <pubDate>Wed, 10 Aug 2022 22:37:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-613-10</guid>
+        <source url="https://community.keyauth.cc/t/web-loader-never-working/613.rss">Web Loader never working</source>
+      </item>
+      <item>
+        <title>Web Loader never working</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Resolved.</p>
+<p>He was trying to set URL to keyauth.cc. though intentionally block keyauth.cc as people are supposed to use keyauth.win for API or their own custom domain.</p>
+          <p><a href="https://community.keyauth.cc/t/web-loader-never-working/613/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/web-loader-never-working/613/9</link>
+        <pubDate>Wed, 10 Aug 2022 22:37:39 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-613-9</guid>
+        <source url="https://community.keyauth.cc/t/web-loader-never-working/613.rss">Web Loader never working</source>
+      </item>
+      <item>
+        <title>Web Loader never working</title>
+        <dc:creator><![CDATA[Curve]]></dc:creator>
+        <description><![CDATA[
+            <p>Ok so basically it only makes request to 1.2 api and thats it<br>
+No localhost requests</p>
+          <p><a href="https://community.keyauth.cc/t/web-loader-never-working/613/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/web-loader-never-working/613/8</link>
+        <pubDate>Tue, 09 Aug 2022 12:59:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-613-8</guid>
+        <source url="https://community.keyauth.cc/t/web-loader-never-working/613.rss">Web Loader never working</source>
+      </item>
+      <item>
+        <title>Web Loader never working</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>what api endpoint are you using</p>
+          <p><a href="https://community.keyauth.cc/t/web-loader-never-working/613/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/web-loader-never-working/613/7</link>
+        <pubDate>Tue, 09 Aug 2022 12:53:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-613-7</guid>
+        <source url="https://community.keyauth.cc/t/web-loader-never-working/613.rss">Web Loader never working</source>
+      </item>
+      <item>
+        <title>Web Loader never working</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>oh good point i forgot that  that was added.</p>
+          <p><a href="https://community.keyauth.cc/t/web-loader-never-working/613/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/web-loader-never-working/613/6</link>
+        <pubDate>Tue, 09 Aug 2022 12:52:24 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-613-6</guid>
+        <source url="https://community.keyauth.cc/t/web-loader-never-working/613.rss">Web Loader never working</source>
+      </item>
+      <item>
+        <title>Web Loader never working</title>
+        <dc:creator><![CDATA[Curve]]></dc:creator>
+        <description><![CDATA[
+            <p>Don’t the library have a safety() function to exactly prevent this?</p>
+          <p><a href="https://community.keyauth.cc/t/web-loader-never-working/613/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/web-loader-never-working/613/5</link>
+        <pubDate>Tue, 09 Aug 2022 12:50:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-613-5</guid>
+        <source url="https://community.keyauth.cc/t/web-loader-never-working/613.rss">Web Loader never working</source>
+      </item>
+      <item>
+        <title>Web Loader never working</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            <p>try debugging over httpdebugger to see if any request is being made over the port</p>
+          <p><a href="https://community.keyauth.cc/t/web-loader-never-working/613/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/web-loader-never-working/613/4</link>
+        <pubDate>Tue, 09 Aug 2022 12:50:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-613-4</guid>
+        <source url="https://community.keyauth.cc/t/web-loader-never-working/613.rss">Web Loader never working</source>
+      </item>
+      <item>
+        <title>Web Loader never working</title>
+        <dc:creator><![CDATA[Curve]]></dc:creator>
+        <description><![CDATA[
+            <p>Tried the following:<br>
+Google Chrome, Brave, Firefox, Microsoft Edge</p>
+<p>but to no success</p>
+          <p><a href="https://community.keyauth.cc/t/web-loader-never-working/613/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/web-loader-never-working/613/3</link>
+        <pubDate>Tue, 09 Aug 2022 11:23:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-613-3</guid>
+        <source url="https://community.keyauth.cc/t/web-loader-never-working/613.rss">Web Loader never working</source>
+      </item>
+      <item>
+        <title>Web Loader never working</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>What browser are you using?</p>
+          <p><a href="https://community.keyauth.cc/t/web-loader-never-working/613/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/web-loader-never-working/613/2</link>
+        <pubDate>Tue, 09 Aug 2022 11:13:09 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-613-2</guid>
+        <source url="https://community.keyauth.cc/t/web-loader-never-working/613.rss">Web Loader never working</source>
+      </item>
+      <item>
+        <title>Web Loader never working</title>
+        <dc:creator><![CDATA[Curve]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello there,<br>
+So uhm basically I’ve edited the main.cpp of keyauth example (api 1.2) to only do web login</p>
+<pre><code class="lang-auto">
+{
+	SetConsoleTitleA(skCrypt("Loader"));
+	std::cout &lt;&lt; skCrypt("\n\n Connecting..");
+	KeyAuthApp.init();
+	if (!KeyAuthApp.data.success)
+	{
+		std::cout &lt;&lt; skCrypt("\n Status: ") &lt;&lt; KeyAuthApp.data.message;
+		Sleep(1500);
+		exit(0);
+	}
+	
+	std::cout &lt;&lt; "\n Waiting for user to login";
+	KeyAuthApp.web_login();
+
+	std::cout &lt;&lt; "\n Waiting for button to be clicked";
+	KeyAuthApp.button("hwid"); 
+</code></pre>
+<p>And keyauth initializes successfully without any problem<br>
+The only thing is that whenever I go to the customer panel (yes I have seller plan) it keeps on saying Waiting on user to login and when I even downloaded the customer panel example from github and hosted it on my localhost it STILL was stuck on waiting for user to login.</p>
+<p>I’ve tried with localhost:1337 in the code, nope didnt work<br>
+And then ive tried with removing the :1337<br>
+Ive tried the normal code, modified code, everything doesnt work</p>
+<p>Please help.<br>
+Thx!!</p>
+          <p><a href="https://community.keyauth.cc/t/web-loader-never-working/613/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/web-loader-never-working/613/1</link>
+        <pubDate>Tue, 09 Aug 2022 11:10:35 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-613-1</guid>
+        <source url="https://community.keyauth.cc/t/web-loader-never-working/613.rss">Web Loader never working</source>
+      </item>
+  </channel>
+</rss>

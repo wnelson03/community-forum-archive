@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>KeyAuth Search</ShortName>
+  <Description>Search for posts on KeyAuth</Description>
+  <Tags>discourse forum</Tags>
+    <Image type="image/png">https://community.keyauth.cc/uploads/default/optimized/1X/be7a01f9e10144bd20c882696201b4456dffa358_2_32x32.png</Image>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://community.keyauth.cc/opensearch.xml"/>
+  <Url type="text/html" template="https://community.keyauth.cc/search?q={searchTerms}"/>
+  <Query role="example" searchTerms="search term"/>
+</OpenSearchDescription>

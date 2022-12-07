@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Chatbox on C# sends messages but incoming messages are not visible</title>
+    <link>https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89</link>
+    <description>
+
+![image|690x215](upload://81IJJHQhncOTGdgb9RVs7xmVThp.jpeg)
+
+Message is sent but incoming message is not displayed</description>
+    
+    <lastBuildDate>Fri, 03 Jun 2022 21:20:21 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Chatbox on C# sends messages but incoming messages are not visible</title>
+        <dc:creator><![CDATA[sezzyaep]]></dc:creator>
+        <description><![CDATA[
+            <p>i do but its not worked.</p>
+          <p><a href="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89/5</link>
+        <pubDate>Fri, 03 Jun 2022 21:20:21 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-89-5</guid>
+        <source url="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89.rss">Chatbox on C# sends messages but incoming messages are not visible</source>
+      </item>
+      <item>
+        <title>Chatbox on C# sends messages but incoming messages are not visible</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="sezzyaep" data-post="3" data-topic="89">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/letter_avatar_proxy/v4/letter/s/e480ec/40.png" class="avatar"> sezzyaep:</div>
+<blockquote>
+<p>but im copied for my src 1:1 it doesnt works</p>
+</blockquote>
+</aside>
+<p>You didn’t implement the timer that grabs the messages every 3-5 secs</p>
+          <p><a href="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89/4</link>
+        <pubDate>Tue, 31 May 2022 20:27:36 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-89-4</guid>
+        <source url="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89.rss">Chatbox on C# sends messages but incoming messages are not visible</source>
+      </item>
+      <item>
+        <title>Chatbox on C# sends messages but incoming messages are not visible</title>
+        <dc:creator><![CDATA[sezzyaep]]></dc:creator>
+        <description><![CDATA[
+            <p>bro im tested it in  keyauth c# example its work</p>
+<p>but im copied for my src 1:1 it doesnt works</p>
+          <p><a href="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89/3</link>
+        <pubDate>Tue, 31 May 2022 18:38:15 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-89-3</guid>
+        <source url="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89.rss">Chatbox on C# sends messages but incoming messages are not visible</source>
+      </item>
+      <item>
+        <title>Chatbox on C# sends messages but incoming messages are not visible</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Make sure that the channel ur getting is a valid channel and that it has a message to fetch</p>
+          <p><a href="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89/2</link>
+        <pubDate>Mon, 30 May 2022 16:50:59 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-89-2</guid>
+        <source url="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89.rss">Chatbox on C# sends messages but incoming messages are not visible</source>
+      </item>
+      <item>
+        <title>Chatbox on C# sends messages but incoming messages are not visible</title>
+        <dc:creator><![CDATA[sezzyaep]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/38433611d0298a45c2541ee2657085054be6874b.jpeg" alt="image" data-base62-sha1="81IJJHQhncOTGdgb9RVs7xmVThp" width="690" height="215"></p>
+<p>Message is sent but incoming message is not displayed</p>
+          <p><a href="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89/1</link>
+        <pubDate>Mon, 30 May 2022 16:43:58 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-89-1</guid>
+        <source url="https://community.keyauth.cc/t/chatbox-on-c-sends-messages-but-incoming-messages-are-not-visible/89.rss">Chatbox on C# sends messages but incoming messages are not visible</source>
+      </item>
+  </channel>
+</rss>

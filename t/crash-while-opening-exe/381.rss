@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Crash while opening exe</title>
+    <link>https://community.keyauth.cc/t/crash-while-opening-exe/381</link>
+    <description>hello i converted my python code to exe and every time i go to the login section it crashes. how can i fix this?</description>
+    
+    <lastBuildDate>Mon, 11 Jul 2022 12:55:34 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/crash-while-opening-exe/381.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Crash while opening exe</title>
+        <dc:creator><![CDATA[6nz]]></dc:creator>
+        <description><![CDATA[
+            <p>Send error log</p>
+          <p><a href="https://community.keyauth.cc/t/crash-while-opening-exe/381/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/crash-while-opening-exe/381/2</link>
+        <pubDate>Mon, 11 Jul 2022 12:55:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-381-2</guid>
+        <source url="https://community.keyauth.cc/t/crash-while-opening-exe/381.rss">Crash while opening exe</source>
+      </item>
+      <item>
+        <title>Crash while opening exe</title>
+        <dc:creator><![CDATA[mikaskard]]></dc:creator>
+        <description><![CDATA[
+            <p>hello i converted my python code to exe and every time i go to the login section it crashes. how can i fix this?</p>
+          <p><a href="https://community.keyauth.cc/t/crash-while-opening-exe/381/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/crash-while-opening-exe/381/1</link>
+        <pubDate>Mon, 11 Jul 2022 12:07:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-381-1</guid>
+        <source url="https://community.keyauth.cc/t/crash-while-opening-exe/381.rss">Crash while opening exe</source>
+      </item>
+  </channel>
+</rss>

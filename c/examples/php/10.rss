@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:discourse="http://www.discourse.org/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>PHP - KeyAuth</title>
+    <link>https://community.keyauth.cc/c/examples/php/10</link>
+    <description>Topics in the &#39;PHP&#39; category The PHP example is here &lt;a href=&quot;https://github.com/KeyAuth/KeyAuth-PHP-Example&quot; class=&quot;inline-onebox-loading&quot;&gt;https://github.com/KeyAuth/KeyAuth-PHP-Example&lt;/a&gt;</description>
+    
+      <lastBuildDate>Fri, 23 Sep 2022 12:09:24 +0000</lastBuildDate>
+      <atom:link href="https://community.keyauth.cc/c/examples/php/10.rss" rel="self" type="application/rss+xml" />
+        <item>
+          <title>PHP KeyAuth not showing hwid</title>
+          <dc:creator><![CDATA[Projectile_Invalid]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>Hello am having issues with php keyauth, on the keyauth.cc panel I can see the hwid but when I return it from the api on my website I  get this</p>
+<p>array(6) { [“username”]=&gt; string(10) “Projectile” [“subscriptions”]=&gt; array(2) { [0]=&gt; object(stdClass)<span class="hashtag">#3</span> (4) { [“subscription”]=&gt; string(9) “developer” [“key”]=&gt; NULL [“expiry”]=&gt; string(11) “32495026860” [“timeleft”]=&gt; int(30831094142) } [1]=&gt; object(stdClass)<span class="hashtag">#4</span> (4) { [“subscription”]=&gt; string(7) “default” [“key”]=&gt; NULL [“expiry”]=&gt; string(10) “1979448448” [“timeleft”]=&gt; int(315515730) } } [“ip”]=&gt; string(12) “x.xx.xxx.xxx” [“hwid”]=&gt; NULL [“createdate”]=&gt; string(10) “1663878138” [“lastlogin”]=&gt; string(10) “1663932718” }</p>
+            <p><small>5 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/php-keyauth-not-showing-hwid/842">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/php-keyauth-not-showing-hwid/842</link>
+          <pubDate>Fri, 23 Sep 2022 12:09:24 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-842</guid>
+          <source url="https://community.keyauth.cc/t/php-keyauth-not-showing-hwid/842.rss">PHP KeyAuth not showing hwid</source>
+        </item>
+        <item>
+          <title>Customer panel for my website having register/login issue</title>
+          <dc:creator><![CDATA[cxrrupted]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/images/emoji/twitter/white_check_mark.png?v=12" title=":white_check_mark:" class="emoji" alt=":white_check_mark:" loading="lazy" width="20" height="20"> I agree that <strong>I will not ask for help with non-KeyAuth related topics</strong>, this community site <strong>is only for asking about the default KeyAuth example with NO changes made to it</strong></p>
+<p>Hello, i added the customer panel to my site and i am using the demo seller account to connect to it, but when i try to register nothing seems to happen, i try to login and nothing happens either.</p>
+            <p><small>2 posts - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836</link>
+          <pubDate>Wed, 21 Sep 2022 17:25:16 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-836</guid>
+          <source url="https://community.keyauth.cc/t/customer-panel-for-my-website-having-register-login-issue/836.rss">Customer panel for my website having register/login issue</source>
+        </item>
+        <item>
+          <title>Session Id Error</title>
+          <dc:creator><![CDATA[zeus1337]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>[03-Sep-2022 18:58:15 America/New_York] PHP Notice:  Undefined index: sessionid in /home/xxxxxx/panel.xxxxxx.me/keyauth.php on line 62<br>
+[03-Sep-2022 18:58:17 America/New_York] PHP Notice:  Undefined index: sessionid in /home/xxxxxx/panel.xxxxxx.me/keyauth.php on line 110</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/session-id-error/779">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/session-id-error/779</link>
+          <pubDate>Sat, 03 Sep 2022 23:14:32 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-779</guid>
+          <source url="https://community.keyauth.cc/t/session-id-error/779.rss">Session Id Error</source>
+        </item>
+        <item>
+          <title>Keyauth_invalid</title>
+          <dc:creator><![CDATA[Notme]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>Hi , guys need help with keyauth src custom hosting , the old src its was good without any problem , so now i change to the newst one and i got this error<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/7625407b5c9963d17b6a1419ced182a13379a1b2.jpeg" alt="صورة" data-base62-sha1="gRa9vimdeRKwUHdI2YbLTDuKVsS" width="230" height="500"></p>
+<p>Need ur help guys for sure i can pay who can fix it send ur discord and iwill add u</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/keyauth-invalid/699">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/keyauth-invalid/699</link>
+          <pubDate>Sun, 21 Aug 2022 02:55:28 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-699</guid>
+          <source url="https://community.keyauth.cc/t/keyauth-invalid/699.rss">Keyauth_invalid</source>
+        </item>
+        <item>
+          <title>PHP getting users online + hwid</title>
+          <dc:creator><![CDATA[Elf]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>Hello so am trying to get the number of users in my application to be displayed on my site.<br>
+Also showing user hwid.</p>
+<p>Thank you.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/php-getting-users-online-hwid/659">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/php-getting-users-online-hwid/659</link>
+          <pubDate>Tue, 16 Aug 2022 21:21:41 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-659</guid>
+          <source url="https://community.keyauth.cc/t/php-getting-users-online-hwid/659.rss">PHP getting users online + hwid</source>
+        </item>
+        <item>
+          <title>HTTP 500 Error with PHP Example</title>
+          <dc:creator><![CDATA[Spinayy]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>Error 500 idk why<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/7776ca3d1c4dbd4390f97091531b63a2608737a0.png" alt="image" data-base62-sha1="h2PkaJI1biP7hI8g8FwGeheJHS8" width="523" height="247"></p>
+            <p><small>3 posts - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/http-500-error-with-php-example/485">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/http-500-error-with-php-example/485</link>
+          <pubDate>Sat, 23 Jul 2022 21:04:14 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-485</guid>
+          <source url="https://community.keyauth.cc/t/http-500-error-with-php-example/485.rss">HTTP 500 Error with PHP Example</source>
+        </item>
+        <item>
+          <title>Issue with PHP example</title>
+          <dc:creator><![CDATA[Enzyme]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>Hi, I have an issue with the PHP example. This is my code:</p>
+<div>
+        <h1>Dominate the game with <code>??????</code> ??????</h1>
+        
+            
+        
+<pre><code>    &lt;div class=""&gt;
+        &lt;button name="license" class="fill"&gt;
+                Enter To Dashboard
+        &lt;/button&gt;
+    &lt;/div&gt;
+</code></pre>
+</div>
+<p>When I press “enter to dashboard” it doesnt work. No popup even comes up.</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/issue-with-php-example/474">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/issue-with-php-example/474</link>
+          <pubDate>Fri, 22 Jul 2022 13:01:27 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-474</guid>
+          <source url="https://community.keyauth.cc/t/issue-with-php-example/474.rss">Issue with PHP example</source>
+        </item>
+        <item>
+          <title>Users / Active users not working?</title>
+          <dc:creator><![CDATA[Restackable]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/5422ba773175de8e74cbf66063715d614230a3c0.png" alt="Nightfall_sMJLHuzqZQ" data-base62-sha1="c0ivMWfbujhJHEgIukMbrv0lcwo" width="690" height="157"><br>
+This is what it looks like on the frontend</p>
+<p><a href="https://imgur.com/a/LTAvtLC" rel="noopener nofollow ugc">https://imgur.com/a/LTAvtLC</a><br>
+<a href="https://imgur.com/a/uUckPSu" rel="noopener nofollow ugc">https://imgur.com/a/uUckPSu</a><br>
+This from the backend</p>
+<hr>
+<p>I don’t understand what is wrong?</p>
+<p>No data is returned at all and it’s just blank.</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/users-active-users-not-working/470">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/users-active-users-not-working/470</link>
+          <pubDate>Fri, 22 Jul 2022 00:22:01 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-470</guid>
+          <source url="https://community.keyauth.cc/t/users-active-users-not-working/470.rss">Users / Active users not working?</source>
+        </item>
+        <item>
+          <title>Hosting A Site For Resellers/Managers</title>
+          <dc:creator><![CDATA[VVS]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>is it possible to self-host a website with login for resellers/managers</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451</link>
+          <pubDate>Wed, 20 Jul 2022 20:53:09 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-451</guid>
+          <source url="https://community.keyauth.cc/t/hosting-a-site-for-resellers-managers/451.rss">Hosting A Site For Resellers/Managers</source>
+        </item>
+        <item>
+          <title>Can i get seller sub with self hosted keyauth?</title>
+          <dc:creator><![CDATA[Afonso_Segredo]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>Hi, can i get seller sub with the self hosted keyauth?</p>
+            <p><small>3 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/can-i-get-seller-sub-with-self-hosted-keyauth/398">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/can-i-get-seller-sub-with-self-hosted-keyauth/398</link>
+          <pubDate>Wed, 13 Jul 2022 13:37:47 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-398</guid>
+          <source url="https://community.keyauth.cc/t/can-i-get-seller-sub-with-self-hosted-keyauth/398.rss">Can i get seller sub with self hosted keyauth?</source>
+        </item>
+        <item>
+          <title>Subscription Length</title>
+          <dc:creator><![CDATA[Afonso_Segredo]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>Yo, is there a way to add a thing that says how much days of sub the user has’</p>
+            <p><small>2 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/subscription-length/354">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/subscription-length/354</link>
+          <pubDate>Thu, 07 Jul 2022 15:34:49 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-354</guid>
+          <source url="https://community.keyauth.cc/t/subscription-length/354.rss">Subscription Length</source>
+        </item>
+        <item>
+          <title>Integrate stripe</title>
+          <dc:creator><![CDATA[hurb]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>Yo, is there a way to integrate stripe payments with the keyauth php example?</p>
+            <p><small>4 posts - 2 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/integrate-stripe/347">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/integrate-stripe/347</link>
+          <pubDate>Tue, 05 Jul 2022 20:35:31 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-347</guid>
+          <source url="https://community.keyauth.cc/t/integrate-stripe/347.rss">Integrate stripe</source>
+        </item>
+        <item>
+          <title>Listing users and managing users with seller key, in PHP</title>
+          <dc:creator><![CDATA[Aspect]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>How would I be able to pull all information from (existing) users listed in a table / column / row and the seller be able to manage /delete the keys? Is there any example with the seller API?</p>
+<p>Thanks!</p>
+            <p><small>1 post - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/listing-users-and-managing-users-with-seller-key-in-php/308">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/listing-users-and-managing-users-with-seller-key-in-php/308</link>
+          <pubDate>Fri, 01 Jul 2022 09:58:31 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-308</guid>
+          <source url="https://community.keyauth.cc/t/listing-users-and-managing-users-with-seller-key-in-php/308.rss">Listing users and managing users with seller key, in PHP</source>
+        </item>
+        <item>
+          <title>Website connect with Keyauth</title>
+          <dc:creator><![CDATA[Suharik]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>Hello <img src="https://community.keyauth.win/images/emoji/twitter/grinning.png?v=12" title=":grinning:" class="emoji" alt=":grinning:" loading="lazy" width="20" height="20">, I want to setup Key Auth on my website<br>
+I already uploaded all files</p>
+<p>but know I do not know what I need to fill in these gaps<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/11bebbb0e1ab9232722a262d2c858a8392eeffc9.png" alt="image" data-base62-sha1="2wYLaZHOHUdDb0nksHqtsdNF8gx" width="492" height="46"><br>
+what to fill in the gap “Localhost” I already know,but what to fill in the other one? <img src="https://community.keyauth.win/images/emoji/twitter/man_shrugging.png?v=12" title=":man_shrugging:" class="emoji" alt=":man_shrugging:" loading="lazy" width="20" height="20"></p>
+            <p><small>6 posts - 4 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/website-connect-with-keyauth/121">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/website-connect-with-keyauth/121</link>
+          <pubDate>Thu, 02 Jun 2022 16:21:51 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-121</guid>
+          <source url="https://community.keyauth.cc/t/website-connect-with-keyauth/121.rss">Website connect with Keyauth</source>
+        </item>
+        <item>
+          <title>000webhost curl request to seller api</title>
+          <dc:creator><![CDATA[Smeezy]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>Hey there! I’m here to ask a question do you guys block 000webhost requests? because I’m trying to send a curl request to my seller api and it gives me this error:</p>
+<p>“Failed connect to keyauth.win:443; Connection timed out”</p>
+<p>(by the way I tried a raw pastebin and that worked perfectly)</p>
+<p>If I don’t respond hit me up on discord Smeezy#9999</p>
+            <p><small>5 posts - 3 participants</small></p>
+            <p><a href="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98</link>
+          <pubDate>Tue, 31 May 2022 01:14:00 +0000</pubDate>
+          <discourse:topicPinned>No</discourse:topicPinned>
+          <discourse:topicClosed>No</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-98</guid>
+          <source url="https://community.keyauth.cc/t/000webhost-curl-request-to-seller-api/98.rss">000webhost curl request to seller api</source>
+        </item>
+        <item>
+          <title>Read before posting in PHP</title>
+          <dc:creator><![CDATA[mak]]></dc:creator>
+          <category>PHP</category>
+          <description><![CDATA[
+            <p>The PHP example is here <a href="https://github.com/KeyAuth/KeyAuth-PHP-Example" class="inline-onebox">GitHub - KeyAuth/KeyAuth-PHP-Example: PHP Example For KeyAuth Authentication System</a></p>
+<p>Please look at the videos on YouTube too <a href="https://youtube.com/KeyAuth">https://youtube.com/KeyAuth</a><br>
+<br><br>
+<br></p>
+<p>We will only assist with the default example that hasn’t been changed, or added to your code.</p>
+<p>So, <strong>do not</strong> make a post if you’re having issues adding KeyAuth to your code, only make an issue if KeyAuth is causing problems by myself.</p>
+<p>For other circumstances, you should use <a href="https://google.com">https://google.com</a> or <a href="https://stackoverflow.com">https://stackoverflow.com</a>, or try adding your code to KeyAuth example instead of the other way around.</p>
+            <p><small>2 posts - 1 participant</small></p>
+            <p><a href="https://community.keyauth.cc/t/read-before-posting-in-php/17">Read full topic</a></p>
+          ]]></description>
+          <link>https://community.keyauth.cc/t/read-before-posting-in-php/17</link>
+          <pubDate>Mon, 23 May 2022 15:35:45 +0000</pubDate>
+          <discourse:topicPinned>Yes</discourse:topicPinned>
+          <discourse:topicClosed>Yes</discourse:topicClosed>
+          <discourse:topicArchived>No</discourse:topicArchived>
+          <guid isPermaLink="false">community.keyauth.cc-topic-17</guid>
+          <source url="https://community.keyauth.cc/t/read-before-posting-in-php/17.rss">Read before posting in PHP</source>
+        </item>
+  </channel>
+</rss>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Windows Form KeyAuth Download</title>
+    <link>https://community.keyauth.cc/t/windows-form-keyauth-download/604</link>
+    <description>Hello, this Windows form works well except for one thing. This window appears
+![183301319-9c898b70-76ed-4bbf-88e3-968027f5745a|571x500](upload://fx1oxZ9rxsrn2h7Oo06mNuUkJNV.png)
+
+ I don&#39;t want that at all. I just want it to download a file as soon as you register or log in. I also filled in the KeyAuthApp.download Id.</description>
+    
+    <lastBuildDate>Mon, 08 Aug 2022 14:34:22 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/windows-form-keyauth-download/604.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Windows Form KeyAuth Download</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks, i will look into that!</p>
+          <p><a href="https://community.keyauth.cc/t/windows-form-keyauth-download/604/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/windows-form-keyauth-download/604/5</link>
+        <pubDate>Mon, 08 Aug 2022 14:34:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-604-5</guid>
+        <source url="https://community.keyauth.cc/t/windows-form-keyauth-download/604.rss">Windows Form KeyAuth Download</source>
+      </item>
+      <item>
+        <title>Windows Form KeyAuth Download</title>
+        <dc:creator><![CDATA[Gru]]></dc:creator>
+        <description><![CDATA[
+            <p>i suggest using this source <a href="https://github.com/alcatrazsolution/keyauth-imgui-loader" class="inline-onebox" rel="noopener nofollow ugc">GitHub - alcatrazsolution/keyauth-imgui-loader: DeletedTOS#1027 simple c++ loader file stream through keyauth dm me if you need anything</a>, it has a login/register then on the next page you can configure it to have multiple apps selected by a dropdown or just one if you want currently they are labled as "cheats’ but you can change to whatever you want. then you click it and hit load and it downloads file and runs it</p>
+          <p><a href="https://community.keyauth.cc/t/windows-form-keyauth-download/604/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/windows-form-keyauth-download/604/4</link>
+        <pubDate>Mon, 08 Aug 2022 14:30:44 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-604-4</guid>
+        <source url="https://community.keyauth.cc/t/windows-form-keyauth-download/604.rss">Windows Form KeyAuth Download</source>
+      </item>
+      <item>
+        <title>Windows Form KeyAuth Download</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>i tried but it doesent work. Besides that i dont want the message box i just want to download something after you logged in and then it should close. Thats my goal.</p>
+          <p><a href="https://community.keyauth.cc/t/windows-form-keyauth-download/604/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/windows-form-keyauth-download/604/3</link>
+        <pubDate>Mon, 08 Aug 2022 11:31:02 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-604-3</guid>
+        <source url="https://community.keyauth.cc/t/windows-form-keyauth-download/604.rss">Windows Form KeyAuth Download</source>
+      </item>
+      <item>
+        <title>Windows Form KeyAuth Download</title>
+        <dc:creator><![CDATA[OverDrive]]></dc:creator>
+        <description><![CDATA[
+            <p>If youre trying to download something run the program as admin</p>
+          <p><a href="https://community.keyauth.cc/t/windows-form-keyauth-download/604/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/windows-form-keyauth-download/604/2</link>
+        <pubDate>Sun, 07 Aug 2022 23:20:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-604-2</guid>
+        <source url="https://community.keyauth.cc/t/windows-form-keyauth-download/604.rss">Windows Form KeyAuth Download</source>
+      </item>
+      <item>
+        <title>Windows Form KeyAuth Download</title>
+        <dc:creator><![CDATA[ItsEnes]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello, this Windows form works well except for one thing. This window appears<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/6cdc3982738bf0ef389e9a379fd93f2549c29a2b.png" alt="183301319-9c898b70-76ed-4bbf-88e3-968027f5745a" data-base62-sha1="fx1oxZ9rxsrn2h7Oo06mNuUkJNV" width="571" height="500"></p>
+<p>I don’t want that at all. I just want it to download a file as soon as you register or log in. I also filled in the KeyAuthApp.download Id.</p>
+          <p><a href="https://community.keyauth.cc/t/windows-form-keyauth-download/604/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/windows-form-keyauth-download/604/1</link>
+        <pubDate>Sun, 07 Aug 2022 17:31:20 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-604-1</guid>
+        <source url="https://community.keyauth.cc/t/windows-form-keyauth-download/604.rss">Windows Form KeyAuth Download</source>
+      </item>
+  </channel>
+</rss>

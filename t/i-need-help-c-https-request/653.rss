@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>I need help C++ https request</title>
+    <link>https://community.keyauth.cc/t/i-need-help-c-https-request/653</link>
+    <description>I use api to check the game client version. I need https GET, POST Curl is not available because it is being used by the keyauth cpp-library. Does anyone know a good library?
+-------------------------------------------------------------------------------------------------------------
+I solved it cpprestsdk use</description>
+    
+    <lastBuildDate>Tue, 16 Aug 2022 07:16:39 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/i-need-help-c-https-request/653.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>I need help C++ https request</title>
+        <dc:creator><![CDATA[ShadowMonster]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/i-need-help-c-https-request/653/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-c-https-request/653/2</link>
+        <pubDate>Wed, 17 Aug 2022 20:40:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-653-2</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-c-https-request/653.rss">I need help C++ https request</source>
+      </item>
+      <item>
+        <title>I need help C++ https request</title>
+        <dc:creator><![CDATA[shangus]]></dc:creator>
+        <description><![CDATA[
+            <h2>
+<a name="i-use-api-to-check-the-game-client-version-i-need-https-get-post-curl-is-not-available-because-it-is-being-used-by-the-keyauth-cpp-library-does-anyone-know-a-good-library-1" class="anchor" href="https://community.keyauth.cc#i-use-api-to-check-the-game-client-version-i-need-https-get-post-curl-is-not-available-because-it-is-being-used-by-the-keyauth-cpp-library-does-anyone-know-a-good-library-1"></a>I use api to check the game client version. I need https GET, POST Curl is not available because it is being used by the keyauth cpp-library. Does anyone know a good library?</h2>
+<p>I solved it cpprestsdk use</p>
+          <p><a href="https://community.keyauth.cc/t/i-need-help-c-https-request/653/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/i-need-help-c-https-request/653/1</link>
+        <pubDate>Tue, 16 Aug 2022 06:34:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-653-1</guid>
+        <source url="https://community.keyauth.cc/t/i-need-help-c-https-request/653.rss">I need help C++ https request</source>
+      </item>
+  </channel>
+</rss>

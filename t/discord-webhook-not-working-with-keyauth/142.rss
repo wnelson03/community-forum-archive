@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Discord webhook not working with KeyAuth</title>
+    <link>https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142</link>
+    <description>For some reason discord webhooks are not working for me.
+
+- KeyAuth initialized before
+- Confirmed that the Webhook id and endpoint are correct.
+- Authenticated false
+- The response gives &quot;Webhook request successful&quot;.
+
+![image|690x230](upload://lZJz1dvFdntoka3BD44OJfTyN6B.png)
+
+When running the program I click the button but nothing is sending to the Discord channel.
+What am I doing wrong?</description>
+    
+    <lastBuildDate>Tue, 07 Jun 2022 10:00:52 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Discord webhook not working with KeyAuth</title>
+        <dc:creator><![CDATA[SplashGG]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="mak" data-post="2" data-topic="142">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/mak/40/44_2.png" class="avatar"> mak:</div>
+<blockquote>
+<pre><code class="lang-auto">string resp = KeyAuthApp.webhook("bl0O2k5VNA", "", "{\"content\": \"webhook message here\",\"embeds\": null}", "application/json"); // if Discord webhook message successful, response will be empty
+
+            if (!KeyAuthApp.response.success)
+            {
+                Console.WriteLine("\n Status: " + KeyAuthApp.response.message);
+                Thread.Sleep(1500);
+                Environment.Exit(0);
+            }
+            else
+                Console.WriteLine("\n Response recieved from webhook request: " + resp);
+</code></pre>
+</blockquote>
+</aside>
+<p>Thank you very much, I realized the error in the code.</p>
+<p>I placed your code next to mine and it was all due to an escaped quotation mark that shouldn’t be there:<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/22922342ba9e3b60b5c45611b317e459697cffb2.png" alt="image" data-base62-sha1="4VPkCIrZsvTiNJ9voO1FtDl4Wjw" width="170" height="71"></p>
+          <p><a href="https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142/3</link>
+        <pubDate>Tue, 07 Jun 2022 10:00:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-142-3</guid>
+        <source url="https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142.rss">Discord webhook not working with KeyAuth</source>
+      </item>
+      <item>
+        <title>Discord webhook not working with KeyAuth</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-cs">            string resp = KeyAuthApp.webhook("bl0O2k5VNA", "", "{\"content\": \"webhook message here\",\"embeds\": null}", "application/json"); // if Discord webhook message successful, response will be empty
+
+            if (!KeyAuthApp.response.success)
+            {
+                Console.WriteLine("\n Status: " + KeyAuthApp.response.message);
+                Thread.Sleep(1500);
+                Environment.Exit(0);
+            }
+            else
+                Console.WriteLine("\n Response recieved from webhook request: " + resp);
+</code></pre>
+<p>working for me, copy and paste webhook endpoint into browser and make sure it looks like this, to indicate webhook is found.</p>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/8e11110ead06950838466e8e861b8811e370292e.png" alt="image" data-base62-sha1="kgMmGtU3wdxzJcX8dte0bhO2SzI" width="647" height="255"></p>
+          <p><a href="https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142/2</link>
+        <pubDate>Mon, 06 Jun 2022 22:56:32 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-142-2</guid>
+        <source url="https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142.rss">Discord webhook not working with KeyAuth</source>
+      </item>
+      <item>
+        <title>Discord webhook not working with KeyAuth</title>
+        <dc:creator><![CDATA[SplashGG]]></dc:creator>
+        <description><![CDATA[
+            <p>For some reason discord webhooks are not working for me.</p>
+<ul>
+<li>KeyAuth initialized before</li>
+<li>Confirmed that the Webhook id and endpoint are correct.</li>
+<li>Authenticated false</li>
+<li>The response gives “Webhook request successful”.</li>
+</ul>
+<p><img src="https://community.keyauth.win/uploads/default/original/1X/9a282800753ca9b54d2c25957867e8a2f68d3e1d.png" alt="image" data-base62-sha1="lZJz1dvFdntoka3BD44OJfTyN6B" width="690" height="230"></p>
+<p>When running the program I click the button but nothing is sending to the Discord channel.<br>
+What am I doing wrong?</p>
+          <p><a href="https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142/1</link>
+        <pubDate>Sun, 05 Jun 2022 03:03:46 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-142-1</guid>
+        <source url="https://community.keyauth.cc/t/discord-webhook-not-working-with-keyauth/142.rss">Discord webhook not working with KeyAuth</source>
+      </item>
+  </channel>
+</rss>

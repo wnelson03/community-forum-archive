@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Error with importing</title>
+    <link>https://community.keyauth.cc/t/error-with-importing/62</link>
+    <description>Hi, I am getting an error when trying to import keyauth. This is the error I am getting
+
+ImportError: cannot import name &#39;api&#39; from &#39;keyauth&#39; (C:\Users\maxin\AppData\Local\Programs\Python\Python310\lib\site-packages\keyauth\__init__.py)
+
+This is exactly how the example did it so I am not sure what could be going wrong.</description>
+    
+    <lastBuildDate>Sat, 28 May 2022 07:45:08 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/error-with-importing/62.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Error with importing</title>
+        <dc:creator><![CDATA[Weebzo]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="Godfather227" data-post="1" data-topic="62">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/letter_avatar_proxy/v4/letter/g/eb9ed0/40.png" class="avatar"> Godfather227:</div>
+<blockquote>
+<p>(C:\Users\maxin\AppData\Local\Programs\Python\Python310\lib\site-packages\keyauth_<em>init</em>_.py)</p>
+</blockquote>
+</aside>
+<p>did you install the lib via “pip”? if so thats not the correct way, since there’s no official pip package of keyauth, download the keyauth.py file from the github and paste it next to ur project root.<br>
+<strong><a href="https://github.com/KeyAuth/KeyAuth-Python-Example" rel="noopener nofollow ugc">Python Example Link</a></strong></p>
+          <p><a href="https://community.keyauth.cc/t/error-with-importing/62/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-with-importing/62/2</link>
+        <pubDate>Sat, 28 May 2022 07:45:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-62-2</guid>
+        <source url="https://community.keyauth.cc/t/error-with-importing/62.rss">Error with importing</source>
+      </item>
+      <item>
+        <title>Error with importing</title>
+        <dc:creator><![CDATA[Godfather227]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi, I am getting an error when trying to import keyauth. This is the error I am getting</p>
+<p>ImportError: cannot import name ‘api’ from ‘keyauth’ (C:\Users\maxin\AppData\Local\Programs\Python\Python310\lib\site-packages\keyauth_<em>init</em>_.py)</p>
+<p>This is exactly how the example did it so I am not sure what could be going wrong.</p>
+          <p><a href="https://community.keyauth.cc/t/error-with-importing/62/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/error-with-importing/62/1</link>
+        <pubDate>Sat, 28 May 2022 04:34:49 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-62-1</guid>
+        <source url="https://community.keyauth.cc/t/error-with-importing/62.rss">Error with importing</source>
+      </item>
+  </channel>
+</rss>

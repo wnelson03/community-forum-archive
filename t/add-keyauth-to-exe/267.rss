@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Add KeyAuth to exe?</title>
+    <link>https://community.keyauth.cc/t/add-keyauth-to-exe/267</link>
+    <description>How would I make it so when someone logins KeyAuth it opens an exe file?</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 09:24:21 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/add-keyauth-to-exe/267.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Add KeyAuth to exe?</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/add-keyauth-to-exe/267/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/add-keyauth-to-exe/267/4</link>
+        <pubDate>Mon, 27 Jun 2022 09:24:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-267-4</guid>
+        <source url="https://community.keyauth.cc/t/add-keyauth-to-exe/267.rss">Add KeyAuth to exe?</source>
+      </item>
+      <item>
+        <title>Add KeyAuth to exe?</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>If: Keyauth.response = Login is valid<br>
+Do: Download .exe file (keyauth has a module for that)</p>
+<p>And then execute the file if you want, now you can google the steps and find out how to do it</p>
+<p>Closing this as its not KeyAuth related, have a good day.</p>
+          <p><a href="https://community.keyauth.cc/t/add-keyauth-to-exe/267/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/add-keyauth-to-exe/267/3</link>
+        <pubDate>Mon, 27 Jun 2022 09:24:21 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-267-3</guid>
+        <source url="https://community.keyauth.cc/t/add-keyauth-to-exe/267.rss">Add KeyAuth to exe?</source>
+      </item>
+      <item>
+        <title>Add KeyAuth to exe?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Hello<br>
+This is not really keyauth related please use <a href="http://stackoverflow.com">stackoverflow.com</a>.</p>
+          <p><a href="https://community.keyauth.cc/t/add-keyauth-to-exe/267/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/add-keyauth-to-exe/267/2</link>
+        <pubDate>Mon, 27 Jun 2022 08:19:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-267-2</guid>
+        <source url="https://community.keyauth.cc/t/add-keyauth-to-exe/267.rss">Add KeyAuth to exe?</source>
+      </item>
+      <item>
+        <title>Add KeyAuth to exe?</title>
+        <dc:creator><![CDATA[Skelpix]]></dc:creator>
+        <description><![CDATA[
+            <p>How would I make it so when someone logins KeyAuth it opens an exe file?</p>
+          <p><a href="https://community.keyauth.cc/t/add-keyauth-to-exe/267/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/add-keyauth-to-exe/267/1</link>
+        <pubDate>Mon, 27 Jun 2022 08:16:36 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-267-1</guid>
+        <source url="https://community.keyauth.cc/t/add-keyauth-to-exe/267.rss">Add KeyAuth to exe?</source>
+      </item>
+  </channel>
+</rss>

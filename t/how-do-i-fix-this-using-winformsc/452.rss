@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How do I fix this?[Using WinformsC#]</title>
+    <link>https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452</link>
+    <description>![image|690x432](upload://1LZeNSHfgzBaKuE9EvohvlLgn7b.png)
+I followed the tutorial correctly and honestly been stuck a few days so anything would help.</description>
+    
+    <lastBuildDate>Fri, 22 Jul 2022 12:59:06 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How do I fix this?[Using WinformsC#]</title>
+        <dc:creator><![CDATA[OverDrive]]></dc:creator>
+        <description><![CDATA[
+            <p>Its File.WriteAllText(C:\username.txt, username.Text);<br>
+Then just have it check if the file exists and if not continue with normal operation</p>
+<p>Dm me on discord if you want a more in depth explanation</p>
+<p>OverDrive#0001</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/6</link>
+        <pubDate>Fri, 22 Jul 2022 12:59:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-452-6</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452.rss">How do I fix this?[Using WinformsC#]</source>
+      </item>
+      <item>
+        <title>How do I fix this?[Using WinformsC#]</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>we can only help with keyauth related support and this is not im afraid.<br>
+but i will say one of the best places to ask for general coding questions is stackoverflow so try there next time.<br>
+and just a little help video.</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://www.youtube.com/watch?v=0p1ClLkXTx8">
+  <header class="source">
+      <img src="https://community.keyauth.win/uploads/default/original/1X/299a7a425de8b4ee0d1175cf9b120ea828039170.png" class="site-icon" width="" height="">
+
+      <a href="https://www.youtube.com/watch?v=0p1ClLkXTx8" target="_blank" rel="noopener">YouTube</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/e4ea3892b9bbcf0d8eb8120da329dcafc489749f.jpeg" class="thumbnail" width="" height="">
+
+<h3><a href="https://www.youtube.com/watch?v=0p1ClLkXTx8" target="_blank" rel="noopener">C# windows application remember me check box</a></h3>
+
+  <p>How to Remember username or password in C# windows login form</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/5</link>
+        <pubDate>Thu, 21 Jul 2022 16:28:02 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-452-5</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452.rss">How do I fix this?[Using WinformsC#]</source>
+      </item>
+      <item>
+        <title>How do I fix this?[Using WinformsC#]</title>
+        <dc:creator><![CDATA[KIZZY]]></dc:creator>
+        <description><![CDATA[
+            <p>do you know how to get it to save login info each time its loaded</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/4</link>
+        <pubDate>Thu, 21 Jul 2022 13:59:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-452-4</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452.rss">How do I fix this?[Using WinformsC#]</source>
+      </item>
+      <item>
+        <title>How do I fix this?[Using WinformsC#]</title>
+        <dc:creator><![CDATA[KIZZY]]></dc:creator>
+        <description><![CDATA[
+            <p>omg bro thank you haha I cant believe I didn’t Realize that</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/3</link>
+        <pubDate>Thu, 21 Jul 2022 13:44:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-452-3</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452.rss">How do I fix this?[Using WinformsC#]</source>
+      </item>
+      <item>
+        <title>How do I fix this?[Using WinformsC#]</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>they are names of text boxes, so on your form make sure you have text boxes called that or make your own text boxes and call them whatever you like and change username to your username text box name and change password to your password text box name and so on</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/2</link>
+        <pubDate>Thu, 21 Jul 2022 13:41:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-452-2</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452.rss">How do I fix this?[Using WinformsC#]</source>
+      </item>
+      <item>
+        <title>How do I fix this?[Using WinformsC#]</title>
+        <dc:creator><![CDATA[KIZZY]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/0c6edb492568ee2ec9e24372323fb51afbdf0829.png" alt="image" data-base62-sha1="1LZeNSHfgzBaKuE9EvohvlLgn7b" width="690" height="432"><br>
+I followed the tutorial correctly and honestly been stuck a few days so anything would help.</p>
+          <p><a href="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452/1</link>
+        <pubDate>Thu, 21 Jul 2022 13:35:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-452-1</guid>
+        <source url="https://community.keyauth.cc/t/how-do-i-fix-this-using-winformsc/452.rss">How do I fix this?[Using WinformsC#]</source>
+      </item>
+  </channel>
+</rss>

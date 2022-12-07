@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>C++ unresolved externals error</title>
+    <link>https://community.keyauth.cc/t/c-unresolved-externals-error/492</link>
+    <description>![image|690x415](upload://r3V8VJsOr4hkhoceGU1GACXGu9c.png)
+got this unresolved externals error and idk how to fix this I alrdy add libs to additional include directories
+if anyone have this problem before or know how to fix pls help, thank</description>
+    
+    <lastBuildDate>Wed, 27 Jul 2022 12:57:31 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/c-unresolved-externals-error/492.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>C++ unresolved externals error</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/c-unresolved-externals-error/492/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-unresolved-externals-error/492/5</link>
+        <pubDate>Wed, 27 Jul 2022 12:57:35 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-492-5</guid>
+        <source url="https://community.keyauth.cc/t/c-unresolved-externals-error/492.rss">C++ unresolved externals error</source>
+      </item>
+      <item>
+        <title>C++ unresolved externals error</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p><a class="mention" href="https://community.keyauth.cc/u/darknetking">@darknetking</a> This isn’t the default example so we don’t help with issues. I recommend you make sure the project properties of your project match the project properties of the example project</p>
+<p>Closed because not default example.</p>
+          <p><a href="https://community.keyauth.cc/t/c-unresolved-externals-error/492/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-unresolved-externals-error/492/4</link>
+        <pubDate>Wed, 27 Jul 2022 12:57:31 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-492-4</guid>
+        <source url="https://community.keyauth.cc/t/c-unresolved-externals-error/492.rss">C++ unresolved externals error</source>
+      </item>
+      <item>
+        <title>C++ unresolved externals error</title>
+        <dc:creator><![CDATA[darknetking]]></dc:creator>
+        <description><![CDATA[
+            <p>now after I try so hard there are still 4 errors left anyone know how to fix pls help<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/50154ac8dff64a04afe7cfc643d06ac01b87fdd6.png" alt="image" data-base62-sha1="bqrOzY6UzEWAmBXSm5rJk8ZWosK" width="689" height="67"></p>
+          <p><a href="https://community.keyauth.cc/t/c-unresolved-externals-error/492/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-unresolved-externals-error/492/3</link>
+        <pubDate>Sun, 24 Jul 2022 14:31:52 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-492-3</guid>
+        <source url="https://community.keyauth.cc/t/c-unresolved-externals-error/492.rss">C++ unresolved externals error</source>
+      </item>
+      <item>
+        <title>C++ unresolved externals error</title>
+        <dc:creator><![CDATA[darknetking]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/813f2edc916320b44eb9c04965468987b23f48b7.png" alt="image" data-base62-sha1="irmXGPryEUFNXQ4eFp3IXnWoZcr" width="690" height="127"><br>
+now after I try to fix</p>
+          <p><a href="https://community.keyauth.cc/t/c-unresolved-externals-error/492/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-unresolved-externals-error/492/2</link>
+        <pubDate>Sun, 24 Jul 2022 14:16:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-492-2</guid>
+        <source url="https://community.keyauth.cc/t/c-unresolved-externals-error/492.rss">C++ unresolved externals error</source>
+      </item>
+      <item>
+        <title>C++ unresolved externals error</title>
+        <dc:creator><![CDATA[darknetking]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/bdac2f0eeef9e2d3247ccfde5e3766affe3b7d52.png" alt="image" data-base62-sha1="r3V8VJsOr4hkhoceGU1GACXGu9c" width="690" height="415"><br>
+got this unresolved externals error and idk how to fix this I alrdy add libs to additional include directories<br>
+if anyone have this problem before or know how to fix pls help, thank</p>
+          <p><a href="https://community.keyauth.cc/t/c-unresolved-externals-error/492/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/c-unresolved-externals-error/492/1</link>
+        <pubDate>Sun, 24 Jul 2022 13:40:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-492-1</guid>
+        <source url="https://community.keyauth.cc/t/c-unresolved-externals-error/492.rss">C++ unresolved externals error</source>
+      </item>
+  </channel>
+</rss>

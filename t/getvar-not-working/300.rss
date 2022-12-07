@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>GetVar() not working</title>
+    <link>https://community.keyauth.cc/t/getvar-not-working/300</link>
+    <description>Im using C++, whenever I use the getvar() function it raises an exception: 
+![image|513x12](upload://4LqWVYhieBS5PYNuxKEe3upZlki.png)</description>
+    
+    <lastBuildDate>Fri, 01 Jul 2022 22:25:43 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/getvar-not-working/300.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>GetVar() not working</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/getvar-not-working/300/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getvar-not-working/300/5</link>
+        <pubDate>Fri, 01 Jul 2022 23:56:39 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-300-5</guid>
+        <source url="https://community.keyauth.cc/t/getvar-not-working/300.rss">GetVar() not working</source>
+      </item>
+      <item>
+        <title>GetVar() not working</title>
+        <dc:creator><![CDATA[Name_NoLastName]]></dc:creator>
+        <description><![CDATA[
+            <p>Yup, thanks for the help!</p>
+          <p><a href="https://community.keyauth.cc/t/getvar-not-working/300/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getvar-not-working/300/4</link>
+        <pubDate>Fri, 01 Jul 2022 22:25:43 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-300-4</guid>
+        <source url="https://community.keyauth.cc/t/getvar-not-working/300.rss">GetVar() not working</source>
+      </item>
+      <item>
+        <title>GetVar() not working</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>did this solve your issue ?</p>
+          <p><a href="https://community.keyauth.cc/t/getvar-not-working/300/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getvar-not-working/300/3</link>
+        <pubDate>Fri, 01 Jul 2022 07:18:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-300-3</guid>
+        <source url="https://community.keyauth.cc/t/getvar-not-working/300.rss">GetVar() not working</source>
+      </item>
+      <item>
+        <title>GetVar() not working</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Well depends what variable you are trying to get because</p>
+<pre><code class="lang-auto">Keyauthapp.getvar() // gets a users var
+Keyauthapp.setvar() // sets a users var
+
+
+
+// This one i think is probs the one you need
+Keyauthapp.var() // will get a global var
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/getvar-not-working/300/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getvar-not-working/300/2</link>
+        <pubDate>Fri, 01 Jul 2022 05:49:38 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-300-2</guid>
+        <source url="https://community.keyauth.cc/t/getvar-not-working/300.rss">GetVar() not working</source>
+      </item>
+      <item>
+        <title>GetVar() not working</title>
+        <dc:creator><![CDATA[Name_NoLastName]]></dc:creator>
+        <description><![CDATA[
+            <p>Im using C++, whenever I use the getvar() function it raises an exception:<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/21655fe49b62dbb595319fe703de2327184c5ce6.png" alt="image" data-base62-sha1="4LqWVYhieBS5PYNuxKEe3upZlki" width="513" height="12"></p>
+          <p><a href="https://community.keyauth.cc/t/getvar-not-working/300/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/getvar-not-working/300/1</link>
+        <pubDate>Fri, 01 Jul 2022 01:11:47 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-300-1</guid>
+        <source url="https://community.keyauth.cc/t/getvar-not-working/300.rss">GetVar() not working</source>
+      </item>
+  </channel>
+</rss>

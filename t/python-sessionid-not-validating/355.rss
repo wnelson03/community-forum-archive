@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Python sessionid not validating</title>
+    <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355</link>
+    <description>```
+import requests, json
+
+init = {&#39;type&#39;: &#39;init&#39;, &#39;ver&#39;:&#39;1.0&#39;, &#39;name&#39;:&#39;APPNAME&#39;, &#39;ownerid&#39;: &#39;OWNERID&#39;}
+url = &#39;https://api.siteurl.com/api/1.1/&#39;
+x = json.loads(requests.post(url, data=init).text)
+getvar = {&#39;type&#39;: &#39;getvar&#39;, &#39;var&#39;:&#39;a&#39;, &#39;sessionid&#39;:f&quot;{x[&#39;sessionid&#39;]}&quot; , &#39;name&#39;:&#39;APPNAME&#39;, &#39;ownerid&#39;:&#39;OWNERID&#39;}
+m = json.loads(requests.post(url, data=getvar).text)
+print(x)
+print(m)
+```
+Here&#39;s my code. 
+x returning `{&#39;success&#39;: True, &#39;message&#39;: &#39;Initialized&#39;, &#39;sessionid&#39;: &#39;r0lqNn8cSe&#39;, ...}`
+and m returning `{&#39;success&#39;: False, &#39;message&#39;: &#39;Session is not validated&#39;}`
+
+How to fix that?</description>
+    
+    <lastBuildDate>Thu, 07 Jul 2022 18:38:28 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="theshlepa" data-post="12" data-topic="355">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/theshlepa/40/82_2.png" class="avatar"> theshlepa:</div>
+<blockquote>
+<pre><code class="lang-auto">x = json.loads(requests.get(
+            f"https://api.SITENAME/api/seller/?sellerkey=KEYHERE&amp;type=addvar&amp;name=sets{key}&amp;data={dataHere}&amp;authed=0").text)
+</code></pre>
+</blockquote>
+</aside>
+<p>&amp;data={dataHere}&amp;<strong>authed=0</strong></p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/16">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/16</link>
+        <pubDate>Thu, 07 Jul 2022 18:38:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-16</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <p>check what i sent…</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/15">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/15</link>
+        <pubDate>Thu, 07 Jul 2022 18:36:13 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-15</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>from the api<br>
+<a href="https://keyauth.win/api/seller/?sellerkey=sellerkeyhere&amp;type=addvar&amp;name=varnamehere&amp;data=vardatahere&amp;authed=1" class="onebox" target="_blank" rel="noopener">https://keyauth.win/api/seller/?sellerkey=sellerkeyhere&amp;type=addvar&amp;name=varnamehere&amp;data=vardatahere&amp;authed=1</a></p>
+<p>or</p>
+<p><a href="https://keyauth.win/api/seller/?sellerkey=sellerkeyhere&amp;type=addvar&amp;name=varnamehere&amp;data=vardatahere&amp;authed=0" class="onebox" target="_blank" rel="noopener">https://keyauth.win/api/seller/?sellerkey=sellerkeyhere&amp;type=addvar&amp;name=varnamehere&amp;data=vardatahere&amp;authed=0</a></p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/14">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/14</link>
+        <pubDate>Thu, 07 Jul 2022 18:35:38 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-14</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <p>I’m sending this data:<br>
+<code>{'ESP::BOX': [1], 'ESP::SKELETON': [1], 'ESP::HEALTH': [0], 'ESP::STATUS': [0], 'ESP::NAME': [0], 'ESP::DISTANCE': [0], 'ESP::UID': [0], 'ESP::ALERT': [0], 'ESP::RADAR': [0], 'ESP::VEHICLE': [0], 'ESP::VEHICLE_HEALTH': [0], 'ESP::VEHICLE_FUEL': [0], 'ESP::VEHICLE_SPEED': [0], 'ESP::VEHICLE_BOX': [0], 'ESP::GRENADE': [0], 'ESP::GRENADE_BOX': [0], 'ESP::LOOT_BOX': [0], 'COLOR::VISPLAYER': ['#00ff00'], 'COLOR::INVISPLAYER': ['#ff0000'], 'COLOR::VISBOT': ['#c9c9c9'], 'COLOR::INVISBOT': ['#737574']}</code></p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/13">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/13</link>
+        <pubDate>Thu, 07 Jul 2022 18:33:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-13</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-auto">x = json.loads(requests.get(
+            f"https://api.SITENAME/api/seller/?sellerkey=KEYHERE&amp;type=addvar&amp;name=sets{key}&amp;data={dataHere}&amp;authed=0").text)
+</code></pre>
+<p>I’m sending that request and I’m getting</p>
+<pre><code class="lang-auto">{'success': False, 'message': "Authed paramater must be 1 if you want to require login first, or 0 if you don't want to."}
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/12">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/12</link>
+        <pubDate>Thu, 07 Jul 2022 18:30:59 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-12</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <p>i also have question about seller api avriables</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/11">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/11</link>
+        <pubDate>Thu, 07 Jul 2022 18:26:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-11</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <p>how can it be authed?</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/10">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/10</link>
+        <pubDate>Thu, 07 Jul 2022 18:26:09 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-10</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>to get a global var it needs to be “var” and you need it to not be authed as you are not logging in</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/9">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/9</link>
+        <pubDate>Thu, 07 Jul 2022 18:21:19 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-9</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>sorry im wrong again lol thats for seller api haha</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/8</link>
+        <pubDate>Thu, 07 Jul 2022 18:20:06 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-8</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>sorry i was wrong its “retrvvar” and also make sure the var you are trying to get does not need to be authed to retrieve it<br>
+also this info im getting from the docs</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://docs.keyauth.win/seller/variables">
+  <header class="source">
+      <span class="broken-image" title="This image is broken"><svg class="fa d-icon d-icon-unlink svg-icon" aria-hidden="true"><use href="#unlink"></use></svg></span>
+
+      <a href="https://docs.keyauth.win/seller/variables" target="_blank" rel="noopener">docs.keyauth.win</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/a1e02f200dc85c64dae0be1873c08a129aa0fd69.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://docs.keyauth.win/seller/variables" target="_blank" rel="noopener">Variables</a></h3>
+
+  <p>Variables are strings that can be stored server-side for increased security</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/7</link>
+        <pubDate>Thu, 07 Jul 2022 18:18:51 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-7</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-auto">import requests, json
+
+init = {'type': 'init', 'ver':'1.0', 'name':'catmod', 'ownerid': 'OWNERID'}
+url = 'https://api.SITEURL/api/1.1/'
+x = json.loads(requests.post(url, data=init).text)
+getvar = {'type': 'var', 'varid':'a', 'sessionid':f"{x['sessionid']}" , 'name':'NAME', 'ownerid':'OWNERID'}
+m = json.loads(requests.post(url, data=getvar).text)
+print(x)
+print(m)
+</code></pre>
+<p>same error</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/6</link>
+        <pubDate>Thu, 07 Jul 2022 17:50:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-6</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <p>like variables that are in seller API…</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/5</link>
+        <pubDate>Thu, 07 Jul 2022 17:46:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-5</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>seller variable’s ?</p>
+<p>we have global var or a user var</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/4</link>
+        <pubDate>Thu, 07 Jul 2022 17:45:38 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-4</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks. And I also have a question: can I do POST requests to seller variables? Because I need to send a lot of data.</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/3</link>
+        <pubDate>Thu, 07 Jul 2022 17:43:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-3</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>getvar = get user var (user needs to be logged in)<br>
+setvar = set user var (user needs to be logged in)<br>
+var = global var</p>
+<p>so because you are using “getvar” it will return that as a user needs to be logged in, try to use “var” instead.</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/2</link>
+        <pubDate>Thu, 07 Jul 2022 17:40:11 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-2</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+      <item>
+        <title>Python sessionid not validating</title>
+        <dc:creator><![CDATA[theshlepa]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-auto">import requests, json
+
+init = {'type': 'init', 'ver':'1.0', 'name':'APPNAME', 'ownerid': 'OWNERID'}
+url = 'https://api.siteurl.com/api/1.1/'
+x = json.loads(requests.post(url, data=init).text)
+getvar = {'type': 'getvar', 'var':'a', 'sessionid':f"{x['sessionid']}" , 'name':'APPNAME', 'ownerid':'OWNERID'}
+m = json.loads(requests.post(url, data=getvar).text)
+print(x)
+print(m)
+</code></pre>
+<p>Here’s my code.<br>
+x returning <code>{'success': True, 'message': 'Initialized', 'sessionid': 'r0lqNn8cSe', ...}</code><br>
+and m returning <code>{'success': False, 'message': 'Session is not validated'}</code></p>
+<p>How to fix that?</p>
+          <p><a href="https://community.keyauth.cc/t/python-sessionid-not-validating/355/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/python-sessionid-not-validating/355/1</link>
+        <pubDate>Thu, 07 Jul 2022 17:33:45 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-355-1</guid>
+        <source url="https://community.keyauth.cc/t/python-sessionid-not-validating/355.rss">Python sessionid not validating</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Invalid app info</title>
+    <link>https://community.keyauth.cc/t/invalid-app-info/676</link>
+    <description>im getting an error ```Invalid Application Information. Long text is secret short text is ownerid. Name is supposed to be app name not username``` even tho my details are correct</description>
+    
+    <lastBuildDate>Sat, 20 Aug 2022 17:34:34 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/invalid-app-info/676.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Invalid app info</title>
+        <dc:creator><![CDATA[Mistry_Singh]]></dc:creator>
+        <description><![CDATA[
+            <p>please help me too</p>
+          <p><a href="https://community.keyauth.cc/t/invalid-app-info/676/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/invalid-app-info/676/3</link>
+        <pubDate>Sat, 20 Aug 2022 17:34:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-676-3</guid>
+        <source url="https://community.keyauth.cc/t/invalid-app-info/676.rss">Invalid app info</source>
+      </item>
+      <item>
+        <title>Invalid app info</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Dm me on discord the way you have the details please.</p>
+          <p><a href="https://community.keyauth.cc/t/invalid-app-info/676/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/invalid-app-info/676/2</link>
+        <pubDate>Thu, 18 Aug 2022 10:06:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-676-2</guid>
+        <source url="https://community.keyauth.cc/t/invalid-app-info/676.rss">Invalid app info</source>
+      </item>
+      <item>
+        <title>Invalid app info</title>
+        <dc:creator><![CDATA[Amogus_Sus]]></dc:creator>
+        <description><![CDATA[
+            <p>im getting an error <code>Invalid Application Information. Long text is secret short text is ownerid. Name is supposed to be app name not username</code> even tho my details are correct</p>
+          <p><a href="https://community.keyauth.cc/t/invalid-app-info/676/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/invalid-app-info/676/1</link>
+        <pubDate>Thu, 18 Aug 2022 10:04:08 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-676-1</guid>
+        <source url="https://community.keyauth.cc/t/invalid-app-info/676.rss">Invalid app info</source>
+      </item>
+  </channel>
+</rss>

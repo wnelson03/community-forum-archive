@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Use the auth internal</title>
+    <link>https://community.keyauth.cc/t/use-the-auth-internal/140</link>
+    <description>I tried to use the auth internal but everytime when i injecting and login my game crashes, but why idk?
+btw when i dont use the auth then its working
+
+Thanks</description>
+    
+    <lastBuildDate>Sun, 05 Jun 2022 01:02:27 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/use-the-auth-internal/140.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Use the auth internal</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/use-the-auth-internal/140/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/use-the-auth-internal/140/3</link>
+        <pubDate>Sun, 05 Jun 2022 01:02:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-140-3</guid>
+        <source url="https://community.keyauth.cc/t/use-the-auth-internal/140.rss">Use the auth internal</source>
+      </item>
+      <item>
+        <title>Use the auth internal</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>No we don’t help with these issues.</p>
+<p>We only assist if default example from GitHub with no changes isn’t working…</p>
+<p>You should’ve read the pinned topic before creating new topic here.</p>
+          <p><a href="https://community.keyauth.cc/t/use-the-auth-internal/140/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/use-the-auth-internal/140/2</link>
+        <pubDate>Sun, 05 Jun 2022 01:02:27 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-140-2</guid>
+        <source url="https://community.keyauth.cc/t/use-the-auth-internal/140.rss">Use the auth internal</source>
+      </item>
+      <item>
+        <title>Use the auth internal</title>
+        <dc:creator><![CDATA[Rudolf]]></dc:creator>
+        <description><![CDATA[
+            <p>I tried to use the auth internal but everytime when i injecting and login my game crashes, but why idk?<br>
+btw when i dont use the auth then its working</p>
+<p>Thanks</p>
+          <p><a href="https://community.keyauth.cc/t/use-the-auth-internal/140/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/use-the-auth-internal/140/1</link>
+        <pubDate>Sat, 04 Jun 2022 23:30:48 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-140-1</guid>
+        <source url="https://community.keyauth.cc/t/use-the-auth-internal/140.rss">Use the auth internal</source>
+      </item>
+  </channel>
+</rss>

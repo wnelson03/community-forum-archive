@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Using Variables in C#</title>
+    <link>https://community.keyauth.cc/t/using-variables-in-c/194</link>
+    <description>Could Anyone Send An Example Of Using A KeyAuth Variable in C#?</description>
+    
+    <lastBuildDate>Tue, 14 Jun 2022 19:13:57 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/using-variables-in-c/194.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Using Variables in C#</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>else<br>
+File.WriteAllBytes(Directory.GetCurrentDirectory() + “\test.txt”, result);</p>
+<p>Is this part keeping the log in test.txt if the download fails or something different?</p>
+          <p><a href="https://community.keyauth.cc/t/using-variables-in-c/194/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/using-variables-in-c/194/6</link>
+        <pubDate>Tue, 14 Jun 2022 19:13:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-194-6</guid>
+        <source url="https://community.keyauth.cc/t/using-variables-in-c/194.rss">Using Variables in C#</source>
+      </item>
+      <item>
+        <title>Using Variables in C#</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>Thanks!</p>
+          <p><a href="https://community.keyauth.cc/t/using-variables-in-c/194/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/using-variables-in-c/194/5</link>
+        <pubDate>Tue, 14 Jun 2022 14:36:02 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-194-5</guid>
+        <source url="https://community.keyauth.cc/t/using-variables-in-c/194.rss">Using Variables in C#</source>
+      </item>
+      <item>
+        <title>Using Variables in C#</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-auto">byte[] result = KeyAuthApp.download("385624");
+if (!KeyAuthApp.response.success)
+{
+   Console.WriteLine("\n Status: " + KeyAuthApp.response.message);
+   Thread.Sleep(1500);
+   Environment.Exit(0);
+}
+else
+   File.WriteAllBytes(Directory.GetCurrentDirectory() + "\\test.txt", result);
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/using-variables-in-c/194/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/using-variables-in-c/194/4</link>
+        <pubDate>Tue, 14 Jun 2022 14:35:26 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-194-4</guid>
+        <source url="https://community.keyauth.cc/t/using-variables-in-c/194.rss">Using Variables in C#</source>
+      </item>
+      <item>
+        <title>Using Variables in C#</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p>yea sure</p>
+          <p><a href="https://community.keyauth.cc/t/using-variables-in-c/194/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/using-variables-in-c/194/3</link>
+        <pubDate>Tue, 14 Jun 2022 14:34:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-194-3</guid>
+        <source url="https://community.keyauth.cc/t/using-variables-in-c/194.rss">Using Variables in C#</source>
+      </item>
+      <item>
+        <title>Using Variables in C#</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>I Mean How Do I Download FIles Using The Download ID?</p>
+          <p><a href="https://community.keyauth.cc/t/using-variables-in-c/194/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/using-variables-in-c/194/2</link>
+        <pubDate>Tue, 14 Jun 2022 14:29:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-194-2</guid>
+        <source url="https://community.keyauth.cc/t/using-variables-in-c/194.rss">Using Variables in C#</source>
+      </item>
+      <item>
+        <title>Using Variables in C#</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <p>Could Anyone Send An Example Of Using A KeyAuth Variable in C#?</p>
+          <p><a href="https://community.keyauth.cc/t/using-variables-in-c/194/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/using-variables-in-c/194/1</link>
+        <pubDate>Tue, 14 Jun 2022 14:25:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-194-1</guid>
+        <source url="https://community.keyauth.cc/t/using-variables-in-c/194.rss">Using Variables in C#</source>
+      </item>
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Library_x64 C1047</title>
+    <link>https://community.keyauth.cc/t/library-x64-c1047/273</link>
+    <description>
+I would like to know, which library could I replace the library_x64, I&#39;m using visua lstudio 2022</description>
+    
+    <lastBuildDate>Tue, 28 Jun 2022 03:42:42 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/library-x64-c1047/273.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Library_x64 C1047</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>You could just recompile the Library yourself with your desired settings.</p>
+          <p><a href="https://community.keyauth.cc/t/library-x64-c1047/273/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/library-x64-c1047/273/2</link>
+        <pubDate>Tue, 28 Jun 2022 03:42:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-273-2</guid>
+        <source url="https://community.keyauth.cc/t/library-x64-c1047/273.rss">Library_x64 C1047</source>
+      </item>
+      <item>
+        <title>Library_x64 C1047</title>
+        <dc:creator><![CDATA[arthur]]></dc:creator>
+        <description><![CDATA[
+            <p>I would like to know, which library could I replace the library_x64, I’m using visua lstudio 2022</p>
+          <p><a href="https://community.keyauth.cc/t/library-x64-c1047/273/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/library-x64-c1047/273/1</link>
+        <pubDate>Mon, 27 Jun 2022 22:05:17 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-273-1</guid>
+        <source url="https://community.keyauth.cc/t/library-x64-c1047/273.rss">Library_x64 C1047</source>
+      </item>
+  </channel>
+</rss>

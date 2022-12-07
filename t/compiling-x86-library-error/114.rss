@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>compiling x86 library Error</title>
+    <link>https://community.keyauth.cc/t/compiling-x86-library-error/114</link>
+    <description>i got error compiling x86 library can someone give me?</description>
+    
+    <lastBuildDate>Thu, 02 Jun 2022 16:23:04 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/compiling-x86-library-error/114.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>compiling x86 library Error</title>
+        <dc:creator><![CDATA[PhysX1337]]></dc:creator>
+        <description><![CDATA[
+            <p>is there anyway to hide the .dll after compiling? i got zlib.dll and libcurl.dll</p>
+          <p><a href="https://community.keyauth.cc/t/compiling-x86-library-error/114/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/compiling-x86-library-error/114/3</link>
+        <pubDate>Thu, 02 Jun 2022 16:23:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-114-3</guid>
+        <source url="https://community.keyauth.cc/t/compiling-x86-library-error/114.rss">compiling x86 library Error</source>
+      </item>
+      <item>
+        <title>compiling x86 library Error</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>Read here <a href="https://github.com/KeyAuth/keyauth-cpp-library#different-architectures" class="inline-onebox">GitHub - KeyAuth/keyauth-cpp-library: KeyAuth C++ Library</a></p>
+          <p><a href="https://community.keyauth.cc/t/compiling-x86-library-error/114/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/compiling-x86-library-error/114/2</link>
+        <pubDate>Wed, 01 Jun 2022 18:41:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-114-2</guid>
+        <source url="https://community.keyauth.cc/t/compiling-x86-library-error/114.rss">compiling x86 library Error</source>
+      </item>
+      <item>
+        <title>compiling x86 library Error</title>
+        <dc:creator><![CDATA[PhysX1337]]></dc:creator>
+        <description><![CDATA[
+            <p>i got error compiling x86 library can someone give me?</p>
+          <p><a href="https://community.keyauth.cc/t/compiling-x86-library-error/114/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/compiling-x86-library-error/114/1</link>
+        <pubDate>Wed, 01 Jun 2022 18:40:37 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-114-1</guid>
+        <source url="https://community.keyauth.cc/t/compiling-x86-library-error/114.rss">compiling x86 library Error</source>
+      </item>
+  </channel>
+</rss>

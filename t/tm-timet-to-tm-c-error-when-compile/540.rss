@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Tm timet_to_tm C++ error when compile</title>
+    <link>https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540</link>
+    <description>When i compile in Release X64, I have error with tm timet_to_tm.
+![Screenshot_1|690x459](upload://2d5BpxYTUnNT1ySKos8dW9ry0iV.png)</description>
+    
+    <lastBuildDate>Tue, 09 Aug 2022 08:24:57 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Tm timet_to_tm C++ error when compile</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540/5</link>
+        <pubDate>Tue, 09 Aug 2022 08:25:00 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-540-5</guid>
+        <source url="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540.rss">Tm timet_to_tm C++ error when compile</source>
+      </item>
+      <item>
+        <title>Tm timet_to_tm C++ error when compile</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>Closing this.</p>
+          <p><a href="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540/4</link>
+        <pubDate>Tue, 09 Aug 2022 08:24:57 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-540-4</guid>
+        <source url="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540.rss">Tm timet_to_tm C++ error when compile</source>
+      </item>
+      <item>
+        <title>Tm timet_to_tm C++ error when compile</title>
+        <dc:creator><![CDATA[Gru]]></dc:creator>
+        <description><![CDATA[
+            <p>adding this code somewhere before int main() is what worked for me</p>
+<p>std::string tm_to_readable_time(tm ctx) {<br>
+char buffer[80];</p>
+<pre><code>strftime(buffer, sizeof(buffer), "%a %m/%d/%y %H:%M:%S %Z", &amp;ctx);
+
+return std::string(buffer);
+</code></pre>
+<p>}</p>
+<p>static std::time_t string_to_timet(std::string timestamp) {<br>
+auto cv = strtol(timestamp.c_str(), NULL, 10); // long</p>
+<pre><code>return (time_t)cv;
+</code></pre>
+<p>}</p>
+<p>typedef NTSTATUS(WINAPI* lpQueryInfo)(HANDLE, LONG, PVOID, ULONG, PULONG);</p>
+<p>static std::tm timet_to_tm(time_t timestamp) {<br>
+std::tm context;</p>
+<pre><code>localtime_s(&amp;context, &amp;timestamp);
+
+return context;
+</code></pre>
+<p>}</p>
+          <p><a href="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540/3</link>
+        <pubDate>Tue, 02 Aug 2022 00:27:04 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-540-3</guid>
+        <source url="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540.rss">Tm timet_to_tm C++ error when compile</source>
+      </item>
+      <item>
+        <title>Tm timet_to_tm C++ error when compile</title>
+        <dc:creator><![CDATA[Discord_id]]></dc:creator>
+        <description><![CDATA[
+            <p>only if you used english</p>
+          <p><a href="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540/2</link>
+        <pubDate>Sun, 31 Jul 2022 23:49:42 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-540-2</guid>
+        <source url="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540.rss">Tm timet_to_tm C++ error when compile</source>
+      </item>
+      <item>
+        <title>Tm timet_to_tm C++ error when compile</title>
+        <dc:creator><![CDATA[Ilyux]]></dc:creator>
+        <description><![CDATA[
+            <p>When i compile in Release X64, I have error with tm timet_to_tm.<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/0f7f293cbb1166a1f11e9295b508d2a24fd47e15.png" alt="Screenshot_1" data-base62-sha1="2d5BpxYTUnNT1ySKos8dW9ry0iV" width="690" height="459"></p>
+          <p><a href="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540/1</link>
+        <pubDate>Sun, 31 Jul 2022 15:09:09 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-540-1</guid>
+        <source url="https://community.keyauth.cc/t/tm-timet-to-tm-c-error-when-compile/540.rss">Tm timet_to_tm C++ error when compile</source>
+      </item>
+  </channel>
+</rss>

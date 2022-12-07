@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Coding error plz help me out</title>
+    <link>https://community.keyauth.cc/t/coding-error-plz-help-me-out/648</link>
+    <description>Traceback (most recent call last):
+  File &quot;C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py&quot;, line 1, in &lt;module&gt;
+    from keyauth import api
+  File &quot;C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\keyauth.py&quot;, line 505
+    username = ip = hwid = expires = createdate = lastlogin = subscription = subscriptions &quot; &quot;
+SyntaxError: invalid syntax
+Press any key to continue . . .
+
+
+HELP ME TO SOLV</description>
+    
+    <lastBuildDate>Mon, 15 Aug 2022 21:48:41 +0000</lastBuildDate>
+    <category>Python</category>
+    <atom:link href="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Coding error plz help me out</title>
+        <dc:creator><![CDATA[Facepunch]]></dc:creator>
+        <description><![CDATA[
+            <aside class="quote no-group" data-username="JATIN_Kumar" data-post="1" data-topic="648">
+<div class="title">
+<div class="quote-controls"></div>
+<img loading="lazy" alt="" width="20" height="20" src="https://community.keyauth.win/user_avatar/community.keyauth.win/jatin_kumar/40/496_2.png" class="avatar"> JATIN_Kumar:</div>
+<blockquote>
+<p>File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py”, line 1, in</p>
+</blockquote>
+</aside>
+<p>pls delete the picture and send without the keyauth secret and ownerid</p>
+          <p><a href="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/6</link>
+        <pubDate>Mon, 15 Aug 2022 21:48:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-648-6</guid>
+        <source url="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648.rss">Coding error plz help me out</source>
+      </item>
+      <item>
+        <title>Coding error plz help me out</title>
+        <dc:creator><![CDATA[JATIN_Kumar]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/0508f29e37d8ad7d03c348d0f1372b8da1c92576.jpeg" alt="Screenshot (2)" data-base62-sha1="IxyA3OatKyKDcOrYpChcJtMbcO" width="690" height="388"></p>
+          <p><a href="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/5</link>
+        <pubDate>Mon, 15 Aug 2022 15:14:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-648-5</guid>
+        <source url="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648.rss">Coding error plz help me out</source>
+      </item>
+      <item>
+        <title>Coding error plz help me out</title>
+        <dc:creator><![CDATA[JATIN_Kumar]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/6576329796f417f4b8f49e8079604ea9e1fac60e.jpeg" alt="Screenshot (1)" data-base62-sha1="etzsD0ojCF2Z5ztz82nac9CEw2i" width="690" height="388"></p>
+          <p><a href="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/4</link>
+        <pubDate>Mon, 15 Aug 2022 15:13:59 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-648-4</guid>
+        <source url="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648.rss">Coding error plz help me out</source>
+      </item>
+      <item>
+        <title>Coding error plz help me out</title>
+        <dc:creator><![CDATA[JATIN_Kumar]]></dc:creator>
+        <description><![CDATA[
+            <p>ok’’</p>
+          <p><a href="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/3</link>
+        <pubDate>Mon, 15 Aug 2022 15:11:36 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-648-3</guid>
+        <source url="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648.rss">Coding error plz help me out</source>
+      </item>
+      <item>
+        <title>Coding error plz help me out</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Show your code</p>
+          <p><a href="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/2</link>
+        <pubDate>Mon, 15 Aug 2022 14:57:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-648-2</guid>
+        <source url="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648.rss">Coding error plz help me out</source>
+      </item>
+      <item>
+        <title>Coding error plz help me out</title>
+        <dc:creator><![CDATA[JATIN_Kumar]]></dc:creator>
+        <description><![CDATA[
+            <p>Traceback (most recent call last):<br>
+File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\main.py”, line 1, in <br>
+from keyauth import api<br>
+File “C:\Users\jatin kumar\Downloads\boost-bot-main\boost-bot-main\keyauth.py”, line 505<br>
+username = ip = hwid = expires = createdate = lastlogin = subscription = subscriptions " "<br>
+SyntaxError: invalid syntax<br>
+Press any key to continue . . .</p>
+<p>HELP ME TO SOLV</p>
+          <p><a href="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/coding-error-plz-help-me-out/648/1</link>
+        <pubDate>Mon, 15 Aug 2022 14:55:10 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-648-1</guid>
+        <source url="https://community.keyauth.cc/t/coding-error-plz-help-me-out/648.rss">Coding error plz help me out</source>
+      </item>
+  </channel>
+</rss>

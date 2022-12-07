@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>How to I use keyauth to download file and save it some path?</title>
+    <link>https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580</link>
+    <description>So I want it to download a file from keyauth. And save it to directory and after it did it something with it. Then delete the file</description>
+    
+    <lastBuildDate>Thu, 04 Aug 2022 15:25:30 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>How to I use keyauth to download file and save it some path?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>yes,<br>
+but stackoverflow is the place to ask this question im afraid or even our partnered discord server.<br>
+Code Nation</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://discord.com/invite/teCjgwSq">
+  <header class="source">
+      <img src="https://community.keyauth.win/uploads/default/original/1X/7f341c87ea1c9049e179aa36c697e26156bc59ae.png" class="site-icon" width="" height="">
+
+      <a href="https://discord.com/invite/teCjgwSq" target="_blank" rel="noopener">Discord</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/f930bdea76807c6a99a9fcdd07864a83122d9596.jpeg" class="thumbnail" width="" height="">
+
+<h3><a href="https://discord.com/invite/teCjgwSq" target="_blank" rel="noopener">Join the Code Nation Discord Server!</a></h3>
+
+  <p>Need help with programming or maybe you just want to show off your skills? Code Nation is the place to do so! | 245 members</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580/4</link>
+        <pubDate>Thu, 04 Aug 2022 15:25:30 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-580-4</guid>
+        <source url="https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580.rss">How to I use keyauth to download file and save it some path?</source>
+      </item>
+      <item>
+        <title>How to I use keyauth to download file and save it some path?</title>
+        <dc:creator><![CDATA[ByYasin]]></dc:creator>
+        <description><![CDATA[
+            <p>Is it possible to run without writing to disk while downloading?</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580/3</link>
+        <pubDate>Thu, 04 Aug 2022 10:47:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-580-3</guid>
+        <source url="https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580.rss">How to I use keyauth to download file and save it some path?</source>
+      </item>
+      <item>
+        <title>How to I use keyauth to download file and save it some path?</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>You have a topic already to do with downloading and like I sadi in other post its all on the example how to download a file.</p>
+<aside class="onebox githubblob" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CS-Example/blob/main/Form/Login.cs#L33">
+  <header class="source">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CS-Example/blob/main/Form/Login.cs#L33" target="_blank" rel="noopener">github.com</a>
+  </header>
+
+  <article class="onebox-body">
+    <h4><a href="https://github.com/KeyAuth/KeyAuth-CS-Example/blob/main/Form/Login.cs#L33" target="_blank" rel="noopener">KeyAuth/KeyAuth-CS-Example/blob/main/Form/Login.cs#L33</a></h4>
+
+
+
+    <pre class="onebox"><code class="lang-cs">
+      <ol class="start lines" start="23" style="counter-reset: li-counter 22 ;">
+          <li>        * WATCH THIS VIDEO TO SETUP APPLICATION: https://youtube.com/watch?v=RfDTdiBq4_o</li>
+          <li>        * </li>
+          <li>        */</li>
+          <li>
+          </li>
+<li>        /*</li>
+          <li>Optional Functions:</li>
+          <li>
+          </li>
+<li>KeyAuthApp.webhook("lfvbBrbFhIr", "?sellerkey=CUqDqlCIgl&amp;type=resethash");</li>
+          <li>// send secure request to webhook which is impossible to crack into. the base link set on the website is https://keyauth.com/api/seller/, which nobody except you can see, so the final request is https://keyauth.com/api/seller/?sellerkey=CUqDqlCIgl&amp;type=resethash</li>
+          <li>
+          </li>
+<li class="selected">// byte[] result = KeyAuthApp.download("902901"); // downloads application file</li>
+          <li>// File.WriteAllBytes("C:\\Users\\mak\\Downloads\\KeyAuth-CSHARP-Example-main (5)\\KeyAuth-CSHARP-Example-main\\ConsoleExample\\bin\\Debug\\countkeys.txt", result);</li>
+          <li>
+          </li>
+<li>MessageBox.Show(KeyAuthApp.var("123456")); // retrieve application variable</li>
+          <li>*/</li>
+          <li>
+          </li>
+<li>        // KeyAuthApp.register("username", "password", "key");</li>
+          <li>        //KeyAuthApp.login("username", "password"); </li>
+          <li>
+          </li>
+<li>        public static api KeyAuthApp = new api(</li>
+          <li>            name: "",</li>
+      </ol>
+    </code></pre>
+
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>And when it comes to running and then deleting it use <a href="http://stackoverflow.com">stackoverflow.com</a> as its not keyauth related.</p>
+<aside class="onebox stackexchange" data-onebox-src="https://stackoverflow.com/questions/13170167/c-delete-file-after-using">
+  <header class="source">
+
+      <a href="https://stackoverflow.com/questions/13170167/c-delete-file-after-using" target="_blank" rel="noopener">stackoverflow.com</a>
+  </header>
+
+  <article class="onebox-body">
+      <a href="https://stackoverflow.com/users/1175196/user1175196" target="_blank" rel="noopener">
+    <img alt="user1175196" src="https://community.keyauth.win/uploads/default/original/1X/5b367e7a4d8f2917bda26e29ff99d58e27fdd25a.png" class="thumbnail onebox-avatar" width="" height="">
+  </a>
+
+<h4>
+  <a href="https://stackoverflow.com/questions/13170167/c-delete-file-after-using" target="_blank" rel="noopener">C# delete file after using</a>
+</h4>
+
+<div class="tags">
+  <strong>c#</strong>
+</div>
+
+<div class="date">
+  asked by
+  
+  <a href="https://stackoverflow.com/users/1175196/user1175196" target="_blank" rel="noopener">
+    user1175196
+  </a>
+  on <a href="https://stackoverflow.com/questions/13170167/c-delete-file-after-using" target="_blank" rel="noopener">02:33AM - 01 Nov 12 UTC</a>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580/2</link>
+        <pubDate>Thu, 04 Aug 2022 07:59:53 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-580-2</guid>
+        <source url="https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580.rss">How to I use keyauth to download file and save it some path?</source>
+      </item>
+      <item>
+        <title>How to I use keyauth to download file and save it some path?</title>
+        <dc:creator><![CDATA[Nekke]]></dc:creator>
+        <description><![CDATA[
+            <p>So I want it to download a file from keyauth. And save it to directory and after it did it something with it. Then delete the file</p>
+          <p><a href="https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580/1</link>
+        <pubDate>Thu, 04 Aug 2022 07:09:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-580-1</guid>
+        <source url="https://community.keyauth.cc/t/how-to-i-use-keyauth-to-download-file-and-save-it-some-path/580.rss">How to I use keyauth to download file and save it some path?</source>
+      </item>
+  </channel>
+</rss>

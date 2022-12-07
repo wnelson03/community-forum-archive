@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Question about c# (autologin)</title>
+    <link>https://community.keyauth.cc/t/question-about-c-autologin/838</link>
+    <description>Hi everyone! I have a question. Can i somehow make it remember the password and username that i entered? or just skip first log in window? Let me know asap ty!</description>
+    
+    <lastBuildDate>Thu, 22 Sep 2022 13:53:12 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/question-about-c-autologin/838.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Question about c# (autologin)</title>
+        <dc:creator><![CDATA[ABHASH]]></dc:creator>
+        <description><![CDATA[
+            <p>I have made remember username and password for login in c# if u need come discord dm</p>
+          <p><a href="https://community.keyauth.cc/t/question-about-c-autologin/838/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/question-about-c-autologin/838/2</link>
+        <pubDate>Thu, 22 Sep 2022 13:53:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-838-2</guid>
+        <source url="https://community.keyauth.cc/t/question-about-c-autologin/838.rss">Question about c# (autologin)</source>
+      </item>
+      <item>
+        <title>Question about c# (autologin)</title>
+        <dc:creator><![CDATA[I_Want_Some_Mint]]></dc:creator>
+        <description><![CDATA[
+            <p>Hi everyone! I have a question. Can i somehow make it remember the password and username that i entered? or just skip first log in window? Let me know asap ty!</p>
+          <p><a href="https://community.keyauth.cc/t/question-about-c-autologin/838/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/question-about-c-autologin/838/1</link>
+        <pubDate>Wed, 21 Sep 2022 18:38:12 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-838-1</guid>
+        <source url="https://community.keyauth.cc/t/question-about-c-autologin/838.rss">Question about c# (autologin)</source>
+      </item>
+  </channel>
+</rss>

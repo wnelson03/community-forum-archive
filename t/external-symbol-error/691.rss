@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>External Symbol Error</title>
+    <link>https://community.keyauth.cc/t/external-symbol-error/691</link>
+    <description>Help please, i used all the right library but still get the external symbol errors
+![image|690x181](upload://3sWxHCed0h2QxW7lAV89uauQk3Y.png)
+and yes i checked all the other threads but nobodys really helped so i ask for myself this time!</description>
+    
+    <lastBuildDate>Sat, 20 Aug 2022 09:52:16 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/external-symbol-error/691.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>External Symbol Error</title>
+        <dc:creator><![CDATA[lucidwin]]></dc:creator>
+        <description><![CDATA[
+            <p>Help please, i used all the right library but still get the external symbol errors<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/184c1e7a1b11ab53b96641c80849496d8719a146.png" alt="image" data-base62-sha1="3sWxHCed0h2QxW7lAV89uauQk3Y" width="690" height="181"><br>
+and yes i checked all the other threads but nobodys really helped so i ask for myself this time!</p>
+          <p><a href="https://community.keyauth.cc/t/external-symbol-error/691/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/external-symbol-error/691/1</link>
+        <pubDate>Sat, 20 Aug 2022 09:52:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-691-1</guid>
+        <source url="https://community.keyauth.cc/t/external-symbol-error/691.rss">External Symbol Error</source>
+      </item>
+  </channel>
+</rss>

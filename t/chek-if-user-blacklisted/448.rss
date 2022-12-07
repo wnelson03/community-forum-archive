@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Chek if user blacklisted!</title>
+    <link>https://community.keyauth.cc/t/chek-if-user-blacklisted/448</link>
+    <description>if (KeyAuthApp.checkblack())
+{
+Consol.WriteLine(&quot;Blacilist Erorre&quot;)
+}
+
+OUTPUT : Please initzalize first
+Why?</description>
+    
+    <lastBuildDate>Thu, 21 Jul 2022 16:34:40 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/chek-if-user-blacklisted/448.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Chek if user blacklisted!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <pre><code class="lang-auto">if(KeyAuthApp.checkblack())
+{
+     // user is blacklisted
+    // put what ever code you would like to execute if user is blacklisted
+}
+else
+{
+     // user is not blacklisted
+   // put what ever code you would like to execute if user is not blacklisted
+}
+</code></pre>
+          <p><a href="https://community.keyauth.cc/t/chek-if-user-blacklisted/448/8">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chek-if-user-blacklisted/448/8</link>
+        <pubDate>Thu, 21 Jul 2022 16:34:40 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-448-8</guid>
+        <source url="https://community.keyauth.cc/t/chek-if-user-blacklisted/448.rss">Chek if user blacklisted!</source>
+      </item>
+      <item>
+        <title>Chek if user blacklisted!</title>
+        <dc:creator><![CDATA[eblis_godrat]]></dc:creator>
+        <description><![CDATA[
+            <p>i want when its chek if not blacklist remuse another processs</p>
+          <p><a href="https://community.keyauth.cc/t/chek-if-user-blacklisted/448/7">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chek-if-user-blacklisted/448/7</link>
+        <pubDate>Thu, 21 Jul 2022 05:59:55 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-448-7</guid>
+        <source url="https://community.keyauth.cc/t/chek-if-user-blacklisted/448.rss">Chek if user blacklisted!</source>
+      </item>
+      <item>
+        <title>Chek if user blacklisted!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>Correct</p>
+          <p><a href="https://community.keyauth.cc/t/chek-if-user-blacklisted/448/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chek-if-user-blacklisted/448/6</link>
+        <pubDate>Wed, 20 Jul 2022 22:11:28 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-448-6</guid>
+        <source url="https://community.keyauth.cc/t/chek-if-user-blacklisted/448.rss">Chek if user blacklisted!</source>
+      </item>
+      <item>
+        <title>Chek if user blacklisted!</title>
+        <dc:creator><![CDATA[eblis_godrat]]></dc:creator>
+        <description><![CDATA[
+            <p>means he isnt blacklist?</p>
+          <p><a href="https://community.keyauth.cc/t/chek-if-user-blacklisted/448/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chek-if-user-blacklisted/448/5</link>
+        <pubDate>Wed, 20 Jul 2022 19:49:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-448-5</guid>
+        <source url="https://community.keyauth.cc/t/chek-if-user-blacklisted/448.rss">Chek if user blacklisted!</source>
+      </item>
+      <item>
+        <title>Chek if user blacklisted!</title>
+        <dc:creator><![CDATA[ItsNetworking]]></dc:creator>
+        <description><![CDATA[
+            <p>Okay… they aren’t blacklisted then.</p>
+          <p><a href="https://community.keyauth.cc/t/chek-if-user-blacklisted/448/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chek-if-user-blacklisted/448/4</link>
+        <pubDate>Wed, 20 Jul 2022 19:48:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-448-4</guid>
+        <source url="https://community.keyauth.cc/t/chek-if-user-blacklisted/448.rss">Chek if user blacklisted!</source>
+      </item>
+      <item>
+        <title>Chek if user blacklisted!</title>
+        <dc:creator><![CDATA[eblis_godrat]]></dc:creator>
+        <description><![CDATA[
+            <p>Status: Client is not blacklisted</p>
+          <p><a href="https://community.keyauth.cc/t/chek-if-user-blacklisted/448/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chek-if-user-blacklisted/448/3</link>
+        <pubDate>Wed, 20 Jul 2022 19:35:33 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-448-3</guid>
+        <source url="https://community.keyauth.cc/t/chek-if-user-blacklisted/448.rss">Chek if user blacklisted!</source>
+      </item>
+      <item>
+        <title>Chek if user blacklisted!</title>
+        <dc:creator><![CDATA[ItsNetworking]]></dc:creator>
+        <description><![CDATA[
+            <p>Because you need to init your program before even starting it… on load you should have KeyAuthApp.init();</p>
+          <p><a href="https://community.keyauth.cc/t/chek-if-user-blacklisted/448/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chek-if-user-blacklisted/448/2</link>
+        <pubDate>Wed, 20 Jul 2022 19:13:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-448-2</guid>
+        <source url="https://community.keyauth.cc/t/chek-if-user-blacklisted/448.rss">Chek if user blacklisted!</source>
+      </item>
+      <item>
+        <title>Chek if user blacklisted!</title>
+        <dc:creator><![CDATA[eblis_godrat]]></dc:creator>
+        <description><![CDATA[
+            <p>if (KeyAuthApp.checkblack())<br>
+{<br>
+Consol.WriteLine(“Blacilist Erorre”)<br>
+}</p>
+<p>OUTPUT : Please initzalize first<br>
+Why?</p>
+          <p><a href="https://community.keyauth.cc/t/chek-if-user-blacklisted/448/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/chek-if-user-blacklisted/448/1</link>
+        <pubDate>Wed, 20 Jul 2022 18:40:34 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-448-1</guid>
+        <source url="https://community.keyauth.cc/t/chek-if-user-blacklisted/448.rss">Chek if user blacklisted!</source>
+      </item>
+  </channel>
+</rss>

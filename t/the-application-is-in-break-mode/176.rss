@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>The application is in break mode!</title>
+    <link>https://community.keyauth.cc/t/the-application-is-in-break-mode/176</link>
+    <description>![New Bitmap Image|690x371](upload://p2Ec4dKMeDPSmf7UKVfmQEyrgNF.jpeg)
+
+
+Hi, this case only happens when I put my project information inside the KeyAuth loader. I put the file inside the KeyAuth site and I put the file ID inside the loader. I tried more than one way with more than one loader, but it did not work</description>
+    
+    <lastBuildDate>Tue, 14 Jun 2022 14:41:07 +0000</lastBuildDate>
+    <category>C#</category>
+    <atom:link href="https://community.keyauth.cc/t/the-application-is-in-break-mode/176.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>The application is in break mode!</title>
+        <dc:creator><![CDATA[VVS]]></dc:creator>
+        <description><![CDATA[
+            <aside class="onebox stackexchange" data-onebox-src="https://stackoverflow.com/questions/46102963/the-application-is-in-break-mode-unable-to-determine-cause">
+  <header class="source">
+
+      <a href="https://stackoverflow.com/questions/46102963/the-application-is-in-break-mode-unable-to-determine-cause" target="_blank" rel="noopener nofollow ugc">stackoverflow.com</a>
+  </header>
+
+  <article class="onebox-body">
+      <a href="https://stackoverflow.com/users/1390192/tmighty" target="_blank" rel="noopener nofollow ugc">
+    <img alt="tmighty" src="https://community.keyauth.win/uploads/default/original/1X/1e28c210b24a4e04401e6f9ced0183a74bc734b9.png" class="thumbnail onebox-avatar" width="" height="">
+  </a>
+
+<h4>
+  <a href="https://stackoverflow.com/questions/46102963/the-application-is-in-break-mode-unable-to-determine-cause" target="_blank" rel="noopener nofollow ugc">The application is in break mode - Unable to determine cause</a>
+</h4>
+
+<div class="tags">
+  <strong>vb.net, debugging, ide, visual-studio-2017</strong>
+</div>
+
+<div class="date">
+  asked by
+  
+  <a href="https://stackoverflow.com/users/1390192/tmighty" target="_blank" rel="noopener nofollow ugc">
+    tmighty
+  </a>
+  on <a href="https://stackoverflow.com/questions/46102963/the-application-is-in-break-mode-unable-to-determine-cause" target="_blank" rel="noopener nofollow ugc">06:31PM - 07 Sep 17 UTC</a>
+</div>
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/the-application-is-in-break-mode/176/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/the-application-is-in-break-mode/176/4</link>
+        <pubDate>Tue, 14 Jun 2022 14:41:07 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-176-4</guid>
+        <source url="https://community.keyauth.cc/t/the-application-is-in-break-mode/176.rss">The application is in break mode!</source>
+      </item>
+      <item>
+        <title>The application is in break mode!</title>
+        <dc:creator><![CDATA[ermac]]></dc:creator>
+        <description><![CDATA[
+            <p>i know the issue not from keyauth i am beginner and i need to learn with example i post to share my problem if anyone can help me to know where is my mistake in the project</p>
+          <p><a href="https://community.keyauth.cc/t/the-application-is-in-break-mode/176/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/the-application-is-in-break-mode/176/3</link>
+        <pubDate>Tue, 14 Jun 2022 07:14:01 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-176-3</guid>
+        <source url="https://community.keyauth.cc/t/the-application-is-in-break-mode/176.rss">The application is in break mode!</source>
+      </item>
+      <item>
+        <title>The application is in break mode!</title>
+        <dc:creator><![CDATA[lIMonkieIl]]></dc:creator>
+        <description><![CDATA[
+            <p>this is not keyauth related issue, this is a coding knowledge issue please use the example and get that working first and understand the code then start adding it to your code or add your code to the example</p>
+<aside class="onebox allowlistedgeneric" data-onebox-src="https://github.com/KeyAuth/KeyAuth-CS-Example">
+  <header class="source">
+      <img src="https://github.githubassets.com/favicons/favicon.svg" class="site-icon" width="32" height="32">
+
+      <a href="https://github.com/KeyAuth/KeyAuth-CS-Example" target="_blank" rel="noopener">GitHub</a>
+  </header>
+
+  <article class="onebox-body">
+    <img src="https://community.keyauth.win/uploads/default/original/1X/15d0ffdf16085bf33be67c6f974d3a5934b448e3.png" class="thumbnail" width="" height="">
+
+<h3><a href="https://github.com/KeyAuth/KeyAuth-CS-Example" target="_blank" rel="noopener">GitHub - KeyAuth/KeyAuth-CS-Example: Temporary repo for KeyAuth C#</a></h3>
+
+  <p>Temporary repo for KeyAuth C#. Contribute to KeyAuth/KeyAuth-CS-Example development by creating an account on GitHub.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+          <p><a href="https://community.keyauth.cc/t/the-application-is-in-break-mode/176/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/the-application-is-in-break-mode/176/2</link>
+        <pubDate>Mon, 13 Jun 2022 21:52:16 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-176-2</guid>
+        <source url="https://community.keyauth.cc/t/the-application-is-in-break-mode/176.rss">The application is in break mode!</source>
+      </item>
+      <item>
+        <title>The application is in break mode!</title>
+        <dc:creator><![CDATA[ermac]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/af82fc8c5e886a821e9bc24fbb6f7dca01ac008f.jpeg" alt="New Bitmap Image" data-base62-sha1="p2Ec4dKMeDPSmf7UKVfmQEyrgNF" width="690" height="371"></p>
+<p>Hi, this case only happens when I put my project information inside the KeyAuth loader. I put the file inside the KeyAuth site and I put the file ID inside the loader. I tried more than one way with more than one loader, but it did not work</p>
+          <p><a href="https://community.keyauth.cc/t/the-application-is-in-break-mode/176/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/the-application-is-in-break-mode/176/1</link>
+        <pubDate>Sat, 11 Jun 2022 09:33:03 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-176-1</guid>
+        <source url="https://community.keyauth.cc/t/the-application-is-in-break-mode/176.rss">The application is in break mode!</source>
+      </item>
+  </channel>
+</rss>

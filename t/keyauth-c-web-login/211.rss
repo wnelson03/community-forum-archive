@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>KeyAuth C++ Web Login</title>
+    <link>https://community.keyauth.cc/t/keyauth-c-web-login/211</link>
+    <description>I need help, i setup the loader and everything works with web login but only 1 button method works. I have like 2 buttons but only the first code works.
+
+Like: 1. KeyAuthApp.button(&quot;id&quot;);
+exit(0);
+
+ 2. KeyAuthApp.button(&quot;id&quot;);
+...This code not working</description>
+    
+    <lastBuildDate>Mon, 27 Jun 2022 06:39:41 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/keyauth-c-web-login/211.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>KeyAuth C++ Web Login</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            
+          <p><a href="https://community.keyauth.cc/t/keyauth-c-web-login/211/6">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-c-web-login/211/6</link>
+        <pubDate>Mon, 27 Jun 2022 06:50:18 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-211-6</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-c-web-login/211.rss">KeyAuth C++ Web Login</source>
+      </item>
+      <item>
+        <title>KeyAuth C++ Web Login</title>
+        <dc:creator><![CDATA[Abastrax]]></dc:creator>
+        <description><![CDATA[
+            <p>As there is no new reply I will close this ticket for now, if the issue isn‘t resolved feel free to open another ticket.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-c-web-login/211/5">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-c-web-login/211/5</link>
+        <pubDate>Mon, 27 Jun 2022 06:39:41 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-211-5</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-c-web-login/211.rss">KeyAuth C++ Web Login</source>
+      </item>
+      <item>
+        <title>KeyAuth C++ Web Login</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>send picture of actual code. you probably have a space or something weird that’s causing it to not work.</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-c-web-login/211/4">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-c-web-login/211/4</link>
+        <pubDate>Fri, 17 Jun 2022 15:08:25 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-211-4</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-c-web-login/211.rss">KeyAuth C++ Web Login</source>
+      </item>
+      <item>
+        <title>KeyAuth C++ Web Login</title>
+        <dc:creator><![CDATA[lucidwin]]></dc:creator>
+        <description><![CDATA[
+            <p>That was just an example itd not really exit</p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-c-web-login/211/3">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-c-web-login/211/3</link>
+        <pubDate>Fri, 17 Jun 2022 14:09:10 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-211-3</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-c-web-login/211.rss">KeyAuth C++ Web Login</source>
+      </item>
+      <item>
+        <title>KeyAuth C++ Web Login</title>
+        <dc:creator><![CDATA[mazkdevf]]></dc:creator>
+        <description><![CDATA[
+            <p><img src="https://community.keyauth.win/uploads/default/original/1X/5b2e4699976f90b9a412b01ec7ef1aee96c4d21f.png" alt="image" data-base62-sha1="d0CAU0jPP1acLAFpPCScSXnHbEb" width="209" height="104"></p>
+          <p><a href="https://community.keyauth.cc/t/keyauth-c-web-login/211/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-c-web-login/211/2</link>
+        <pubDate>Fri, 17 Jun 2022 13:05:36 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-211-2</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-c-web-login/211.rss">KeyAuth C++ Web Login</source>
+      </item>
+      <item>
+        <title>KeyAuth C++ Web Login</title>
+        <dc:creator><![CDATA[lucidwin]]></dc:creator>
+        <description><![CDATA[
+            <p>I need help, i setup the loader and everything works with web login but only 1 button method works. I have like 2 buttons but only the first code works.</p>
+<p>Like: 1. KeyAuthApp.button(“id”);<br>
+exit(0);</p>
+<ol start="2">
+<li>KeyAuthApp.button(“id”);<br>
+…This code not working</li>
+</ol>
+          <p><a href="https://community.keyauth.cc/t/keyauth-c-web-login/211/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/keyauth-c-web-login/211/1</link>
+        <pubDate>Fri, 17 Jun 2022 12:17:22 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-211-1</guid>
+        <source url="https://community.keyauth.cc/t/keyauth-c-web-login/211.rss">KeyAuth C++ Web Login</source>
+      </item>
+  </channel>
+</rss>

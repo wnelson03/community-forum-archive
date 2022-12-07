@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>LNK2001 error c++</title>
+    <link>https://community.keyauth.cc/t/lnk2001-error-c/852</link>
+    <description>im getting this error in my c++ keyauth app even though all the libs are included
+![Screenshot_1|690x61](upload://wytwktN7YGfztpNlwVY4kSyheAY.png)</description>
+    
+    <lastBuildDate>Sun, 25 Sep 2022 16:13:54 +0000</lastBuildDate>
+    <category>C++</category>
+    <atom:link href="https://community.keyauth.cc/t/lnk2001-error-c/852.rss" rel="self" type="application/rss+xml" />
+      <item>
+        <title>LNK2001 error c++</title>
+        <dc:creator><![CDATA[mak]]></dc:creator>
+        <description><![CDATA[
+            <p>You’re supposed to compile as Release x64. If you added the libs to your own project, then you need to make sure your project has the same project configuration settings as the example project. If you can’t figure it out, it’s recommended that you add your code to the example project instead.</p>
+<p>The community site is closed now. You can ask your question in the <span class="hashtag">#coding</span> channel of the Discord server <a href="https://discord.gg/keyauth" class="inline-onebox">KeyAuth</a></p>
+<p>Nobody is required to help you though. If your question is easy to solve with Google, people will likely ignore you.</p>
+          <p><a href="https://community.keyauth.cc/t/lnk2001-error-c/852/2">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/lnk2001-error-c/852/2</link>
+        <pubDate>Sun, 25 Sep 2022 16:13:54 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-852-2</guid>
+        <source url="https://community.keyauth.cc/t/lnk2001-error-c/852.rss">LNK2001 error c++</source>
+      </item>
+      <item>
+        <title>LNK2001 error c++</title>
+        <dc:creator><![CDATA[Ronix]]></dc:creator>
+        <description><![CDATA[
+            <p>im getting this error in my c++ keyauth app even though all the libs are included<br>
+<img src="https://community.keyauth.win/uploads/default/original/1X/e42b3f7641b8341313aed447b7dc48647f286604.png" alt="Screenshot_1" data-base62-sha1="wytwktN7YGfztpNlwVY4kSyheAY" width="690" height="61"></p>
+          <p><a href="https://community.keyauth.cc/t/lnk2001-error-c/852/1">Read full topic</a></p>
+        ]]></description>
+        <link>https://community.keyauth.cc/t/lnk2001-error-c/852/1</link>
+        <pubDate>Sun, 25 Sep 2022 01:08:05 +0000</pubDate>
+        <guid isPermaLink="false">community.keyauth.cc-post-852-1</guid>
+        <source url="https://community.keyauth.cc/t/lnk2001-error-c/852.rss">LNK2001 error c++</source>
+      </item>
+  </channel>
+</rss>
